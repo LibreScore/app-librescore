@@ -46,3 +46,4 @@ Download the musescore-downloader app
 1. Go to the [Releases](https://github.com/LibreScore/app-librescore/releases/latest) page
 2. Download the latest version for your device
 3. Open the APK file to install it
+> Note: a message may appear about Play Protect. Click `Install Anyway` at the bottom
