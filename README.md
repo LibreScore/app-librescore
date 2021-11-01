@@ -32,14 +32,15 @@ Download the musescore-downloader app
 1. Go to the [Releases](https://github.com/LibreScore/app-librescore/releases/latest) page
 2. Download the latest version for your device
 3. Open the DMG file
-4. Open the APP file
-5. A message about an unidentified developer should appear, click `OK` at the bottom
-6. Open System Preferences
-7. Go to Security & Privacy, remain in the General tab
-8. Click on the lock icon in the bottom left corner (administrator access required)
-9. Click `Open Anyway` at the bottom near the message about an unidentified developer
-10. Click the lock icon in the bottom left corner to disable administrator access
-11. Move the APP file to the Applications folder in Finder to install it
+4. Open Finder
+5. Open the Applications folder
+6. Move the APP file to the Applications folder to install it
+7. Control-click the APP file
+8. Click `Open` in the shortcut menu
+9. Click `Open` at the bottom
+10. Close the DMG file
+11. Control-click the DMG file
+12. Click `Eject` in the shortcut menu
 
 ### Android
 1. Go to the [Releases](https://github.com/LibreScore/app-librescore/releases/latest) page
