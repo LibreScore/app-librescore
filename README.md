@@ -33,7 +33,7 @@ Download the musescore-downloader app
 2. Download the latest version for your device
 3. Open the DMG file
 4. Open the APP file
-5. A message about an unidentified developer should appear, close it
+5. A message about an unidentified developer should appear, click `OK` at the bottom
 6. Open System Preferences
 7. Go to Security & Privacy, remain in the General tab
 8. Click on the lock icon in the bottom left corner (administrator access required)
