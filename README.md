@@ -6,7 +6,7 @@
 
 Download the musescore-downloader app
 
-> DISCLAIMER: This is not an officially supported Musescore product
+> DISCLAIMER: This is not an officially supported MuseScore product
 
 ## Installation
 
