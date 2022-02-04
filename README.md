@@ -28,15 +28,13 @@ Download the LibreScore app
 ### macOS
 1. Download [LibreScore.dmg](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.dmg)
 2. Open the DMG file
-3. Open Finder
-4. Open the Applications folder
-5. Move the APP file to the Applications folder to install it
-6. Control-click the APP file
-7. Click `Open` in the shortcut menu
-8. Click `Open` at the bottom
-9. Close the DMG file
-10. Control-click the DMG file
-11. Click `Eject` in the shortcut menu
+3. Move the APP file to the Applications folder to install it
+4. Control-click the APP file
+5. Click `Open` in the shortcut menu
+6. Click `Open` at the bottom
+7. Close the DMG file
+8. Control-click the DMG file
+9. Click `Eject` in the shortcut menu
 
 ### Android
 1. Download [LibreScore.apk](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk)
