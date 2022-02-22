@@ -16,7 +16,7 @@ Download the LibreScore app
 
 | <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Windows_logo_and_wordmark_-_2021.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/MacOS_wordmark_%282017%29.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Android_robot_head.svg" width="512"> |
 | :---: | :---: | :---: |
-| Windows (7+) (64-bit only) | macOS (10.11+) (Rosetta 2) | Android (5.0+) |
+| Windows (7+) (64-bit only) | macOS (10.11+) (Rosetta 2) | Android (6.0+) |
 | [Download (EXE)](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.exe) | [Download (DMG)](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.dmg) | [Download (APK)](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk) |
 
 ## Installation
