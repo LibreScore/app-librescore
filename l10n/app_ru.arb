@@ -170,5 +170,7 @@
   "cancelText": "Отмена",
   "@cancelText": {
     "type": "text"
-  }
+  },
+  "koreanText": "Корейский язык",
+  "@koreanText": {}
 }
