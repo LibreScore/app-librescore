@@ -1,1 +1,137 @@
-{}
+{
+  "librescore": "LibreScore",
+  "@librescore": {
+    "description": "LibreScore name",
+    "type": "text"
+  },
+  "settingsText": "설정",
+  "@settingsText": {
+    "description": "Settings button text",
+    "type": "text"
+  },
+  "aboutText": "정보",
+  "@aboutText": {
+    "description": "About button text",
+    "type": "text"
+  },
+  "searchError": "문자열을 입력해 주세요",
+  "@searchError": {
+    "description": "Searchbar error",
+    "type": "text"
+  },
+  "searchHint": "MuseScore 검색 혹은 URL 입력",
+  "@searchHint": {
+    "description": "Searchbar hint message",
+    "type": "text"
+  },
+  "searchClearTip": "지우기",
+  "@searchClearTip": {
+    "description": "Searchbar clear button tooltip",
+    "type": "text"
+  },
+  "searchSearchTip": "검색",
+  "@searchSearchTip": {
+    "description": "Searchbar search button tooltip",
+    "type": "text"
+  },
+  "homeTitle": "홈",
+  "@homeTitle": {
+    "description": "Home navbar title",
+    "type": "text"
+  },
+  "downloadsTitle": "다운로드",
+  "@downloadsTitle": {
+    "description": "Downloads navbar title",
+    "type": "text"
+  },
+  "privacyPolicyTitle": "개인정보처리방침",
+  "@privacyPolicyTitle": {
+    "description": "Privacy policy page title",
+    "type": "text"
+  },
+  "aboutTitle": "정보",
+  "@aboutTitle": {
+    "description": "About page title",
+    "type": "text"
+  },
+  "versionText": "버전",
+  "@versionText": {
+    "description": "Version label text",
+    "type": "text"
+  },
+  "licensesText": "라이선스",
+  "@licensesText": {
+    "description": "Licenses label text",
+    "type": "text"
+  },
+  "privacyPolicyText": "개인정보처리방침",
+  "@privacyPolicyText": {
+    "description": "Privacy policy label text",
+    "type": "text"
+  },
+  "contactText": "연락",
+  "@contactText": {
+    "description": "Contact label text",
+    "type": "text"
+  },
+  "settingsTitle": "설정",
+  "@settingsTitle": {
+    "description": "Settings page title",
+    "type": "text"
+  },
+  "downloadFolderText": "다운로드 폴더",
+  "@downloadFolderText": {
+    "description": "Download folder settings label",
+    "type": "text"
+  },
+  "themeText": "테마",
+  "@themeText": {
+    "description": "Theme settings label",
+    "type": "text"
+  },
+  "languageText": "언어",
+  "@languageText": {
+    "description": "Language settings label",
+    "type": "text"
+  },
+  "systemText": "시스템",
+  "@systemText": {
+    "description": "System theme option text",
+    "type": "text"
+  },
+  "lightText": "라이트",
+  "@lightText": {
+    "description": "Light theme option text",
+    "type": "text"
+  },
+  "darkText": "다크",
+  "@darkText": {
+    "description": "Dark theme option text",
+    "type": "text"
+  },
+  "noResultsError": "검색 결과 없음",
+  "@noResultsError": {
+    "description": "No results search page error",
+    "type": "text"
+  },
+  "englishText": "영어",
+  "@englishText": {
+    "description": "English language option text",
+    "type": "text"
+  },
+  "spanishText": "스페인어",
+  "@spanishText": {
+    "description": "Spanish language option text",
+    "type": "text"
+  },
+  "frenchText": "프랑스어",
+  "@frenchText": {
+    "description": "French language option text",
+    "type": "text"
+  },
+  "arabicText": "아랍어",
+  "@arabicText": {
+    "description": "Arabic language option text",
+    "type": "text"
+  }
+}
