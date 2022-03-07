@@ -1,222 +1,217 @@
 {
-    "librescore": "LibreScore",
-    "@librescore": {
-        "description": "Nom du LibreScore",
-        "type": "text"
-    },
-    "settingsText": "Paramètres",
-    "@settingsText": {
-        "description": "Texte du bouton Paramètres",
-        "type": "text"
-    },
-    "aboutText": "À propos",
-    "@aboutText": {
-        "description": "Texte du bouton à propos",
-        "type": "text"
-    },
-    "searchError": "Veuillez saisir une requête",
-    "@searchError": {
-        "description": "Message d'erreur de la barre de recherche",
-        "type": "text"
-    },
-    "searchHint": "Rechercher MuseScore ou saisir une URL",
-    "@searchHint": {
-        "description": "Message d'indication de la barre de recherche",
-        "type": "text"
-    },
-    "searchClearTip": "Effacer",
-    "@searchClearTip": {
-        "description": "Info-bulle du bouton Effacer la barre de recherche",
-        "type": "text"
-    },
-    "searchSearchTip": "Rechercher",
-    "@searchSearchTip": {
-        "description": "Info-bulle du bouton de recherche de la barre de recherche",
-        "type": "text"
-    },
-    "homeTitle": "Accueil",
-    "@homeTitle": {
-        "description": "Titre de la barre de navigation d'accueil",
-        "type": "text"
-    },
-    "downloadsTitle": "Téléchargements",
-    "@downloadsTitle": {
-        "description": "Titre de la barre de navigation des téléchargements",
-        "type": "text"
-    },
-    "privacyPolicyTitle": "Politique de confidentialité",
-    "@privacyPolicyTitle": {
-        "description": "Titre de la page de politique de confidentialité",
-        "type": "text"
-    },
-    "privacyPolicyBody": "LibreScore a créé l'application LibreScore en tant qu'application gratuite. Ce SERVICE est fourni par LibreScore sans frais et est destiné à être utilisé tel quel.\n\nCette page est utilisée pour informer les visiteurs de nos politiques en matière de collecte, d'utilisation et de divulgation des informations personnelles si quelqu'un décide d'utiliser notre service.\n\nSi vous choisissez d'utiliser notre service, vous acceptez la collecte et l'utilisation d'informations en rapport avec cette politique. Les informations personnelles que nous collectons sont utilisées pour fournir et améliorer le service. Nous n'utiliserons ni ne partagerons vos informations avec qui que ce soit, sauf tel que décrit dans la présente politique de confidentialité.\n\nLes termes utilisés dans cette politique de confidentialité ont la même signification que dans nos conditions générales, qui sont accessibles sur LibreScore, sauf indication contraire dans la présente politique de confidentialité.\n\n## Collecte et utilisation des informations\n\nPour une meilleure expérience, lors de l'utilisation de notre service, nous pouvons vous demander de nous fournir certaines informations personnellement identifiables. Les informations que nous demandons seront conservées par nous et utilisées comme décrit dans cette politique de confidentialité.\n\n## Données de journal\n\nNous souhaitons vous informer que chaque fois que vous utilisez notre Service, en cas d'erreur dans l'application, nous collectons des données et des informations (via des produits tiers) sur votre téléphone, appelées Log Data. Ces données de journal peuvent inclure des informations telles que l'adresse de protocole Internet (\"IP\") de votre appareil, le nom de l'appareil, la version du système d'exploitation, la configuration de l'application lors de l'utilisation de notre service, l'heure et la date de votre utilisation du service et d'autres statistiques. .\n\n## Sécurité\n\nNous apprécions votre confiance en nous fournissant vos informations personnelles, c'est pourquoi nous nous efforçons d'utiliser des moyens commercialement acceptables pour les protéger. Mais rappelez-vous qu'aucune méthode de transmission sur Internet ou méthode de stockage électronique n'est sûre et fiable à 100 %, et nous ne pouvons garantir sa sécurité absolue.\n\n## Liens vers d'autres sites\n\nCe Service peut contenir des liens vers d'autres sites. Si vous cliquez sur un lien tiers, vous serez dirigé vers ce site. Notez que ces sites externes ne sont pas exploités par nous. Par conséquent, nous vous conseillons vivement de consulter la politique de confidentialité de ces sites Web. Nous n'avons aucun contrôle et n'assumons aucune responsabilité pour le contenu, les politiques de confidentialité ou les pratiques de tout site ou service tiers.\n\n## Confidentialité des enfants\n\nNous ne collectons pas sciemment d'informations personnellement identifiables auprès d'enfants. Nous encourageons tous les enfants à ne jamais soumettre d'informations personnellement identifiables via l'Application et/ou les Services. Nous encourageons les parents et les tuteurs légaux à surveiller l'utilisation d'Internet par leurs enfants et à contribuer à l'application de cette politique en demandant à leurs enfants de ne jamais fournir d'informations personnellement identifiables via l'application et/ou les services sans leur autorisation. Si vous avez des raisons de croire qu'un enfant nous a fourni des informations personnellement identifiables via l'Application et/ou les Services, veuillez nous contacter. Vous devez également avoir au moins 16 ans pour consentir au traitement de vos informations personnellement identifiables dans votre pays (dans certains pays, nous pouvons autoriser votre parent ou tuteur à le faire en votre nom).\n\n## Modifications de cette politique de confidentialité\n\nNous pouvons mettre à jour notre politique de confidentialité de temps à autre. Ainsi, il vous est conseillé de consulter cette page périodiquement pour tout changement. Nous vous informerons de tout changement en publiant la nouvelle politique de confidentialité sur cette page.\n\nCette politique est effective à partir du 2021-11-01\n\n## Nous contacter\n\nSi vous avez des questions ou des suggestions concernant notre politique de confidentialité, n'hésitez pas à nous contacter à [librescore@gmail.com](mailto:librescore@gmail.com).\n\nCette page de politique de confidentialité a été créée sur [privacypolicytemplate.net](https://privacypolicytemplate.net) et modifiée/générée par [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com)",
-    "@privacyPolicyBody": {
-        "description": "Texte du corps de la politique de confidentialité",
-        "type": "text"
-    },
-    "aboutTitle": "À propos",
-    "@aboutTitle": {
-        "description": "Titre de la page à propos",
-        "type": "text"
-    },
-    "versionText": "Version",
-    "@versionText": {
-        "description": "Texte du libellé de la version",
-        "type": "text"
-    },
-    "licensesText": "Licences",
-    "@licensesText": {
-        "description": "Texte du libellé des licences",
-        "type": "text"
-    },
-    "privacyPolicyText": "Politique de confidentialité",
-    "@privacyPolicyText": {
-        "description": "Texte du libellé de la politique de confidentialité",
-        "type": "text"
-    },
-    "contactText": "Contact",
-    "@contactText": {
-        "description": "Texte de l'étiquette du contact",
-        "type": "text"
-    },
-    "settingsTitle": "Paramètres",
-    "@settingsTitle": {
-        "description": "Titre de la page des paramètres",
-        "type": "text"
-    },
-    "downloadFolderText": "Dossier de téléchargement",
-    "@downloadFolderText": {
-        "description": "Étiquette des paramètres du dossier de téléchargement",
-        "type": "text"
-    },
-    "themeText": "Thème",
-    "@themeText": {
-        "description": "Libellé des paramètres du thème",
-        "type": "text"
-    },
-    "languageText": "Langue",
-    "@languageText": {
-        "description": "Libellé des paramètres de langue",
-        "type": "text"
-    },
-    "systemText": "Système",
-    "@systemText": {
-        "description": "Texte de l'option du thème système",
-        "type": "text"
-    },
-    "lightText": "Clair",
-    "@lightText": {
-        "description": "Texte d'option de thème clair",
-        "type": "text"
-    },
-    "darkText": "Sombre",
-    "@darkText": {
-        "description": "Texte d'option de thème sombre",
-        "type": "text"
-    },
-    "noResultsError": "Aucun résultat",
-    "@noResultsError": {
-        "description": "Erreur de page de recherche de résultats",
-        "type": "text"
-    },
-    "englishText": "Anglais",
-    "@englishText": {
-        "description": "Texte d'option de langue Anglaise",
-        "type": "text"
-    },
-    "spanishText": "Espagnol",
-    "@spanishText": {
-        "description": "Texte d'option de langue Espagnol",
-        "type": "text"
-    },
-    "frenchText": "Français",
-    "@frenchText": {
-        "description": "Texte d'option de langue Français",
-        "type": "text"
-    },
-    "arabicText": "Arabe",
-    "@arabicText": {
-        "description": "Texte d'option de langue Arabe",
-        "type": "text"
-    },
-    "russianText": "Russe",
-    "@russianText": {
-        "description": "Texte d'option de langue Russe",
-        "type": "text"
-    },
-    "simplifiedChineseText": "Chinois simplifié",
-    "@simplifiedChineseText": {
-        "description": "Texte d'option de langue Chinois simplifié",
-        "type": "text"
-    },
-    "updateCheckError": "Échec de la vérification des mises à jour",
-    "@updateCheckError": {
-        "description": "Erreur de vérification de mise à jour",
-        "type": "text"
-    },
-    "updateAvailableText": "Mise à jour disponible",
-    "@updateAvailableText": {
-        "description": "Texte du message de mise à jour disponible",
-        "type": "text"
-    },
-    "updateLatestText": "Pas de nouvelles mises à jour",
-    "@updateLatestText": {
-        "description": "Texte du message de pas de nouvelles mises à jour",
-        "type": "text"
-    },
-    "updateText": "Mettre à jour",
-    "@updateText": {
-        "description": "Texte du bouton de mettre à jour",
-        "type": "text"
-    },
-    "ignoreText": "Ignorer",
-    "@ignoreText": {
-        "description": "Texte du bouton d'ignorer",
-        "type": "text"
-    },
-    "okText": "OK",
-    "@okText": {
-        "description": "Texte du bouton OK",
-        "type": "text"
-    },
-    "editText": "Modifier",
-    "@editText": {
-        "description": "Texte du bouton de modification",
-        "type": "text"
-    },
-    "downloadFolderHint": "Saisir le dossier de téléchargement",
-    "@downloadFolderHint": {
-        "description": "Message d'indication du dossier de téléchargement",
-        "type": "text"
-    },
-    "noDownloadsError": "Aucun téléchargement",
-    "@noDownloadsError": {
-        "description": "Erreur de page de téléchargements aucun téléchargement",
-        "type": "text"
-    },
-    "fileAccessError": "L'acccès au dossier n'a pas été accepté",
-    "@fileAccessError": {
-        "description": "Erreur d'accès au fichier refusé",
-        "type": "text"
-    },
-    "networkError": "Erreur réseau",
-    "@networkError": {
-        "description": "Erreur réseau",
-        "type": "text"
-    },
-    "downloadingTitle": "Téléchargement",
-    "@downloadingTitle": {
-        "description": "Titre du téléchargement",
-        "type": "text"
-    },
-    "loadingTitle": "Chargement",
-    "@loadingTitle": {
-        "description": "Titre du Chargement",
-        "type": "text"
-    },
-    "cancelText": "Annuler",
-    "@cancelText": {
-        "description": "Texte du bouton d'annulation",
-        "type": "text"
-    }
+  "librescore": "LibreScore",
+  "@librescore": {
+    "description": "Nom du LibreScore",
+    "type": "text"
+  },
+  "settingsText": "Paramètres",
+  "@settingsText": {
+    "description": "Texte du bouton Paramètres",
+    "type": "text"
+  },
+  "aboutText": "À propos",
+  "@aboutText": {
+    "description": "Texte du bouton à propos",
+    "type": "text"
+  },
+  "searchError": "Veuillez saisir une requête",
+  "@searchError": {
+    "description": "Message d'erreur de la barre de recherche",
+    "type": "text"
+  },
+  "searchHint": "Rechercher MuseScore ou saisir une URL",
+  "@searchHint": {
+    "description": "Message d'indication de la barre de recherche",
+    "type": "text"
+  },
+  "searchClearTip": "Effacer",
+  "@searchClearTip": {
+    "description": "Info-bulle du bouton Effacer la barre de recherche",
+    "type": "text"
+  },
+  "searchSearchTip": "Rechercher",
+  "@searchSearchTip": {
+    "description": "Info-bulle du bouton de recherche de la barre de recherche",
+    "type": "text"
+  },
+  "homeTitle": "Accueil",
+  "@homeTitle": {
+    "description": "Titre de la barre de navigation d'accueil",
+    "type": "text"
+  },
+  "downloadsTitle": "Téléchargements",
+  "@downloadsTitle": {
+    "description": "Titre de la barre de navigation des téléchargements",
+    "type": "text"
+  },
+  "privacyPolicyTitle": "Politique de confidentialité",
+  "@privacyPolicyTitle": {
+    "description": "Titre de la page de politique de confidentialité",
+    "type": "text"
+  },
+  "aboutTitle": "À propos",
+  "@aboutTitle": {
+    "description": "Titre de la page à propos",
+    "type": "text"
+  },
+  "versionText": "Version",
+  "@versionText": {
+    "description": "Texte du libellé de la version",
+    "type": "text"
+  },
+  "licensesText": "Licences",
+  "@licensesText": {
+    "description": "Texte du libellé des licences",
+    "type": "text"
+  },
+  "privacyPolicyText": "Politique de confidentialité",
+  "@privacyPolicyText": {
+    "description": "Texte du libellé de la politique de confidentialité",
+    "type": "text"
+  },
+  "contactText": "Contact",
+  "@contactText": {
+    "description": "Texte de l'étiquette du contact",
+    "type": "text"
+  },
+  "settingsTitle": "Paramètres",
+  "@settingsTitle": {
+    "description": "Titre de la page des paramètres",
+    "type": "text"
+  },
+  "downloadFolderText": "Dossier de téléchargement",
+  "@downloadFolderText": {
+    "description": "Étiquette des paramètres du dossier de téléchargement",
+    "type": "text"
+  },
+  "themeText": "Thème",
+  "@themeText": {
+    "description": "Libellé des paramètres du thème",
+    "type": "text"
+  },
+  "languageText": "Langue",
+  "@languageText": {
+    "description": "Libellé des paramètres de langue",
+    "type": "text"
+  },
+  "systemText": "Système",
+  "@systemText": {
+    "description": "Texte de l'option du thème système",
+    "type": "text"
+  },
+  "lightText": "Clair",
+  "@lightText": {
+    "description": "Texte d'option de thème clair",
+    "type": "text"
+  },
+  "darkText": "Sombre",
+  "@darkText": {
+    "description": "Texte d'option de thème sombre",
+    "type": "text"
+  },
+  "noResultsError": "Aucun résultat",
+  "@noResultsError": {
+    "description": "Erreur de page de recherche de résultats",
+    "type": "text"
+  },
+  "englishText": "Anglais",
+  "@englishText": {
+    "description": "Texte d'option de langue Anglaise",
+    "type": "text"
+  },
+  "spanishText": "Espagnol",
+  "@spanishText": {
+    "description": "Texte d'option de langue Espagnol",
+    "type": "text"
+  },
+  "frenchText": "Français",
+  "@frenchText": {
+    "description": "Texte d'option de langue Français",
+    "type": "text"
+  },
+  "arabicText": "Arabe",
+  "@arabicText": {
+    "description": "Texte d'option de langue Arabe",
+    "type": "text"
+  },
+  "russianText": "Russe",
+  "@russianText": {
+    "description": "Texte d'option de langue Russe",
+    "type": "text"
+  },
+  "simplifiedChineseText": "Chinois simplifié",
+  "@simplifiedChineseText": {
+    "description": "Texte d'option de langue Chinois simplifié",
+    "type": "text"
+  },
+  "updateCheckError": "Échec de la vérification des mises à jour",
+  "@updateCheckError": {
+    "description": "Erreur de vérification de mise à jour",
+    "type": "text"
+  },
+  "updateAvailableText": "Mise à jour disponible",
+  "@updateAvailableText": {
+    "description": "Texte du message de mise à jour disponible",
+    "type": "text"
+  },
+  "updateLatestText": "Pas de nouvelles mises à jour",
+  "@updateLatestText": {
+    "description": "Texte du message de pas de nouvelles mises à jour",
+    "type": "text"
+  },
+  "updateText": "Mettre à jour",
+  "@updateText": {
+    "description": "Texte du bouton de mettre à jour",
+    "type": "text"
+  },
+  "ignoreText": "Ignorer",
+  "@ignoreText": {
+    "description": "Texte du bouton d'ignorer",
+    "type": "text"
+  },
+  "okText": "OK",
+  "@okText": {
+    "description": "Texte du bouton OK",
+    "type": "text"
+  },
+  "editText": "Modifier",
+  "@editText": {
+    "description": "Texte du bouton de modification",
+    "type": "text"
+  },
+  "downloadFolderHint": "Saisir le dossier de téléchargement",
+  "@downloadFolderHint": {
+    "description": "Message d'indication du dossier de téléchargement",
+    "type": "text"
+  },
+  "noDownloadsError": "Aucun téléchargement",
+  "@noDownloadsError": {
+    "description": "Erreur de page de téléchargements aucun téléchargement",
+    "type": "text"
+  },
+  "fileAccessError": "L'acccès au dossier n'a pas été accepté",
+  "@fileAccessError": {
+    "description": "Erreur d'accès au fichier refusé",
+    "type": "text"
+  },
+  "networkError": "Erreur réseau",
+  "@networkError": {
+    "description": "Erreur réseau",
+    "type": "text"
+  },
+  "downloadingTitle": "Téléchargement",
+  "@downloadingTitle": {
+    "description": "Titre du téléchargement",
+    "type": "text"
+  },
+  "loadingTitle": "Chargement",
+  "@loadingTitle": {
+    "description": "Titre du Chargement",
+    "type": "text"
+  },
+  "cancelText": "Annuler",
+  "@cancelText": {
+    "description": "Texte du bouton d'annulation",
+    "type": "text"
+  }
 }
