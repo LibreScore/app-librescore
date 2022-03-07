@@ -1,222 +1,217 @@
 {
-    "librescore": "LibreScore",
-    "@librescore": {
-        "description": "Nombre de LibreScore",
-        "type": "text"
-    },
-    "settingsText": "Configuración",
-    "@settingsText": {
-        "description": "Texto del botón de configuración",
-        "type": "text"
-    },
-    "aboutText": "Acerca de",
-    "@aboutText": {
-        "description": "Texto del botón acerca de",
-        "type": "text"
-    },
-    "searchError": "Introduzca una consulta",
-    "@searchError": {
-        "description": "Mensaje de error de la barra de búsqueda",
-        "type": "text"
-    },
-    "searchHint": "Busca MuseScore o ingrese una URL",
-    "@searchHint": {
-        "description": "Mensaje de sugerencia de la barra de búsqueda",
-        "type": "text"
-    },
-    "searchClearTip": "Borrar",
-    "@searchClearTip": {
-        "description": "Descripción emergente del botón para borrar de la barra de búsqueda",
-        "type": "text"
-    },
-    "searchSearchTip": "Buscar",
-    "@searchSearchTip": {
-        "description": "Descripción emergente del botón de búsqueda de la barra de búsqueda",
-        "type": "text"
-    },
-    "homeTitle": "Inicio",
-    "@homeTitle": {
-        "description": "Título de la barra de navegación de inicio",
-        "type": "text"
-    },
-    "downloadsTitle": "Descargas",
-    "@downloadsTitle": {
-        "description": "Título de la barra de navegación de descargas",
-        "type": "text"
-    },
-    "privacyPolicyTitle": "Política de privacidad",
-    "@privacyPolicyTitle": {
-        "description": "Título de la página de la política de privacidad",
-        "type": "text"
-    },
-    "privacyPolicyBody": "LibreScore creó la aplicación LibreScore como una aplicación gratuita. Este SERVICIO es proporcionado por LibreScore sin costo y está diseñado para usarse tal cual.\n\nEsta página se utiliza para informar a los visitantes sobre nuestras políticas con la recopilación, uso y divulgación de Información personal si alguien decide utilizar nuestro Servicio.\n\nSi elige utilizar nuestro Servicio, entonces acepta la recopilación y el uso de información en relación con esta política. La información personal que recopilamos se utiliza para proporcionar y mejorar el servicio. No usaremos ni compartiremos su información con nadie excepto como se describe en esta Política de Privacidad.\n\nLos términos utilizados en esta Política de privacidad tienen el mismo significado que en nuestros Términos y condiciones, a los que se puede acceder en LibreScore a menos que se defina lo contrario en esta Política de privacidad.\n\n## Recopilación y uso de información\n\nPara una mejor experiencia, mientras utiliza nuestro Servicio, es posible que le solicitemos que nos proporcione cierta información de identificación personal. La información que solicitamos será retenida por nosotros y utilizada como se describe en esta política de privacidad.\n\n## Dato de registro\n\nQueremos informarle que cada vez que utiliza nuestro Servicio, en caso de un error en la aplicación, recopilamos datos e información (a través de productos de terceros) en su teléfono llamado Datos de registro. Estos Datos de registro pueden incluir información como la dirección de Protocolo de Internet (\"IP\") de su dispositivo, el nombre del dispositivo, la versión del sistema operativo, la configuración de la aplicación cuando utiliza nuestro Servicio, la hora y fecha de su uso del Servicio y otras estadísticas. .\n\n## Seguridad\n\nValoramos su confianza al proporcionarnos su información personal, por lo que nos esforzamos por utilizar medios comercialmente aceptables para protegerla. Pero recuerde que ningún método de transmisión a través de Internet o método de almacenamiento electrónico es 100% seguro y confiable, y no podemos garantizar su absoluta seguridad.\n\n## Enlaces a otros sitios\n\nEste Servicio puede contener enlaces a otros sitios. Si hace clic en un enlace de un tercero, se le dirigirá a ese sitio. Tenga en cuenta que estos sitios externos no son operados por nosotros. Por lo tanto, le recomendamos encarecidamente que revise la Política de privacidad de estos sitios web. No tenemos control ni asumimos ninguna responsabilidad por el contenido, las políticas de privacidad o las prácticas de los sitios o servicios de terceros.\n\n## Privacidad de los niños\n\nNo recopilamos a sabiendas información de identificación personal de niños. Alentamos a todos los niños a que nunca envíen información de identificación personal a través de la Aplicación y / o los Servicios. Alentamos a los padres y tutores legales a monitorear el uso de Internet de sus hijos y ayudar a hacer cumplir esta Política instruyendo a sus hijos a que nunca proporcionen información de identificación personal a través de la Aplicación y / o Servicios sin su permiso. Si tiene motivos para creer que un niño nos ha proporcionado información de identificación personal a través de la Aplicación y / o los Servicios, comuníquese con nosotros. También debe tener al menos 16 años para dar su consentimiento para el procesamiento de su información de identificación personal en su país (en algunos países, podemos permitir que sus padres o tutores lo hagan en su nombre).\n\n## Cambios a esta política de privacidad\n\nEs posible que actualicemos nuestra Política de privacidad de vez en cuando. Por lo tanto, le recomendamos que revise esta página periódicamente para ver si hay cambios. Le notificaremos de cualquier cambio publicando la nueva Política de privacidad en esta página.\n\nEsta política es efectiva a partir del 2021-11-01\n\n## Contáctenos\n\nSi tiene alguna pregunta o sugerencia sobre nuestra Política de Privacidad, no dude en contactarnos en [librescore@gmail.com](mailto:librescore@gmail.com).\n\nEsta página de política de privacidad fue creada en [privacypolicytemplate.net](https://privacypolicytemplate.net) y modificada / generada por [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com)",
-    "@privacyPolicyBody": {
-        "description": "Texto del cuerpo de la política de privacidad",
-        "type": "text"
-    },
-    "aboutTitle": "Acerca de",
-    "@aboutTitle": {
-        "description": "Título de la página Acerca de",
-        "type": "text"
-    },
-    "versionText": "Versión",
-    "@versionText": {
-        "description": "Texto de la etiqueta de la versión",
-        "type": "text"
-    },
-    "licensesText": "Licencias",
-    "@licensesText": {
-        "description": "Texto de la etiqueta de las licencias",
-        "type": "text"
-    },
-    "privacyPolicyText": "Política de privacidad",
-    "@privacyPolicyText": {
-        "description": "Texto de la etiqueta de la política de privacidad",
-        "type": "text"
-    },
-    "contactText": "Contacto",
-    "@contactText": {
-        "description": "Texto de la etiqueta de contacto",
-        "type": "text"
-    },
-    "settingsTitle": "Configuración",
-    "@settingsTitle": {
-        "description": "Título de la página de configuración",
-        "type": "text"
-    },
-    "downloadFolderText": "Carpeta de descarga",
-    "@downloadFolderText": {
-        "description": "Etiqueta de configuración de la carpeta de descarga",
-        "type": "text"
-    },
-    "themeText": "Tema",
-    "@themeText": {
-        "description": "Etiqueta de configuración del tema",
-        "type": "text"
-    },
-    "languageText": "Idioma",
-    "@languageText": {
-        "description": "Etiqueta de configuración de idioma",
-        "type": "text"
-    },
-    "systemText": "Sistema",
-    "@systemText": {
-        "description": "Texto de opción de tema del sistema",
-        "type": "text"
-    },
-    "lightText": "Luz",
-    "@lightText": {
-        "description": "Texto de opción de tema de luz",
-        "type": "text"
-    },
-    "darkText": "Oscuro",
-    "@darkText": {
-        "description": "Texto de opción de tema oscuro",
-        "type": "text"
-    },
-    "noResultsError": "Sin resultados",
-    "@noResultsError": {
-        "description": "Error de página de búsqueda sin resultados",
-        "type": "text"
-    },
-    "englishText": "Inglés",
-    "@englishText": {
-        "description": "Texto de opción del idioma Inglés",
-        "type": "text"
-    },
-    "spanishText": "Español",
-    "@spanishText": {
-        "description": "Texto de opción del idioma Español",
-        "type": "text"
-    },
-    "frenchText": "Francés",
-    "@frenchText": {
-        "description": "Texto de opción del idioma Francés",
-        "type": "text"
-    },
-    "arabicText": "Árabe",
-    "@arabicText": {
-        "description": "Texto de opción del idioma Árabe",
-        "type": "text"
-    },
-    "russianText": "Ruso",
-    "@russianText": {
-        "description": "Texto de opción del idioma Ruso",
-        "type": "text"
-    },
-    "simplifiedChineseText": "Chino simplificado",
-    "@simplifiedChineseText": {
-        "description": "Texto de opción del idioma Chino simplificado",
-        "type": "text"
-    },
-    "updateCheckError": "No se pudo buscar actualizaciones",
-    "@updateCheckError": {
-        "description": "Error de búsqueda de actualización",
-        "type": "text"
-    },
-    "updateAvailableText": "Actualización disponible",
-    "@updateAvailableText": {
-        "description": "texto de actualización disponible",
-        "type": "text"
-    },
-    "updateLatestText": "No hay nuevas actualizaciones",
-    "@updateLatestText": {
-        "description": "Texto de no hay nuevas actualizaciones",
-        "type": "text"
-    },
-    "updateText": "Actualizar",
-    "@updateText": {
-        "description": "Texto del botón actualizar",
-        "type": "text"
-    },
-    "ignoreText": "Ignorar",
-    "@ignoreText": {
-        "description": "Texto del botón ignorar",
-        "type": "text"
-    },
-    "okText": "Aceptar",
-    "@okText": {
-        "description": "Texto del botón aceptar",
-        "type": "text"
-    },
-    "editText": "Editar",
-    "@editText": {
-        "description": "Texto del botón de edición",
-        "type": "text"
-    },
-    "downloadFolderHint": "Ingrese la carpeta de descarga",
-    "@downloadFolderHint": {
-        "description": "Mensaje de sugerencia de carpeta de descarga",
-        "type": "text"
-    },
-    "noDownloadsError": "Sin descargas",
-    "@noDownloadsError": {
-        "description": "Error de página de descargas sin descargas",
-        "type": "text"
-    },
-    "fileAccessError": "Acceso a los archivos denegado",
-    "@fileAccessError": {
-        "description": "Error de acceso al archivo denegado",
-        "type": "text"
-    },
-    "networkError": "Error de red",
-    "@networkError": {
-        "description": "Error de red",
-        "type": "text"
-    },
-    "downloadingTitle": "Descargando",
-    "@downloadingTitle": {
-        "description": "Título de la descarga",
-        "type": "text"
-    },
-    "loadingTitle": "Cargando",
-    "@loadingTitle": {
-        "description": "Título de carga",
-        "type": "text"
-    },
-    "cancelText": "Cancelar",
-    "@cancelText": {
-        "description": "Texto del botón cancelar",
-        "type": "text"
-    }
+  "librescore": "LibreScore",
+  "@librescore": {
+    "description": "Nombre de LibreScore",
+    "type": "text"
+  },
+  "settingsText": "Configuración",
+  "@settingsText": {
+    "description": "Texto del botón de configuración",
+    "type": "text"
+  },
+  "aboutText": "Acerca de",
+  "@aboutText": {
+    "description": "Texto del botón acerca de",
+    "type": "text"
+  },
+  "searchError": "Introduzca una consulta",
+  "@searchError": {
+    "description": "Mensaje de error de la barra de búsqueda",
+    "type": "text"
+  },
+  "searchHint": "Busca MuseScore o ingrese una URL",
+  "@searchHint": {
+    "description": "Mensaje de sugerencia de la barra de búsqueda",
+    "type": "text"
+  },
+  "searchClearTip": "Borrar",
+  "@searchClearTip": {
+    "description": "Descripción emergente del botón para borrar de la barra de búsqueda",
+    "type": "text"
+  },
+  "searchSearchTip": "Buscar",
+  "@searchSearchTip": {
+    "description": "Descripción emergente del botón de búsqueda de la barra de búsqueda",
+    "type": "text"
+  },
+  "homeTitle": "Inicio",
+  "@homeTitle": {
+    "description": "Título de la barra de navegación de inicio",
+    "type": "text"
+  },
+  "downloadsTitle": "Descargas",
+  "@downloadsTitle": {
+    "description": "Título de la barra de navegación de descargas",
+    "type": "text"
+  },
+  "privacyPolicyTitle": "Política de privacidad",
+  "@privacyPolicyTitle": {
+    "description": "Título de la página de la política de privacidad",
+    "type": "text"
+  },
+  "aboutTitle": "Acerca de",
+  "@aboutTitle": {
+    "description": "Título de la página Acerca de",
+    "type": "text"
+  },
+  "versionText": "Versión",
+  "@versionText": {
+    "description": "Texto de la etiqueta de la versión",
+    "type": "text"
+  },
+  "licensesText": "Licencias",
+  "@licensesText": {
+    "description": "Texto de la etiqueta de las licencias",
+    "type": "text"
+  },
+  "privacyPolicyText": "Política de privacidad",
+  "@privacyPolicyText": {
+    "description": "Texto de la etiqueta de la política de privacidad",
+    "type": "text"
+  },
+  "contactText": "Contacto",
+  "@contactText": {
+    "description": "Texto de la etiqueta de contacto",
+    "type": "text"
+  },
+  "settingsTitle": "Configuración",
+  "@settingsTitle": {
+    "description": "Título de la página de configuración",
+    "type": "text"
+  },
+  "downloadFolderText": "Carpeta de descarga",
+  "@downloadFolderText": {
+    "description": "Etiqueta de configuración de la carpeta de descarga",
+    "type": "text"
+  },
+  "themeText": "Tema",
+  "@themeText": {
+    "description": "Etiqueta de configuración del tema",
+    "type": "text"
+  },
+  "languageText": "Idioma",
+  "@languageText": {
+    "description": "Etiqueta de configuración de idioma",
+    "type": "text"
+  },
+  "systemText": "Sistema",
+  "@systemText": {
+    "description": "Texto de opción de tema del sistema",
+    "type": "text"
+  },
+  "lightText": "Luz",
+  "@lightText": {
+    "description": "Texto de opción de tema de luz",
+    "type": "text"
+  },
+  "darkText": "Oscuro",
+  "@darkText": {
+    "description": "Texto de opción de tema oscuro",
+    "type": "text"
+  },
+  "noResultsError": "Sin resultados",
+  "@noResultsError": {
+    "description": "Error de página de búsqueda sin resultados",
+    "type": "text"
+  },
+  "englishText": "Inglés",
+  "@englishText": {
+    "description": "Texto de opción del idioma Inglés",
+    "type": "text"
+  },
+  "spanishText": "Español",
+  "@spanishText": {
+    "description": "Texto de opción del idioma Español",
+    "type": "text"
+  },
+  "frenchText": "Francés",
+  "@frenchText": {
+    "description": "Texto de opción del idioma Francés",
+    "type": "text"
+  },
+  "arabicText": "Árabe",
+  "@arabicText": {
+    "description": "Texto de opción del idioma Árabe",
+    "type": "text"
+  },
+  "russianText": "Ruso",
+  "@russianText": {
+    "description": "Texto de opción del idioma Ruso",
+    "type": "text"
+  },
+  "simplifiedChineseText": "Chino simplificado",
+  "@simplifiedChineseText": {
+    "description": "Texto de opción del idioma Chino simplificado",
+    "type": "text"
+  },
+  "updateCheckError": "No se pudo buscar actualizaciones",
+  "@updateCheckError": {
+    "description": "Error de búsqueda de actualización",
+    "type": "text"
+  },
+  "updateAvailableText": "Actualización disponible",
+  "@updateAvailableText": {
+    "description": "texto de actualización disponible",
+    "type": "text"
+  },
+  "updateLatestText": "No hay nuevas actualizaciones",
+  "@updateLatestText": {
+    "description": "Texto de no hay nuevas actualizaciones",
+    "type": "text"
+  },
+  "updateText": "Actualizar",
+  "@updateText": {
+    "description": "Texto del botón actualizar",
+    "type": "text"
+  },
+  "ignoreText": "Ignorar",
+  "@ignoreText": {
+    "description": "Texto del botón ignorar",
+    "type": "text"
+  },
+  "okText": "Aceptar",
+  "@okText": {
+    "description": "Texto del botón aceptar",
+    "type": "text"
+  },
+  "editText": "Editar",
+  "@editText": {
+    "description": "Texto del botón de edición",
+    "type": "text"
+  },
+  "downloadFolderHint": "Ingrese la carpeta de descarga",
+  "@downloadFolderHint": {
+    "description": "Mensaje de sugerencia de carpeta de descarga",
+    "type": "text"
+  },
+  "noDownloadsError": "Sin descargas",
+  "@noDownloadsError": {
+    "description": "Error de página de descargas sin descargas",
+    "type": "text"
+  },
+  "fileAccessError": "Acceso a los archivos denegado",
+  "@fileAccessError": {
+    "description": "Error de acceso al archivo denegado",
+    "type": "text"
+  },
+  "networkError": "Error de red",
+  "@networkError": {
+    "description": "Error de red",
+    "type": "text"
+  },
+  "downloadingTitle": "Descargando",
+  "@downloadingTitle": {
+    "description": "Título de la descarga",
+    "type": "text"
+  },
+  "loadingTitle": "Cargando",
+  "@loadingTitle": {
+    "description": "Título de carga",
+    "type": "text"
+  },
+  "cancelText": "Cancelar",
+  "@cancelText": {
+    "description": "Texto del botón cancelar",
+    "type": "text"
+  }
 }
