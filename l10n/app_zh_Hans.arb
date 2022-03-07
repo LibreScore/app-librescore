@@ -1,0 +1,178 @@
+{
+    "librescore": "利布蕾斯科尔",
+    "@librescore": {
+        "type": "text"
+    },
+    "settingsText": "设置",
+    "@settingsText": {
+        "type": "text"
+    },
+    "aboutText": "关于",
+    "@aboutText": {
+        "type": "text"
+    },
+    "searchError": "请输入查询",
+    "@searchError": {
+        "type": "text"
+    },
+    "searchHint": "搜索 MuseScore 或输入 URL",
+    "@searchHint": {
+        "type": "text"
+    },
+    "searchClearTip": "清除",
+    "@searchClearTip": {
+        "type": "text"
+    },
+    "searchSearchTip": "搜索",
+    "@searchSearchTip": {
+        "type": "text"
+    },
+    "homeTitle": "家",
+    "@homeTitle": {
+        "type": "text"
+    },
+    "downloadsTitle": "下载",
+    "@downloadsTitle": {
+        "type": "text"
+    },
+    "privacyPolicyTitle": "隐私政策",
+    "@privacyPolicyTitle": {
+        "type": "text"
+    },
+    "privacyPolicyBody": "LibreScore 将 LibreScore 应用程序构建为免费应用程序。此服务由 LibreScore 免费提供，旨在按原样使用。\n\n如果任何人决定使用我们的服务，此页面用于告知访问者有关我们收集、使用和披露个人信息的政策。\n\n如果您选择使用我们的服务，即表示您同意收集和使用与本政策相关的信息。我们收集的个人信息用于提供和改进服务。我们不会使用或与任何人共享您的信息，除非在本隐私政策中有说明。\n\n本隐私政策中使用的术语与我们的条款和条件具有相同的含义，除非本隐私政策中另有定义，否则可在 LibreScore 上访问。\n\n## 信息收集和使用\n\n为了获得更好的体验，在使用我们的服务时，我们可能会要求您向我们提供某些个人身份信息。我们要求的信息将由我们保留并按照本隐私政策中的描述使用。\n\n## 日志数据\n\n我们想通知您，每当您使用我们的服务时，如果应用程序出现错误，我们会在您的手机上收集数据和信息（通过第三方产品），称为日志数据。该日志数据可能包括您的设备互联网协议（“IP”）地址、设备名称、操作系统版本、使用我们服务时应用程序的配置、您使用服务的时间和日期以及其他统计信息等信息.\n\n## 安全\n\n我们重视您对向我们提供您的个人信息的信任，因此我们正在努力使用商业上可接受的方式来保护它。但请记住，没有任何通过互联网传输的方法或电子存储方法是 100% 安全可靠的，我们不能保证其绝对安全。\n\n## 其他网站的链接\n\n本服务可能包含指向其他网站的链接。如果您单击第三方链接，您将被定向到该站点。请注意，这些外部网站并非由我们运营。因此，我们强烈建议您查看这些网站的隐私政策。我们无法控制任何第三方网站或服务的内容、隐私政策或做法，也不对其承担任何责任。\n\n## 儿童隐私\n\n我们不会有意收集儿童的个人身份信息。我们鼓励所有儿童永远不要通过应用程序和/或服务提交任何个人身份信息。我们鼓励父母和法定监护人监控他们孩子的互联网使用情况，并通过指示他们的孩子在未经他们许可的情况下绝不通过应用程序和/或服务提供个人身份信息来帮助执行本政策。如果您有理由相信儿童通过应用程序和/或服务向我们提供了个人身份信息，请联系我们。您还必须年满 16 岁才能同意在您所在的国家/地区处理您的个人身份信息（在某些国家/地区，我们可能允许您的父母或监护人代表您这样做）。\n\n## 对本隐私政策的更改\n\n我们可能会不时更新我们的隐私政策。因此，建议您定期查看此页面以了解任何更改。我们将通过在此页面上发布新的隐私政策来通知您任何更改。\n\n本政策自2021-11-01起生效\n\n## 联系我们\n\n如果您对我们的隐私政策有任何问题或建议，请随时通过 [librescore@gmail.com](mailto:librescore@gmail.com) 与我们联系。\n\n本隐私政策页面创建于 [privacypolicytemplate.net](https://privacypolicytemplate.net) 并由 [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/) 修改/生成",
+    "@privacyPolicyBody": {
+        "type": "text"
+    },
+    "aboutTitle": "关于",
+    "@aboutTitle": {
+        "type": "text"
+    },
+    "versionText": "版本",
+    "@versionText": {
+        "type": "text"
+    },
+    "licensesText": "执照",
+    "@licensesText": {
+        "type": "text"
+    },
+    "privacyPolicyText": "隐私政策",
+    "@privacyPolicyText": {
+        "type": "text"
+    },
+    "contactText": "接触",
+    "@contactText": {
+        "type": "text"
+    },
+    "settingsTitle": "设置",
+    "@settingsTitle": {
+        "type": "text"
+    },
+    "downloadFolderText": "下载文件夹",
+    "@downloadFolderText": {
+        "type": "text"
+    },
+    "themeText": "主题",
+    "@themeText": {
+        "type": "text"
+    },
+    "languageText": "语",
+    "@languageText": {
+        "type": "text"
+    },
+    "systemText": "系统",
+    "@systemText": {
+        "type": "text"
+    },
+    "lightText": "光",
+    "@lightText": {
+        "type": "text"
+    },
+    "darkText": "黑暗的",
+    "@darkText": {
+        "type": "text"
+    },
+    "noResultsError": "没结果",
+    "@noResultsError": {
+        "type": "text"
+    },
+    "englishText": "英语",
+    "@englishText": {
+        "type": "text"
+    },
+    "spanishText": "西班牙语",
+    "@spanishText": {
+        "type": "text"
+    },
+    "frenchText": "法语",
+    "@frenchText": {
+        "type": "text"
+    },
+    "arabicText": "阿拉伯",
+    "@arabicText": {
+        "type": "text"
+    },
+    "russianText": "俄语",
+    "@russianText": {
+        "type": "text"
+    },
+    "simplifiedChineseText": "简体中文",
+    "@simplifiedChineseText": {
+        "type": "text"
+    },
+    "updateCheckError": "未能检查更新",
+    "@updateCheckError": {
+        "type": "text"
+    },
+    "updateAvailableText": "更新可用",
+    "@updateAvailableText": {
+        "type": "text"
+    },
+    "updateLatestText": "没有新的更新",
+    "@updateLatestText": {
+        "type": "text"
+    },
+    "updateText": "更新",
+    "@updateText": {
+        "type": "text"
+    },
+    "ignoreText": "忽略",
+    "@ignoreText": {
+        "type": "text"
+    },
+    "okText": "确定",
+    "@okText": {
+        "type": "text"
+    },
+    "editText": "编辑",
+    "@editText": {
+        "type": "text"
+    },
+    "downloadFolderHint": "输入下载文件夹",
+    "@downloadFolderHint": {
+        "type": "text"
+    },
+    "noDownloadsError": "没有下载",
+    "@noDownloadsError": {
+        "type": "text"
+    },
+    "fileAccessError": "访问文件被拒绝",
+    "@fileAccessError": {
+        "type": "text"
+    },
+    "networkError": "网络错误",
+    "@networkError": {
+        "type": "text"
+    },
+    "downloadingTitle": "下载",
+    "@downloadingTitle": {
+        "type": "text"
+    },
+    "loadingTitle": "正在加载",
+    "@loadingTitle": {
+        "type": "text"
+    },
+    "cancelText": "取消",
+    "@cancelText": {
+        "type": "text"
+    }
+}
