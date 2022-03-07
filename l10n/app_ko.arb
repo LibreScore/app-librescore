@@ -1,5 +1,5 @@
 {
-  "librescore": "LibreScore",
+  "librescore": "리브레스코어",
   "@librescore": {
     "description": "LibreScore name",
     "type": "text"
@@ -133,5 +133,7 @@
   "@arabicText": {
     "description": "Arabic language option text",
     "type": "text"
-  }
+  },
+  "koreanText": "한국어",
+  "@koreanText": {}
 }
