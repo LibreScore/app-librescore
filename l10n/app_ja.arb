@@ -189,7 +189,7 @@
     "description": "Cancel button text",
     "type": "text"
   },
-  "librescore": "LibreScore",
+  "librescore": "リブレスコア",
   "@librescore": {
     "description": "LibreScore name",
     "type": "text"
