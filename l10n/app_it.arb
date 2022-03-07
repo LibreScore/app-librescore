@@ -1,1 +1,9 @@
-{}
+{
+  "koreanText": "Coreano",
+  "@koreanText": {},
+  "librescore": "LibreScore",
+  "@librescore": {
+    "description": "LibreScore name",
+    "type": "text"
+  }
+}
