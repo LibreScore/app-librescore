@@ -213,5 +213,7 @@
   "@cancelText": {
     "description": "Texte du bouton d'annulation",
     "type": "text"
-  }
+  },
+  "koreanText": "Coréen",
+  "@koreanText": {}
 }
