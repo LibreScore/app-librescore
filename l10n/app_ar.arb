@@ -210,5 +210,7 @@
   "@cancelText": {
     "description": "نص زر الإلغاء",
     "type": "text"
-  }
+  },
+  "koreanText": "الكورية",
+  "@koreanText": {}
 }
