@@ -213,7 +213,5 @@
   "@cancelText": {
     "description": "Cancel button text",
     "type": "text"
-  },
-  "korean": "Korean",
-  "@korean": {}
+  }
 }
