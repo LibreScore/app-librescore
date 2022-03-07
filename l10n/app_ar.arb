@@ -1,222 +1,214 @@
 {
-    "librescore": "ليبرايسكور",
-    "@librescore": {
-        "description": "اسم ليبرايسكور",
-        "type": "text"
-    },
-    "settingsText": "إعدادات",
-    "@settingsText": {
-        "description": "نص زر الإعدادات",
-        "type": "text"
-    },
-    "aboutText": "حول",
-    "@aboutText": {
-        "description": "حول نص الزر",
-        "type": "text"
-    },
-    "searchError": "الرجاء إدخال استعلام",
-    "@searchError": {
-        "description": "رسالة خطأ في شريط البحث",
-        "type": "text"
-    },
-    "searchHint": "ابحث في MuseScore أو أدخل عنوان URL",
-    "@searchHint": {
-        "description": "رسالة تلميح شريط البحث",
-        "type": "text"
-    },
-    "searchClearTip": "مسح",
-    "@searchClearTip": {
-        "description": "تلميح زر مسح شريط البحث",
-        "type": "text"
-    },
-    "searchSearchTip": "بحث",
-    "@searchSearchTip": {
-        "description": "تلميح زر بحث شريط البحث",
-        "type": "text"
-    },
-    "homeTitle": "مسكن",
-    "@homeTitle": {
-        "description": "عنوان شريط التنقل الرئيسي",
-        "type": "text"
-    },
-    "downloadsTitle": "التنزيلات",
-    "@downloadsTitle": {
-        "description": "عنوان شريط التنقل للتنزيلات",
-        "type": "text"
-    },
-    "privacyPolicyTitle": "سياسة الخصوصية",
-    "@privacyPolicyTitle": {
-        "description": "عنوان صفحة سياسة الخصوصية",
-        "type": "text"
-    },
-    "privacyPolicyBody": "صمم ليبرسكر تطبيق ليبرسكر كتطبيق مجاني. هذه الخدمة مقدمة من ليبرسكر بدون تكلفة وهي مخصصة للاستخدام كما هي.\n\nتُستخدم هذه الصفحة لإعلام الزائرين بشأن سياساتنا بجمع المعلومات الشخصية واستخدامها والكشف عنها إذا قرر أي شخص استخدام خدمتنا.\n\nإذا اخترت استخدام خدمتنا ، فأنت توافق على جمع واستخدام المعلومات المتعلقة بهذه السياسة. تُستخدم المعلومات الشخصية التي نجمعها لتوفير الخدمة وتحسينها. لن نستخدم أو نشارك معلوماتك مع أي شخص باستثناء ما هو موضح في سياسة الخصوصية هذه.\n\nالمصطلحات المستخدمة في سياسة الخصوصية هذه لها نفس المعاني الواردة في الشروط والأحكام الخاصة بنا ، والتي يمكن الوصول إليها في ليبرسكر ما لم يتم تحديد خلاف ذلك في سياسة الخصوصية هذه.\n\n## جمع المعلومات واستخدامها\n\nللحصول على تجربة أفضل ، أثناء استخدام خدمتنا ، قد نطلب منك تزويدنا بمعلومات تعريف شخصية معينة. سيتم الاحتفاظ بالمعلومات التي نطلبها من قبلنا واستخدامها كما هو موضح في سياسة الخصوصية هذه.\n\n## تسجيل البيانات\n\nنود إعلامك أنه كلما استخدمت خدمتنا ، في حالة حدوث خطأ في التطبيق ، نقوم بجمع البيانات والمعلومات (من خلال منتجات الجهات الخارجية) على هاتفك تسمى Log Data. قد تتضمن بيانات السجل هذه معلومات مثل عنوان بروتوكول الإنترنت (\"IP\") الخاص بجهازك ، واسم الجهاز ، وإصدار نظام التشغيل ، وتكوين التطبيق عند استخدام خدمتنا ، ووقت وتاريخ استخدامك للخدمة ، وإحصاءات أخرى .\n\n## حماية\n\nنحن نقدر ثقتك في تزويدنا بمعلوماتك الشخصية ، وبالتالي فإننا نسعى جاهدين لاستخدام وسائل مقبولة تجاريًا لحمايتها. لكن تذكر أنه لا توجد وسيلة نقل عبر الإنترنت أو طريقة تخزين إلكتروني آمنة وموثوقة بنسبة 100٪ ، ولا يمكننا ضمان أمانها المطلق.\n\n## روابط لمواقع أخرى\n\nقد تحتوي هذه الخدمة على روابط لمواقع أخرى. إذا قمت بالنقر فوق ارتباط جهة خارجية ، فسيتم توجيهك إلى هذا الموقع. لاحظ أن هذه المواقع الخارجية لا يتم تشغيلها بواسطتنا. لذلك ، ننصحك بشدة بمراجعة سياسة الخصوصية الخاصة بهذه المواقع. ليس لدينا أي سيطرة ولا نتحمل أي مسؤولية عن المحتوى أو سياسات الخصوصية أو الممارسات الخاصة بأي مواقع أو خدمات تابعة لجهات خارجية.\n\n## خصوصية الأطفال\n\nنحن لا نجمع عن عمد معلومات التعريف الشخصية من الأطفال. نحن نشجع جميع الأطفال على عدم تقديم أي معلومات تعريف شخصية من خلال التطبيق و / أو الخدمات. نحن نشجع الآباء والأوصياء القانونيين على مراقبة استخدام أطفالهم للإنترنت وللمساعدة في تطبيق هذه السياسة من خلال توجيه أطفالهم إلى عدم تقديم معلومات تعريف شخصية من خلال التطبيق و / أو الخدمات دون إذن منهم. إذا كان لديك سبب للاعتقاد بأن طفلًا قد قدم لنا معلومات تعريف شخصية من خلال التطبيق و / أو الخدمات ، فيرجى الاتصال بنا. يجب أيضًا أن يكون عمرك 16 عامًا على الأقل للموافقة على معالجة معلومات التعريف الشخصية الخاصة بك في بلدك (في بعض البلدان قد نسمح لوالدك أو ولي أمرك بالقيام بذلك نيابة عنك).\n\n## التغييرات في سياسة الخصوصية هذه\n\nقد نقوم بتحديث سياسة الخصوصية الخاصة بنا من وقت لآخر. وبالتالي ، يُنصح بمراجعة هذه الصفحة بشكل دوري لمعرفة أي تغييرات. سنخطرك بأي تغييرات عن طريق نشر سياسة الخصوصية الجديدة على هذه الصفحة.\n\nهذه السياسة سارية اعتبارًا من 2021-11-01\n\n## اتصل بنا\n\nإذا كانت لديك أي أسئلة أو اقتراحات حول سياسة الخصوصية الخاصة بنا ، فلا تتردد في الاتصال بنا على [librescore@gmail.com](mailto:librescore@gmail.com).\n\nتم إنشاء صفحة سياسة الخصوصية هذه على [privacypolicytemplate.net](https://privacypolicytemplate.net) وتم تعديلها / إنشاؤها بواسطة [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)",
-    "@privacyPolicyBody": {
-        "description": "النص الأساسي لسياسة الخصوصية",
-        "type": "text"
-    },
-    "aboutTitle": "حول",
-    "@aboutTitle": {
-        "description": "حول عنوان الصفحة",
-        "type": "text"
-    },
-    "versionText": "الإصدار",
-    "@versionText": {
-        "description": "نص تسمية الإصدار",
-        "type": "text"
-    },
-    "licensesText": "التراخيص",
-    "@licensesText": {
-        "description": "نص تسمية التراخيص",
-        "type": "text"
-    },
-    "privacyPolicyText": "سياسة الخصوصية",
-    "@privacyPolicyText": {
-        "description": "نص تسمية سياسة الخصوصية",
-        "type": "text"
-    },
-    "contactText": "اتصل",
-    "@contactText": {
-        "description": "نص تسمية الاتصال",
-        "type": "text"
-    },
-    "settingsTitle": "الإعدادات",
-    "@settingsTitle": {
-        "description": "عنوان صفحة الإعدادات",
-        "type": "text"
-    },
-    "downloadFolderText": "مجلد التنزيل",
-    "@downloadFolderText": {
-        "description": "تسمية الإعدادات لمجلد التنزيل",
-        "type": "text"
-    },
-    "themeText": "مظهر",
-    "@themeText": {
-        "description": "تسمية إعدادات المظهر",
-        "type": "text"
-    },
-    "languageText": "لغة",
-    "@languageText": {
-        "description": "تسمية إعدادات اللغة",
-        "type": "text"
-    },
-    "systemText": "نظام",
-    "@systemText": {
-        "description": "نص خيار سمة النظام",
-        "type": "text"
-    },
-    "lightText": "خفيفة",
-    "@lightText": {
-        "description": "نص خيار السمة الخفيفة",
-        "type": "text"
-    },
-    "darkText": "داكن",
-    "@darkText": {
-        "description": "نص خيار المظهر الداكن",
-        "type": "text"
-    },
-    "noResultsError": "لا نتائج",
-    "@noResultsError": {
-        "description": "لا توجد نتائج خطأ في صفحة البحث",
-        "type": "text"
-    },
-    "englishText": "الإنجليزية",
-    "@الانجليزية النص": {
-        "description": "نص خيار اللغة الإنجليزية",
-        "type": "text"
-    },
-    "spanishText": "الأسبانية",
-    "@spanishText": {
-        "description": "نص خيار اللغة الإسبانية",
-        "type": "text"
-    },
-    "frenchText": "الفرنسية",
-    "@frenchText": {
-        "description": "نص خيار اللغة الفرنسية",
-        "type": "text"
-    },
-    "arabicText": "العربية",
-    "@arabicText": {
-        "description": "نص خيار اللغة العربية",
-        "type": "text"
-    },
-    "russianText": "الروسية",
-    "@russianText": {
-        "description": "نص خيار اللغة الروسية",
-        "type": "text"
-    },
-    "simplifiedChineseText": "الصينية المبسطة",
-    "@simplifiedChineseText": {
-        "description": "نص خيار اللغة الصينية المبسطة",
-        "type": "text"
-    },
-    "updateCheckError": "فشل في التحقق من وجود تحديثات",
-    "@updateCheckError": {
-        "description": "خطأ التحقق من التحديث",
-        "type": "text"
-    },
-    "updateAvailableText": "التحديث متاح",
-    "@updateAvailableText": {
-        "description": "تحديث النص المتاح",
-        "type": "text"
-    },
-    "updateLatestText": "لا تحديثات جديدة",
-    "@updateLatestText": {
-        "description": "لا يوجد نص تحديثات جديدة",
-        "type": "text"
-    },
-    "updateText": "تحديث",
-    "@updateText": {
-        "description": "تحديث نص الزر",
-        "type": "text"
-    },
-    "ignoreText": "تجاهل",
-    "@ignoreText": {
-        "description": "تجاهل نص الزر",
-        "type": "text"
-    },
-    "okText": "موافق",
-    "@okText": {
-        "description": "نص زر موافق",
-        "type": "text"
-    },
-    "editText": "تعديل",
-    "@editText": {
-        "description": "نص زر التحرير",
-        "type": "text"
-    },
-    "downloadFolderHint": "أدخل مجلد التنزيل",
-    "@downloadFolderHint": {
-        "description": "رسالة تلميح لمجلد التنزيل",
-        "type": "text"
-    },
-    "noDownloadsError": "لا تنزيلات",
-    "@noDownloadsError": {
-        "description": "لا توجد تنزيلات خطأ في صفحة التنزيل",
-        "type": "text"
-    },
-    "fileAccessError": "فتح الملف مرفوض",
-    "@fileAccessError": {
-        "description": "رفض الوصول إلى الملف خطأ",
-        "type": "text"
-    },
-    "networkError": "خطأ في الشبكة",
-    "@networkError": {
-        "description": "خطأ في الشبكة",
-        "type": "text"
-    },
-    "downloadingTitle": "جار التنزيل",
-    "@downloadingTitle": {
-        "description": "عنوان التنزيل",
-        "type": "text"
-    },
-    "loadingTitle": "جار التحميل",
-    "@loadingTitle": {
-        "description": "عنوان التحميل",
-        "type": "text"
-    },
-    "cancelText": "إلغاء الأمر",
-    "@cancelText": {
-        "description": "نص زر الإلغاء",
-        "type": "text"
-    }
+  "librescore": "ليبرايسكور",
+  "@librescore": {
+    "description": "اسم ليبرايسكور",
+    "type": "text"
+  },
+  "settingsText": "إعدادات",
+  "@settingsText": {
+    "description": "نص زر الإعدادات",
+    "type": "text"
+  },
+  "aboutText": "حول",
+  "@aboutText": {
+    "description": "حول نص الزر",
+    "type": "text"
+  },
+  "searchError": "الرجاء إدخال استعلام",
+  "@searchError": {
+    "description": "رسالة خطأ في شريط البحث",
+    "type": "text"
+  },
+  "searchHint": "ابحث في MuseScore أو أدخل عنوان URL",
+  "@searchHint": {
+    "description": "رسالة تلميح شريط البحث",
+    "type": "text"
+  },
+  "searchClearTip": "مسح",
+  "@searchClearTip": {
+    "description": "تلميح زر مسح شريط البحث",
+    "type": "text"
+  },
+  "searchSearchTip": "بحث",
+  "@searchSearchTip": {
+    "description": "تلميح زر بحث شريط البحث",
+    "type": "text"
+  },
+  "homeTitle": "مسكن",
+  "@homeTitle": {
+    "description": "عنوان شريط التنقل الرئيسي",
+    "type": "text"
+  },
+  "downloadsTitle": "التنزيلات",
+  "@downloadsTitle": {
+    "description": "عنوان شريط التنقل للتنزيلات",
+    "type": "text"
+  },
+  "privacyPolicyTitle": "سياسة الخصوصية",
+  "@privacyPolicyTitle": {
+    "description": "عنوان صفحة سياسة الخصوصية",
+    "type": "text"
+  },
+  "aboutTitle": "حول",
+  "@aboutTitle": {
+    "description": "حول عنوان الصفحة",
+    "type": "text"
+  },
+  "versionText": "الإصدار",
+  "@versionText": {
+    "description": "نص تسمية الإصدار",
+    "type": "text"
+  },
+  "licensesText": "التراخيص",
+  "@licensesText": {
+    "description": "نص تسمية التراخيص",
+    "type": "text"
+  },
+  "privacyPolicyText": "سياسة الخصوصية",
+  "@privacyPolicyText": {
+    "description": "نص تسمية سياسة الخصوصية",
+    "type": "text"
+  },
+  "contactText": "اتصل",
+  "@contactText": {
+    "description": "نص تسمية الاتصال",
+    "type": "text"
+  },
+  "settingsTitle": "الإعدادات",
+  "@settingsTitle": {
+    "description": "عنوان صفحة الإعدادات",
+    "type": "text"
+  },
+  "downloadFolderText": "مجلد التنزيل",
+  "@downloadFolderText": {
+    "description": "تسمية الإعدادات لمجلد التنزيل",
+    "type": "text"
+  },
+  "themeText": "مظهر",
+  "@themeText": {
+    "description": "تسمية إعدادات المظهر",
+    "type": "text"
+  },
+  "languageText": "لغة",
+  "@languageText": {
+    "description": "تسمية إعدادات اللغة",
+    "type": "text"
+  },
+  "systemText": "نظام",
+  "@systemText": {
+    "description": "نص خيار سمة النظام",
+    "type": "text"
+  },
+  "lightText": "خفيفة",
+  "@lightText": {
+    "description": "نص خيار السمة الخفيفة",
+    "type": "text"
+  },
+  "darkText": "داكن",
+  "@darkText": {
+    "description": "نص خيار المظهر الداكن",
+    "type": "text"
+  },
+  "noResultsError": "لا نتائج",
+  "@noResultsError": {
+    "description": "لا توجد نتائج خطأ في صفحة البحث",
+    "type": "text"
+  },
+  "englishText": "الإنجليزية",
+  "@englishText": {},
+  "spanishText": "الأسبانية",
+  "@spanishText": {
+    "description": "نص خيار اللغة الإسبانية",
+    "type": "text"
+  },
+  "frenchText": "الفرنسية",
+  "@frenchText": {
+    "description": "نص خيار اللغة الفرنسية",
+    "type": "text"
+  },
+  "arabicText": "العربية",
+  "@arabicText": {
+    "description": "نص خيار اللغة العربية",
+    "type": "text"
+  },
+  "russianText": "الروسية",
+  "@russianText": {
+    "description": "نص خيار اللغة الروسية",
+    "type": "text"
+  },
+  "simplifiedChineseText": "الصينية المبسطة",
+  "@simplifiedChineseText": {
+    "description": "نص خيار اللغة الصينية المبسطة",
+    "type": "text"
+  },
+  "updateCheckError": "فشل في التحقق من وجود تحديثات",
+  "@updateCheckError": {
+    "description": "خطأ التحقق من التحديث",
+    "type": "text"
+  },
+  "updateAvailableText": "التحديث متاح",
+  "@updateAvailableText": {
+    "description": "تحديث النص المتاح",
+    "type": "text"
+  },
+  "updateLatestText": "لا تحديثات جديدة",
+  "@updateLatestText": {
+    "description": "لا يوجد نص تحديثات جديدة",
+    "type": "text"
+  },
+  "updateText": "تحديث",
+  "@updateText": {
+    "description": "تحديث نص الزر",
+    "type": "text"
+  },
+  "ignoreText": "تجاهل",
+  "@ignoreText": {
+    "description": "تجاهل نص الزر",
+    "type": "text"
+  },
+  "okText": "موافق",
+  "@okText": {
+    "description": "نص زر موافق",
+    "type": "text"
+  },
+  "editText": "تعديل",
+  "@editText": {
+    "description": "نص زر التحرير",
+    "type": "text"
+  },
+  "downloadFolderHint": "أدخل مجلد التنزيل",
+  "@downloadFolderHint": {
+    "description": "رسالة تلميح لمجلد التنزيل",
+    "type": "text"
+  },
+  "noDownloadsError": "لا تنزيلات",
+  "@noDownloadsError": {
+    "description": "لا توجد تنزيلات خطأ في صفحة التنزيل",
+    "type": "text"
+  },
+  "fileAccessError": "فتح الملف مرفوض",
+  "@fileAccessError": {
+    "description": "رفض الوصول إلى الملف خطأ",
+    "type": "text"
+  },
+  "networkError": "خطأ في الشبكة",
+  "@networkError": {
+    "description": "خطأ في الشبكة",
+    "type": "text"
+  },
+  "downloadingTitle": "جار التنزيل",
+  "@downloadingTitle": {
+    "description": "عنوان التنزيل",
+    "type": "text"
+  },
+  "loadingTitle": "جار التحميل",
+  "@loadingTitle": {
+    "description": "عنوان التحميل",
+    "type": "text"
+  },
+  "cancelText": "إلغاء الأمر",
+  "@cancelText": {
+    "description": "نص زر الإلغاء",
+    "type": "text"
+  }
 }
