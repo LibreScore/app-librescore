@@ -1,5 +1,5 @@
 {
-  "librescore": "리브레스코어",
+  "librescore": "LibreScore",
   "@librescore": {
     "description": "LibreScore name",
     "type": "text"
