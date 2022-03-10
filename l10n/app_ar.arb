@@ -1,216 +1,229 @@
 {
-  "librescore": "ليبرايسكور",
-  "@librescore": {
-    "description": "اسم ليبرايسكور",
-    "type": "text"
-  },
-  "settingsText": "إعدادات",
-  "@settingsText": {
-    "description": "نص زر الإعدادات",
-    "type": "text"
-  },
-  "aboutText": "حول",
-  "@aboutText": {
-    "description": "حول نص الزر",
-    "type": "text"
-  },
-  "searchError": "الرجاء إدخال استعلام",
-  "@searchError": {
-    "description": "رسالة خطأ في شريط البحث",
-    "type": "text"
-  },
-  "searchHint": "ابحث في MuseScore أو أدخل عنوان URL",
-  "@searchHint": {
-    "description": "رسالة تلميح شريط البحث",
-    "type": "text"
-  },
-  "searchClearTip": "مسح",
-  "@searchClearTip": {
-    "description": "تلميح زر مسح شريط البحث",
-    "type": "text"
-  },
-  "searchSearchTip": "بحث",
-  "@searchSearchTip": {
-    "description": "تلميح زر بحث شريط البحث",
-    "type": "text"
-  },
-  "homeTitle": "مسكن",
-  "@homeTitle": {
-    "description": "عنوان شريط التنقل الرئيسي",
-    "type": "text"
-  },
-  "downloadsTitle": "التنزيلات",
-  "@downloadsTitle": {
-    "description": "عنوان شريط التنقل للتنزيلات",
-    "type": "text"
-  },
-  "privacyPolicyTitle": "سياسة الخصوصية",
-  "@privacyPolicyTitle": {
-    "description": "عنوان صفحة سياسة الخصوصية",
-    "type": "text"
-  },
-  "aboutTitle": "حول",
-  "@aboutTitle": {
-    "description": "حول عنوان الصفحة",
-    "type": "text"
-  },
-  "versionText": "الإصدار",
-  "@versionText": {
-    "description": "نص تسمية الإصدار",
-    "type": "text"
-  },
-  "licensesText": "التراخيص",
-  "@licensesText": {
-    "description": "نص تسمية التراخيص",
-    "type": "text"
-  },
-  "privacyPolicyText": "سياسة الخصوصية",
-  "@privacyPolicyText": {
-    "description": "نص تسمية سياسة الخصوصية",
-    "type": "text"
-  },
-  "contactText": "اتصل",
-  "@contactText": {
-    "description": "نص تسمية الاتصال",
-    "type": "text"
-  },
-  "settingsTitle": "الإعدادات",
-  "@settingsTitle": {
-    "description": "عنوان صفحة الإعدادات",
-    "type": "text"
-  },
-  "downloadFolderText": "مجلد التنزيل",
-  "@downloadFolderText": {
-    "description": "تسمية الإعدادات لمجلد التنزيل",
-    "type": "text"
-  },
-  "themeText": "مظهر",
-  "@themeText": {
-    "description": "تسمية إعدادات المظهر",
-    "type": "text"
-  },
-  "languageText": "لغة",
-  "@languageText": {
-    "description": "تسمية إعدادات اللغة",
-    "type": "text"
-  },
-  "systemText": "نظام",
-  "@systemText": {
-    "description": "نص خيار سمة النظام",
-    "type": "text"
-  },
-  "lightText": "خفيفة",
-  "@lightText": {
-    "description": "نص خيار السمة الخفيفة",
-    "type": "text"
-  },
-  "darkText": "داكن",
-  "@darkText": {
-    "description": "نص خيار المظهر الداكن",
-    "type": "text"
-  },
-  "noResultsError": "لا نتائج",
-  "@noResultsError": {
-    "description": "لا توجد نتائج خطأ في صفحة البحث",
-    "type": "text"
-  },
-  "englishText": "الإنجليزية",
-  "@englishText": {},
-  "spanishText": "الأسبانية",
-  "@spanishText": {
-    "description": "نص خيار اللغة الإسبانية",
-    "type": "text"
-  },
-  "frenchText": "الفرنسية",
-  "@frenchText": {
-    "description": "نص خيار اللغة الفرنسية",
-    "type": "text"
-  },
-  "arabicText": "العربية",
-  "@arabicText": {
-    "description": "نص خيار اللغة العربية",
-    "type": "text"
-  },
-  "russianText": "الروسية",
-  "@russianText": {
-    "description": "نص خيار اللغة الروسية",
-    "type": "text"
-  },
-  "simplifiedChineseText": "الصينية المبسطة",
-  "@simplifiedChineseText": {
-    "description": "نص خيار اللغة الصينية المبسطة",
-    "type": "text"
-  },
-  "updateCheckError": "فشل في التحقق من وجود تحديثات",
-  "@updateCheckError": {
-    "description": "خطأ التحقق من التحديث",
-    "type": "text"
-  },
-  "updateAvailableText": "التحديث متاح",
-  "@updateAvailableText": {
-    "description": "تحديث النص المتاح",
-    "type": "text"
-  },
-  "updateLatestText": "لا تحديثات جديدة",
-  "@updateLatestText": {
-    "description": "لا يوجد نص تحديثات جديدة",
-    "type": "text"
-  },
-  "updateText": "تحديث",
-  "@updateText": {
-    "description": "تحديث نص الزر",
-    "type": "text"
-  },
-  "ignoreText": "تجاهل",
-  "@ignoreText": {
-    "description": "تجاهل نص الزر",
-    "type": "text"
-  },
-  "okText": "موافق",
-  "@okText": {
-    "description": "نص زر موافق",
-    "type": "text"
-  },
-  "editText": "تعديل",
-  "@editText": {
-    "description": "نص زر التحرير",
-    "type": "text"
-  },
-  "downloadFolderHint": "أدخل مجلد التنزيل",
-  "@downloadFolderHint": {
-    "description": "رسالة تلميح لمجلد التنزيل",
-    "type": "text"
-  },
-  "noDownloadsError": "لا تنزيلات",
-  "@noDownloadsError": {
-    "description": "لا توجد تنزيلات خطأ في صفحة التنزيل",
-    "type": "text"
-  },
-  "fileAccessError": "فتح الملف مرفوض",
-  "@fileAccessError": {
-    "description": "رفض الوصول إلى الملف خطأ",
-    "type": "text"
-  },
-  "networkError": "خطأ في الشبكة",
-  "@networkError": {
-    "description": "خطأ في الشبكة",
-    "type": "text"
-  },
-  "downloadingTitle": "جار التنزيل",
-  "@downloadingTitle": {
-    "description": "عنوان التنزيل",
-    "type": "text"
-  },
-  "loadingTitle": "جار التحميل",
-  "@loadingTitle": {
-    "description": "عنوان التحميل",
-    "type": "text"
-  },
-  "cancelText": "إلغاء الأمر",
-  "@cancelText": {
-    "description": "نص زر الإلغاء",
-    "type": "text"
-  },
-  "koreanText": "الكورية",
-  "@koreanText": {}
+    "librescore": "ليبرايسكور",
+    "@librescore": {
+        "description": "اسم ليبرايسكور",
+        "type": "text"
+    },
+    "settingsText": "إعدادات",
+    "@settingsText": {
+        "description": "نص زر الإعدادات",
+        "type": "text"
+    },
+    "aboutText": "حول",
+    "@aboutText": {
+        "description": "حول نص الزر",
+        "type": "text"
+    },
+    "searchError": "الرجاء إدخال استعلام",
+    "@searchError": {
+        "description": "رسالة خطأ في شريط البحث",
+        "type": "text"
+    },
+    "searchHint": "ابحث في MuseScore أو أدخل عنوان URL",
+    "@searchHint": {
+        "description": "رسالة تلميح شريط البحث",
+        "type": "text"
+    },
+    "searchClearTip": "مسح",
+    "@searchClearTip": {
+        "description": "تلميح زر مسح شريط البحث",
+        "type": "text"
+    },
+    "searchSearchTip": "بحث",
+    "@searchSearchTip": {
+        "description": "تلميح زر بحث شريط البحث",
+        "type": "text"
+    },
+    "homeTitle": "مسكن",
+    "@homeTitle": {
+        "description": "عنوان شريط التنقل الرئيسي",
+        "type": "text"
+    },
+    "downloadsTitle": "التنزيلات",
+    "@downloadsTitle": {
+        "description": "عنوان شريط التنقل للتنزيلات",
+        "type": "text"
+    },
+    "privacyPolicyTitle": "سياسة الخصوصية",
+    "@privacyPolicyTitle": {
+        "description": "عنوان صفحة سياسة الخصوصية",
+        "type": "text"
+    },
+    "aboutTitle": "حول",
+    "@aboutTitle": {
+        "description": "حول عنوان الصفحة",
+        "type": "text"
+    },
+    "versionText": "الإصدار",
+    "@versionText": {
+        "description": "نص تسمية الإصدار",
+        "type": "text"
+    },
+    "licensesText": "التراخيص",
+    "@licensesText": {
+        "description": "نص تسمية التراخيص",
+        "type": "text"
+    },
+    "privacyPolicyText": "سياسة الخصوصية",
+    "@privacyPolicyText": {
+        "description": "نص تسمية سياسة الخصوصية",
+        "type": "text"
+    },
+    "contactText": "اتصل",
+    "@contactText": {
+        "description": "نص تسمية الاتصال",
+        "type": "text"
+    },
+    "settingsTitle": "الإعدادات",
+    "@settingsTitle": {
+        "description": "عنوان صفحة الإعدادات",
+        "type": "text"
+    },
+    "downloadFolderText": "مجلد التنزيل",
+    "@downloadFolderText": {
+        "description": "تسمية الإعدادات لمجلد التنزيل",
+        "type": "text"
+    },
+    "themeText": "مظهر",
+    "@themeText": {
+        "description": "تسمية إعدادات المظهر",
+        "type": "text"
+    },
+    "languageText": "لغة",
+    "@languageText": {
+        "description": "تسمية إعدادات اللغة",
+        "type": "text"
+    },
+    "systemText": "نظام",
+    "@systemText": {
+        "description": "نص خيار سمة النظام",
+        "type": "text"
+    },
+    "lightText": "خفيفة",
+    "@lightText": {
+        "description": "نص خيار السمة الخفيفة",
+        "type": "text"
+    },
+    "darkText": "داكن",
+    "@darkText": {
+        "description": "نص خيار المظهر الداكن",
+        "type": "text"
+    },
+    "noResultsError": "لا نتائج",
+    "@noResultsError": {
+        "description": "لا توجد نتائج خطأ في صفحة البحث",
+        "type": "text"
+    },
+    "englishText": "الإنجليزية",
+    "@الانجليزية النص": {
+        "description": "نص خيار اللغة الإنجليزية",
+        "type": "text"
+    },
+    "spanishText": "الإسبانية",
+    "@spanishText": {
+        "description": "نص خيار اللغة الإسبانية",
+        "type": "text"
+    },
+    "frenchText": "الفرنسية",
+    "@frenchText": {
+        "description": "نص خيار اللغة الفرنسية",
+        "type": "text"
+    },
+    "arabicText": "العربية",
+    "@arabicText": {
+        "description": "نص خيار اللغة العربية",
+        "type": "text"
+    },
+    "russianText": "الروسية",
+    "@russianText": {
+        "description": "نص خيار اللغة الروسية",
+        "type": "text"
+    },
+    "simplifiedChineseText": "الصينية المبسطة",
+    "@simplifiedChineseText": {
+        "description": "نص خيار اللغة الصينية المبسطة",
+        "type": "text"
+    },
+    "italianText": "الإيطالية",
+    "@italianText": {
+        "type": "text"
+    },
+    "koreanText": "الكورية",
+    "@koreanText": {
+        "type": "text"
+    },
+    "japaneseText": "اليابانية",
+    "@japaneseText": {
+        "type": "text"
+    },
+    "updateCheckError": "فشل في التحقق من وجود تحديثات",
+    "@updateCheckError": {
+        "description": "خطأ التحقق من التحديث",
+        "type": "text"
+    },
+    "updateAvailableText": "التحديث متاح",
+    "@updateAvailableText": {
+        "description": "تحديث النص المتاح",
+        "type": "text"
+    },
+    "updateLatestText": "لا تحديثات جديدة",
+    "@updateLatestText": {
+        "description": "لا يوجد نص تحديثات جديدة",
+        "type": "text"
+    },
+    "updateText": "تحديث",
+    "@updateText": {
+        "description": "تحديث نص الزر",
+        "type": "text"
+    },
+    "ignoreText": "تجاهل",
+    "@ignoreText": {
+        "description": "تجاهل نص الزر",
+        "type": "text"
+    },
+    "okText": "موافق",
+    "@okText": {
+        "description": "نص زر موافق",
+        "type": "text"
+    },
+    "editText": "تعديل",
+    "@editText": {
+        "description": "نص زر التحرير",
+        "type": "text"
+    },
+    "downloadFolderHint": "أدخل مجلد التنزيل",
+    "@downloadFolderHint": {
+        "description": "رسالة تلميح لمجلد التنزيل",
+        "type": "text"
+    },
+    "noDownloadsError": "لا تنزيلات",
+    "@noDownloadsError": {
+        "description": "لا توجد تنزيلات خطأ في صفحة التنزيل",
+        "type": "text"
+    },
+    "fileAccessError": "فتح الملف مرفوض",
+    "@fileAccessError": {
+        "description": "رفض الوصول إلى الملف خطأ",
+        "type": "text"
+    },
+    "networkError": "خطأ في الشبكة",
+    "@networkError": {
+        "description": "خطأ في الشبكة",
+        "type": "text"
+    },
+    "downloadingTitle": "جار التنزيل",
+    "@downloadingTitle": {
+        "description": "عنوان التنزيل",
+        "type": "text"
+    },
+    "loadingTitle": "جار التحميل",
+    "@loadingTitle": {
+        "description": "عنوان التحميل",
+        "type": "text"
+    },
+    "cancelText": "إلغاء الأمر",
+    "@cancelText": {
+        "description": "نص زر الإلغاء",
+        "type": "text"
+    }
 }

@@ -1,9 +1,42 @@
 {
-  "koreanText": "Coreano",
-  "@koreanText": {},
-  "librescore": "LibreScore",
-  "@librescore": {
-    "description": "LibreScore name",
-    "type": "text"
-  }
+    "englishText": "Inglese",
+    "@englishText": {
+        "type": "text"
+    },
+    "spanishText": "Spagnolo",
+    "@spanishText": {
+        "type": "text"
+    },
+    "frenchText": "Francese",
+    "@frenchText": {
+        "type": "text"
+    },
+    "arabicText": "Arabo",
+    "@arabicText": {
+        "type": "text"
+    },
+    "russianText": "Russo",
+    "@russianText": {
+        "type": "text"
+    },
+    "simplifiedChineseText": "Cinese semplificato",
+    "@simplifiedChineseText": {
+        "type": "text"
+    },
+    "italianText": "Italiano",
+    "@italianText": {
+        "type": "text"
+    },
+    "koreanText": "Coreano",
+    "@koreanText": {
+        "type": "text"
+    },
+    "japaneseText": "Giapponese",
+    "@japaneseText": {
+        "type": "text"
+    },
+    "librescore": "LibreScore",
+    "@librescore": {
+        "type": "text"
+    }
 }

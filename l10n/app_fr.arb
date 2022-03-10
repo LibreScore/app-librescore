@@ -1,219 +1,229 @@
 {
-  "librescore": "LibreScore",
-  "@librescore": {
-    "description": "Nom du LibreScore",
-    "type": "text"
-  },
-  "settingsText": "Paramètres",
-  "@settingsText": {
-    "description": "Texte du bouton Paramètres",
-    "type": "text"
-  },
-  "aboutText": "À propos",
-  "@aboutText": {
-    "description": "Texte du bouton à propos",
-    "type": "text"
-  },
-  "searchError": "Veuillez saisir une requête",
-  "@searchError": {
-    "description": "Message d'erreur de la barre de recherche",
-    "type": "text"
-  },
-  "searchHint": "Rechercher MuseScore ou saisir une URL",
-  "@searchHint": {
-    "description": "Message d'indication de la barre de recherche",
-    "type": "text"
-  },
-  "searchClearTip": "Effacer",
-  "@searchClearTip": {
-    "description": "Info-bulle du bouton Effacer la barre de recherche",
-    "type": "text"
-  },
-  "searchSearchTip": "Rechercher",
-  "@searchSearchTip": {
-    "description": "Info-bulle du bouton de recherche de la barre de recherche",
-    "type": "text"
-  },
-  "homeTitle": "Accueil",
-  "@homeTitle": {
-    "description": "Titre de la barre de navigation d'accueil",
-    "type": "text"
-  },
-  "downloadsTitle": "Téléchargements",
-  "@downloadsTitle": {
-    "description": "Titre de la barre de navigation des téléchargements",
-    "type": "text"
-  },
-  "privacyPolicyTitle": "Politique de confidentialité",
-  "@privacyPolicyTitle": {
-    "description": "Titre de la page de politique de confidentialité",
-    "type": "text"
-  },
-  "aboutTitle": "À propos",
-  "@aboutTitle": {
-    "description": "Titre de la page à propos",
-    "type": "text"
-  },
-  "versionText": "Version",
-  "@versionText": {
-    "description": "Texte du libellé de la version",
-    "type": "text"
-  },
-  "licensesText": "Licences",
-  "@licensesText": {
-    "description": "Texte du libellé des licences",
-    "type": "text"
-  },
-  "privacyPolicyText": "Politique de confidentialité",
-  "@privacyPolicyText": {
-    "description": "Texte du libellé de la politique de confidentialité",
-    "type": "text"
-  },
-  "contactText": "Contact",
-  "@contactText": {
-    "description": "Texte de l'étiquette du contact",
-    "type": "text"
-  },
-  "settingsTitle": "Paramètres",
-  "@settingsTitle": {
-    "description": "Titre de la page des paramètres",
-    "type": "text"
-  },
-  "downloadFolderText": "Dossier de téléchargement",
-  "@downloadFolderText": {
-    "description": "Étiquette des paramètres du dossier de téléchargement",
-    "type": "text"
-  },
-  "themeText": "Thème",
-  "@themeText": {
-    "description": "Libellé des paramètres du thème",
-    "type": "text"
-  },
-  "languageText": "Langue",
-  "@languageText": {
-    "description": "Libellé des paramètres de langue",
-    "type": "text"
-  },
-  "systemText": "Système",
-  "@systemText": {
-    "description": "Texte de l'option du thème système",
-    "type": "text"
-  },
-  "lightText": "Clair",
-  "@lightText": {
-    "description": "Texte d'option de thème clair",
-    "type": "text"
-  },
-  "darkText": "Sombre",
-  "@darkText": {
-    "description": "Texte d'option de thème sombre",
-    "type": "text"
-  },
-  "noResultsError": "Aucun résultat",
-  "@noResultsError": {
-    "description": "Erreur de page de recherche de résultats",
-    "type": "text"
-  },
-  "englishText": "Anglais",
-  "@englishText": {
-    "description": "Texte d'option de langue Anglaise",
-    "type": "text"
-  },
-  "spanishText": "Espagnol",
-  "@spanishText": {
-    "description": "Texte d'option de langue Espagnol",
-    "type": "text"
-  },
-  "frenchText": "Français",
-  "@frenchText": {
-    "description": "Texte d'option de langue Français",
-    "type": "text"
-  },
-  "arabicText": "Arabe",
-  "@arabicText": {
-    "description": "Texte d'option de langue Arabe",
-    "type": "text"
-  },
-  "russianText": "Russe",
-  "@russianText": {
-    "description": "Texte d'option de langue Russe",
-    "type": "text"
-  },
-  "simplifiedChineseText": "Chinois simplifié",
-  "@simplifiedChineseText": {
-    "description": "Texte d'option de langue Chinois simplifié",
-    "type": "text"
-  },
-  "updateCheckError": "Échec de la vérification des mises à jour",
-  "@updateCheckError": {
-    "description": "Erreur de vérification de mise à jour",
-    "type": "text"
-  },
-  "updateAvailableText": "Mise à jour disponible",
-  "@updateAvailableText": {
-    "description": "Texte du message de mise à jour disponible",
-    "type": "text"
-  },
-  "updateLatestText": "Pas de nouvelles mises à jour",
-  "@updateLatestText": {
-    "description": "Texte du message de pas de nouvelles mises à jour",
-    "type": "text"
-  },
-  "updateText": "Mettre à jour",
-  "@updateText": {
-    "description": "Texte du bouton de mettre à jour",
-    "type": "text"
-  },
-  "ignoreText": "Ignorer",
-  "@ignoreText": {
-    "description": "Texte du bouton d'ignorer",
-    "type": "text"
-  },
-  "okText": "OK",
-  "@okText": {
-    "description": "Texte du bouton OK",
-    "type": "text"
-  },
-  "editText": "Modifier",
-  "@editText": {
-    "description": "Texte du bouton de modification",
-    "type": "text"
-  },
-  "downloadFolderHint": "Saisir le dossier de téléchargement",
-  "@downloadFolderHint": {
-    "description": "Message d'indication du dossier de téléchargement",
-    "type": "text"
-  },
-  "noDownloadsError": "Aucun téléchargement",
-  "@noDownloadsError": {
-    "description": "Erreur de page de téléchargements aucun téléchargement",
-    "type": "text"
-  },
-  "fileAccessError": "L'acccès au dossier n'a pas été accepté",
-  "@fileAccessError": {
-    "description": "Erreur d'accès au fichier refusé",
-    "type": "text"
-  },
-  "networkError": "Erreur réseau",
-  "@networkError": {
-    "description": "Erreur réseau",
-    "type": "text"
-  },
-  "downloadingTitle": "Téléchargement",
-  "@downloadingTitle": {
-    "description": "Titre du téléchargement",
-    "type": "text"
-  },
-  "loadingTitle": "Chargement",
-  "@loadingTitle": {
-    "description": "Titre du Chargement",
-    "type": "text"
-  },
-  "cancelText": "Annuler",
-  "@cancelText": {
-    "description": "Texte du bouton d'annulation",
-    "type": "text"
-  },
-  "koreanText": "Coréen",
-  "@koreanText": {}
+    "librescore": "LibreScore",
+    "@librescore": {
+        "description": "Nom du LibreScore",
+        "type": "text"
+    },
+    "settingsText": "Paramètres",
+    "@settingsText": {
+        "description": "Texte du bouton Paramètres",
+        "type": "text"
+    },
+    "aboutText": "À propos",
+    "@aboutText": {
+        "description": "Texte du bouton à propos",
+        "type": "text"
+    },
+    "searchError": "Veuillez saisir une requête",
+    "@searchError": {
+        "description": "Message d'erreur de la barre de recherche",
+        "type": "text"
+    },
+    "searchHint": "Rechercher MuseScore ou saisir une URL",
+    "@searchHint": {
+        "description": "Message d'indication de la barre de recherche",
+        "type": "text"
+    },
+    "searchClearTip": "Effacer",
+    "@searchClearTip": {
+        "description": "Info-bulle du bouton Effacer la barre de recherche",
+        "type": "text"
+    },
+    "searchSearchTip": "Rechercher",
+    "@searchSearchTip": {
+        "description": "Info-bulle du bouton de recherche de la barre de recherche",
+        "type": "text"
+    },
+    "homeTitle": "Accueil",
+    "@homeTitle": {
+        "description": "Titre de la barre de navigation d'accueil",
+        "type": "text"
+    },
+    "downloadsTitle": "Téléchargements",
+    "@downloadsTitle": {
+        "description": "Titre de la barre de navigation des téléchargements",
+        "type": "text"
+    },
+    "privacyPolicyTitle": "Politique de confidentialité",
+    "@privacyPolicyTitle": {
+        "description": "Titre de la page de politique de confidentialité",
+        "type": "text"
+    },
+    "aboutTitle": "À propos",
+    "@aboutTitle": {
+        "description": "Titre de la page à propos",
+        "type": "text"
+    },
+    "versionText": "Version",
+    "@versionText": {
+        "description": "Texte du libellé de la version",
+        "type": "text"
+    },
+    "licensesText": "Licences",
+    "@licensesText": {
+        "description": "Texte du libellé des licences",
+        "type": "text"
+    },
+    "privacyPolicyText": "Politique de confidentialité",
+    "@privacyPolicyText": {
+        "description": "Texte du libellé de la politique de confidentialité",
+        "type": "text"
+    },
+    "contactText": "Contact",
+    "@contactText": {
+        "description": "Texte de l'étiquette du contact",
+        "type": "text"
+    },
+    "settingsTitle": "Paramètres",
+    "@settingsTitle": {
+        "description": "Titre de la page des paramètres",
+        "type": "text"
+    },
+    "downloadFolderText": "Dossier de téléchargement",
+    "@downloadFolderText": {
+        "description": "Étiquette des paramètres du dossier de téléchargement",
+        "type": "text"
+    },
+    "themeText": "Thème",
+    "@themeText": {
+        "description": "Libellé des paramètres du thème",
+        "type": "text"
+    },
+    "languageText": "Langue",
+    "@languageText": {
+        "description": "Libellé des paramètres de langue",
+        "type": "text"
+    },
+    "systemText": "Système",
+    "@systemText": {
+        "description": "Texte de l'option du thème système",
+        "type": "text"
+    },
+    "lightText": "Clair",
+    "@lightText": {
+        "description": "Texte d'option de thème clair",
+        "type": "text"
+    },
+    "darkText": "Sombre",
+    "@darkText": {
+        "description": "Texte d'option de thème sombre",
+        "type": "text"
+    },
+    "noResultsError": "Aucun résultat",
+    "@noResultsError": {
+        "description": "Erreur de page de recherche de résultats",
+        "type": "text"
+    },
+    "englishText": "Anglais",
+    "@englishText": {
+        "description": "Texte d'option de langue Anglaise",
+        "type": "text"
+    },
+    "spanishText": "Espagnol",
+    "@spanishText": {
+        "description": "Texte d'option de langue Espagnol",
+        "type": "text"
+    },
+    "frenchText": "Français",
+    "@frenchText": {
+        "description": "Texte d'option de langue Français",
+        "type": "text"
+    },
+    "arabicText": "Arabe",
+    "@arabicText": {
+        "description": "Texte d'option de langue Arabe",
+        "type": "text"
+    },
+    "russianText": "Russe",
+    "@russianText": {
+        "description": "Texte d'option de langue Russe",
+        "type": "text"
+    },
+    "simplifiedChineseText": "Chinois simplifié",
+    "@simplifiedChineseText": {
+        "description": "Texte d'option de langue Chinois simplifié",
+        "type": "text"
+    },
+    "italianText": "Italien",
+    "@italianText": {
+        "type": "text"
+    },
+    "koreanText": "Coréen",
+    "@koreanText": {
+        "type": "text"
+    },
+    "japaneseText": "Japonais",
+    "@japaneseText": {
+        "type": "text"
+    },
+    "updateCheckError": "Échec de la vérification des mises à jour",
+    "@updateCheckError": {
+        "description": "Erreur de vérification de mise à jour",
+        "type": "text"
+    },
+    "updateAvailableText": "Mise à jour disponible",
+    "@updateAvailableText": {
+        "description": "Texte du message de mise à jour disponible",
+        "type": "text"
+    },
+    "updateLatestText": "Pas de nouvelles mises à jour",
+    "@updateLatestText": {
+        "description": "Texte du message de pas de nouvelles mises à jour",
+        "type": "text"
+    },
+    "updateText": "Mettre à jour",
+    "@updateText": {
+        "description": "Texte du bouton de mettre à jour",
+        "type": "text"
+    },
+    "ignoreText": "Ignorer",
+    "@ignoreText": {
+        "description": "Texte du bouton d'ignorer",
+        "type": "text"
+    },
+    "okText": "OK",
+    "@okText": {
+        "description": "Texte du bouton OK",
+        "type": "text"
+    },
+    "editText": "Modifier",
+    "@editText": {
+        "description": "Texte du bouton de modification",
+        "type": "text"
+    },
+    "downloadFolderHint": "Saisir le dossier de téléchargement",
+    "@downloadFolderHint": {
+        "description": "Message d'indication du dossier de téléchargement",
+        "type": "text"
+    },
+    "noDownloadsError": "Aucun téléchargement",
+    "@noDownloadsError": {
+        "description": "Erreur de page de téléchargements aucun téléchargement",
+        "type": "text"
+    },
+    "fileAccessError": "L'acccès au dossier n'a pas été accepté",
+    "@fileAccessError": {
+        "description": "Erreur d'accès au fichier refusé",
+        "type": "text"
+    },
+    "networkError": "Erreur réseau",
+    "@networkError": {
+        "description": "Erreur réseau",
+        "type": "text"
+    },
+    "downloadingTitle": "Téléchargement",
+    "@downloadingTitle": {
+        "description": "Titre du téléchargement",
+        "type": "text"
+    },
+    "loadingTitle": "Chargement",
+    "@loadingTitle": {
+        "description": "Titre du Chargement",
+        "type": "text"
+    },
+    "cancelText": "Annuler",
+    "@cancelText": {
+        "description": "Texte du bouton d'annulation",
+        "type": "text"
+    }
 }
