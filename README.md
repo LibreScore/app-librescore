@@ -10,7 +10,7 @@ Download the LibreScore app
 
 </div>
 
-> DISCLAIMER: This is not an officially supported MuseScore™ product
+> DISCLAIMER: This is not an officially endorsed MuseScore product
 
 ## Download
 
@@ -40,7 +40,3 @@ Download the LibreScore app
 1. Download [LibreScore.apk](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk)
 2. Open the APK file to install it
 > Note: a message may appear about Play Protect. Tap `Install Anyway` at the bottom
-
----
-
-###### MUSESCORE is a trademark of MuseScore BVBA
