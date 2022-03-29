@@ -1,5 +1,7 @@
 # app-librescore
 
+<div dir="ltr">
+
 <div align="center">
 
 <img src="https://github.com/LibreScore/dl-musescore/raw/master/images/logo.png" width="256" alt="LibreScore logo">
@@ -14,18 +16,20 @@ Download the LibreScore app
 
 ## Download
 
-| <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Windows_logo_and_wordmark_-_2021.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/MacOS_wordmark_%282017%29.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Android_robot_head.svg" width="512"> |
-| :---: | :---: | :---: |
-| Windows (7+) (64-bit only) | macOS (10.11+) (Rosetta 2) | Android (6.0+) |
-| [Download (EXE)](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.exe) | [Download (DMG)](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.dmg) | [Download (APK)](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk) |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Windows_logo_and_wordmark_-_2021.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/MacOS_wordmark_%282017%29.svg" width="512"> |   <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Android_robot_head.svg" width="512">   |
+| :--------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
+|                                            Windows (7+) (64-bit only)                                            |                                        macOS (10.11+) (Rosetta 2)                                         |                                             Android (6.0+)                                             |
+|      [Download (EXE)](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.exe)      |  [Download (DMG)](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.dmg)   | [Download (APK)](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk) |
 
 ## Installation
 
 ### Windows
+
 1. Download [LibreScore.exe](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.exe)
 2. Open the EXE file to install it
 
 ### macOS
+
 1. Download [LibreScore.dmg](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.dmg)
 2. Open the DMG file
 3. Move the APP file to the Applications folder to install it
@@ -37,6 +41,10 @@ Download the LibreScore app
 9. Click `Eject` in the shortcut menu
 
 ### Android
+
 1. Download [LibreScore.apk](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk)
 2. Open the APK file to install it
+
 > Note: a message may appear about Play Protect. Tap `Install Anyway` at the bottom
+
+</div>
