@@ -151,10 +151,6 @@
     "@okText": {
         "type": "text"
     },
-    "editText": "Редактировать",
-    "@editText": {
-        "type": "text"
-    },
     "downloadFolderHint": "Введите папку загрузки",
     "@downloadFolderHint": {
         "type": "text"

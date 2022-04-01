@@ -151,10 +151,6 @@
     "@okText": {
         "type": "text"
     },
-    "editText": "编辑",
-    "@editText": {
-        "type": "text"
-    },
     "downloadFolderHint": "输入下载文件夹",
     "@downloadFolderHint": {
         "type": "text"

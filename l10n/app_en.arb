@@ -186,11 +186,6 @@
         "description": "OK button text",
         "type": "text"
     },
-    "editText": "Edit",
-    "@editText": {
-        "description": "Edit button text",
-        "type": "text"
-    },
     "downloadFolderHint": "Input download folder",
     "@downloadFolderHint": {
         "description": "Download folder hint message",
