@@ -1,6 +1,6 @@
-# app-librescore
-
 <div dir="ltr" align="left">
+
+# LibreScore App
 
 <div align="center">
 
