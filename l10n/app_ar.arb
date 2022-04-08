@@ -91,40 +91,40 @@
     "@noResultsError": {
         "type": "text"
     },
-    "englishText": "الإنجليزية",
-    "@englishText": {
+    "en": "الإنجليزية",
+    "@en": {
         "type": "text"
     },
-    "spanishText": "الإسبانية",
-    "@spanishText": {
+    "es": "الإسبانية",
+    "@es": {
         "type": "text"
     },
-    "frenchText": "الفرنسية",
-    "@frenchText": {
+    "fr": "الفرنسية",
+    "@fr": {
         "type": "text"
     },
-    "arabicText": "العربية",
-    "@arabicText": {
+    "ar": "العربية",
+    "@ar": {
         "type": "text"
     },
-    "russianText": "الروسية",
-    "@russianText": {
+    "ru": "الروسية",
+    "@ru": {
         "type": "text"
     },
-    "simplifiedChineseText": "الصينية المبسطة",
-    "@simplifiedChineseText": {
+    "zh_Hans": "الصينية المبسطة",
+    "@zh_Hans": {
         "type": "text"
     },
-    "italianText": "الإيطالية",
-    "@italianText": {
+    "it": "الإيطالية",
+    "@it": {
         "type": "text"
     },
-    "koreanText": "الكورية",
-    "@koreanText": {
+    "ko": "الكورية",
+    "@ko": {
         "type": "text"
     },
-    "japaneseText": "اليابانية",
-    "@japaneseText": {
+    "ja": "اليابانية",
+    "@ja": {
         "type": "text"
     },
     "updateCheckError": "فشل في التحقق من وجود تحديثات",

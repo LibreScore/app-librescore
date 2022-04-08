@@ -1,38 +1,38 @@
 {
-    "englishText": "Inglese",
-    "@englishText": {
+    "en": "Inglese",
+    "@en": {
         "type": "text"
     },
-    "spanishText": "Spagnolo",
-    "@spanishText": {
+    "es": "Spagnolo",
+    "@es": {
         "type": "text"
     },
-    "frenchText": "Francese",
-    "@frenchText": {
+    "fr": "Francese",
+    "@fr": {
         "type": "text"
     },
-    "arabicText": "Arabo",
-    "@arabicText": {
+    "ar": "Arabo",
+    "@ar": {
         "type": "text"
     },
-    "russianText": "Russo",
-    "@russianText": {
+    "ru": "Russo",
+    "@ru": {
         "type": "text"
     },
-    "simplifiedChineseText": "Cinese semplificato",
-    "@simplifiedChineseText": {
+    "zh_Hans": "Cinese semplificato",
+    "@zh_Hans": {
         "type": "text"
     },
-    "italianText": "Italiano",
-    "@italianText": {
+    "it": "Italiano",
+    "@it": {
         "type": "text"
     },
-    "koreanText": "Coreano",
-    "@koreanText": {
+    "ko": "Coreano",
+    "@ko": {
         "type": "text"
     },
-    "japaneseText": "Giapponese",
-    "@japaneseText": {
+    "ja": "Giapponese",
+    "@ja": {
         "type": "text"
     },
     "librescore": "LibreScore",

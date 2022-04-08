@@ -91,40 +91,40 @@
     "@noResultsError": {
         "type": "text"
     },
-    "englishText": "Английский",
-    "@englishText": {
+    "en": "Английский",
+    "@en": {
         "type": "text"
     },
-    "spanishText": "Испанский",
-    "@spanishText": {
+    "es": "Испанский",
+    "@es": {
         "type": "text"
     },
-    "frenchText": "Французский",
-    "@frenchText": {
+    "fr": "Французский",
+    "@fr": {
         "type": "text"
     },
-    "arabicText": "Арабский",
-    "@arabicText": {
+    "ar": "Арабский",
+    "@ar": {
         "type": "text"
     },
-    "russianText": "Русский",
-    "@russianText": {
+    "ru": "Русский",
+    "@ru": {
         "type": "text"
     },
-    "simplifiedChineseText": "Упрощенный китайский",
-    "@simplifiedChineseText": {
+    "zh_Hans": "Упрощенный китайский",
+    "@zh_Hans": {
         "type": "text"
     },
-    "italianText": "Итальянский",
-    "@italianText": {
+    "it": "Итальянский",
+    "@it": {
         "type": "text"
     },
-    "koreanText": "Корейский",
-    "@koreanText": {
+    "ko": "Корейский",
+    "@ko": {
         "type": "text"
     },
-    "japaneseText": "Японский",
-    "@japaneseText": {
+    "ja": "Японский",
+    "@ja": {
         "type": "text"
     },
     "updateCheckError": "Не удалось проверить наличие обновлений",

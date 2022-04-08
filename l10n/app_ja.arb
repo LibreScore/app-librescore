@@ -75,40 +75,40 @@
     "@darkText": {
         "type": "text"
     },
-    "englishText": "英語",
-    "@englishText": {
+    "en": "英語",
+    "@en": {
         "type": "text"
     },
-    "spanishText": "スペイン語",
-    "@spanishText": {
+    "es": "スペイン語",
+    "@es": {
         "type": "text"
     },
-    "frenchText": "フランス語",
-    "@frenchText": {
+    "fr": "フランス語",
+    "@fr": {
         "type": "text"
     },
-    "arabicText": "アラブ語",
-    "@arabicText": {
+    "ar": "アラブ語",
+    "@ar": {
         "type": "text"
     },
-    "russianText": "ロシア語",
-    "@russianText": {
+    "ru": "ロシア語",
+    "@ru": {
         "type": "text"
     },
-    "simplifiedChineseText": "中国語（簡体）",
-    "@simplifiedChineseText": {
+    "zh_Hans": "中国語（簡体）",
+    "@zh_Hans": {
         "type": "text"
     },
-    "italianText": "アラビア語",
-    "@italianText": {
+    "it": "アラビア語",
+    "@it": {
         "type": "text"
     },
-    "koreanText": "韓国語",
-    "@koreanText": {
+    "ko": "韓国語",
+    "@ko": {
         "type": "text"
     },
-    "japaneseText": "日本語",
-    "@japaneseText": {
+    "ja": "日本語",
+    "@ja": {
         "type": "text"
     },
     "updateCheckError": "アップデート確認失敗",

@@ -91,40 +91,40 @@
     "@noResultsError": {
         "type": "text"
     },
-    "englishText": "Inglés",
-    "@englishText": {
+    "en": "Inglés",
+    "@en": {
         "type": "text"
     },
-    "spanishText": "Español",
-    "@spanishText": {
+    "es": "Español",
+    "@es": {
         "type": "text"
     },
-    "frenchText": "Francés",
-    "@frenchText": {
+    "fr": "Francés",
+    "@fr": {
         "type": "text"
     },
-    "arabicText": "Árabe",
-    "@arabicText": {
+    "ar": "Árabe",
+    "@ar": {
         "type": "text"
     },
-    "russianText": "Ruso",
-    "@russianText": {
+    "ru": "Ruso",
+    "@ru": {
         "type": "text"
     },
-    "simplifiedChineseText": "Chino simplificado",
-    "@simplifiedChineseText": {
+    "zh_Hans": "Chino simplificado",
+    "@zh_Hans": {
         "type": "text"
     },
-    "italianText": "Italiano",
-    "@italianText": {
+    "it": "Italiano",
+    "@it": {
         "type": "text"
     },
-    "koreanText": "Coreano",
-    "@koreanText": {
+    "ko": "Coreano",
+    "@ko": {
         "type": "text"
     },
-    "japaneseText": "Japonés",
-    "@japaneseText": {
+    "ja": "Japonés",
+    "@ja": {
         "type": "text"
     },
     "updateCheckError": "No se pudo buscar actualizaciones",

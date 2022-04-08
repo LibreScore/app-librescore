@@ -91,40 +91,40 @@
     "@noResultsError": {
         "type": "text"
     },
-    "englishText": "영어",
-    "@englishText": {
+    "en": "영어",
+    "@en": {
         "type": "text"
     },
-    "spanishText": "스페인어",
-    "@spanishText": {
+    "es": "스페인어",
+    "@es": {
         "type": "text"
     },
-    "frenchText": "프랑스어",
-    "@frenchText": {
+    "fr": "프랑스어",
+    "@fr": {
         "type": "text"
     },
-    "arabicText": "아랍어",
-    "@arabicText": {
+    "ar": "아랍어",
+    "@ar": {
         "type": "text"
     },
-    "russianText": "러시아어",
-    "@russianText": {
+    "ru": "러시아어",
+    "@ru": {
         "type": "text"
     },
-    "simplifiedChineseText": "중국어 (간체)",
-    "@simplifiedChineseText": {
+    "zh_Hans": "중국어 (간체)",
+    "@zh_Hans": {
         "type": "text"
     },
-    "italianText": "이탈리아어",
-    "@italianText": {
+    "it": "이탈리아어",
+    "@it": {
         "type": "text"
     },
-    "koreanText": "한국어",
-    "@koreanText": {
+    "ko": "한국어",
+    "@ko": {
         "type": "text"
     },
-    "japaneseText": "일본어",
-    "@japaneseText": {
+    "ja": "일본어",
+    "@ja": {
         "type": "text"
     },
     "updateCheckError": "업데이트 확인 실패",

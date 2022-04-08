@@ -114,46 +114,46 @@
         "description": "No results search page error",
         "type": "text"
     },
-    "englishText": "English",
-    "@englishText": {
+    "en": "English",
+    "@en": {
         "description": "English language option text",
         "type": "text"
     },
-    "spanishText": "Spanish",
-    "@spanishText": {
+    "es": "Spanish",
+    "@es": {
         "description": "Spanish language option text",
         "type": "text"
     },
-    "frenchText": "French",
-    "@frenchText": {
+    "fr": "French",
+    "@fr": {
         "description": "French language option text",
         "type": "text"
     },
-    "arabicText": "Arabic",
-    "@arabicText": {
+    "ar": "Arabic",
+    "@ar": {
         "description": "Arabic language option text",
         "type": "text"
     },
-    "russianText": "Russian",
-    "@russianText": {
+    "ru": "Russian",
+    "@ru": {
         "description": "Russian language option text",
         "type": "text"
     },
-    "simplifiedChineseText": "Simplified Chinese",
-    "@simplifiedChineseText": {
+    "zh_Hans": "Simplified Chinese",
+    "@zh_Hans": {
         "description": "Simplified Chinese language option text",
         "type": "text"
     },
-    "italianText": "Italian",
-    "@italianText": {
+    "it": "Italian",
+    "@it": {
         "type": "text"
     },
-    "koreanText": "Korean",
-    "@koreanText": {
+    "ko": "Korean",
+    "@ko": {
         "type": "text"
     },
-    "japaneseText": "Japanese",
-    "@japaneseText": {
+    "ja": "Japanese",
+    "@ja": {
         "type": "text"
     },
     "updateCheckError": "Failed to check for updates",
