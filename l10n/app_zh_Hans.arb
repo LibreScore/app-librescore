@@ -35,7 +35,7 @@
     "@downloadsTitle": {
         "type": "text"
     },
-    "privacyPolicyTitle": "隐私政策",
+    "privacyPolicyTitle": "隐私权政策",
     "@privacyPolicyTitle": {
         "type": "text"
     },
@@ -51,7 +51,7 @@
     "@licensesText": {
         "type": "text"
     },
-    "privacyPolicyText": "隐私政策",
+    "privacyPolicyText": "隐私权政策",
     "@privacyPolicyText": {
         "type": "text"
     },
