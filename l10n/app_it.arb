@@ -1,42 +1,47 @@
 {
-    "en": "Inglese",
-    "@en": {
-        "type": "text"
-    },
-    "es": "Spagnolo",
-    "@es": {
-        "type": "text"
-    },
-    "fr": "Francese",
-    "@fr": {
-        "type": "text"
-    },
-    "ar": "Arabo",
-    "@ar": {
-        "type": "text"
-    },
-    "ru": "Russo",
-    "@ru": {
-        "type": "text"
-    },
-    "zh_Hans": "Cinese semplificato",
-    "@zh_Hans": {
-        "type": "text"
-    },
-    "it": "Italiano",
-    "@it": {
-        "type": "text"
-    },
-    "ko": "Coreano",
-    "@ko": {
-        "type": "text"
-    },
-    "ja": "Giapponese",
-    "@ja": {
-        "type": "text"
-    },
-    "librescore": "LibreScore",
-    "@librescore": {
-        "type": "text"
-    }
+  "en": "Inglese",
+  "@en": {
+    "type": "text"
+  },
+  "es": "Spagnolo",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "Francese",
+  "@fr": {
+    "type": "text"
+  },
+  "ar": "Arabo",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "Russo",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "Cinese semplificato",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "Italiano",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "Coreano",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "Giapponese",
+  "@ja": {
+    "type": "text"
+  },
+  "librescore": "LibreScore",
+  "@librescore": {
+    "type": "text"
+  },
+  "settingsText": "Impostazioni",
+  "@settingsText": {
+    "description": "Settings button text",
+    "type": "text"
+  }
 }
