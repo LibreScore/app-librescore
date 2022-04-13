@@ -156,6 +156,10 @@
     "@ja": {
         "type": "text"
     },
+    "ms": "Malay",
+    "@ms": {
+        "type": "text"
+    },
     "updateCheckError": "Failed to check for updates",
     "@updateCheckError": {
         "description": "Update check error",
