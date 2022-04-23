@@ -1,182 +1,186 @@
 {
-    "settingsText": "設定",
-    "@settingsText": {
-        "type": "text"
-    },
-    "aboutText": "情報",
-    "@aboutText": {
-        "type": "text"
-    },
-    "searchHint": "MuseScoreを検索またはURLを入力",
-    "@searchHint": {
-        "type": "text"
-    },
-    "searchClearTip": "クリア",
-    "@searchClearTip": {
-        "type": "text"
-    },
-    "searchSearchTip": "検索",
-    "@searchSearchTip": {
-        "type": "text"
-    },
-    "homeTitle": "ホーム",
-    "@homeTitle": {
-        "type": "text"
-    },
-    "downloadsTitle": "ダウンロード",
-    "@downloadsTitle": {
-        "type": "text"
-    },
-    "privacyPolicyTitle": "プライバシーポリシー",
-    "@privacyPolicyTitle": {
-        "type": "text"
-    },
-    "aboutTitle": "情報",
-    "@aboutTitle": {
-        "type": "text"
-    },
-    "versionText": "バージョン",
-    "@versionText": {
-        "type": "text"
-    },
-    "privacyPolicyText": "プライバシーポリシー",
-    "@privacyPolicyText": {
-        "type": "text"
-    },
-    "contactText": "連絡",
-    "@contactText": {
-        "type": "text"
-    },
-    "settingsTitle": "設定",
-    "@settingsTitle": {
-        "type": "text"
-    },
-    "downloadFolderText": "ダウンロードフォルダー",
-    "@downloadFolderText": {
-        "type": "text"
-    },
-    "themeText": "テーマ",
-    "@themeText": {
-        "type": "text"
-    },
-    "languageText": "言語",
-    "@languageText": {
-        "type": "text"
-    },
-    "systemText": "システム",
-    "@systemText": {
-        "type": "text"
-    },
-    "lightText": "ライト",
-    "@lightText": {
-        "type": "text"
-    },
-    "darkText": "ダーク",
-    "@darkText": {
-        "type": "text"
-    },
-    "en": "英語",
-    "@en": {
-        "type": "text"
-    },
-    "es": "スペイン語",
-    "@es": {
-        "type": "text"
-    },
-    "fr": "フランス語",
-    "@fr": {
-        "type": "text"
-    },
-    "ar": "アラブ語",
-    "@ar": {
-        "type": "text"
-    },
-    "ru": "ロシア語",
-    "@ru": {
-        "type": "text"
-    },
-    "zh_Hans": "中国語（簡体）",
-    "@zh_Hans": {
-        "type": "text"
-    },
-    "it": "アラビア語",
-    "@it": {
-        "type": "text"
-    },
-    "ko": "韓国語",
-    "@ko": {
-        "type": "text"
-    },
-    "ja": "日本語",
-    "@ja": {
-        "type": "text"
-    },
-    "updateCheckError": "アップデート確認失敗",
-    "@updateCheckError": {
-        "type": "text"
-    },
-    "updateLatestText": "アップデートなし",
-    "@updateLatestText": {
-        "type": "text"
-    },
-    "updateText": "アップデート",
-    "@updateText": {
-        "type": "text"
-    },
-    "ignoreText": "無視",
-    "@ignoreText": {
-        "type": "text"
-    },
-    "okText": "OK",
-    "@okText": {
-        "type": "text"
-    },
-    "downloadFolderHint": "ダウンロードフォルダーを入力",
-    "@downloadFolderHint": {
-        "type": "text"
-    },
-    "noDownloadsError": "ダウンロードなし",
-    "@noDownloadsError": {
-        "type": "text"
-    },
-    "fileAccessError": "ファイルアクセスが拒否されました",
-    "@fileAccessError": {
-        "type": "text"
-    },
-    "networkError": "ネットワークエラー",
-    "@networkError": {
-        "type": "text"
-    },
-    "downloadingTitle": "ダウンロード中",
-    "@downloadingTitle": {
-        "type": "text"
-    },
-    "loadingTitle": "ロード中",
-    "@loadingTitle": {
-        "type": "text"
-    },
-    "cancelText": "キャンセル",
-    "@cancelText": {
-        "type": "text"
-    },
-    "librescore": "リブレスコア",
-    "@librescore": {
-        "type": "text"
-    },
-    "searchError": "キーワードを入力してください",
-    "@searchError": {
-        "type": "text"
-    },
-    "licensesText": "ライセンス",
-    "@licensesText": {
-        "type": "text"
-    },
-    "noResultsError": "検索結果なし",
-    "@noResultsError": {
-        "type": "text"
-    },
-    "updateAvailableText": "アップデート可能",
-    "@updateAvailableText": {
-        "type": "text"
-    }
+  "settingsText": "設定",
+  "@settingsText": {
+    "type": "text"
+  },
+  "aboutText": "情報",
+  "@aboutText": {
+    "type": "text"
+  },
+  "searchHint": "MuseScoreを検索またはURLを入力",
+  "@searchHint": {
+    "type": "text"
+  },
+  "searchClearTip": "クリア",
+  "@searchClearTip": {
+    "type": "text"
+  },
+  "searchSearchTip": "検索",
+  "@searchSearchTip": {
+    "type": "text"
+  },
+  "homeTitle": "ホーム",
+  "@homeTitle": {
+    "type": "text"
+  },
+  "downloadsTitle": "ダウンロード",
+  "@downloadsTitle": {
+    "type": "text"
+  },
+  "privacyPolicyTitle": "プライバシーポリシー",
+  "@privacyPolicyTitle": {
+    "type": "text"
+  },
+  "aboutTitle": "情報",
+  "@aboutTitle": {
+    "type": "text"
+  },
+  "versionText": "バージョン",
+  "@versionText": {
+    "type": "text"
+  },
+  "privacyPolicyText": "プライバシーポリシー",
+  "@privacyPolicyText": {
+    "type": "text"
+  },
+  "contactText": "連絡",
+  "@contactText": {
+    "type": "text"
+  },
+  "settingsTitle": "設定",
+  "@settingsTitle": {
+    "type": "text"
+  },
+  "downloadFolderText": "ダウンロードフォルダー",
+  "@downloadFolderText": {
+    "type": "text"
+  },
+  "themeText": "テーマ",
+  "@themeText": {
+    "type": "text"
+  },
+  "languageText": "言語",
+  "@languageText": {
+    "type": "text"
+  },
+  "systemText": "システム",
+  "@systemText": {
+    "type": "text"
+  },
+  "lightText": "ライト",
+  "@lightText": {
+    "type": "text"
+  },
+  "darkText": "ダーク",
+  "@darkText": {
+    "type": "text"
+  },
+  "en": "英語",
+  "@en": {
+    "type": "text"
+  },
+  "es": "スペイン語",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "フランス語",
+  "@fr": {
+    "type": "text"
+  },
+  "ar": "アラブ語",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "ロシア語",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "中国語（簡体）",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "アラビア語",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "韓国語",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "日本語",
+  "@ja": {
+    "type": "text"
+  },
+  "updateCheckError": "アップデート確認失敗",
+  "@updateCheckError": {
+    "type": "text"
+  },
+  "updateLatestText": "アップデートなし",
+  "@updateLatestText": {
+    "type": "text"
+  },
+  "updateText": "アップデート",
+  "@updateText": {
+    "type": "text"
+  },
+  "ignoreText": "無視",
+  "@ignoreText": {
+    "type": "text"
+  },
+  "okText": "OK",
+  "@okText": {
+    "type": "text"
+  },
+  "downloadFolderHint": "ダウンロードフォルダーを入力",
+  "@downloadFolderHint": {
+    "type": "text"
+  },
+  "noDownloadsError": "ダウンロードなし",
+  "@noDownloadsError": {
+    "type": "text"
+  },
+  "fileAccessError": "ファイルアクセスが拒否されました",
+  "@fileAccessError": {
+    "type": "text"
+  },
+  "networkError": "ネットワークエラー",
+  "@networkError": {
+    "type": "text"
+  },
+  "downloadingTitle": "ダウンロード中",
+  "@downloadingTitle": {
+    "type": "text"
+  },
+  "loadingTitle": "ロード中",
+  "@loadingTitle": {
+    "type": "text"
+  },
+  "cancelText": "キャンセル",
+  "@cancelText": {
+    "type": "text"
+  },
+  "librescore": "リブレスコア",
+  "@librescore": {
+    "type": "text"
+  },
+  "searchError": "キーワードを入力してください",
+  "@searchError": {
+    "type": "text"
+  },
+  "licensesText": "ライセンス",
+  "@licensesText": {
+    "type": "text"
+  },
+  "noResultsError": "検索結果なし",
+  "@noResultsError": {
+    "type": "text"
+  },
+  "updateAvailableText": "アップデート可能",
+  "@updateAvailableText": {
+    "type": "text"
+  },
+  "ms": "マレー語",
+  "@ms": {
+    "type": "text"
+  }
 }
