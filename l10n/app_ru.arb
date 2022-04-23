@@ -1,182 +1,186 @@
 {
-    "librescore": "ЛибрэСкор",
-    "@librescore": {
-        "type": "text"
-    },
-    "settingsText": "Настройки",
-    "@settingsText": {
-        "type": "text"
-    },
-    "aboutText": "О",
-    "@aboutText": {
-        "type": "text"
-    },
-    "searchError": "Пожалуйста, введите запрос",
-    "@searchError": {
-        "type": "text"
-    },
-    "searchHint": "Найдите в MuseScore или введите URL",
-    "@searchHint": {
-        "type": "text"
-    },
-    "searchClearTip": "Прозрачный",
-    "@searchClearTip": {
-        "type": "text"
-    },
-    "searchSearchTip": "Поиск",
-    "@searchSearchTip": {
-        "type": "text"
-    },
-    "homeTitle": "Домой",
-    "@homeTitle": {
-        "type": "text"
-    },
-    "downloadsTitle": "Загрузки",
-    "@downloadsTitle": {
-        "type": "text"
-    },
-    "privacyPolicyTitle": "Политика конфиденциальности",
-    "@privacyPolicyTitle": {
-        "type": "text"
-    },
-    "aboutTitle": "О",
-    "@aboutTitle": {
-        "type": "text"
-    },
-    "versionText": "Версия",
-    "@versionText": {
-        "type": "text"
-    },
-    "licensesText": "Лицензии",
-    "@licensesText": {
-        "type": "text"
-    },
-    "privacyPolicyText": "Политика конфиденциальности",
-    "@privacyPolicyText": {
-        "type": "text"
-    },
-    "contactText": "Контакт",
-    "@contactText": {
-        "type": "text"
-    },
-    "settingsTitle": "Настройки",
-    "@settingsTitle": {
-        "type": "text"
-    },
-    "downloadFolderText": "Папка загрузки",
-    "@downloadFolderText": {
-        "type": "text"
-    },
-    "themeText": "Тема",
-    "@themeText": {
-        "type": "text"
-    },
-    "languageText": "Язык",
-    "@languageText": {
-        "type": "text"
-    },
-    "systemText": "Система",
-    "@systemText": {
-        "type": "text"
-    },
-    "lightText": "Светлый",
-    "@lightText": {
-        "type": "text"
-    },
-    "darkText": "Темно",
-    "@darkText": {
-        "type": "text"
-    },
-    "noResultsError": "Нет результатов",
-    "@noResultsError": {
-        "type": "text"
-    },
-    "en": "Английский",
-    "@en": {
-        "type": "text"
-    },
-    "es": "Испанский",
-    "@es": {
-        "type": "text"
-    },
-    "fr": "Французский",
-    "@fr": {
-        "type": "text"
-    },
-    "ar": "Арабский",
-    "@ar": {
-        "type": "text"
-    },
-    "ru": "Русский",
-    "@ru": {
-        "type": "text"
-    },
-    "zh_Hans": "Упрощенный китайский",
-    "@zh_Hans": {
-        "type": "text"
-    },
-    "it": "Итальянский",
-    "@it": {
-        "type": "text"
-    },
-    "ko": "Корейский",
-    "@ko": {
-        "type": "text"
-    },
-    "ja": "Японский",
-    "@ja": {
-        "type": "text"
-    },
-    "updateCheckError": "Не удалось проверить наличие обновлений",
-    "@updateCheckError": {
-        "type": "text"
-    },
-    "updateAvailableText": "Доступно обновление",
-    "@updateAvailableText": {
-        "type": "text"
-    },
-    "updateLatestText": "Нет новых обновлений",
-    "@updateLatestText": {
-        "type": "text"
-    },
-    "updateText": "Обновлять",
-    "@updateText": {
-        "type": "text"
-    },
-    "ignoreText": "Игнорировать",
-    "@ignoreText": {
-        "type": "text"
-    },
-    "okText": "ОК",
-    "@okText": {
-        "type": "text"
-    },
-    "downloadFolderHint": "Введите папку загрузки",
-    "@downloadFolderHint": {
-        "type": "text"
-    },
-    "noDownloadsError": "Нет загрузок",
-    "@noDownloadsError": {
-        "type": "text"
-    },
-    "fileAccessError": "Доступ к файлу запрещен",
-    "@fileAccessError": {
-        "type": "text"
-    },
-    "networkError": "Сетевая ошибка",
-    "@networkError": {
-        "type": "text"
-    },
-    "downloadingTitle": "Загрузка",
-    "@downloadingTitle": {
-        "type": "text"
-    },
-    "loadingTitle": "Загрузка",
-    "@loadingTitle": {
-        "type": "text"
-    },
-    "cancelText": "Отмена",
-    "@cancelText": {
-        "type": "text"
-    }
+  "librescore": "ЛибрэСкор",
+  "@librescore": {
+    "type": "text"
+  },
+  "settingsText": "Настройки",
+  "@settingsText": {
+    "type": "text"
+  },
+  "aboutText": "О",
+  "@aboutText": {
+    "type": "text"
+  },
+  "searchError": "Пожалуйста, введите запрос",
+  "@searchError": {
+    "type": "text"
+  },
+  "searchHint": "Найдите в MuseScore или введите URL",
+  "@searchHint": {
+    "type": "text"
+  },
+  "searchClearTip": "Прозрачный",
+  "@searchClearTip": {
+    "type": "text"
+  },
+  "searchSearchTip": "Поиск",
+  "@searchSearchTip": {
+    "type": "text"
+  },
+  "homeTitle": "Домой",
+  "@homeTitle": {
+    "type": "text"
+  },
+  "downloadsTitle": "Загрузки",
+  "@downloadsTitle": {
+    "type": "text"
+  },
+  "privacyPolicyTitle": "Политика конфиденциальности",
+  "@privacyPolicyTitle": {
+    "type": "text"
+  },
+  "aboutTitle": "О",
+  "@aboutTitle": {
+    "type": "text"
+  },
+  "versionText": "Версия",
+  "@versionText": {
+    "type": "text"
+  },
+  "licensesText": "Лицензии",
+  "@licensesText": {
+    "type": "text"
+  },
+  "privacyPolicyText": "Политика конфиденциальности",
+  "@privacyPolicyText": {
+    "type": "text"
+  },
+  "contactText": "Контакт",
+  "@contactText": {
+    "type": "text"
+  },
+  "settingsTitle": "Настройки",
+  "@settingsTitle": {
+    "type": "text"
+  },
+  "downloadFolderText": "Папка загрузки",
+  "@downloadFolderText": {
+    "type": "text"
+  },
+  "themeText": "Тема",
+  "@themeText": {
+    "type": "text"
+  },
+  "languageText": "Язык",
+  "@languageText": {
+    "type": "text"
+  },
+  "systemText": "Система",
+  "@systemText": {
+    "type": "text"
+  },
+  "lightText": "Светлый",
+  "@lightText": {
+    "type": "text"
+  },
+  "darkText": "Темно",
+  "@darkText": {
+    "type": "text"
+  },
+  "noResultsError": "Нет результатов",
+  "@noResultsError": {
+    "type": "text"
+  },
+  "en": "Английский",
+  "@en": {
+    "type": "text"
+  },
+  "es": "Испанский",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "Французский",
+  "@fr": {
+    "type": "text"
+  },
+  "ar": "Арабский",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "Русский",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "Упрощенный китайский",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "Итальянский",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "Корейский",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "Японский",
+  "@ja": {
+    "type": "text"
+  },
+  "updateCheckError": "Не удалось проверить наличие обновлений",
+  "@updateCheckError": {
+    "type": "text"
+  },
+  "updateAvailableText": "Доступно обновление",
+  "@updateAvailableText": {
+    "type": "text"
+  },
+  "updateLatestText": "Нет новых обновлений",
+  "@updateLatestText": {
+    "type": "text"
+  },
+  "updateText": "Обновлять",
+  "@updateText": {
+    "type": "text"
+  },
+  "ignoreText": "Игнорировать",
+  "@ignoreText": {
+    "type": "text"
+  },
+  "okText": "ОК",
+  "@okText": {
+    "type": "text"
+  },
+  "downloadFolderHint": "Введите папку загрузки",
+  "@downloadFolderHint": {
+    "type": "text"
+  },
+  "noDownloadsError": "Нет загрузок",
+  "@noDownloadsError": {
+    "type": "text"
+  },
+  "fileAccessError": "Доступ к файлу запрещен",
+  "@fileAccessError": {
+    "type": "text"
+  },
+  "networkError": "Сетевая ошибка",
+  "@networkError": {
+    "type": "text"
+  },
+  "downloadingTitle": "Загрузка",
+  "@downloadingTitle": {
+    "type": "text"
+  },
+  "loadingTitle": "Загрузка",
+  "@loadingTitle": {
+    "type": "text"
+  },
+  "cancelText": "Отмена",
+  "@cancelText": {
+    "type": "text"
+  },
+  "ms": "Малайский",
+  "@ms": {
+    "type": "text"
+  }
 }
