@@ -1,182 +1,186 @@
 {
-    "librescore": "LibreScore",
-    "@librescore": {
-        "type": "text"
-    },
-    "settingsText": "Configuración",
-    "@settingsText": {
-        "type": "text"
-    },
-    "aboutText": "Acerca de",
-    "@aboutText": {
-        "type": "text"
-    },
-    "searchError": "Introduzca una consulta",
-    "@searchError": {
-        "type": "text"
-    },
-    "searchHint": "Busca MuseScore o ingrese una URL",
-    "@searchHint": {
-        "type": "text"
-    },
-    "searchClearTip": "Borrar",
-    "@searchClearTip": {
-        "type": "text"
-    },
-    "searchSearchTip": "Buscar",
-    "@searchSearchTip": {
-        "type": "text"
-    },
-    "homeTitle": "Inicio",
-    "@homeTitle": {
-        "type": "text"
-    },
-    "downloadsTitle": "Descargas",
-    "@downloadsTitle": {
-        "type": "text"
-    },
-    "privacyPolicyTitle": "Política de privacidad",
-    "@privacyPolicyTitle": {
-        "type": "text"
-    },
-    "aboutTitle": "Acerca de",
-    "@aboutTitle": {
-        "type": "text"
-    },
-    "versionText": "Versión",
-    "@versionText": {
-        "type": "text"
-    },
-    "licensesText": "Licencias",
-    "@licensesText": {
-        "type": "text"
-    },
-    "privacyPolicyText": "Política de privacidad",
-    "@privacyPolicyText": {
-        "type": "text"
-    },
-    "contactText": "Contacto",
-    "@contactText": {
-        "type": "text"
-    },
-    "settingsTitle": "Configuración",
-    "@settingsTitle": {
-        "type": "text"
-    },
-    "downloadFolderText": "Carpeta de descarga",
-    "@downloadFolderText": {
-        "type": "text"
-    },
-    "themeText": "Tema",
-    "@themeText": {
-        "type": "text"
-    },
-    "languageText": "Idioma",
-    "@languageText": {
-        "type": "text"
-    },
-    "systemText": "Sistema",
-    "@systemText": {
-        "type": "text"
-    },
-    "lightText": "Luz",
-    "@lightText": {
-        "type": "text"
-    },
-    "darkText": "Oscuro",
-    "@darkText": {
-        "type": "text"
-    },
-    "noResultsError": "Sin resultados",
-    "@noResultsError": {
-        "type": "text"
-    },
-    "en": "Inglés",
-    "@en": {
-        "type": "text"
-    },
-    "es": "Español",
-    "@es": {
-        "type": "text"
-    },
-    "fr": "Francés",
-    "@fr": {
-        "type": "text"
-    },
-    "ar": "Árabe",
-    "@ar": {
-        "type": "text"
-    },
-    "ru": "Ruso",
-    "@ru": {
-        "type": "text"
-    },
-    "zh_Hans": "Chino simplificado",
-    "@zh_Hans": {
-        "type": "text"
-    },
-    "it": "Italiano",
-    "@it": {
-        "type": "text"
-    },
-    "ko": "Coreano",
-    "@ko": {
-        "type": "text"
-    },
-    "ja": "Japonés",
-    "@ja": {
-        "type": "text"
-    },
-    "updateCheckError": "No se pudo buscar actualizaciones",
-    "@updateCheckError": {
-        "type": "text"
-    },
-    "updateAvailableText": "Actualización disponible",
-    "@updateAvailableText": {
-        "type": "text"
-    },
-    "updateLatestText": "No hay nuevas actualizaciones",
-    "@updateLatestText": {
-        "type": "text"
-    },
-    "updateText": "Actualizar",
-    "@updateText": {
-        "type": "text"
-    },
-    "ignoreText": "Ignorar",
-    "@ignoreText": {
-        "type": "text"
-    },
-    "okText": "Aceptar",
-    "@okText": {
-        "type": "text"
-    },
-    "downloadFolderHint": "Ingrese la carpeta de descarga",
-    "@downloadFolderHint": {
-        "type": "text"
-    },
-    "noDownloadsError": "Sin descargas",
-    "@noDownloadsError": {
-        "type": "text"
-    },
-    "fileAccessError": "Acceso a los archivos denegado",
-    "@fileAccessError": {
-        "type": "text"
-    },
-    "networkError": "Error de red",
-    "@networkError": {
-        "type": "text"
-    },
-    "downloadingTitle": "Descargando",
-    "@downloadingTitle": {
-        "type": "text"
-    },
-    "loadingTitle": "Cargando",
-    "@loadingTitle": {
-        "type": "text"
-    },
-    "cancelText": "Cancelar",
-    "@cancelText": {
-        "type": "text"
-    }
+  "librescore": "LibreScore",
+  "@librescore": {
+    "type": "text"
+  },
+  "settingsText": "Configuración",
+  "@settingsText": {
+    "type": "text"
+  },
+  "aboutText": "Acerca de",
+  "@aboutText": {
+    "type": "text"
+  },
+  "searchError": "Introduzca una consulta",
+  "@searchError": {
+    "type": "text"
+  },
+  "searchHint": "Busca MuseScore o ingrese una URL",
+  "@searchHint": {
+    "type": "text"
+  },
+  "searchClearTip": "Borrar",
+  "@searchClearTip": {
+    "type": "text"
+  },
+  "searchSearchTip": "Buscar",
+  "@searchSearchTip": {
+    "type": "text"
+  },
+  "homeTitle": "Inicio",
+  "@homeTitle": {
+    "type": "text"
+  },
+  "downloadsTitle": "Descargas",
+  "@downloadsTitle": {
+    "type": "text"
+  },
+  "privacyPolicyTitle": "Política de privacidad",
+  "@privacyPolicyTitle": {
+    "type": "text"
+  },
+  "aboutTitle": "Acerca de",
+  "@aboutTitle": {
+    "type": "text"
+  },
+  "versionText": "Versión",
+  "@versionText": {
+    "type": "text"
+  },
+  "licensesText": "Licencias",
+  "@licensesText": {
+    "type": "text"
+  },
+  "privacyPolicyText": "Política de privacidad",
+  "@privacyPolicyText": {
+    "type": "text"
+  },
+  "contactText": "Contacto",
+  "@contactText": {
+    "type": "text"
+  },
+  "settingsTitle": "Configuración",
+  "@settingsTitle": {
+    "type": "text"
+  },
+  "downloadFolderText": "Carpeta de descarga",
+  "@downloadFolderText": {
+    "type": "text"
+  },
+  "themeText": "Tema",
+  "@themeText": {
+    "type": "text"
+  },
+  "languageText": "Idioma",
+  "@languageText": {
+    "type": "text"
+  },
+  "systemText": "Sistema",
+  "@systemText": {
+    "type": "text"
+  },
+  "lightText": "Luz",
+  "@lightText": {
+    "type": "text"
+  },
+  "darkText": "Oscuro",
+  "@darkText": {
+    "type": "text"
+  },
+  "noResultsError": "Sin resultados",
+  "@noResultsError": {
+    "type": "text"
+  },
+  "en": "Inglés",
+  "@en": {
+    "type": "text"
+  },
+  "es": "Español",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "Francés",
+  "@fr": {
+    "type": "text"
+  },
+  "ar": "Árabe",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "Ruso",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "Chino simplificado",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "Italiano",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "Coreano",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "Japonés",
+  "@ja": {
+    "type": "text"
+  },
+  "updateCheckError": "No se pudo buscar actualizaciones",
+  "@updateCheckError": {
+    "type": "text"
+  },
+  "updateAvailableText": "Actualización disponible",
+  "@updateAvailableText": {
+    "type": "text"
+  },
+  "updateLatestText": "No hay nuevas actualizaciones",
+  "@updateLatestText": {
+    "type": "text"
+  },
+  "updateText": "Actualizar",
+  "@updateText": {
+    "type": "text"
+  },
+  "ignoreText": "Ignorar",
+  "@ignoreText": {
+    "type": "text"
+  },
+  "okText": "Aceptar",
+  "@okText": {
+    "type": "text"
+  },
+  "downloadFolderHint": "Ingrese la carpeta de descarga",
+  "@downloadFolderHint": {
+    "type": "text"
+  },
+  "noDownloadsError": "Sin descargas",
+  "@noDownloadsError": {
+    "type": "text"
+  },
+  "fileAccessError": "Acceso a los archivos denegado",
+  "@fileAccessError": {
+    "type": "text"
+  },
+  "networkError": "Error de red",
+  "@networkError": {
+    "type": "text"
+  },
+  "downloadingTitle": "Descargando",
+  "@downloadingTitle": {
+    "type": "text"
+  },
+  "loadingTitle": "Cargando",
+  "@loadingTitle": {
+    "type": "text"
+  },
+  "cancelText": "Cancelar",
+  "@cancelText": {
+    "type": "text"
+  },
+  "ms": "Malayo",
+  "@ms": {
+    "type": "text"
+  }
 }
