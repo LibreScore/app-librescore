@@ -43,5 +43,9 @@
   "@settingsText": {
     "description": "Settings button text",
     "type": "text"
+  },
+  "ms": "Malese",
+  "@ms": {
+    "type": "text"
   }
 }
