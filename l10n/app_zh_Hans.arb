@@ -1,182 +1,186 @@
 {
-    "librescore": "利布蕾斯科尔",
-    "@librescore": {
-        "type": "text"
-    },
-    "settingsText": "设置",
-    "@settingsText": {
-        "type": "text"
-    },
-    "aboutText": "关于",
-    "@aboutText": {
-        "type": "text"
-    },
-    "searchError": "请输入查询",
-    "@searchError": {
-        "type": "text"
-    },
-    "searchHint": "搜索 MuseScore 或输入 URL",
-    "@searchHint": {
-        "type": "text"
-    },
-    "searchClearTip": "清除",
-    "@searchClearTip": {
-        "type": "text"
-    },
-    "searchSearchTip": "搜索",
-    "@searchSearchTip": {
-        "type": "text"
-    },
-    "homeTitle": "家",
-    "@homeTitle": {
-        "type": "text"
-    },
-    "downloadsTitle": "下载",
-    "@downloadsTitle": {
-        "type": "text"
-    },
-    "privacyPolicyTitle": "隐私权政策",
-    "@privacyPolicyTitle": {
-        "type": "text"
-    },
-    "aboutTitle": "关于",
-    "@aboutTitle": {
-        "type": "text"
-    },
-    "versionText": "版本",
-    "@versionText": {
-        "type": "text"
-    },
-    "licensesText": "执照",
-    "@licensesText": {
-        "type": "text"
-    },
-    "privacyPolicyText": "隐私权政策",
-    "@privacyPolicyText": {
-        "type": "text"
-    },
-    "contactText": "接触",
-    "@contactText": {
-        "type": "text"
-    },
-    "settingsTitle": "设置",
-    "@settingsTitle": {
-        "type": "text"
-    },
-    "downloadFolderText": "下载文件夹",
-    "@downloadFolderText": {
-        "type": "text"
-    },
-    "themeText": "主题",
-    "@themeText": {
-        "type": "text"
-    },
-    "languageText": "语",
-    "@languageText": {
-        "type": "text"
-    },
-    "systemText": "系统",
-    "@systemText": {
-        "type": "text"
-    },
-    "lightText": "光",
-    "@lightText": {
-        "type": "text"
-    },
-    "darkText": "黑暗的",
-    "@darkText": {
-        "type": "text"
-    },
-    "noResultsError": "没结果",
-    "@noResultsError": {
-        "type": "text"
-    },
-    "en": "英语",
-    "@en": {
-        "type": "text"
-    },
-    "es": "西班牙语",
-    "@es": {
-        "type": "text"
-    },
-    "fr": "法语",
-    "@fr": {
-        "type": "text"
-    },
-    "ar": "阿拉伯语",
-    "@ar": {
-        "type": "text"
-    },
-    "ru": "俄语",
-    "@ru": {
-        "type": "text"
-    },
-    "zh_Hans": "简体中文",
-    "@zh_Hans": {
-        "type": "text"
-    },
-    "it": "意大利语",
-    "@it": {
-        "type": "text"
-    },
-    "ko": "韩国语",
-    "@ko": {
-        "type": "text"
-    },
-    "ja": "日语",
-    "@ja": {
-        "type": "text"
-    },
-    "updateCheckError": "未能检查更新",
-    "@updateCheckError": {
-        "type": "text"
-    },
-    "updateAvailableText": "更新可用",
-    "@updateAvailableText": {
-        "type": "text"
-    },
-    "updateLatestText": "没有新的更新",
-    "@updateLatestText": {
-        "type": "text"
-    },
-    "updateText": "更新",
-    "@updateText": {
-        "type": "text"
-    },
-    "ignoreText": "忽略",
-    "@ignoreText": {
-        "type": "text"
-    },
-    "okText": "确定",
-    "@okText": {
-        "type": "text"
-    },
-    "downloadFolderHint": "输入下载文件夹",
-    "@downloadFolderHint": {
-        "type": "text"
-    },
-    "noDownloadsError": "没有下载",
-    "@noDownloadsError": {
-        "type": "text"
-    },
-    "fileAccessError": "访问文件被拒绝",
-    "@fileAccessError": {
-        "type": "text"
-    },
-    "networkError": "网络错误",
-    "@networkError": {
-        "type": "text"
-    },
-    "downloadingTitle": "下载",
-    "@downloadingTitle": {
-        "type": "text"
-    },
-    "loadingTitle": "正在加载",
-    "@loadingTitle": {
-        "type": "text"
-    },
-    "cancelText": "取消",
-    "@cancelText": {
-        "type": "text"
-    }
+  "librescore": "利布蕾斯科尔",
+  "@librescore": {
+    "type": "text"
+  },
+  "settingsText": "设置",
+  "@settingsText": {
+    "type": "text"
+  },
+  "aboutText": "关于",
+  "@aboutText": {
+    "type": "text"
+  },
+  "searchError": "请输入查询",
+  "@searchError": {
+    "type": "text"
+  },
+  "searchHint": "搜索 MuseScore 或输入 URL",
+  "@searchHint": {
+    "type": "text"
+  },
+  "searchClearTip": "清除",
+  "@searchClearTip": {
+    "type": "text"
+  },
+  "searchSearchTip": "搜索",
+  "@searchSearchTip": {
+    "type": "text"
+  },
+  "homeTitle": "家",
+  "@homeTitle": {
+    "type": "text"
+  },
+  "downloadsTitle": "下载",
+  "@downloadsTitle": {
+    "type": "text"
+  },
+  "privacyPolicyTitle": "隐私权政策",
+  "@privacyPolicyTitle": {
+    "type": "text"
+  },
+  "aboutTitle": "关于",
+  "@aboutTitle": {
+    "type": "text"
+  },
+  "versionText": "版本",
+  "@versionText": {
+    "type": "text"
+  },
+  "licensesText": "执照",
+  "@licensesText": {
+    "type": "text"
+  },
+  "privacyPolicyText": "隐私权政策",
+  "@privacyPolicyText": {
+    "type": "text"
+  },
+  "contactText": "接触",
+  "@contactText": {
+    "type": "text"
+  },
+  "settingsTitle": "设置",
+  "@settingsTitle": {
+    "type": "text"
+  },
+  "downloadFolderText": "下载文件夹",
+  "@downloadFolderText": {
+    "type": "text"
+  },
+  "themeText": "主题",
+  "@themeText": {
+    "type": "text"
+  },
+  "languageText": "语",
+  "@languageText": {
+    "type": "text"
+  },
+  "systemText": "系统",
+  "@systemText": {
+    "type": "text"
+  },
+  "lightText": "光",
+  "@lightText": {
+    "type": "text"
+  },
+  "darkText": "黑暗的",
+  "@darkText": {
+    "type": "text"
+  },
+  "noResultsError": "没结果",
+  "@noResultsError": {
+    "type": "text"
+  },
+  "en": "英语",
+  "@en": {
+    "type": "text"
+  },
+  "es": "西班牙语",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "法语",
+  "@fr": {
+    "type": "text"
+  },
+  "ar": "阿拉伯语",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "俄语",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "简体中文",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "意大利语",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "韩国语",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "日语",
+  "@ja": {
+    "type": "text"
+  },
+  "updateCheckError": "未能检查更新",
+  "@updateCheckError": {
+    "type": "text"
+  },
+  "updateAvailableText": "更新可用",
+  "@updateAvailableText": {
+    "type": "text"
+  },
+  "updateLatestText": "没有新的更新",
+  "@updateLatestText": {
+    "type": "text"
+  },
+  "updateText": "更新",
+  "@updateText": {
+    "type": "text"
+  },
+  "ignoreText": "忽略",
+  "@ignoreText": {
+    "type": "text"
+  },
+  "okText": "确定",
+  "@okText": {
+    "type": "text"
+  },
+  "downloadFolderHint": "输入下载文件夹",
+  "@downloadFolderHint": {
+    "type": "text"
+  },
+  "noDownloadsError": "没有下载",
+  "@noDownloadsError": {
+    "type": "text"
+  },
+  "fileAccessError": "访问文件被拒绝",
+  "@fileAccessError": {
+    "type": "text"
+  },
+  "networkError": "网络错误",
+  "@networkError": {
+    "type": "text"
+  },
+  "downloadingTitle": "下载",
+  "@downloadingTitle": {
+    "type": "text"
+  },
+  "loadingTitle": "正在加载",
+  "@loadingTitle": {
+    "type": "text"
+  },
+  "cancelText": "取消",
+  "@cancelText": {
+    "type": "text"
+  },
+  "ms": "马来语",
+  "@ms": {
+    "type": "text"
+  }
 }
