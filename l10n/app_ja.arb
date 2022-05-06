@@ -87,7 +87,7 @@
     "@fr": {
         "type": "text"
     },
-    "ar": "アラブ語",
+    "ar": "アラビア語",
     "@ar": {
         "type": "text"
     },
@@ -95,11 +95,11 @@
     "@ru": {
         "type": "text"
     },
-    "zh_Hans": "中国語（簡体）",
+    "zh_Hans": "簡体中国語",
     "@zh_Hans": {
         "type": "text"
     },
-    "it": "アラビア語",
+    "it": "イタリア語",
     "@it": {
         "type": "text"
     },
@@ -177,6 +177,10 @@
     },
     "updateAvailableText": "アップデート可能",
     "@updateAvailableText": {
+        "type": "text"
+    },
+    "ms": "マレー語",
+    "@ms": {
         "type": "text"
     }
 }

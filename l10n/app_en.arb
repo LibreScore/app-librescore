@@ -116,32 +116,26 @@
     },
     "en": "English",
     "@en": {
-        "description": "English language option text",
         "type": "text"
     },
     "es": "Spanish",
     "@es": {
-        "description": "Spanish language option text",
         "type": "text"
     },
     "fr": "French",
     "@fr": {
-        "description": "French language option text",
         "type": "text"
     },
     "ar": "Arabic",
     "@ar": {
-        "description": "Arabic language option text",
         "type": "text"
     },
     "ru": "Russian",
     "@ru": {
-        "description": "Russian language option text",
         "type": "text"
     },
     "zh_Hans": "Simplified Chinese",
     "@zh_Hans": {
-        "description": "Simplified Chinese language option text",
         "type": "text"
     },
     "it": "Italian",
@@ -223,6 +217,26 @@
     "cancelText": "Cancel",
     "@cancelText": {
         "description": "Cancel button text",
+        "type": "text"
+    },
+    "librescoreServer": "LibreScore Server",
+    "@librescoreServer": {
+        "description": "LibreScore Server name",
+        "type": "text"
+    },
+    "serverText": "Server",
+    "@serverText": {
+        "description": "Server settings label",
+        "type": "text"
+    },
+    "onText": "On",
+    "@onText": {
+        "description": "On option text",
+        "type": "text"
+    },
+    "offText": "Off",
+    "@offText": {
+        "description": "Off option text",
         "type": "text"
     }
 }

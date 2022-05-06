@@ -119,7 +119,7 @@
     "@it": {
         "type": "text"
     },
-    "ko": "韩国语",
+    "ko": "韩语",
     "@ko": {
         "type": "text"
     },
@@ -177,6 +177,26 @@
     },
     "cancelText": "取消",
     "@cancelText": {
+        "type": "text"
+    },
+    "ms": "马来语",
+    "@ms": {
+        "type": "text"
+    },
+    "librescoreServer": "利布蕾斯科尔 服务器",
+    "@librescoreServer": {
+        "type": "text"
+    },
+    "serverText": "服务器",
+    "@serverText": {
+        "type": "text"
+    },
+    "onText": "已开机",
+    "@onText": {
+        "type": "text"
+    },
+    "offText": "已关闭",
+    "@offText": {
         "type": "text"
     }
 }

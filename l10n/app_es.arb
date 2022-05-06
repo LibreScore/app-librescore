@@ -91,39 +91,39 @@
     "@noResultsError": {
         "type": "text"
     },
-    "en": "Inglés",
+    "en": "inglés",
     "@en": {
         "type": "text"
     },
-    "es": "Español",
+    "es": "español",
     "@es": {
         "type": "text"
     },
-    "fr": "Francés",
+    "fr": "francés",
     "@fr": {
         "type": "text"
     },
-    "ar": "Árabe",
+    "ar": "árabe",
     "@ar": {
         "type": "text"
     },
-    "ru": "Ruso",
+    "ru": "ruso",
     "@ru": {
         "type": "text"
     },
-    "zh_Hans": "Chino simplificado",
+    "zh_Hans": "chino simplificado",
     "@zh_Hans": {
         "type": "text"
     },
-    "it": "Italiano",
+    "it": "italiano",
     "@it": {
         "type": "text"
     },
-    "ko": "Coreano",
+    "ko": "coreano",
     "@ko": {
         "type": "text"
     },
-    "ja": "Japonés",
+    "ja": "japonés",
     "@ja": {
         "type": "text"
     },
@@ -177,6 +177,27 @@
     },
     "cancelText": "Cancelar",
     "@cancelText": {
+        "type": "text"
+    },
+    "ms": "malayo",
+    "@ms": {
+        "type": "text"
+    },
+    "librescoreServer": "Servidor LibreScore",
+    "@librescoreServer": {
+        "description": "Nombre de Servidor LibreScore",
+        "type": "text"
+    },
+    "serverText": "Servidor",
+    "@serverText": {
+        "type": "text"
+    },
+    "onText": "Encendido",
+    "@onText": {
+        "type": "text"
+    },
+    "offText": "Apagado",
+    "@offText": {
         "type": "text"
     }
 }

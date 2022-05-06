@@ -178,5 +178,25 @@
     "cancelText": "إلغاء الأمر",
     "@cancelText": {
         "type": "text"
+    },
+    "ms": "الماليزية",
+    "@ms": {
+        "type": "text"
+    },
+    "librescoreServer": "خادم ليبرايسكور",
+    "@librescoreServer": {
+        "type": "text"
+    },
+    "serverText": "خادم",
+    "@serverText": {
+        "type": "text"
+    },
+    "onText": "متصل",
+    "@onText": {
+        "type": "text"
+    },
+    "offText": "مغلق",
+    "@offText": {
+        "type": "text"
     }
 }

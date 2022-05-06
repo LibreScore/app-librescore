@@ -111,7 +111,7 @@
     "@ru": {
         "type": "text"
     },
-    "zh_Hans": "중국어 (간체)",
+    "zh_Hans": "중국어(간체)",
     "@zh_Hans": {
         "type": "text"
     },
@@ -177,6 +177,10 @@
     },
     "cancelText": "취소",
     "@cancelText": {
+        "type": "text"
+    },
+    "ms": "말레이어",
+    "@ms": {
         "type": "text"
     }
 }

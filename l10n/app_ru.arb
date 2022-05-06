@@ -91,39 +91,39 @@
     "@noResultsError": {
         "type": "text"
     },
-    "en": "Английский",
+    "en": "английский",
     "@en": {
         "type": "text"
     },
-    "es": "Испанский",
+    "es": "испанский",
     "@es": {
         "type": "text"
     },
-    "fr": "Французский",
+    "fr": "французский",
     "@fr": {
         "type": "text"
     },
-    "ar": "Арабский",
+    "ar": "арабский",
     "@ar": {
         "type": "text"
     },
-    "ru": "Русский",
+    "ru": "русский",
     "@ru": {
         "type": "text"
     },
-    "zh_Hans": "Упрощенный китайский",
+    "zh_Hans": "китайский, упрощенное письмо",
     "@zh_Hans": {
         "type": "text"
     },
-    "it": "Итальянский",
+    "it": "итальянский",
     "@it": {
         "type": "text"
     },
-    "ko": "Корейский",
+    "ko": "корейский",
     "@ko": {
         "type": "text"
     },
-    "ja": "Японский",
+    "ja": "японский",
     "@ja": {
         "type": "text"
     },
@@ -177,6 +177,26 @@
     },
     "cancelText": "Отмена",
     "@cancelText": {
+        "type": "text"
+    },
+    "ms": "малайский",
+    "@ms": {
+        "type": "text"
+    },
+    "librescoreServer": "Сервер ЛибрэСкор",
+    "@librescoreServer": {
+        "type": "text"
+    },
+    "serverText": "Сервер",
+    "@serverText": {
+        "type": "text"
+    },
+    "onText": "Включенный",
+    "@onText": {
+        "type": "text"
+    },
+    "offText": "Выключен",
+    "@offText": {
         "type": "text"
     }
 }
