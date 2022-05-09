@@ -1,202 +1,202 @@
 {
-    "librescore": "ليبرايسكور",
-    "@librescore": {
-        "type": "text"
-    },
-    "settingsText": "إعدادات",
-    "@settingsText": {
-        "type": "text"
-    },
-    "aboutText": "حول",
-    "@aboutText": {
-        "type": "text"
-    },
-    "searchError": "الرجاء إدخال استعلام",
-    "@searchError": {
-        "type": "text"
-    },
-    "searchHint": "ابحث في MuseScore أو أدخل عنوان URL",
-    "@searchHint": {
-        "type": "text"
-    },
-    "searchClearTip": "مسح",
-    "@searchClearTip": {
-        "type": "text"
-    },
-    "searchSearchTip": "بحث",
-    "@searchSearchTip": {
-        "type": "text"
-    },
-    "homeTitle": "مسكن",
-    "@homeTitle": {
-        "type": "text"
-    },
-    "downloadsTitle": "التنزيلات",
-    "@downloadsTitle": {
-        "type": "text"
-    },
-    "privacyPolicyTitle": "سياسة الخصوصية",
-    "@privacyPolicyTitle": {
-        "type": "text"
-    },
-    "aboutTitle": "حول",
-    "@aboutTitle": {
-        "type": "text"
-    },
-    "versionText": "الإصدار",
-    "@versionText": {
-        "type": "text"
-    },
-    "licensesText": "التراخيص",
-    "@licensesText": {
-        "type": "text"
-    },
-    "privacyPolicyText": "سياسة الخصوصية",
-    "@privacyPolicyText": {
-        "type": "text"
-    },
-    "contactText": "اتصل",
-    "@contactText": {
-        "type": "text"
-    },
-    "settingsTitle": "الإعدادات",
-    "@settingsTitle": {
-        "type": "text"
-    },
-    "downloadFolderText": "مجلد التنزيل",
-    "@downloadFolderText": {
-        "type": "text"
-    },
-    "themeText": "مظهر",
-    "@themeText": {
-        "type": "text"
-    },
-    "languageText": "لغة",
-    "@languageText": {
-        "type": "text"
-    },
-    "systemText": "نظام",
-    "@systemText": {
-        "type": "text"
-    },
-    "lightText": "خفيفة",
-    "@lightText": {
-        "type": "text"
-    },
-    "darkText": "داكن",
-    "@darkText": {
-        "type": "text"
-    },
-    "noResultsError": "لا نتائج",
-    "@noResultsError": {
-        "type": "text"
-    },
-    "en": "الإنجليزية",
-    "@en": {
-        "type": "text"
-    },
-    "es": "الإسبانية",
-    "@es": {
-        "type": "text"
-    },
-    "fr": "الفرنسية",
-    "@fr": {
-        "type": "text"
-    },
-    "ar": "العربية",
-    "@ar": {
-        "type": "text"
-    },
-    "ru": "الروسية",
-    "@ru": {
-        "type": "text"
-    },
-    "zh_Hans": "الصينية المبسطة",
-    "@zh_Hans": {
-        "type": "text"
-    },
-    "it": "الإيطالية",
-    "@it": {
-        "type": "text"
-    },
-    "ko": "الكورية",
-    "@ko": {
-        "type": "text"
-    },
-    "ja": "اليابانية",
-    "@ja": {
-        "type": "text"
-    },
-    "updateCheckError": "فشل في التحقق من وجود تحديثات",
-    "@updateCheckError": {
-        "type": "text"
-    },
-    "updateAvailableText": "التحديث متاح",
-    "@updateAvailableText": {
-        "type": "text"
-    },
-    "updateLatestText": "لا تحديثات جديدة",
-    "@updateLatestText": {
-        "type": "text"
-    },
-    "updateText": "تحديث",
-    "@updateText": {
-        "type": "text"
-    },
-    "ignoreText": "تجاهل",
-    "@ignoreText": {
-        "type": "text"
-    },
-    "okText": "موافق",
-    "@okText": {
-        "type": "text"
-    },
-    "downloadFolderHint": "أدخل مجلد التنزيل",
-    "@downloadFolderHint": {
-        "type": "text"
-    },
-    "noDownloadsError": "لا تنزيلات",
-    "@noDownloadsError": {
-        "type": "text"
-    },
-    "fileAccessError": "فتح الملف مرفوض",
-    "@fileAccessError": {
-        "type": "text"
-    },
-    "networkError": "خطأ في الشبكة",
-    "@networkError": {
-        "type": "text"
-    },
-    "downloadingTitle": "جار التنزيل",
-    "@downloadingTitle": {
-        "type": "text"
-    },
-    "loadingTitle": "جار التحميل",
-    "@loadingTitle": {
-        "type": "text"
-    },
-    "cancelText": "إلغاء الأمر",
-    "@cancelText": {
-        "type": "text"
-    },
-    "ms": "الماليزية",
-    "@ms": {
-        "type": "text"
-    },
-    "librescoreServer": "خادم ليبرايسكور",
-    "@librescoreServer": {
-        "type": "text"
-    },
-    "serverText": "خادم",
-    "@serverText": {
-        "type": "text"
-    },
-    "onText": "متصل",
-    "@onText": {
-        "type": "text"
-    },
-    "offText": "مغلق",
-    "@offText": {
-        "type": "text"
-    }
+  "librescore": "ليبرايسكور",
+  "@librescore": {
+    "type": "text"
+  },
+  "settingsText": "إعدادات",
+  "@settingsText": {
+    "type": "text"
+  },
+  "aboutText": "حول",
+  "@aboutText": {
+    "type": "text"
+  },
+  "searchError": "الرجاء إدخال استعلام",
+  "@searchError": {
+    "type": "text"
+  },
+  "searchHint": "ابحث في MuseScore أو أدخل عنوان URL",
+  "@searchHint": {
+    "type": "text"
+  },
+  "searchClearTip": "مسح",
+  "@searchClearTip": {
+    "type": "text"
+  },
+  "searchSearchTip": "بحث",
+  "@searchSearchTip": {
+    "type": "text"
+  },
+  "homeTitle": "مسكن",
+  "@homeTitle": {
+    "type": "text"
+  },
+  "downloadsTitle": "التنزيلات",
+  "@downloadsTitle": {
+    "type": "text"
+  },
+  "privacyPolicyTitle": "سياسة الخصوصية",
+  "@privacyPolicyTitle": {
+    "type": "text"
+  },
+  "aboutTitle": "حول",
+  "@aboutTitle": {
+    "type": "text"
+  },
+  "versionText": "الإصدار",
+  "@versionText": {
+    "type": "text"
+  },
+  "licensesText": "التراخيص",
+  "@licensesText": {
+    "type": "text"
+  },
+  "privacyPolicyText": "سياسة الخصوصية",
+  "@privacyPolicyText": {
+    "type": "text"
+  },
+  "contactText": "اتصل",
+  "@contactText": {
+    "type": "text"
+  },
+  "settingsTitle": "الإعدادات",
+  "@settingsTitle": {
+    "type": "text"
+  },
+  "downloadFolderText": "مجلد التنزيل",
+  "@downloadFolderText": {
+    "type": "text"
+  },
+  "themeText": "مظهر",
+  "@themeText": {
+    "type": "text"
+  },
+  "languageText": "لغة",
+  "@languageText": {
+    "type": "text"
+  },
+  "systemText": "نظام",
+  "@systemText": {
+    "type": "text"
+  },
+  "lightText": "خفيفة",
+  "@lightText": {
+    "type": "text"
+  },
+  "darkText": "داكن",
+  "@darkText": {
+    "type": "text"
+  },
+  "noResultsError": "لا نتائج",
+  "@noResultsError": {
+    "type": "text"
+  },
+  "en": "الإنجليزية",
+  "@en": {
+    "type": "text"
+  },
+  "es": "الإسبانية",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "الفرنسية",
+  "@fr": {
+    "type": "text"
+  },
+  "ar": "العربية",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "الروسية",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "الصينية المبسطة",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "الإيطالية",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "الكورية",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "اليابانية",
+  "@ja": {
+    "type": "text"
+  },
+  "updateCheckError": "فشل في التحقق من وجود تحديثات",
+  "@updateCheckError": {
+    "type": "text"
+  },
+  "updateAvailableText": "التحديث متاح",
+  "@updateAvailableText": {
+    "type": "text"
+  },
+  "updateLatestText": "لا تحديثات جديدة",
+  "@updateLatestText": {
+    "type": "text"
+  },
+  "updateText": "تحديث",
+  "@updateText": {
+    "type": "text"
+  },
+  "ignoreText": "تجاهل",
+  "@ignoreText": {
+    "type": "text"
+  },
+  "okText": "موافق",
+  "@okText": {
+    "type": "text"
+  },
+  "downloadFolderHint": "أدخل مجلد التنزيل",
+  "@downloadFolderHint": {
+    "type": "text"
+  },
+  "noDownloadsError": "لا تنزيلات",
+  "@noDownloadsError": {
+    "type": "text"
+  },
+  "fileAccessError": "فتح الملف مرفوض",
+  "@fileAccessError": {
+    "type": "text"
+  },
+  "networkError": "خطأ في الشبكة",
+  "@networkError": {
+    "type": "text"
+  },
+  "downloadingTitle": "جار التنزيل",
+  "@downloadingTitle": {
+    "type": "text"
+  },
+  "loadingTitle": "جار التحميل",
+  "@loadingTitle": {
+    "type": "text"
+  },
+  "cancelText": "إلغاء الأمر",
+  "@cancelText": {
+    "type": "text"
+  },
+  "ms": "الماليزية",
+  "@ms": {
+    "type": "text"
+  },
+  "librescoreServer": "خادم ليبرايسكور",
+  "@librescoreServer": {
+    "type": "text"
+  },
+  "serverText": "خادم",
+  "@serverText": {
+    "type": "text"
+  },
+  "onText": "متصل",
+  "@onText": {
+    "type": "text"
+  },
+  "offText": "مغلق",
+  "@offText": {
+    "type": "text"
+  }
 }

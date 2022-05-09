@@ -1,186 +1,186 @@
 {
-    "settingsText": "Tetapan",
-    "@settingsText": {
-        "type": "text"
-    },
-    "aboutText": "Tentang",
-    "@aboutText": {
-        "type": "text"
-    },
-    "searchError": "Sila masukkan pertanyaan",
-    "@searchError": {
-        "type": "text"
-    },
-    "searchClearTip": "Padam",
-    "@searchClearTip": {
-        "type": "text"
-    },
-    "searchSearchTip": "Cari",
-    "@searchSearchTip": {
-        "type": "text"
-    },
-    "homeTitle": "Laman Utama",
-    "@homeTitle": {
-        "type": "text"
-    },
-    "downloadsTitle": "Muat turun",
-    "@downloadsTitle": {
-        "type": "text"
-    },
-    "aboutTitle": "Tentang",
-    "@aboutTitle": {
-        "type": "text"
-    },
-    "versionText": "Versi",
-    "@versionText": {
-        "type": "text"
-    },
-    "licensesText": "Lesen",
-    "@licensesText": {
-        "type": "text"
-    },
-    "privacyPolicyText": "Dasar privasi",
-    "@privacyPolicyText": {
-        "type": "text"
-    },
-    "contactText": "Hubungi Kami",
-    "@contactText": {
-        "type": "text"
-    },
-    "settingsTitle": "Tetapan",
-    "@settingsTitle": {
-        "type": "text"
-    },
-    "themeText": "Tema",
-    "@themeText": {
-        "type": "text"
-    },
-    "languageText": "Bahasa",
-    "@languageText": {
-        "type": "text"
-    },
-    "systemText": "Sistem",
-    "@systemText": {
-        "type": "text"
-    },
-    "lightText": "Terang",
-    "@lightText": {
-        "type": "text"
-    },
-    "darkText": "Gelap",
-    "@darkText": {
-        "type": "text"
-    },
-    "noResultsError": "Tiada keputusan",
-    "@noResultsError": {
-        "type": "text"
-    },
-    "es": "Sepanyol",
-    "@es": {
-        "type": "text"
-    },
-    "fr": "Perancis",
-    "@fr": {
-        "type": "text"
-    },
-    "en": "Inggeris",
-    "@en": {
-        "type": "text"
-    },
-    "ar": "Arab",
-    "@ar": {
-        "type": "text"
-    },
-    "ru": "Rusia",
-    "@ru": {
-        "type": "text"
-    },
-    "zh_Hans": "Cina Ringkas",
-    "@zh_Hans": {
-        "type": "text"
-    },
-    "it": "Itali",
-    "@it": {
-        "type": "text"
-    },
-    "ko": "Korea",
-    "@ko": {
-        "type": "text"
-    },
-    "ja": "Jepun",
-    "@ja": {
-        "type": "text"
-    },
-    "updateAvailableText": "Kemaskini ada",
-    "@updateAvailableText": {
-        "type": "text"
-    },
-    "updateLatestText": "Tiada kemas kini baharu",
-    "@updateLatestText": {
-        "type": "text"
-    },
-    "updateText": "Kemas kini",
-    "@updateText": {
-        "type": "text"
-    },
-    "ignoreText": "Abaikan",
-    "@ignoreText": {
-        "type": "text"
-    },
-    "okText": "OK",
-    "@okText": {
-        "type": "text"
-    },
-    "downloadFolderHint": "Masukkan folder muat turun",
-    "@downloadFolderHint": {
-        "type": "text"
-    },
-    "noDownloadsError": "Tiada muat turun",
-    "@noDownloadsError": {
-        "type": "text"
-    },
-    "fileAccessError": "Fail tidak boleh diakses",
-    "@fileAccessError": {
-        "type": "text"
-    },
-    "networkError": "Ralat rangkaian",
-    "@networkError": {
-        "type": "text"
-    },
-    "downloadingTitle": "Memuat turun",
-    "@downloadingTitle": {
-        "type": "text"
-    },
-    "loadingTitle": "Memuatkan",
-    "@loadingTitle": {
-        "type": "text"
-    },
-    "cancelText": "Batal",
-    "@cancelText": {
-        "type": "text"
-    },
-    "librescore": "LibreScore",
-    "@librescore": {
-        "type": "text"
-    },
-    "searchHint": "Cari MuseScore atau masukkan URL",
-    "@searchHint": {
-        "type": "text"
-    },
-    "privacyPolicyTitle": "Dasar Privasi",
-    "@privacyPolicyTitle": {
-        "type": "text"
-    },
-    "downloadFolderText": "Folder muat turun",
-    "@downloadFolderText": {
-        "type": "text"
-    },
-    "updateCheckError": "Gagal menyemak kemas kini",
-    "@updateCheckError": {
-        "type": "text"
-    },
-    "ms": "Melayu",
-    "@ms": {
-        "type": "text"
-    }
+  "settingsText": "Tetapan",
+  "@settingsText": {
+    "type": "text"
+  },
+  "aboutText": "Tentang",
+  "@aboutText": {
+    "type": "text"
+  },
+  "searchError": "Sila masukkan pertanyaan",
+  "@searchError": {
+    "type": "text"
+  },
+  "searchClearTip": "Padam",
+  "@searchClearTip": {
+    "type": "text"
+  },
+  "searchSearchTip": "Cari",
+  "@searchSearchTip": {
+    "type": "text"
+  },
+  "homeTitle": "Laman Utama",
+  "@homeTitle": {
+    "type": "text"
+  },
+  "downloadsTitle": "Muat turun",
+  "@downloadsTitle": {
+    "type": "text"
+  },
+  "aboutTitle": "Tentang",
+  "@aboutTitle": {
+    "type": "text"
+  },
+  "versionText": "Versi",
+  "@versionText": {
+    "type": "text"
+  },
+  "licensesText": "Lesen",
+  "@licensesText": {
+    "type": "text"
+  },
+  "privacyPolicyText": "Dasar privasi",
+  "@privacyPolicyText": {
+    "type": "text"
+  },
+  "contactText": "Hubungi Kami",
+  "@contactText": {
+    "type": "text"
+  },
+  "settingsTitle": "Tetapan",
+  "@settingsTitle": {
+    "type": "text"
+  },
+  "themeText": "Tema",
+  "@themeText": {
+    "type": "text"
+  },
+  "languageText": "Bahasa",
+  "@languageText": {
+    "type": "text"
+  },
+  "systemText": "Sistem",
+  "@systemText": {
+    "type": "text"
+  },
+  "lightText": "Terang",
+  "@lightText": {
+    "type": "text"
+  },
+  "darkText": "Gelap",
+  "@darkText": {
+    "type": "text"
+  },
+  "noResultsError": "Tiada keputusan",
+  "@noResultsError": {
+    "type": "text"
+  },
+  "es": "Sepanyol",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "Perancis",
+  "@fr": {
+    "type": "text"
+  },
+  "en": "Inggeris",
+  "@en": {
+    "type": "text"
+  },
+  "ar": "Arab",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "Rusia",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "Cina Ringkas",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "Itali",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "Korea",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "Jepun",
+  "@ja": {
+    "type": "text"
+  },
+  "updateAvailableText": "Kemaskini ada",
+  "@updateAvailableText": {
+    "type": "text"
+  },
+  "updateLatestText": "Tiada kemas kini baharu",
+  "@updateLatestText": {
+    "type": "text"
+  },
+  "updateText": "Kemas kini",
+  "@updateText": {
+    "type": "text"
+  },
+  "ignoreText": "Abaikan",
+  "@ignoreText": {
+    "type": "text"
+  },
+  "okText": "OK",
+  "@okText": {
+    "type": "text"
+  },
+  "downloadFolderHint": "Masukkan folder muat turun",
+  "@downloadFolderHint": {
+    "type": "text"
+  },
+  "noDownloadsError": "Tiada muat turun",
+  "@noDownloadsError": {
+    "type": "text"
+  },
+  "fileAccessError": "Fail tidak boleh diakses",
+  "@fileAccessError": {
+    "type": "text"
+  },
+  "networkError": "Ralat rangkaian",
+  "@networkError": {
+    "type": "text"
+  },
+  "downloadingTitle": "Memuat turun",
+  "@downloadingTitle": {
+    "type": "text"
+  },
+  "loadingTitle": "Memuatkan",
+  "@loadingTitle": {
+    "type": "text"
+  },
+  "cancelText": "Batal",
+  "@cancelText": {
+    "type": "text"
+  },
+  "librescore": "LibreScore",
+  "@librescore": {
+    "type": "text"
+  },
+  "searchHint": "Cari MuseScore atau masukkan URL",
+  "@searchHint": {
+    "type": "text"
+  },
+  "privacyPolicyTitle": "Dasar Privasi",
+  "@privacyPolicyTitle": {
+    "type": "text"
+  },
+  "downloadFolderText": "Folder muat turun",
+  "@downloadFolderText": {
+    "type": "text"
+  },
+  "updateCheckError": "Gagal menyemak kemas kini",
+  "@updateCheckError": {
+    "type": "text"
+  },
+  "ms": "Melayu",
+  "@ms": {
+    "type": "text"
+  }
 }

@@ -1,186 +1,186 @@
 {
-    "librescore": "리브레스코어",
-    "@librescore": {
-        "type": "text"
-    },
-    "settingsText": "설정",
-    "@settingsText": {
-        "type": "text"
-    },
-    "aboutText": "정보",
-    "@aboutText": {
-        "type": "text"
-    },
-    "searchError": "문자열을 입력해 주세요",
-    "@searchError": {
-        "type": "text"
-    },
-    "searchHint": "MuseScore 검색 혹은 URL 입력",
-    "@searchHint": {
-        "type": "text"
-    },
-    "searchClearTip": "지우기",
-    "@searchClearTip": {
-        "type": "text"
-    },
-    "searchSearchTip": "검색",
-    "@searchSearchTip": {
-        "type": "text"
-    },
-    "homeTitle": "홈",
-    "@homeTitle": {
-        "type": "text"
-    },
-    "downloadsTitle": "다운로드",
-    "@downloadsTitle": {
-        "type": "text"
-    },
-    "privacyPolicyTitle": "개인정보처리방침",
-    "@privacyPolicyTitle": {
-        "type": "text"
-    },
-    "aboutTitle": "정보",
-    "@aboutTitle": {
-        "type": "text"
-    },
-    "versionText": "버전",
-    "@versionText": {
-        "type": "text"
-    },
-    "licensesText": "라이선스",
-    "@licensesText": {
-        "type": "text"
-    },
-    "privacyPolicyText": "개인정보처리방침",
-    "@privacyPolicyText": {
-        "type": "text"
-    },
-    "contactText": "연락",
-    "@contactText": {
-        "type": "text"
-    },
-    "settingsTitle": "설정",
-    "@settingsTitle": {
-        "type": "text"
-    },
-    "downloadFolderText": "다운로드 폴더",
-    "@downloadFolderText": {
-        "type": "text"
-    },
-    "themeText": "테마",
-    "@themeText": {
-        "type": "text"
-    },
-    "languageText": "언어",
-    "@languageText": {
-        "type": "text"
-    },
-    "systemText": "시스템",
-    "@systemText": {
-        "type": "text"
-    },
-    "lightText": "라이트",
-    "@lightText": {
-        "type": "text"
-    },
-    "darkText": "다크",
-    "@darkText": {
-        "type": "text"
-    },
-    "noResultsError": "검색 결과 없음",
-    "@noResultsError": {
-        "type": "text"
-    },
-    "en": "영어",
-    "@en": {
-        "type": "text"
-    },
-    "es": "스페인어",
-    "@es": {
-        "type": "text"
-    },
-    "fr": "프랑스어",
-    "@fr": {
-        "type": "text"
-    },
-    "ar": "아랍어",
-    "@ar": {
-        "type": "text"
-    },
-    "ru": "러시아어",
-    "@ru": {
-        "type": "text"
-    },
-    "zh_Hans": "중국어(간체)",
-    "@zh_Hans": {
-        "type": "text"
-    },
-    "it": "이탈리아어",
-    "@it": {
-        "type": "text"
-    },
-    "ko": "한국어",
-    "@ko": {
-        "type": "text"
-    },
-    "ja": "일본어",
-    "@ja": {
-        "type": "text"
-    },
-    "updateCheckError": "업데이트 확인 실패",
-    "@updateCheckError": {
-        "type": "text"
-    },
-    "updateAvailableText": "업데이트 있음",
-    "@updateAvailableText": {
-        "type": "text"
-    },
-    "updateLatestText": "업데이트 없음",
-    "@updateLatestText": {
-        "type": "text"
-    },
-    "updateText": "업데이트",
-    "@updateText": {
-        "type": "text"
-    },
-    "ignoreText": "무시",
-    "@ignoreText": {
-        "type": "text"
-    },
-    "okText": "확인",
-    "@okText": {
-        "type": "text"
-    },
-    "downloadFolderHint": "다운로드 폴더 입력",
-    "@downloadFolderHint": {
-        "type": "text"
-    },
-    "noDownloadsError": "다운로드 없음",
-    "@noDownloadsError": {
-        "type": "text"
-    },
-    "fileAccessError": "파일 액세스 거부됨",
-    "@fileAccessError": {
-        "type": "text"
-    },
-    "networkError": "네트워크 에러",
-    "@networkError": {
-        "type": "text"
-    },
-    "downloadingTitle": "다운로드 중",
-    "@downloadingTitle": {
-        "type": "text"
-    },
-    "loadingTitle": "로드 중",
-    "@loadingTitle": {
-        "type": "text"
-    },
-    "cancelText": "취소",
-    "@cancelText": {
-        "type": "text"
-    },
-    "ms": "말레이어",
-    "@ms": {
-        "type": "text"
-    }
+  "librescore": "리브레스코어",
+  "@librescore": {
+    "type": "text"
+  },
+  "settingsText": "설정",
+  "@settingsText": {
+    "type": "text"
+  },
+  "aboutText": "정보",
+  "@aboutText": {
+    "type": "text"
+  },
+  "searchError": "문자열을 입력해 주세요",
+  "@searchError": {
+    "type": "text"
+  },
+  "searchHint": "MuseScore 검색 혹은 URL 입력",
+  "@searchHint": {
+    "type": "text"
+  },
+  "searchClearTip": "지우기",
+  "@searchClearTip": {
+    "type": "text"
+  },
+  "searchSearchTip": "검색",
+  "@searchSearchTip": {
+    "type": "text"
+  },
+  "homeTitle": "홈",
+  "@homeTitle": {
+    "type": "text"
+  },
+  "downloadsTitle": "다운로드",
+  "@downloadsTitle": {
+    "type": "text"
+  },
+  "privacyPolicyTitle": "개인정보처리방침",
+  "@privacyPolicyTitle": {
+    "type": "text"
+  },
+  "aboutTitle": "정보",
+  "@aboutTitle": {
+    "type": "text"
+  },
+  "versionText": "버전",
+  "@versionText": {
+    "type": "text"
+  },
+  "licensesText": "라이선스",
+  "@licensesText": {
+    "type": "text"
+  },
+  "privacyPolicyText": "개인정보처리방침",
+  "@privacyPolicyText": {
+    "type": "text"
+  },
+  "contactText": "연락",
+  "@contactText": {
+    "type": "text"
+  },
+  "settingsTitle": "설정",
+  "@settingsTitle": {
+    "type": "text"
+  },
+  "downloadFolderText": "다운로드 폴더",
+  "@downloadFolderText": {
+    "type": "text"
+  },
+  "themeText": "테마",
+  "@themeText": {
+    "type": "text"
+  },
+  "languageText": "언어",
+  "@languageText": {
+    "type": "text"
+  },
+  "systemText": "시스템",
+  "@systemText": {
+    "type": "text"
+  },
+  "lightText": "라이트",
+  "@lightText": {
+    "type": "text"
+  },
+  "darkText": "다크",
+  "@darkText": {
+    "type": "text"
+  },
+  "noResultsError": "검색 결과 없음",
+  "@noResultsError": {
+    "type": "text"
+  },
+  "en": "영어",
+  "@en": {
+    "type": "text"
+  },
+  "es": "스페인어",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "프랑스어",
+  "@fr": {
+    "type": "text"
+  },
+  "ar": "아랍어",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "러시아어",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "중국어(간체)",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "이탈리아어",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "한국어",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "일본어",
+  "@ja": {
+    "type": "text"
+  },
+  "updateCheckError": "업데이트 확인 실패",
+  "@updateCheckError": {
+    "type": "text"
+  },
+  "updateAvailableText": "업데이트 있음",
+  "@updateAvailableText": {
+    "type": "text"
+  },
+  "updateLatestText": "업데이트 없음",
+  "@updateLatestText": {
+    "type": "text"
+  },
+  "updateText": "업데이트",
+  "@updateText": {
+    "type": "text"
+  },
+  "ignoreText": "무시",
+  "@ignoreText": {
+    "type": "text"
+  },
+  "okText": "확인",
+  "@okText": {
+    "type": "text"
+  },
+  "downloadFolderHint": "다운로드 폴더 입력",
+  "@downloadFolderHint": {
+    "type": "text"
+  },
+  "noDownloadsError": "다운로드 없음",
+  "@noDownloadsError": {
+    "type": "text"
+  },
+  "fileAccessError": "파일 액세스 거부됨",
+  "@fileAccessError": {
+    "type": "text"
+  },
+  "networkError": "네트워크 에러",
+  "@networkError": {
+    "type": "text"
+  },
+  "downloadingTitle": "다운로드 중",
+  "@downloadingTitle": {
+    "type": "text"
+  },
+  "loadingTitle": "로드 중",
+  "@loadingTitle": {
+    "type": "text"
+  },
+  "cancelText": "취소",
+  "@cancelText": {
+    "type": "text"
+  },
+  "ms": "말레이어",
+  "@ms": {
+    "type": "text"
+  }
 }

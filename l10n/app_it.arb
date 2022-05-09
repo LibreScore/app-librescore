@@ -1,50 +1,50 @@
 {
-    "en": "inglese",
-    "@en": {
-        "type": "text"
-    },
-    "es": "spagnolo",
-    "@es": {
-        "type": "text"
-    },
-    "fr": "francese",
-    "@fr": {
-        "type": "text"
-    },
-    "ar": "arabo",
-    "@ar": {
-        "type": "text"
-    },
-    "ru": "russo",
-    "@ru": {
-        "type": "text"
-    },
-    "zh_Hans": "cinese semplificato",
-    "@zh_Hans": {
-        "type": "text"
-    },
-    "it": "italiano",
-    "@it": {
-        "type": "text"
-    },
-    "ko": "coreano",
-    "@ko": {
-        "type": "text"
-    },
-    "ja": "giapponese",
-    "@ja": {
-        "type": "text"
-    },
-    "librescore": "LibreScore",
-    "@librescore": {
-        "type": "text"
-    },
-    "settingsText": "Impostazioni",
-    "@settingsText": {
-        "type": "text"
-    },
-    "ms": "malese",
-    "@ms": {
-        "type": "text"
-    }
+  "en": "inglese",
+  "@en": {
+    "type": "text"
+  },
+  "es": "spagnolo",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "francese",
+  "@fr": {
+    "type": "text"
+  },
+  "ar": "arabo",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "russo",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "cinese semplificato",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "italiano",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "coreano",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "giapponese",
+  "@ja": {
+    "type": "text"
+  },
+  "librescore": "LibreScore",
+  "@librescore": {
+    "type": "text"
+  },
+  "settingsText": "Impostazioni",
+  "@settingsText": {
+    "type": "text"
+  },
+  "ms": "malese",
+  "@ms": {
+    "type": "text"
+  }
 }

@@ -1,242 +1,242 @@
 {
-    "librescore": "LibreScore",
-    "@librescore": {
-        "description": "LibreScore name",
-        "type": "text"
-    },
-    "settingsText": "Settings",
-    "@settingsText": {
-        "description": "Settings button text",
-        "type": "text"
-    },
-    "aboutText": "About",
-    "@aboutText": {
-        "description": "About button text",
-        "type": "text"
-    },
-    "searchError": "Please enter a query",
-    "@searchError": {
-        "description": "Searchbar error",
-        "type": "text"
-    },
-    "searchHint": "Search MuseScore or input a URL",
-    "@searchHint": {
-        "description": "Searchbar hint message",
-        "type": "text"
-    },
-    "searchClearTip": "Clear",
-    "@searchClearTip": {
-        "description": "Searchbar clear button tooltip",
-        "type": "text"
-    },
-    "searchSearchTip": "Search",
-    "@searchSearchTip": {
-        "description": "Searchbar search button tooltip",
-        "type": "text"
-    },
-    "homeTitle": "Home",
-    "@homeTitle": {
-        "description": "Home navbar title",
-        "type": "text"
-    },
-    "downloadsTitle": "Downloads",
-    "@downloadsTitle": {
-        "description": "Downloads navbar title",
-        "type": "text"
-    },
-    "privacyPolicyTitle": "Privacy Policy",
-    "@privacyPolicyTitle": {
-        "description": "Privacy policy page title",
-        "type": "text"
-    },
-    "aboutTitle": "About",
-    "@aboutTitle": {
-        "description": "About page title",
-        "type": "text"
-    },
-    "versionText": "Version",
-    "@versionText": {
-        "description": "Version label text",
-        "type": "text"
-    },
-    "licensesText": "Licenses",
-    "@licensesText": {
-        "description": "Licenses label text",
-        "type": "text"
-    },
-    "privacyPolicyText": "Privacy policy",
-    "@privacyPolicyText": {
-        "description": "Privacy policy label text",
-        "type": "text"
-    },
-    "contactText": "Contact",
-    "@contactText": {
-        "description": "Contact label text",
-        "type": "text"
-    },
-    "settingsTitle": "Settings",
-    "@settingsTitle": {
-        "description": "Settings page title",
-        "type": "text"
-    },
-    "downloadFolderText": "Download folder",
-    "@downloadFolderText": {
-        "description": "Download folder settings label",
-        "type": "text"
-    },
-    "themeText": "Theme",
-    "@themeText": {
-        "description": "Theme settings label",
-        "type": "text"
-    },
-    "languageText": "Language",
-    "@languageText": {
-        "description": "Language settings label",
-        "type": "text"
-    },
-    "systemText": "System",
-    "@systemText": {
-        "description": "System theme option text",
-        "type": "text"
-    },
-    "lightText": "Light",
-    "@lightText": {
-        "description": "Light theme option text",
-        "type": "text"
-    },
-    "darkText": "Dark",
-    "@darkText": {
-        "description": "Dark theme option text",
-        "type": "text"
-    },
-    "noResultsError": "No results",
-    "@noResultsError": {
-        "description": "No results search page error",
-        "type": "text"
-    },
-    "en": "English",
-    "@en": {
-        "type": "text"
-    },
-    "es": "Spanish",
-    "@es": {
-        "type": "text"
-    },
-    "fr": "French",
-    "@fr": {
-        "type": "text"
-    },
-    "ar": "Arabic",
-    "@ar": {
-        "type": "text"
-    },
-    "ru": "Russian",
-    "@ru": {
-        "type": "text"
-    },
-    "zh_Hans": "Simplified Chinese",
-    "@zh_Hans": {
-        "type": "text"
-    },
-    "it": "Italian",
-    "@it": {
-        "type": "text"
-    },
-    "ko": "Korean",
-    "@ko": {
-        "type": "text"
-    },
-    "ja": "Japanese",
-    "@ja": {
-        "type": "text"
-    },
-    "ms": "Malay",
-    "@ms": {
-        "type": "text"
-    },
-    "updateCheckError": "Failed to check for updates",
-    "@updateCheckError": {
-        "description": "Update check error",
-        "type": "text"
-    },
-    "updateAvailableText": "Update available",
-    "@updateAvailableText": {
-        "description": "Update available text",
-        "type": "text"
-    },
-    "updateLatestText": "No new updates",
-    "@updateLatestText": {
-        "description": "No new updates text",
-        "type": "text"
-    },
-    "updateText": "Update",
-    "@updateText": {
-        "description": "Update button text",
-        "type": "text"
-    },
-    "ignoreText": "Ignore",
-    "@ignoreText": {
-        "description": "Ignore button text",
-        "type": "text"
-    },
-    "okText": "OK",
-    "@okText": {
-        "description": "OK button text",
-        "type": "text"
-    },
-    "downloadFolderHint": "Input download folder",
-    "@downloadFolderHint": {
-        "description": "Download folder hint message",
-        "type": "text"
-    },
-    "noDownloadsError": "No downloads",
-    "@noDownloadsError": {
-        "description": "No downloads downloads page error",
-        "type": "text"
-    },
-    "fileAccessError": "File access denied",
-    "@fileAccessError": {
-        "description": "File access denied error",
-        "type": "text"
-    },
-    "networkError": "Network error",
-    "@networkError": {
-        "description": "Network error",
-        "type": "text"
-    },
-    "downloadingTitle": "Downloading",
-    "@downloadingTitle": {
-        "description": "Downloading title",
-        "type": "text"
-    },
-    "loadingTitle": "Loading",
-    "@loadingTitle": {
-        "description": "Loading title",
-        "type": "text"
-    },
-    "cancelText": "Cancel",
-    "@cancelText": {
-        "description": "Cancel button text",
-        "type": "text"
-    },
-    "librescoreServer": "LibreScore Server",
-    "@librescoreServer": {
-        "description": "LibreScore Server name",
-        "type": "text"
-    },
-    "serverText": "Server",
-    "@serverText": {
-        "description": "Server settings label",
-        "type": "text"
-    },
-    "onText": "On",
-    "@onText": {
-        "description": "On option text",
-        "type": "text"
-    },
-    "offText": "Off",
-    "@offText": {
-        "description": "Off option text",
-        "type": "text"
-    }
+  "librescore": "LibreScore",
+  "@librescore": {
+    "description": "LibreScore name",
+    "type": "text"
+  },
+  "settingsText": "Settings",
+  "@settingsText": {
+    "description": "Settings button text",
+    "type": "text"
+  },
+  "aboutText": "About",
+  "@aboutText": {
+    "description": "About button text",
+    "type": "text"
+  },
+  "searchError": "Please enter a query",
+  "@searchError": {
+    "description": "Searchbar error",
+    "type": "text"
+  },
+  "searchHint": "Search MuseScore or input a URL",
+  "@searchHint": {
+    "description": "Searchbar hint message",
+    "type": "text"
+  },
+  "searchClearTip": "Clear",
+  "@searchClearTip": {
+    "description": "Searchbar clear button tooltip",
+    "type": "text"
+  },
+  "searchSearchTip": "Search",
+  "@searchSearchTip": {
+    "description": "Searchbar search button tooltip",
+    "type": "text"
+  },
+  "homeTitle": "Home",
+  "@homeTitle": {
+    "description": "Home navbar title",
+    "type": "text"
+  },
+  "downloadsTitle": "Downloads",
+  "@downloadsTitle": {
+    "description": "Downloads navbar title",
+    "type": "text"
+  },
+  "privacyPolicyTitle": "Privacy Policy",
+  "@privacyPolicyTitle": {
+    "description": "Privacy policy page title",
+    "type": "text"
+  },
+  "aboutTitle": "About",
+  "@aboutTitle": {
+    "description": "About page title",
+    "type": "text"
+  },
+  "versionText": "Version",
+  "@versionText": {
+    "description": "Version label text",
+    "type": "text"
+  },
+  "licensesText": "Licenses",
+  "@licensesText": {
+    "description": "Licenses label text",
+    "type": "text"
+  },
+  "privacyPolicyText": "Privacy policy",
+  "@privacyPolicyText": {
+    "description": "Privacy policy label text",
+    "type": "text"
+  },
+  "contactText": "Contact",
+  "@contactText": {
+    "description": "Contact label text",
+    "type": "text"
+  },
+  "settingsTitle": "Settings",
+  "@settingsTitle": {
+    "description": "Settings page title",
+    "type": "text"
+  },
+  "downloadFolderText": "Download folder",
+  "@downloadFolderText": {
+    "description": "Download folder settings label",
+    "type": "text"
+  },
+  "themeText": "Theme",
+  "@themeText": {
+    "description": "Theme settings label",
+    "type": "text"
+  },
+  "languageText": "Language",
+  "@languageText": {
+    "description": "Language settings label",
+    "type": "text"
+  },
+  "systemText": "System",
+  "@systemText": {
+    "description": "System theme option text",
+    "type": "text"
+  },
+  "lightText": "Light",
+  "@lightText": {
+    "description": "Light theme option text",
+    "type": "text"
+  },
+  "darkText": "Dark",
+  "@darkText": {
+    "description": "Dark theme option text",
+    "type": "text"
+  },
+  "noResultsError": "No results",
+  "@noResultsError": {
+    "description": "No results search page error",
+    "type": "text"
+  },
+  "en": "English",
+  "@en": {
+    "type": "text"
+  },
+  "es": "Spanish",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "French",
+  "@fr": {
+    "type": "text"
+  },
+  "ar": "Arabic",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "Russian",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "Simplified Chinese",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "Italian",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "Korean",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "Japanese",
+  "@ja": {
+    "type": "text"
+  },
+  "ms": "Malay",
+  "@ms": {
+    "type": "text"
+  },
+  "updateCheckError": "Failed to check for updates",
+  "@updateCheckError": {
+    "description": "Update check error",
+    "type": "text"
+  },
+  "updateAvailableText": "Update available",
+  "@updateAvailableText": {
+    "description": "Update available text",
+    "type": "text"
+  },
+  "updateLatestText": "No new updates",
+  "@updateLatestText": {
+    "description": "No new updates text",
+    "type": "text"
+  },
+  "updateText": "Update",
+  "@updateText": {
+    "description": "Update button text",
+    "type": "text"
+  },
+  "ignoreText": "Ignore",
+  "@ignoreText": {
+    "description": "Ignore button text",
+    "type": "text"
+  },
+  "okText": "OK",
+  "@okText": {
+    "description": "OK button text",
+    "type": "text"
+  },
+  "downloadFolderHint": "Input download folder",
+  "@downloadFolderHint": {
+    "description": "Download folder hint message",
+    "type": "text"
+  },
+  "noDownloadsError": "No downloads",
+  "@noDownloadsError": {
+    "description": "No downloads downloads page error",
+    "type": "text"
+  },
+  "fileAccessError": "File access denied",
+  "@fileAccessError": {
+    "description": "File access denied error",
+    "type": "text"
+  },
+  "networkError": "Network error",
+  "@networkError": {
+    "description": "Network error",
+    "type": "text"
+  },
+  "downloadingTitle": "Downloading",
+  "@downloadingTitle": {
+    "description": "Downloading title",
+    "type": "text"
+  },
+  "loadingTitle": "Loading",
+  "@loadingTitle": {
+    "description": "Loading title",
+    "type": "text"
+  },
+  "cancelText": "Cancel",
+  "@cancelText": {
+    "description": "Cancel button text",
+    "type": "text"
+  },
+  "librescoreServer": "LibreScore Server",
+  "@librescoreServer": {
+    "description": "LibreScore Server name",
+    "type": "text"
+  },
+  "serverText": "Server",
+  "@serverText": {
+    "description": "Server settings label",
+    "type": "text"
+  },
+  "onText": "On",
+  "@onText": {
+    "description": "On option text",
+    "type": "text"
+  },
+  "offText": "Off",
+  "@offText": {
+    "description": "Off option text",
+    "type": "text"
+  }
 }
