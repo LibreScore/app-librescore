@@ -191,11 +191,11 @@
   "@serverText": {
     "type": "text"
   },
-  "onText": "已开启",
+  "onText": "开",
   "@onText": {
     "type": "text"
   },
-  "offText": "已关闭",
+  "offText": "关",
   "@offText": {
     "type": "text"
   }
