@@ -27,7 +27,7 @@
   "@searchSearchTip": {
     "type": "text"
   },
-  "homeTitle": "家",
+  "homeTitle": "主页",
   "@homeTitle": {
     "type": "text"
   },
@@ -35,7 +35,7 @@
   "@downloadsTitle": {
     "type": "text"
   },
-  "privacyPolicyTitle": "隐私权政策",
+  "privacyPolicyTitle": "隐私政策",
   "@privacyPolicyTitle": {
     "type": "text"
   },
@@ -47,15 +47,15 @@
   "@versionText": {
     "type": "text"
   },
-  "licensesText": "执照",
+  "licensesText": "许可",
   "@licensesText": {
     "type": "text"
   },
-  "privacyPolicyText": "隐私权政策",
+  "privacyPolicyText": "隐私政策",
   "@privacyPolicyText": {
     "type": "text"
   },
-  "contactText": "接触",
+  "contactText": "联系",
   "@contactText": {
     "type": "text"
   },
@@ -71,7 +71,7 @@
   "@themeText": {
     "type": "text"
   },
-  "languageText": "语",
+  "languageText": "语言",
   "@languageText": {
     "type": "text"
   },
@@ -79,15 +79,15 @@
   "@systemText": {
     "type": "text"
   },
-  "lightText": "光",
+  "lightText": "明亮",
   "@lightText": {
     "type": "text"
   },
-  "darkText": "黑暗的",
+  "darkText": "黑暗",
   "@darkText": {
     "type": "text"
   },
-  "noResultsError": "没结果",
+  "noResultsError": "无结果",
   "@noResultsError": {
     "type": "text"
   },
@@ -127,7 +127,7 @@
   "@ja": {
     "type": "text"
   },
-  "updateCheckError": "未能检查更新",
+  "updateCheckError": "检查更新失败",
   "@updateCheckError": {
     "type": "text"
   },
@@ -159,7 +159,7 @@
   "@noDownloadsError": {
     "type": "text"
   },
-  "fileAccessError": "访问文件被拒绝",
+  "fileAccessError": "文件访问拒绝",
   "@fileAccessError": {
     "type": "text"
   },
@@ -167,7 +167,7 @@
   "@networkError": {
     "type": "text"
   },
-  "downloadingTitle": "下载",
+  "downloadingTitle": "正在下载",
   "@downloadingTitle": {
     "type": "text"
   },
@@ -191,11 +191,11 @@
   "@serverText": {
     "type": "text"
   },
-  "onText": "已开机",
+  "onText": "开启",
   "@onText": {
     "type": "text"
   },
-  "offText": "已关闭",
+  "offText": "关闭",
   "@offText": {
     "type": "text"
   }
