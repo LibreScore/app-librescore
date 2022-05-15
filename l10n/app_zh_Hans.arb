@@ -79,11 +79,11 @@
   "@systemText": {
     "type": "text"
   },
-  "lightText": "明亮",
+  "lightText": "浅色",
   "@lightText": {
     "type": "text"
   },
-  "darkText": "黑暗",
+  "darkText": "深色",
   "@darkText": {
     "type": "text"
   },
@@ -159,7 +159,7 @@
   "@noDownloadsError": {
     "type": "text"
   },
-  "fileAccessError": "文件访问拒绝",
+  "fileAccessError": "文件访问被拒绝",
   "@fileAccessError": {
     "type": "text"
   },
@@ -183,7 +183,7 @@
   "@ms": {
     "type": "text"
   },
-  "librescoreServer": "利布蕾斯科尔 服务器",
+  "librescoreServer": "利布蕾斯科尔服务器",
   "@librescoreServer": {
     "type": "text"
   },
@@ -191,11 +191,11 @@
   "@serverText": {
     "type": "text"
   },
-  "onText": "开启",
+  "onText": "已开启",
   "@onText": {
     "type": "text"
   },
-  "offText": "关闭",
+  "offText": "已关闭",
   "@offText": {
     "type": "text"
   }
