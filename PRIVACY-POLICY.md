@@ -1,6 +1,6 @@
 <div dir="ltr" align="left">
 
-&#8206;**English** | &#8206;[Melayu](/docs/ms/DASAR-PRIVASI.md) | &#8206;[[+]](https://librescore.ddns.net/projects/librescore/docs)
+&#8206;**English** | &#8206;[español](/docs/es/POLÍTICA-DE-PRIVACIDAD.md) | &#8206;[Melayu](/docs/ms/DASAR-PRIVASI.md) | &#8206;[[+]](https://librescore.ddns.net/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***DO NOT EDIT ABOVE THIS LINE*** /+/^^+#|#+^+#|#+^^\+\"
 
