@@ -49,6 +49,6 @@ Descargar la aplicación LibreScore
 1. Descarga[LibreScore.apk](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk)
 2. Abre el archivo APK e instálalo
 
-> Nota: Puede aparecer un mensaje de Play Protect. Pulse `Instalar de todas formas` en la parte inferior
+> Note: A message may appear about Play Protect. Tap `Install Anyway` at the bottom
 
 </div>
