@@ -12,7 +12,7 @@
 
 [![Discord](https://img.shields.io/discord/774491656643674122?color=5865F2&label=&labelColor=555555&logo=discord&logoColor=FFFFFF)](https://discord.gg/DKu7cUZ4XQ) [![Weblate](https://librescore.ddns.net/widgets/librescore/-/app-librescore/svg-badge.svg)](https://librescore.ddns.net/engage/librescore) [![GitHub todos los lanzamientos](https://img.shields.io/github/downloads/LibreScore/app-librescore/total.svg?label=Downloads)](https://github.com/LibreScore/app-librescore/releases/latest)
 
-Descargar la aplicación LibreScore
+Descargue la aplicación LibreScore
 
 </div>
 
@@ -34,20 +34,20 @@ Descargar la aplicación LibreScore
 
 ### macOS
 
-1. Descargar [LibreScore.dmg](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.dmg)
+1. Descargue [LibreScore.dmg](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.dmg)
 2. Abra el archivo DMG
 3. Mueva el archivo APP a la carpeta de aplicaciones para instalarlo
-4. Haz clic con la tecla Control en el archivo APP
-5. Haz clic en `Abrir` en el menú de acceso directo
+4. Con la tecla Control presionada, haga clic en el archivo APP
+5. Haga clic en `Abrir` desde el menú de función rápida
 6. Haga clic en `Abrir` en la parte inferior
 7. Cierre el archivo DMG
-8. Haz clic con la tecla Control en el archivo DMG
-9. Haga clic en "Expulsar" en el menú contextual
+8. Con la tecla Control presionada, haga clic en el archivo DMG
+9. Haga clic en "Expulsar" en el menú de función rápida
 
 ### Android
 
-1. Descarga[LibreScore.apk](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk)
-2. Abre el archivo APK e instálalo
+1. Descargue [LibreScore.apk](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk)
+2. Abra el archivo APK para instalarlo
 
 > Note: A message may appear about Play Protect. Tap `Install Anyway` at the bottom
 
