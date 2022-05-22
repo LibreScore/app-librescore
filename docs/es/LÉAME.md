@@ -10,7 +10,7 @@
 
 <img src="https://github.com/LibreScore/dl-musescore/raw/master/images/logo.png" width="256" alt="Logotipo de LibreScore">
 
-[![Discord](https://img.shields.io/discord/774491656643674122?color=5865F2&label=&labelColor=555555&logo=discord&logoColor=FFFFFF)](https://discord.gg/DKu7cUZ4XQ) [![Weblate](https://librescore.ddns.net/widgets/librescore/-/app-librescore/svg-badge.svg)](https://librescore.ddns.net/engage/librescore) [![GitHub todos los lanzamientos](https://img.shields.io/github/downloads/LibreScore/app-librescore/total.svg?label=Downloads)](https://github.com/LibreScore/app-librescore/releases/latest)
+[![Discord](https://img.shields.io/discord/774491656643674122?color=5865F2&label=&labelColor=555555&logo=discord&logoColor=FFFFFF)](https://discord.gg/DKu7cUZ4XQ) [![Weblate](https://librescore.ddns.net/widgets/librescore/-/app-librescore/svg-badge.svg)](https://librescore.ddns.net/engage/librescore) [![GitHub todos los lanzamientos](https://img.shields.io/github/downloads/LibreScore/app-librescore/total.svg?label=Descargas)](https://github.com/LibreScore/app-librescore/releases/latest)
 
 Descargue la aplicación LibreScore
 
@@ -42,7 +42,7 @@ Descargue la aplicación LibreScore
 6. Haga clic en `Abrir` en la parte inferior
 7. Cierre el archivo DMG
 8. Con la tecla Control presionada, haga clic en el archivo DMG
-9. Haga clic en "Expulsar" en el menú de función rápida
+9. Haga clic en `Expulsar` en el menú de función rápida
 
 ### Android
 
