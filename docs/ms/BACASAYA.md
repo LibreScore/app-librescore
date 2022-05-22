@@ -49,6 +49,6 @@ Muat turun apl LibreScore
 1. Muat turun [LibreScore.apk](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk)
 2. Buka fail APK untuk memasangnya
 
-> Note: A message may appear about Play Protect. Tap `Install Anyway` at the bottom
+> Nota: Mesej mungkin muncul tentang Play Protect. Ketik `Install Anyway` di bahagian bawah
 
 </div>
