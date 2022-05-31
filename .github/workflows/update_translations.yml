@@ -1,0 +1,55 @@
+name: Update translations
+
+on:
+    workflow_dispatch:
+    push:
+        paths:
+            - "l10n/*.arb"
+    pull_request:
+        paths:
+            - "l10n/*.arb"
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    translate:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Clone repositories
+              run: |
+                  git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/app-librescore
+                  git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_1 }}
+                  git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_2 }}
+            - name: Update translations
+              run: |
+                  cd $HOME/${{ secrets.LIBRESCORE_REPO_1 }}
+                  bash ./lang.sh
+                  sed -ri 's/version: '"([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)\+([[:digit:]]+)"'/echo version: \1.\2.$((\3+1))+$((\4+1))/e' pubspec.yaml
+                  sed -ri 's/msix_version: '"([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)"'/echo \\ \\ \\ \\ msix_version: \1.\2.$((\3+1)).$((\4+1))/e' pubspec.yaml
+                  sed -ri 's/#define VERSION_AS_NUMBER '"([[:digit:]]+),([[:digit:]]+),([[:digit:]]+)"'/echo \\#define VERSION_AS_NUMBER \1,\2,$((\3+1))/e' windows/runner/Runner.rc
+                  sed -ri 's/#define VERSION_AS_STRING "'"([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)"'"/echo \\#define VERSION_AS_STRING \\"\1.\2.$((\3+1))\\"/e' windows/runner/Runner.rc
+                  sed -ri 's/#define MyAppVersion "'"([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)"'"/echo \\#define MyAppVersion \\"\1.\2.$((\3+1))\\"/e' installer/Inno/LibreScore.iss
+                  filere='version: '"([[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+)\+[[:digit:]]+"
+                  while IFS="" read -r line || [ -n "$line" ]; do
+                      if [[ $line =~ $filere ]]; then
+                          version=v${BASH_REMATCH[1]}
+                          break
+                      fi
+                  done < pubspec.yaml
+                  git config user.name github-actions
+                  git config user.email github-actions@github.com
+                  git add -A
+                  git commit -m "chore: update translations"
+                  git tag $version
+                  git push origin $version
+                  cd $HOME/${{ secrets.LIBRESCORE_REPO_2 }}
+                  bash ./lang.sh
+                  sed -ri 's/version: '"([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)\+([[:digit:]]+)"'/echo version: \1.\2.$((\3+1))+$((\4+1))/e' pubspec.yaml
+                  git config user.name github-actions
+                  git config user.email github-actions@github.com
+                  git add -A
+                  git commit -m "chore: update translations"
+                  git tag $version
+                  git push origin $version
