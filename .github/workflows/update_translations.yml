@@ -43,7 +43,7 @@ jobs:
                   git add -A
                   git commit -m "chore: update translations"
                   git tag $version
-                  git push origin $version
+                  git push --atomic origin master $version
                   cd $HOME/${{ secrets.LIBRESCORE_REPO_B }}
                   bash ./lang.sh
                   sed -ri 's/version: '"([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)\+([[:digit:]]+)"'/echo version: \1.\2.$((\3+1))+$((\4+1))/e' pubspec.yaml
@@ -52,4 +52,4 @@ jobs:
                   git add -A
                   git commit -m "chore: update translations"
                   git tag $version
-                  git push origin $version
+                  git push --atomic origin master $version
