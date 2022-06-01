@@ -20,11 +20,11 @@ jobs:
             - name: Clone repositories
               run: |
                   git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/app-librescore
-                  git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_1 }}
-                  git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_2 }}
+                  git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                  git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}
             - name: Update translations
               run: |
-                  cd $HOME/${{ secrets.LIBRESCORE_REPO_1 }}
+                  cd $HOME/${{ secrets.LIBRESCORE_REPO_A }}
                   bash ./lang.sh
                   sed -ri 's/version: '"([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)\+([[:digit:]]+)"'/echo version: \1.\2.$((\3+1))+$((\4+1))/e' pubspec.yaml
                   sed -ri 's/msix_version: '"([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)"'/echo \\ \\ \\ \\ msix_version: \1.\2.$((\3+1)).$((\4+1))/e' pubspec.yaml
@@ -38,17 +38,17 @@ jobs:
                           break
                       fi
                   done < pubspec.yaml
-                  git config user.name github-actions
-                  git config user.email github-actions@github.com
+                  git config user.name ${{ secrets.LIBRESCORE_USERNAME }}
+                  git config user.email ${{ secrets.LIBRESCORE_EMAIL }}
                   git add -A
                   git commit -m "chore: update translations"
                   git tag $version
                   git push origin $version
-                  cd $HOME/${{ secrets.LIBRESCORE_REPO_2 }}
+                  cd $HOME/${{ secrets.LIBRESCORE_REPO_B }}
                   bash ./lang.sh
                   sed -ri 's/version: '"([[:digit:]]+)\.([[:digit:]]+)\.([[:digit:]]+)\+([[:digit:]]+)"'/echo version: \1.\2.$((\3+1))+$((\4+1))/e' pubspec.yaml
-                  git config user.name github-actions
-                  git config user.email github-actions@github.com
+                  git config user.name ${{ secrets.LIBRESCORE_USERNAME }}
+                  git config user.email ${{ secrets.LIBRESCORE_EMAIL }}
                   git add -A
                   git commit -m "chore: update translations"
                   git tag $version
