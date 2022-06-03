@@ -42,7 +42,7 @@ jobs:
 ### Having trouble?
 
 Installation instructions are in the [README](https://github.com/LibreScore/app-librscore/blob/master/README.md) file.'
-                  tag_name: env.tag_name
+                  tag_name: ${{ env.tag_name }}
                   files: |
                       ./LibreScore.apk
                       ./LibreScore-arm64-v8a.apk
