@@ -1,0 +1,60 @@
+name: Publish new release
+
+on:
+    schedule:
+        - cron: "0 0 * * 0"
+    workflow_dispatch:
+
+concurrency:
+    group: ${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Get latest release
+              run: |
+                  echo "updated=false" >> $GITHUB_ENV
+                  sudo apt install jq -y
+                  if [[ "$(curl -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/LibreScore/app-librescore/releases/latest | jq --raw-output ".tag_name")" != "$(curl -u ${{ secrets.LIBRESCORE_USER }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")" ]]
+                  echo "updated=true" >> $GITHUB_ENV
+                  for i in {0..9}; do
+                    curl -LJOs -H "Authorization: ${{ secrets.LIBRESCORE_TOKEN }}" "$(curl -u ${{ secrets.LIBRESCORE_USER }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".assets[$i].browser_download_url")"
+                  done
+                  echo "tag_name=$(curl -u ${{ secrets.LIBRESCORE_USER }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")" >> $GITHUB_ENV
+            - name: Upload assets
+              if: env.updated
+              uses: softprops/action-gh-release@v1
+              with:
+                  body: '## Download
+
+
+| <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Windows_logo_and_wordmark_-_2021.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/MacOS_wordmark_%282017%29.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Android_robot_head.svg" width="512"> |
+
+| :---: | :---: | :---: |
+
+| Windows (7+) (64-bit only) | macOS (10.11+) (Rosetta 2) | Android (6.0+) |
+
+| [Download (EXE)](https://github.com/LibreScore/app-librescore/releases/download/${{ env.tag_name }}/LibreScore.exe) | [Download (DMG)](https://github.com/LibreScore/app-librescore/releases/download/${{ env.tag_name }}/LibreScore.dmg) | [Download (APK)](https://github.com/LibreScore/app-librescore/releases/download/${{ env.tag_name }}/LibreScore.apk) |
+
+
+### Having trouble?
+
+Installation instructions are in the [README](https://github.com/LibreScore/app-librscore/blob/master/README.md) file.'
+                  tag_name: env.tag_name
+                  files: |
+                      ./LibreScore.apk
+                      ./LibreScore-arm64-v8a.apk
+                      ./LibreScore-armeabi-v7a.apk
+                      ./LibreScore-x86_64.apk
+                      ./LibreScoreMsix.exe
+                      ./LibreScoreInno.exe
+                      ./LibreScore.exe
+                      ./LibreScore.zip
+                      ./LibreScore.dmg
+                      ./LibreScore.pkg
+            - name: Delete workflow run
+              if: ${{ !env.updated }}
+              run: |
+                curl -i -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -d '{"event_type":"delete_action","client_payload":{"run_id":"'"${{ github.run_id }}"'","repo":"LibreScore/app-librescore"}}' -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/actions/dispatches
