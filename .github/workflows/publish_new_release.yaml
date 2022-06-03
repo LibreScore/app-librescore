@@ -20,7 +20,7 @@ jobs:
                     echo "updated=true" >> $GITHUB_ENV
                   fi
                   for i in {0..9}; do
-                    curl -LJOs -H "Authorization: ${{ secrets.LIBRESCORE_TOKEN }}" "$(curl -u ${{ secrets.LIBRESCORE_USER }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".assets[$i].browser_download_url")"
+                    curl -LJO -H "Accept: application/octet-stream" -u ${{ secrets.LIBRESCORE_USER }}:${{ secrets.LIBRESCORE_TOKEN }} -s "https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/assets/"$(curl -u ${{ secrets.LIBRESCORE_USER }}:${{ secrets.LIBRESCORE_TOKEN }} -s https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".assets[$i].id
                   done
                   echo "tag_name=$(curl -u ${{ secrets.LIBRESCORE_USER }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")" >> $GITHUB_ENV
             - name: Upload assets
