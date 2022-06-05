@@ -81,7 +81,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                       ./LibreScore-x86_64.apk
             - name: Build APK
               if: matrix.os == 'ubuntu-latest'
-            - run: |
+              run: |
                   git -C $HOME clone --single-branch --no-tags --depth=1 --recursive https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}.git
                   cd $HOME/${{ secrets.LIBRESCORE_REPO_B }}
                   echo "${{ secrets.UPLOAD_KEYSTORE_JKS_B }}" | base64 --decode > ./android/upload-keystore.jks
