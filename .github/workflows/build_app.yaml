@@ -44,9 +44,12 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   cache: true
                   cache-key: flutter
                   cache-path: ${{ runner.tool_cache }}/flutter
-            - run: |
-                git -C $HOME clone --single-branch --no-tags --depth=1 --recursive https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}.git
-                cd $HOME/${{ secrets.LIBRESCORE_REPO_A }}
+            - run: git config --global url."https://".insteadOf git://
+            - uses: actions/checkout@v3
+              with:
+                repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                token: ${{ secrets.LIBRESCORE_TOKEN }}
+                submodules: 'recursive'
             - uses: actions/setup-java@v3
               if: matrix.os == 'ubuntu-latest'
               with:
@@ -79,11 +82,15 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                       ./LibreScore-arm64-v8a.apk
                       ./LibreScore-armeabi-v7a.apk
                       ./LibreScore-x86_64.apk
+            - uses: actions/checkout@v3
+              if: matrix.os == 'ubuntu-latest'
+              with:
+                repository: LibreScore/${{ secrets.LIBRESCORE_REPO_B }}
+                token: ${{ secrets.LIBRESCORE_TOKEN }}
+                submodules: 'recursive'
             - name: Build APK
               if: matrix.os == 'ubuntu-latest'
               run: |
-                  git -C $HOME clone --single-branch --no-tags --depth=1 --recursive https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}.git
-                  cd $HOME/${{ secrets.LIBRESCORE_REPO_B }}
                   echo "${{ secrets.UPLOAD_KEYSTORE_JKS_B }}" | base64 --decode > ./android/upload-keystore.jks
                   echo "storePassword=${{ secrets.KEYSTORE_STORE_PASSWORD_B }}" > ./android/key.properties
                   echo "keyPassword=${{ secrets.KEYSTORE_KEY_PASSWORD_B }}" >> ./android/key.properties
@@ -97,6 +104,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   mv ./build/app/outputs/apk/release/app-armeabi-v7a-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-armeabi-v7a.apk
                   mv ./build/app/outputs/apk/release/app-x86_64-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-x86_64.apk
             - name: Upload APK
+              if: matrix.os == 'ubuntu-latest'
               uses: softprops/action-gh-release@v1
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
