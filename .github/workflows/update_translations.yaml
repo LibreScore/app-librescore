@@ -5,6 +5,8 @@ on:
     push:
         paths:
             - "l10n/*.arb"
+        tags-ignore:
+            - '**'
     pull_request:
         paths:
             - "l10n/*.arb"
@@ -60,3 +62,6 @@ jobs:
                   git commit -m "chore: update translations"
                   git tag $version
                   git push --atomic origin master $version
+                  cd $HOME/app-librescore
+                  git tag $version
+                  git push origin $version
