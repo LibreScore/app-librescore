@@ -45,7 +45,6 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   cache-key: flutter
                   cache-path: ${{ runner.tool_cache }}/flutter
             - run: |
-                git config --global url."https://".insteadOf git://
                 git -C $HOME clone --single-branch --no-tags --depth=1 --recursive https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}.git
                 cd $HOME/${{ secrets.LIBRESCORE_REPO_A }}
             - uses: actions/setup-java@v3
