@@ -65,3 +65,5 @@ jobs:
                   cd $HOME/app-librescore
                   git tag $version
                   git push origin $version
+                  git tag --delete $version
+                  git push origin :refs/tags/$version
