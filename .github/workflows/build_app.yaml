@@ -1,0 +1,180 @@
+name: Build app
+
+on:
+    push:
+        tags:
+            - "v*.*.*"
+
+jobs:
+    release:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Publish release
+              uses: softprops/action-gh-release@v1
+              with:
+                  token: ${{ secrets.LIBRESCORE_TOKEN }}
+                  repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                  body: '## Download
+
+
+| <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Windows_logo_and_wordmark_-_2021.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/MacOS_wordmark_%282017%29.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Android_robot_head.svg" width="512"> |
+
+| :---: | :---: | :---: |
+
+| Windows (7+) (64-bit only) | macOS (10.11+) (Rosetta 2) | Android (6.0+) |
+
+| [Download (EXE)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/download/${{ github.ref_name }}/LibreScore.exe) | [Download (DMG)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/download/${{ github.ref_name }}/LibreScore.dmg) | [Download (APK)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/download/${{ github.ref_name }}/LibreScore.apk) |
+
+
+### Having trouble?
+
+Installation instructions are in the [README](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/blob/master/README.md) file.'
+    build:
+        needs: release
+        runs-on: ${{ matrix.os }}
+        strategy:
+            matrix:
+                os: [ubuntu-latest, windows-latest, macos-latest]
+            fail-fast: true
+        steps:
+            - name: Install Flutter
+              uses: subosito/flutter-action@v2
+              with:
+                  channel: "stable"
+                  cache: true
+                  cache-key: flutter
+                  cache-path: ${{ runner.tool_cache }}/flutter
+            - run: |
+                git -C $HOME clone --single-branch --no-tags --depth=1 --recursive https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}.git
+                cd $HOME/${{ secrets.LIBRESCORE_REPO_A }}
+            - uses: actions/setup-java@v3
+              if: matrix.os == 'ubuntu-latest'
+              with:
+                  distribution: "zulu"
+                  java-version: "11"
+                  cache: "gradle"
+            - name: Build APK
+              if: matrix.os == 'ubuntu-latest'
+              run: |
+                  echo "${{ secrets.UPLOAD_KEYSTORE_JKS_A }}" | base64 --decode > ./android/upload-keystore.jks
+                  echo "storePassword=${{ secrets.KEYSTORE_STORE_PASSWORD_A }}" > ./android/key.properties
+                  echo "keyPassword=${{ secrets.KEYSTORE_KEY_PASSWORD_A }}" >> ./android/key.properties
+                  echo "keyAlias=upload" >> ./android/key.properties
+                  echo "storeFile=../upload-keystore.jks" >> ./android/key.properties
+                  flutter clean
+                  flutter build apk --obfuscate --split-debug-info=./build/app/outputs/symbols
+                  mv ./build/app/outputs/apk/release/app-release.apk ./LibreScore.apk
+                  flutter build apk --split-per-abi --obfuscate --split-debug-info=./build/app/outputs/symbols
+                  mv ./build/app/outputs/apk/release/app-arm64-v8a-release.apk ./LibreScore-arm64-v8a.apk
+                  mv ./build/app/outputs/apk/release/app-armeabi-v7a-release.apk ./LibreScore-armeabi-v7a.apk
+                  mv ./build/app/outputs/apk/release/app-x86_64-release.apk ./LibreScore-x86_64.apk
+            - name: Upload APK
+              if: matrix.os == 'ubuntu-latest'
+              uses: softprops/action-gh-release@v1
+              with:
+                  token: ${{ secrets.LIBRESCORE_TOKEN }}
+                  repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                  files: |
+                      ./LibreScore.apk
+                      ./LibreScore-arm64-v8a.apk
+                      ./LibreScore-armeabi-v7a.apk
+                      ./LibreScore-x86_64.apk
+            - name: Build APK
+              if: matrix.os == 'ubuntu-latest'
+            - run: |
+                  git -C $HOME clone --single-branch --no-tags --depth=1 --recursive https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}.git
+                  cd $HOME/${{ secrets.LIBRESCORE_REPO_B }}
+                  echo "${{ secrets.UPLOAD_KEYSTORE_JKS_B }}" | base64 --decode > ./android/upload-keystore.jks
+                  echo "storePassword=${{ secrets.KEYSTORE_STORE_PASSWORD_B }}" > ./android/key.properties
+                  echo "keyPassword=${{ secrets.KEYSTORE_KEY_PASSWORD_B }}" >> ./android/key.properties
+                  echo "keyAlias=upload" >> ./android/key.properties
+                  echo "storeFile=../upload-keystore.jks" >> ./android/key.properties
+                  flutter clean
+                  flutter build apk --obfuscate --split-debug-info=./build/app/outputs/symbols
+                  mv ./build/app/outputs/apk/release/app-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}.apk
+                  flutter build apk --split-per-abi --obfuscate --split-debug-info=./build/app/outputs/symbols
+                  mv ./build/app/outputs/apk/release/app-arm64-v8a-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-arm64-v8a.apk
+                  mv ./build/app/outputs/apk/release/app-armeabi-v7a-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-armeabi-v7a.apk
+                  mv ./build/app/outputs/apk/release/app-x86_64-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-x86_64.apk
+            - name: Upload APK
+              uses: softprops/action-gh-release@v1
+              with:
+                  token: ${{ secrets.LIBRESCORE_TOKEN }}
+                  repository: LibreScore/${{ secrets.LIBRESCORE_REPO_B }}
+                  body: '## Download
+
+
+| <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Android_robot_head.svg" width="256"> |
+
+| :---: |
+
+| Android (6.0+) |
+
+| [Download (APK)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/releases/download/${{ github.ref_name }}/${{ secrets.LIBRESCORE_B_NAME }}.apk) |
+
+
+### Having trouble?
+
+Installation instructions are in the [README](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/blob/master/README.md) file.'
+                  files: |
+                      ./${{ secrets.LIBRESCORE_B_NAME }}.apk
+                      ./${{ secrets.LIBRESCORE_B_NAME }}-arm64-v8a.apk
+                      ./${{ secrets.LIBRESCORE_B_NAME }}-armeabi-v7a.apk
+                      ./${{ secrets.LIBRESCORE_B_NAME }}-x86_64.apk            
+            - name: Build EXE
+              if: matrix.os == 'windows-latest'
+              run: |
+                  flutter clean
+                  flutter build windows --obfuscate --split-debug-info=.\build\app\outputs\symbols
+                  "${{ secrets.LIBRESCORE_PFX }}" > .\installer\LibreScore.pfx.base64
+                  certutil -decode .\installer\LibreScore.pfx.base64 .\installer\LibreScore.pfx
+                  & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\build\windows\runner\Release\librescore.exe
+                  Get-ChildItem -Path .\build\windows\runner\Release -File | Where {($_.Extension -ne ".dll" -and $_.Extension -ne ".exe")} | Remove-Item
+                  flutter pub run msix:create
+                  & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\installer\LibreScore.msix
+                  Start-Process iexpress -ArgumentList /N,.\installer\MSIX\LibreScoreMsix.sed -NoNewWindow -Wait
+                  & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\installer\LibreScoreMsix.exe
+                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\msvcp140.dll') .\build\windows\runner\Release
+                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\vcruntime140.dll') .\build\windows\runner\Release
+                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\vcruntime140_1.dll') .\build\windows\runner\Release
+                  Copy-Item -Path .\build\windows\runner\Release -Destination .\installer\Inno\LibreScore -Recurse
+                  New-Item -Name .\installer\Inno\LibreScore\data\flutter_assets\assets\.inno
+                  iscc .\installer\Inno\LibreScore.iss
+                  & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\installer\LibreScoreInno.exe
+                  Start-Process iexpress -ArgumentList /N,.\installer\LibreScore.sed -NoNewWindow -Wait
+                  & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\installer\LibreScore.exe
+                  Compress-Archive -Path .\build\windows\runner\Release\* -DestinationPath .\installer\LibreScore.zip
+            - name: Upload EXE
+              if: matrix.os == 'windows-latest'
+              uses: softprops/action-gh-release@v1
+              with:
+                  token: ${{ secrets.LIBRESCORE_TOKEN }}
+                  repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                  files: |
+                      ./installer/LibreScoreMsix.exe
+                      ./installer/LibreScoreInno.exe
+                      ./installer/LibreScore.exe
+                      ./installer/LibreScore.zip
+            - name: Build DMG
+              if: matrix.os == 'macos-latest'
+              run: |
+                  flutter clean
+                  flutter build macos --obfuscate --split-debug-info=build/app/outputs/symbols
+                  hdiutil create -type SPARSEBUNDLE -size 97656.25k LibreScore
+                  hdiutil attach ./LibreScore.sparsebundle
+                  ln -s /Applications /Volumes/untitled
+                  cp -R build/macos/Build/Products/Release/LibreScore.app /Volumes/untitled/
+                  cp ./ds /Volumes/untitled/.DS_Store
+                  hdiutil detach /Volumes/untitled
+                  hdiutil convert -format UDRO -o LibreScore.dmg LibreScore.sparsebundle/
+                  chmod 755 macos/Scripts/postinstall
+                  pkgbuild --install-location /Applications --component ./build/macos/Build/Products/Release/LibreScore.app --scripts ./macos/Scripts ./LibreScore.pkg
+            - name: Upload DMG
+              if: matrix.os == 'macos-latest'
+              uses: softprops/action-gh-release@v1
+              with:
+                  token: ${{ secrets.LIBRESCORE_TOKEN }}
+                  repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                  files: |
+                      ./LibreScore.dmg
+                      ./LibreScore.pkg
