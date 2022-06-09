@@ -41,7 +41,7 @@ jobs:
 
 ### Having trouble?
 
-Installation instructions are in the [README](https://github.com/LibreScore/app-librscore/blob/master/README.md) file.'
+Installation instructions are in the [README](https://github.com/LibreScore/app-librescore/blob/master/README.md) file.'
                   tag_name: ${{ env.tag_name }}
                   files: |
                       ./LibreScore.apk
