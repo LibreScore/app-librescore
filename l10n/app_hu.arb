@@ -1,1 +1,17 @@
-{}
+{
+  "settingsText": "Beállítások",
+  "@settingsText": {
+    "description": "Settings button text",
+    "type": "text"
+  },
+  "aboutText": "Névjegy",
+  "@aboutText": {
+    "description": "About button text",
+    "type": "text"
+  },
+  "librescore": "LibreScore",
+  "@librescore": {
+    "description": "LibreScore name",
+    "type": "text"
+  }
+}
