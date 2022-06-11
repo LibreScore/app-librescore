@@ -1,1 +1,172 @@
-{}
+{
+  "librescore": "LibreScore",
+  "@librescore": {
+    "description": "LibreScore name",
+    "type": "text"
+  },
+  "settingsText": "Instellingen",
+  "@settingsText": {
+    "description": "Settings button text",
+    "type": "text"
+  },
+  "aboutText": "Over",
+  "@aboutText": {
+    "description": "About button text",
+    "type": "text"
+  },
+  "searchError": "Geef een zoekopdracht in",
+  "@searchError": {
+    "description": "Searchbar error",
+    "type": "text"
+  },
+  "searchHint": "Doorzoek MuseScore of geef een URL in",
+  "@searchHint": {
+    "description": "Searchbar hint message",
+    "type": "text"
+  },
+  "searchClearTip": "Wis",
+  "@searchClearTip": {
+    "description": "Searchbar clear button tooltip",
+    "type": "text"
+  },
+  "searchSearchTip": "Zoek",
+  "@searchSearchTip": {
+    "description": "Searchbar search button tooltip",
+    "type": "text"
+  },
+  "homeTitle": "Home",
+  "@homeTitle": {
+    "description": "Home navbar title",
+    "type": "text"
+  },
+  "downloadsTitle": "Downloads",
+  "@downloadsTitle": {
+    "description": "Downloads navbar title",
+    "type": "text"
+  },
+  "privacyPolicyTitle": "Privacy Verklaring",
+  "@privacyPolicyTitle": {
+    "description": "Privacy policy page title",
+    "type": "text"
+  },
+  "aboutTitle": "Over",
+  "@aboutTitle": {
+    "description": "About page title",
+    "type": "text"
+  },
+  "versionText": "Versie",
+  "@versionText": {
+    "description": "Version label text",
+    "type": "text"
+  },
+  "licensesText": "Licenties",
+  "@licensesText": {
+    "description": "Licenses label text",
+    "type": "text"
+  },
+  "privacyPolicyText": "Privacy verklaring",
+  "@privacyPolicyText": {
+    "description": "Privacy policy label text",
+    "type": "text"
+  },
+  "contactText": "Contact",
+  "@contactText": {
+    "description": "Contact label text",
+    "type": "text"
+  },
+  "settingsTitle": "Instellingen",
+  "@settingsTitle": {
+    "description": "Settings page title",
+    "type": "text"
+  },
+  "downloadFolderText": "Download map",
+  "@downloadFolderText": {
+    "description": "Download folder settings label",
+    "type": "text"
+  },
+  "themeText": "Thema",
+  "@themeText": {
+    "description": "Theme settings label",
+    "type": "text"
+  },
+  "languageText": "Taal",
+  "@languageText": {
+    "description": "Language settings label",
+    "type": "text"
+  },
+  "systemText": "Systeem",
+  "@systemText": {
+    "description": "System theme option text",
+    "type": "text"
+  },
+  "lightText": "Licht",
+  "@lightText": {
+    "description": "Light theme option text",
+    "type": "text"
+  },
+  "darkText": "Donker",
+  "@darkText": {
+    "description": "Dark theme option text",
+    "type": "text"
+  },
+  "noResultsError": "Geen resultaten",
+  "@noResultsError": {
+    "description": "No results search page error",
+    "type": "text"
+  },
+  "en": "Engels",
+  "@en": {
+    "type": "text"
+  },
+  "es": "Spaans",
+  "@es": {
+    "type": "text"
+  },
+  "fr": "Frans",
+  "@fr": {
+    "type": "text"
+  },
+  "ar": "Arabisch",
+  "@ar": {
+    "type": "text"
+  },
+  "ru": "Russisch",
+  "@ru": {
+    "type": "text"
+  },
+  "zh_Hans": "Simpel Chinees",
+  "@zh_Hans": {
+    "type": "text"
+  },
+  "it": "Italiaans",
+  "@it": {
+    "type": "text"
+  },
+  "ko": "Koreaans",
+  "@ko": {
+    "type": "text"
+  },
+  "ja": "Japans",
+  "@ja": {
+    "type": "text"
+  },
+  "ms": "Maleis",
+  "@ms": {
+    "type": "text"
+  },
+  "updateAvailableText": "Update beschikbaar",
+  "@updateAvailableText": {
+    "description": "Update available text",
+    "type": "text"
+  },
+  "updateLatestText": "Geen nieuwe updates",
+  "@updateLatestText": {
+    "description": "No new updates text",
+    "type": "text"
+  },
+  "updateCheckError": "Fout bij het zoeken naar updates",
+  "@updateCheckError": {
+    "description": "Update check error",
+    "type": "text"
+  }
+}
