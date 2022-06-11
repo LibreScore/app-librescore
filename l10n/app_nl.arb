@@ -168,5 +168,75 @@
   "@updateCheckError": {
     "description": "Update check error",
     "type": "text"
+  },
+  "updateText": "Update",
+  "@updateText": {
+    "description": "Update button text",
+    "type": "text"
+  },
+  "ignoreText": "Negeer",
+  "@ignoreText": {
+    "description": "Ignore button text",
+    "type": "text"
+  },
+  "okText": "OK",
+  "@okText": {
+    "description": "OK button text",
+    "type": "text"
+  },
+  "downloadFolderHint": "Geef een download pad op",
+  "@downloadFolderHint": {
+    "description": "Download folder hint message",
+    "type": "text"
+  },
+  "noDownloadsError": "Geen downloads",
+  "@noDownloadsError": {
+    "description": "No downloads downloads page error",
+    "type": "text"
+  },
+  "fileAccessError": "Bestandstoegang geweigerd",
+  "@fileAccessError": {
+    "description": "File access denied error",
+    "type": "text"
+  },
+  "networkError": "Netwerk error",
+  "@networkError": {
+    "description": "Network error",
+    "type": "text"
+  },
+  "downloadingTitle": "Downloaden",
+  "@downloadingTitle": {
+    "description": "Downloading title",
+    "type": "text"
+  },
+  "loadingTitle": "Laden",
+  "@loadingTitle": {
+    "description": "Loading title",
+    "type": "text"
+  },
+  "cancelText": "Annuleer",
+  "@cancelText": {
+    "description": "Cancel button text",
+    "type": "text"
+  },
+  "librescoreServer": "LibreScore Server",
+  "@librescoreServer": {
+    "description": "LibreScore Server name",
+    "type": "text"
+  },
+  "serverText": "Server",
+  "@serverText": {
+    "description": "Server settings label",
+    "type": "text"
+  },
+  "onText": "Aan",
+  "@onText": {
+    "description": "On option text",
+    "type": "text"
+  },
+  "offText": "Uit",
+  "@offText": {
+    "description": "Off option text",
+    "type": "text"
   }
 }
