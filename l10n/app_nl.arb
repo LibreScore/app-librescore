@@ -44,7 +44,7 @@
     "description": "Downloads navbar title",
     "type": "text"
   },
-  "privacyPolicyTitle": "Privacy Verklaring",
+  "privacyPolicyTitle": "Privacybeleid",
   "@privacyPolicyTitle": {
     "description": "Privacy policy page title",
     "type": "text"
@@ -64,7 +64,7 @@
     "description": "Licenses label text",
     "type": "text"
   },
-  "privacyPolicyText": "Privacy verklaring",
+  "privacyPolicyText": "Privacybeleid",
   "@privacyPolicyText": {
     "description": "Privacy policy label text",
     "type": "text"
