@@ -184,7 +184,7 @@
     "description": "OK button text",
     "type": "text"
   },
-  "downloadFolderHint": "Geef een download pad op",
+  "downloadFolderHint": "Geef een downloadmap in",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
@@ -199,7 +199,7 @@
     "description": "File access denied error",
     "type": "text"
   },
-  "networkError": "Netwerk error",
+  "networkError": "Netwerkfout",
   "@networkError": {
     "description": "Network error",
     "type": "text"
@@ -214,7 +214,7 @@
     "description": "Loading title",
     "type": "text"
   },
-  "cancelText": "Annuleer",
+  "cancelText": "Annuleren",
   "@cancelText": {
     "description": "Cancel button text",
     "type": "text"
