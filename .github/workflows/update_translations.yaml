@@ -4,12 +4,12 @@ on:
     workflow_dispatch:
     push:
         paths:
-            - "l10n/**.arb"
+            - 'l10n/**.arb'
         tags-ignore:
             - '**'
     pull_request:
         paths:
-            - "l10n/**.arb"
+            - 'l10n/**.arb'
 
 concurrency:
     group: ${{ github.workflow }}-${{ github.ref }}
