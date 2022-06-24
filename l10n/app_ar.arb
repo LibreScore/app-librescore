@@ -1,5 +1,5 @@
 {
-  "librescore": "ليبرايسكور",
+  "librescore": "ليبريسكور",
   "@librescore": {
     "type": "text"
   },
@@ -183,7 +183,7 @@
   "@ms": {
     "type": "text"
   },
-  "librescoreServer": "خادم ليبرايسكور",
+  "librescoreServer": "خادم ليبريسكور",
   "@librescoreServer": {
     "type": "text"
   },
