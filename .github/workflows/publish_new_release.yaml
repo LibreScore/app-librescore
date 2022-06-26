@@ -24,7 +24,7 @@ jobs:
                   done
                   echo "tag_name=$(curl -u ${{ secrets.LIBRESCORE_USER }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" -s https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")" >> $GITHUB_ENV
             - name: Upload assets
-              if: env.updated
+              if: env.updated == 'true'
               uses: softprops/action-gh-release@v1
               with:
                   body: '## Download
@@ -55,6 +55,6 @@ Installation instructions are in the [README](https://github.com/LibreScore/app-
                       ./LibreScore.dmg
                       ./LibreScore.pkg
             - name: Delete workflow run
-              if: ${{ !env.updated }}
+              if: env.updated == 'false'
               run: |
                 curl -i -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -d '{"event_type":"delete_action","client_payload":{"run_id":"'"${{ github.run_id }}"'","repo":"LibreScore/app-librescore"}}' -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/actions/dispatches
