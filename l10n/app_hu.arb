@@ -19,7 +19,7 @@
     "description": "Searchbar hint message",
     "type": "text"
   },
-  "searchClearTip": "Tisztítás",
+  "searchClearTip": "Törlés",
   "@searchClearTip": {
     "description": "Searchbar clear button tooltip",
     "type": "text"
@@ -59,7 +59,7 @@
     "description": "Licenses label text",
     "type": "text"
   },
-  "contactText": "Elérhetőség",
+  "contactText": "Kapcsolatfelvétel",
   "@contactText": {
     "description": "Contact label text",
     "type": "text"
@@ -149,7 +149,7 @@
     "description": "Ignore button text",
     "type": "text"
   },
-  "fileAccessError": "Fájl hozzáférés megtagadva",
+  "fileAccessError": "A fájlhoz való hozzáférés megtagadva",
   "@fileAccessError": {
     "description": "File access denied error",
     "type": "text"
@@ -174,7 +174,7 @@
     "description": "Cancel button text",
     "type": "text"
   },
-  "librescoreServer": "LibreScore Szerver",
+  "librescoreServer": "LibreScore szerver",
   "@librescoreServer": {
     "description": "LibreScore Server name",
     "type": "text"
