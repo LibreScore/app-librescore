@@ -129,7 +129,7 @@
     "description": "OK button text",
     "type": "text"
   },
-  "downloadFolderHint": "Lépjen be a letöltési mappába",
+  "downloadFolderHint": "Add meg a Letöltési mappa",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
@@ -192,6 +192,11 @@
   "offText": "Kikapcsolva",
   "@offText": {
     "description": "Off option text",
+    "type": "text"
+  },
+  "searchError": "Kérlek adj meg egy query-t",
+  "@searchError": {
+    "description": "Searchbar error",
     "type": "text"
   }
 }
