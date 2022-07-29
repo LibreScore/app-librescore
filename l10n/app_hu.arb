@@ -39,7 +39,7 @@
     "description": "Downloads navbar title",
     "type": "text"
   },
-  "privacyPolicyTitle": "Adatvédelmi Nyilatkozat",
+  "privacyPolicyTitle": "Adatvédelmi szabályzat",
   "@privacyPolicyTitle": {
     "description": "Privacy policy page title",
     "type": "text"
@@ -109,7 +109,7 @@
     "description": "Update check error",
     "type": "text"
   },
-  "updateAvailableText": "Frissítés érhető el",
+  "updateAvailableText": "Frissítés elérhető",
   "@updateAvailableText": {
     "description": "Update available text",
     "type": "text"
@@ -129,7 +129,7 @@
     "description": "OK button text",
     "type": "text"
   },
-  "downloadFolderHint": "Letöltési mappa hozzáadása",
+  "downloadFolderHint": "Lépjen be a letöltési mappába",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
@@ -139,7 +139,7 @@
     "description": "No downloads downloads page error",
     "type": "text"
   },
-  "privacyPolicyText": "Adatvédelem",
+  "privacyPolicyText": "Adatvédelmi szabályzat",
   "@privacyPolicyText": {
     "description": "Privacy policy label text",
     "type": "text"
