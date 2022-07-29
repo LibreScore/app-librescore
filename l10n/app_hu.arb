@@ -148,5 +148,50 @@
   "@ignoreText": {
     "description": "Ignore button text",
     "type": "text"
+  },
+  "fileAccessError": "Fájl hozzáférés megtagadva",
+  "@fileAccessError": {
+    "description": "File access denied error",
+    "type": "text"
+  },
+  "networkError": "Hálózati hiba",
+  "@networkError": {
+    "description": "Network error",
+    "type": "text"
+  },
+  "downloadingTitle": "Letöltés",
+  "@downloadingTitle": {
+    "description": "Downloading title",
+    "type": "text"
+  },
+  "loadingTitle": "Betöltés",
+  "@loadingTitle": {
+    "description": "Loading title",
+    "type": "text"
+  },
+  "cancelText": "Mégse",
+  "@cancelText": {
+    "description": "Cancel button text",
+    "type": "text"
+  },
+  "librescoreServer": "LibreScore Szerver",
+  "@librescoreServer": {
+    "description": "LibreScore Server name",
+    "type": "text"
+  },
+  "serverText": "Szerver",
+  "@serverText": {
+    "description": "Server settings label",
+    "type": "text"
+  },
+  "onText": "Bekapcsolva",
+  "@onText": {
+    "description": "On option text",
+    "type": "text"
+  },
+  "offText": "Kikapcsolva",
+  "@offText": {
+    "description": "Off option text",
+    "type": "text"
   }
 }
