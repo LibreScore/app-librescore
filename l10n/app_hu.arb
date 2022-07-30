@@ -129,7 +129,7 @@
     "description": "OK button text",
     "type": "text"
   },
-  "downloadFolderHint": "Add meg a Letöltési mappa",
+  "downloadFolderHint": "Add meg a letöltési mappa",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
