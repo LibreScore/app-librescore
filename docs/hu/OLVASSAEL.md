@@ -4,7 +4,7 @@
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***NE MÓDOSÍTS SEMMIT E SOR FELETT*** /+/^^+#|#+^+#|#+^^\+\"
 
-# LibreScore App
+# LibreScore app
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 
 [![Discord](https://img.shields.io/discord/774491656643674122?color=5865F2&label=&labelColor=555555&logo=discord&logoColor=FFFFFF)](https://discord.gg/DKu7cUZ4XQ) [![Weblate](https://librescore.ddns.net/widgets/librescore/-/app-librescore/svg-badge.svg)](https://librescore.ddns.net/engage/librescore) [![Github minden verzió](https://img.shields.io/github/downloads/LibreScore/app-librescore/total.svg?label=Letöltések)](https://github.com/LibreScore/app-librescore/releases/latest)
 
-Töltsd le a LibreScore app-et
+Töltse le a LibreScore app
 
 </div>
 
@@ -29,12 +29,12 @@ Töltsd le a LibreScore app-et
 
 ### Windows
 
-1. Töltse le [LibreScore.exe](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.exe)
+1. Töltse le a [LibreScore.exe](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.exe) fájlt
 2. Nyissa meg az EXE fájlt a telepítéshez
 
 ### macOS
 
-1. Töltse le [LibreScore.dmg](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.dmg)
+1. Töltse le a [LibreScore.dmg](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.dmg) fájlt
 2. Nyissa meg a DMG fájlt
 3. Helyezze az APP fájlt az Alkalmazások mappába a telepítéshez
 4. Nyomja le a Control billentyűt, és kattintson az APP fájlra
@@ -46,7 +46,7 @@ Töltsd le a LibreScore app-et
 
 ### Android
 
-1. Töltse le [LibreScore.apk](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk)
+1. Töltse le a [LibreScore.apk](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.apk) fájlt
 2. Nyissa meg az APK fájlt a telepítéshez
 
 > Megjegyzés: Lehetséges hogy feljön majd egy Play Protect üzenet, nyomd meg a `Telepítés mindenképp` gombot legalul
