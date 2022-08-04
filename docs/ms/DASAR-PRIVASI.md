@@ -20,7 +20,7 @@ Untuk pengalaman yang lebih baik, semasa menggunakan Perkhidmatan kami, kami mun
 
 ## Data Log
 
-Kami ingin memaklumkan anda bahawa setiap kali anda menggunakan Perkhidmatan kami, sekiranya berlaku ralat dalam aplikasi, kami mengumpul data dan maklumat (melalui produk pihak ketiga) pada telefon anda yang dipanggil Data Log. Data Log ini mungkin termasuk maklumat seperti alamat Protokol Internet (\"IP\") peranti anda, nama peranti, versi sistem pengendalian, konfigurasi apl semasa menggunakan Perkhidmatan kami, masa dan tarikh penggunaan Perkhidmatan oleh anda dan statistik lain.
+Kami ingin memaklumkan anda bahawa setiap kali anda menggunakan Perkhidmatan kami, sekiranya berlaku ralat dalam apl, kami mengumpul data dan maklumat (melalui produk pihak ketiga) pada telefon anda yang dipanggil Data Log. Data Log ini mungkin termasuk maklumat seperti alamat Protokol Internet (\"IP\") peranti anda, nama peranti, versi sistem pengendalian, konfigurasi apl semasa menggunakan Perkhidmatan kami, masa dan tarikh penggunaan Perkhidmatan oleh anda dan statistik lain.
 
 ## Keselamatan
 

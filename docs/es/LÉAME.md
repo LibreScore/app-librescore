@@ -1,10 +1,10 @@
 <div dir="ltr" align="left">
 
-&#8206;[English](/docs/en/README.md) | &#8206;**español** | &#8206;[magyar](/docs/hu/OLVASSAEL.md) | &#8206;[Melayu](/docs/ms/BACASAYA.md) | &#8206;[简体中文](/docs/zh-Hans/自述文件.md) | &#8206;[[+]](https://librescore.ddns.net/projects/librescore/docs)
+&#8206;[English](/docs/en/README.md) | &#8206;**español** | &#8206;[français](/docs/fr/LISEZMOI.md) | &#8206;[magyar](/docs/hu/OLVASSAEL.md) | &#8206;[Melayu](/docs/ms/BACASAYA.md) | &#8206;[简体中文](/docs/zh-Hans/自述文件.md) | &#8206;[[+]](https://librescore.ddns.net/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***NO EDITAR ENCIMA DE ESTA LÍNEA*** /+/^^+#|#+^+#|#+^^\+\"
 
-# Aplicación LibreScore
+# App LibreScore
 
 <div align="center">
 
@@ -12,7 +12,7 @@
 
 [![Discord](https://img.shields.io/discord/774491656643674122?color=5865F2&label=&labelColor=555555&logo=discord&logoColor=FFFFFF)](https://discord.gg/DKu7cUZ4XQ) [![Weblate](https://librescore.ddns.net/widgets/librescore/-/app-librescore/svg-badge.svg)](https://librescore.ddns.net/engage/librescore) [![GitHub todos los lanzamientos](https://img.shields.io/github/downloads/LibreScore/app-librescore/total.svg?label=Descargas)](https://github.com/LibreScore/app-librescore/releases/latest)
 
-Descargar la aplicación LibreScore
+Descargar la app LibreScore
 
 </div>
 

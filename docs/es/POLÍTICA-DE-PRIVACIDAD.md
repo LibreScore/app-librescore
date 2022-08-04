@@ -6,7 +6,7 @@
 
 # Política de privacidad
 
-LibreScore creó la aplicación LibreScore como una aplicación Gratuita. Este SERVICIO es proporcionado por LibreScore sin costo alguno y está destinado a ser utilizado tal cual.
+LibreScore creó la app LibreScore como una app Gratuita. Este SERVICIO es proporcionado por LibreScore sin costo alguno y está destinado a ser utilizado tal cual.
 
 Esta página se utiliza para informar a los visitantes sobre nuestras políticas de recopilación, uso y divulgación de Información personal si alguien decide utilizar nuestro Servicio.
 
@@ -20,7 +20,7 @@ Para una mejor experiencia, mientras usa nuestro Servicio, podemos solicitarle q
 
 ## Datos de registro
 
-Queremos informarle que cada vez que utiliza nuestro Servicio, en caso de un error en la aplicación, recopilamos datos e información (a través de productos de terceros) en su teléfono denominados Datos de registro. Estos Datos de registro pueden incluir información como la dirección del Protocolo de Internet (\"IP\") de su dispositivo, el nombre del dispositivo, la versión del sistema operativo, la configuración de la aplicación cuando utiliza nuestro Servicio, la hora y la fecha de su uso del Servicio, y otras estadísticas.
+Queremos informarle que cada vez que utiliza nuestro Servicio, en caso de un error en la app, recopilamos datos e información (a través de productos de terceros) en su teléfono denominados Datos de registro. Estos Datos de registro pueden incluir información como la dirección del Protocolo de Internet (\"IP\") de su dispositivo, el nombre del dispositivo, la versión del sistema operativo, la configuración de la app cuando utiliza nuestro Servicio, la hora y la fecha de su uso del Servicio, y otras estadísticas.
 
 ## Seguridad
 
