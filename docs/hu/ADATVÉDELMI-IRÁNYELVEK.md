@@ -4,7 +4,7 @@
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***NE MÓDOSÍTS SEMMIT E SOR FELETT*** /+/^^+#|#+^+#|#+^^\+\"
 
-# Adatvédelmi Irányelvek
+# Adatvédelmi irányelvek
 
 LibreScore a LibreScore programot ingyenes programnak fejlesztette. Ezt a SZOLGÁLTATÁST a LibreScore díjmentesen biztosítja, és ingyenes felhasználásra szánja.
 

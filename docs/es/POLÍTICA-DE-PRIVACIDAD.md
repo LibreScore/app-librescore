@@ -1,6 +1,6 @@
 <div dir="ltr" align="left">
 
-&#8206;[English](/docs/en/PRIVACY-POLICY.md) | &#8206;**español** | &#8206;[magyar](/docs/hu/ADATVÉDELMI IRÁNYELVEK.md) | &#8206;[Melayu](/docs/ms/DASAR-PRIVASI.md) | &#8206;[[+]](https://librescore.ddns.net/projects/librescore/docs)
+&#8206;[English](/docs/en/PRIVACY-POLICY.md) | &#8206;**español** | &#8206;[magyar](/docs/hu/ADATVÉDELMI-IRÁNYELVEK.md) | &#8206;[Melayu](/docs/ms/DASAR-PRIVASI.md) | &#8206;[[+]](https://librescore.ddns.net/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***NO EDITAR ENCIMA DE ESTA LÍNEA*** /+/^^+#|#+^+#|#+^^\+\"
 
