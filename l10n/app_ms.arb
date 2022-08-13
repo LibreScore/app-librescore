@@ -83,10 +83,6 @@
   "@fr": {
     "type": "text"
   },
-  "ar": "Arab",
-  "@ar": {
-    "type": "text"
-  },
   "updateAvailableText": "Kemaskini ada",
   "@updateAvailableText": {
     "type": "text"
