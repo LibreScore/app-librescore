@@ -11,10 +11,6 @@
   "@ar": {
     "type": "text"
   },
-  "ru": "russo",
-  "@ru": {
-    "type": "text"
-  },
   "librescore": "LibreScore",
   "@librescore": {
     "type": "text"
