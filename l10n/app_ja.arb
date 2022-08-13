@@ -87,10 +87,6 @@
   "@ar": {
     "type": "text"
   },
-  "ru": "ロシア語",
-  "@ru": {
-    "type": "text"
-  },
   "updateCheckError": "アップデート確認失敗",
   "@updateCheckError": {
     "type": "text"
