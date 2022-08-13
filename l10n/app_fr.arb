@@ -99,10 +99,6 @@
   "@fr": {
     "type": "text"
   },
-  "ar": "arabe",
-  "@ar": {
-    "type": "text"
-  },
   "updateCheckError": "Échec de la vérification des mises à jour",
   "@updateCheckError": {
     "type": "text"
