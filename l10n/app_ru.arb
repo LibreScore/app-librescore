@@ -115,10 +115,6 @@
   "@it": {
     "type": "text"
   },
-  "ko": "корейский",
-  "@ko": {
-    "type": "text"
-  },
   "updateCheckError": "Не удалось проверить наличие обновлений",
   "@updateCheckError": {
     "type": "text"
