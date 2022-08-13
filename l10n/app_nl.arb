@@ -130,10 +130,6 @@
   "@ru": {
     "type": "text"
   },
-  "zh_Hans": "Simpel Chinees",
-  "@zh_Hans": {
-    "type": "text"
-  },
   "updateAvailableText": "Update beschikbaar",
   "@updateAvailableText": {
     "description": "Update available text",
