@@ -115,10 +115,6 @@
   "@it": {
     "type": "text"
   },
-  "ko": "coréen",
-  "@ko": {
-    "type": "text"
-  },
   "updateCheckError": "Échec de la vérification des mises à jour",
   "@updateCheckError": {
     "type": "text"
