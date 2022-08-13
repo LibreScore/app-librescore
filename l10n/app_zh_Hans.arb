@@ -99,10 +99,6 @@
   "@fr": {
     "type": "text"
   },
-  "ar": "阿拉伯语",
-  "@ar": {
-    "type": "text"
-  },
   "updateCheckError": "检查更新失败",
   "@updateCheckError": {
     "type": "text"
