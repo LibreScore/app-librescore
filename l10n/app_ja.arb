@@ -174,9 +174,5 @@
   "updateAvailableText": "アップデート可能",
   "@updateAvailableText": {
     "type": "text"
-  },
-  "ms": "マレー語",
-  "@ms": {
-    "type": "text"
   }
 }
