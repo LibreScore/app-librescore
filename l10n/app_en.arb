@@ -130,10 +130,6 @@
   "@ru": {
     "type": "text"
   },
-  "zh_Hans": "Simplified Chinese",
-  "@zh_Hans": {
-    "type": "text"
-  },
   "updateCheckError": "Failed to check for updates",
   "@updateCheckError": {
     "description": "Update check error",
