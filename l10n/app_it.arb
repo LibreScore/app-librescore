@@ -15,10 +15,6 @@
   "@ru": {
     "type": "text"
   },
-  "zh_Hans": "cinese semplificato",
-  "@zh_Hans": {
-    "type": "text"
-  },
   "librescore": "LibreScore",
   "@librescore": {
     "type": "text"
