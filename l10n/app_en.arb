@@ -114,10 +114,6 @@
     "description": "No results search page error",
     "type": "text"
   },
-  "es": "Spanish",
-  "@es": {
-    "type": "text"
-  },
   "updateCheckError": "Failed to check for updates",
   "@updateCheckError": {
     "description": "Update check error",
