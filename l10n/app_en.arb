@@ -134,10 +134,6 @@
   "@zh_Hans": {
     "type": "text"
   },
-  "it": "Italian",
-  "@it": {
-    "type": "text"
-  },
   "updateCheckError": "Failed to check for updates",
   "@updateCheckError": {
     "description": "Update check error",
