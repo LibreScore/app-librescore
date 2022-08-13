@@ -1,8 +1,4 @@
 {
-  "es": "spagnolo",
-  "@es": {
-    "type": "text"
-  },
   "librescore": "LibreScore",
   "@librescore": {
     "type": "text"
