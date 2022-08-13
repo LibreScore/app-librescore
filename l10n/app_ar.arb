@@ -107,10 +107,6 @@
   "@ru": {
     "type": "text"
   },
-  "zh_Hans": "الصينية المبسطة",
-  "@zh_Hans": {
-    "type": "text"
-  },
   "updateCheckError": "فشل في التحقق من وجود تحديثات",
   "@updateCheckError": {
     "type": "text"
