@@ -95,10 +95,6 @@
   "@es": {
     "type": "text"
   },
-  "fr": "法语",
-  "@fr": {
-    "type": "text"
-  },
   "updateCheckError": "检查更新失败",
   "@updateCheckError": {
     "type": "text"
