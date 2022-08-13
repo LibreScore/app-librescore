@@ -115,10 +115,6 @@
   "@it": {
     "type": "text"
   },
-  "ko": "coreano",
-  "@ko": {
-    "type": "text"
-  },
   "updateCheckError": "No se pudo buscar actualizaciones",
   "@updateCheckError": {
     "type": "text"
