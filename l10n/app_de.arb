@@ -1,1 +1,202 @@
-{}
+{
+  "settingsText": "Einstellungen",
+  "@settingsText": {
+    "description": "Settings button text",
+    "type": "text"
+  },
+  "aboutText": "Über",
+  "@aboutText": {
+    "description": "About button text",
+    "type": "text"
+  },
+  "searchError": "Bitte geben Sie eine Anfrage ein",
+  "@searchError": {
+    "description": "Searchbar error",
+    "type": "text"
+  },
+  "searchClearTip": "Löschen",
+  "@searchClearTip": {
+    "description": "Searchbar clear button tooltip",
+    "type": "text"
+  },
+  "searchSearchTip": "Suchen",
+  "@searchSearchTip": {
+    "description": "Searchbar search button tooltip",
+    "type": "text"
+  },
+  "homeTitle": "Home",
+  "@homeTitle": {
+    "description": "Home navbar title",
+    "type": "text"
+  },
+  "downloadsTitle": "Downloads",
+  "@downloadsTitle": {
+    "description": "Downloads navbar title",
+    "type": "text"
+  },
+  "privacyPolicyTitle": "Datenschutzerklärung",
+  "@privacyPolicyTitle": {
+    "description": "Privacy policy page title",
+    "type": "text"
+  },
+  "aboutTitle": "Über",
+  "@aboutTitle": {
+    "description": "About page title",
+    "type": "text"
+  },
+  "versionText": "Version",
+  "@versionText": {
+    "description": "Version label text",
+    "type": "text"
+  },
+  "licensesText": "Lizenzen",
+  "@licensesText": {
+    "description": "Licenses label text",
+    "type": "text"
+  },
+  "privacyPolicyText": "Datenschutzerklärung",
+  "@privacyPolicyText": {
+    "description": "Privacy policy label text",
+    "type": "text"
+  },
+  "contactText": "Kontakt",
+  "@contactText": {
+    "description": "Contact label text",
+    "type": "text"
+  },
+  "settingsTitle": "Einstellungen",
+  "@settingsTitle": {
+    "description": "Settings page title",
+    "type": "text"
+  },
+  "downloadFolderText": "Downloads-Ordner",
+  "@downloadFolderText": {
+    "description": "Download folder settings label",
+    "type": "text"
+  },
+  "themeText": "Farbe",
+  "@themeText": {
+    "description": "Theme settings label",
+    "type": "text"
+  },
+  "languageText": "Sprache",
+  "@languageText": {
+    "description": "Language settings label",
+    "type": "text"
+  },
+  "systemText": "System",
+  "@systemText": {
+    "description": "System theme option text",
+    "type": "text"
+  },
+  "lightText": "Hell",
+  "@lightText": {
+    "description": "Light theme option text",
+    "type": "text"
+  },
+  "darkText": "Dunkel",
+  "@darkText": {
+    "description": "Dark theme option text",
+    "type": "text"
+  },
+  "noResultsError": "Keine Ergebnisse",
+  "@noResultsError": {
+    "description": "No results search page error",
+    "type": "text"
+  },
+  "updateCheckError": "Prüfung auf Updates fehlgeschlagen",
+  "@updateCheckError": {
+    "description": "Update check error",
+    "type": "text"
+  },
+  "updateAvailableText": "Update verfügbar",
+  "@updateAvailableText": {
+    "description": "Update available text",
+    "type": "text"
+  },
+  "updateLatestText": "Keine neuen Updates",
+  "@updateLatestText": {
+    "description": "No new updates text",
+    "type": "text"
+  },
+  "updateText": "Aktualisieren",
+  "@updateText": {
+    "description": "Update button text",
+    "type": "text"
+  },
+  "ignoreText": "Ignorieren",
+  "@ignoreText": {
+    "description": "Ignore button text",
+    "type": "text"
+  },
+  "okText": "OK",
+  "@okText": {
+    "description": "OK button text",
+    "type": "text"
+  },
+  "downloadFolderHint": "Klicken, um auszuwählen",
+  "@downloadFolderHint": {
+    "description": "Download folder hint message",
+    "type": "text"
+  },
+  "noDownloadsError": "Keine Downloads",
+  "@noDownloadsError": {
+    "description": "No downloads downloads page error",
+    "type": "text"
+  },
+  "fileAccessError": "Zugriff auf Dateien verweigert",
+  "@fileAccessError": {
+    "description": "File access denied error",
+    "type": "text"
+  },
+  "networkError": "Netzwerkprobleme",
+  "@networkError": {
+    "description": "Network error",
+    "type": "text"
+  },
+  "downloadingTitle": "Wird heruntergeladen",
+  "@downloadingTitle": {
+    "description": "Downloading title",
+    "type": "text"
+  },
+  "loadingTitle": "Lädt",
+  "@loadingTitle": {
+    "description": "Loading title",
+    "type": "text"
+  },
+  "cancelText": "Abbrechen",
+  "@cancelText": {
+    "description": "Cancel button text",
+    "type": "text"
+  },
+  "librescoreServer": "LibreScore Server",
+  "@librescoreServer": {
+    "description": "LibreScore Server name",
+    "type": "text"
+  },
+  "serverText": "Server",
+  "@serverText": {
+    "description": "Server settings label",
+    "type": "text"
+  },
+  "onText": "Ein",
+  "@onText": {
+    "description": "On option text",
+    "type": "text"
+  },
+  "offText": "Aus",
+  "@offText": {
+    "description": "Off option text",
+    "type": "text"
+  },
+  "librescore": "LibreScore",
+  "@librescore": {
+    "description": "LibreScore name",
+    "type": "text"
+  },
+  "searchHint": "MuseScore durchsuchen oder eine URL eingeben",
+  "@searchHint": {
+    "description": "Searchbar hint message",
+    "type": "text"
+  }
+}
