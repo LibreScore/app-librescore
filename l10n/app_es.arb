@@ -119,10 +119,6 @@
   "@ko": {
     "type": "text"
   },
-  "ja": "japonés",
-  "@ja": {
-    "type": "text"
-  },
   "updateCheckError": "No se pudo buscar actualizaciones",
   "@updateCheckError": {
     "type": "text"
