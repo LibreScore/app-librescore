@@ -175,10 +175,6 @@
   "@cancelText": {
     "type": "text"
   },
-  "ms": "马来语",
-  "@ms": {
-    "type": "text"
-  },
   "librescoreServer": "利布蕾斯科尔服务器",
   "@librescoreServer": {
     "type": "text"
