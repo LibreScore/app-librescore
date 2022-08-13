@@ -175,10 +175,6 @@
   "@cancelText": {
     "type": "text"
   },
-  "ms": "малайский",
-  "@ms": {
-    "type": "text"
-  },
   "librescoreServer": "Сервер ЛибрэСкор",
   "@librescoreServer": {
     "type": "text"
