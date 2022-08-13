@@ -142,10 +142,6 @@
   "@ko": {
     "type": "text"
   },
-  "ja": "Japanese",
-  "@ja": {
-    "type": "text"
-  },
   "updateCheckError": "Failed to check for updates",
   "@updateCheckError": {
     "description": "Update check error",
