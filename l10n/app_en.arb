@@ -138,10 +138,6 @@
   "@it": {
     "type": "text"
   },
-  "ko": "Korean",
-  "@ko": {
-    "type": "text"
-  },
   "updateCheckError": "Failed to check for updates",
   "@updateCheckError": {
     "description": "Update check error",
