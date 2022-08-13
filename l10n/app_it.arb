@@ -38,9 +38,5 @@
   "settingsText": "Impostazioni",
   "@settingsText": {
     "type": "text"
-  },
-  "ms": "malese",
-  "@ms": {
-    "type": "text"
   }
 }
