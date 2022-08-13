@@ -146,10 +146,6 @@
   "@ja": {
     "type": "text"
   },
-  "ms": "Maleis",
-  "@ms": {
-    "type": "text"
-  },
   "updateAvailableText": "Update beschikbaar",
   "@updateAvailableText": {
     "description": "Update available text",
