@@ -107,10 +107,6 @@
   "@ru": {
     "type": "text"
   },
-  "zh_Hans": "중국어(간체)",
-  "@zh_Hans": {
-    "type": "text"
-  },
   "updateCheckError": "업데이트 확인 실패",
   "@updateCheckError": {
     "type": "text"
