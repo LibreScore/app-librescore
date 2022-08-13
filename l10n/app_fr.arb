@@ -107,10 +107,6 @@
   "@ru": {
     "type": "text"
   },
-  "zh_Hans": "chinois simplifié",
-  "@zh_Hans": {
-    "type": "text"
-  },
   "updateCheckError": "Échec de la vérification des mises à jour",
   "@updateCheckError": {
     "type": "text"
