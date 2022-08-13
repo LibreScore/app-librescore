@@ -7,10 +7,6 @@
   "@fr": {
     "type": "text"
   },
-  "ar": "arabo",
-  "@ar": {
-    "type": "text"
-  },
   "librescore": "LibreScore",
   "@librescore": {
     "type": "text"
