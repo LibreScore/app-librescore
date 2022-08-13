@@ -91,10 +91,6 @@
   "@ru": {
     "type": "text"
   },
-  "zh_Hans": "簡体中国語",
-  "@zh_Hans": {
-    "type": "text"
-  },
   "updateCheckError": "アップデート確認失敗",
   "@updateCheckError": {
     "type": "text"
