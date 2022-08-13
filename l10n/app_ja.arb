@@ -75,10 +75,6 @@
   "@darkText": {
     "type": "text"
   },
-  "es": "スペイン語",
-  "@es": {
-    "type": "text"
-  },
   "updateCheckError": "アップデート確認失敗",
   "@updateCheckError": {
     "type": "text"
