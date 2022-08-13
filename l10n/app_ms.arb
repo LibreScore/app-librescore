@@ -87,10 +87,6 @@
   "@ar": {
     "type": "text"
   },
-  "ru": "Rusia",
-  "@ru": {
-    "type": "text"
-  },
   "updateAvailableText": "Kemaskini ada",
   "@updateAvailableText": {
     "type": "text"
