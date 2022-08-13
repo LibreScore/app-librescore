@@ -103,10 +103,6 @@
   "@ar": {
     "type": "text"
   },
-  "ru": "russe",
-  "@ru": {
-    "type": "text"
-  },
   "updateCheckError": "Échec de la vérification des mises à jour",
   "@updateCheckError": {
     "type": "text"
