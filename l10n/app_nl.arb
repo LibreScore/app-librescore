@@ -114,10 +114,6 @@
     "description": "No results search page error",
     "type": "text"
   },
-  "es": "Spaans",
-  "@es": {
-    "type": "text"
-  },
   "updateAvailableText": "Update beschikbaar",
   "@updateAvailableText": {
     "description": "Update available text",
