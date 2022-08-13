@@ -69,7 +69,7 @@
     "description": "Settings page title",
     "type": "text"
   },
-  "downloadFolderText": "Downloads-Ordner",
+  "downloadFolderText": "Download-Ordner",
   "@downloadFolderText": {
     "description": "Download folder settings label",
     "type": "text"
@@ -134,7 +134,7 @@
     "description": "OK button text",
     "type": "text"
   },
-  "downloadFolderHint": "Klicken, um auszuwählen",
+  "downloadFolderHint": "Geben Sie den Download-Ordner ein",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
@@ -144,12 +144,12 @@
     "description": "No downloads downloads page error",
     "type": "text"
   },
-  "fileAccessError": "Zugriff auf Dateien verweigert",
+  "fileAccessError": "Dateizugriff verweigert",
   "@fileAccessError": {
     "description": "File access denied error",
     "type": "text"
   },
-  "networkError": "Netzwerkprobleme",
+  "networkError": "Netzwerkfehler",
   "@networkError": {
     "description": "Network error",
     "type": "text"
@@ -159,7 +159,7 @@
     "description": "Downloading title",
     "type": "text"
   },
-  "loadingTitle": "Lädt",
+  "loadingTitle": "Wird geladen",
   "@loadingTitle": {
     "description": "Loading title",
     "type": "text"
