@@ -103,10 +103,6 @@
   "@ar": {
     "type": "text"
   },
-  "ru": "러시아어",
-  "@ru": {
-    "type": "text"
-  },
   "updateCheckError": "업데이트 확인 실패",
   "@updateCheckError": {
     "type": "text"
