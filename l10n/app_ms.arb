@@ -174,9 +174,5 @@
   "updateCheckError": "Gagal menyemak kemas kini",
   "@updateCheckError": {
     "type": "text"
-  },
-  "ms": "Melayu",
-  "@ms": {
-    "type": "text"
   }
 }
