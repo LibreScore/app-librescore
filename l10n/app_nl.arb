@@ -138,10 +138,6 @@
   "@it": {
     "type": "text"
   },
-  "ko": "Koreaans",
-  "@ko": {
-    "type": "text"
-  },
   "updateAvailableText": "Update beschikbaar",
   "@updateAvailableText": {
     "description": "Update available text",
