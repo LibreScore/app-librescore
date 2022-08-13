@@ -27,10 +27,6 @@
   "@ko": {
     "type": "text"
   },
-  "ja": "giapponese",
-  "@ja": {
-    "type": "text"
-  },
   "librescore": "LibreScore",
   "@librescore": {
     "type": "text"
