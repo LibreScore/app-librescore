@@ -95,10 +95,6 @@
   "@es": {
     "type": "text"
   },
-  "fr": "الفرنسية",
-  "@fr": {
-    "type": "text"
-  },
   "updateCheckError": "فشل في التحقق من وجود تحديثات",
   "@updateCheckError": {
     "type": "text"
