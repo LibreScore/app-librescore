@@ -126,10 +126,6 @@
   "@ar": {
     "type": "text"
   },
-  "ru": "Russisch",
-  "@ru": {
-    "type": "text"
-  },
   "updateAvailableText": "Update beschikbaar",
   "@updateAvailableText": {
     "description": "Update available text",
