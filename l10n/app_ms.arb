@@ -75,10 +75,6 @@
   "@noResultsError": {
     "type": "text"
   },
-  "es": "Sepanyol",
-  "@es": {
-    "type": "text"
-  },
   "updateAvailableText": "Kemaskini ada",
   "@updateAvailableText": {
     "type": "text"
