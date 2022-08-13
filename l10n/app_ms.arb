@@ -103,10 +103,6 @@
   "@ko": {
     "type": "text"
   },
-  "ja": "Jepun",
-  "@ja": {
-    "type": "text"
-  },
   "updateAvailableText": "Kemaskini ada",
   "@updateAvailableText": {
     "type": "text"
