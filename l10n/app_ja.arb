@@ -99,10 +99,6 @@
   "@it": {
     "type": "text"
   },
-  "ko": "韓国語",
-  "@ko": {
-    "type": "text"
-  },
   "updateCheckError": "アップデート確認失敗",
   "@updateCheckError": {
     "type": "text"
