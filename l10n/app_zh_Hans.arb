@@ -111,10 +111,6 @@
   "@zh_Hans": {
     "type": "text"
   },
-  "it": "意大利语",
-  "@it": {
-    "type": "text"
-  },
   "updateCheckError": "检查更新失败",
   "@updateCheckError": {
     "type": "text"
