@@ -99,10 +99,6 @@
   "@it": {
     "type": "text"
   },
-  "ko": "Korea",
-  "@ko": {
-    "type": "text"
-  },
   "updateAvailableText": "Kemaskini ada",
   "@updateAvailableText": {
     "type": "text"
