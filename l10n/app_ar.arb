@@ -175,10 +175,6 @@
   "@cancelText": {
     "type": "text"
   },
-  "ms": "الماليزية",
-  "@ms": {
-    "type": "text"
-  },
   "librescoreServer": "خادم ليبريسكور",
   "@librescoreServer": {
     "type": "text"
