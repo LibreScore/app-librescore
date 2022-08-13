@@ -95,10 +95,6 @@
   "@es": {
     "type": "text"
   },
-  "fr": "프랑스어",
-  "@fr": {
-    "type": "text"
-  },
   "updateCheckError": "업데이트 확인 실패",
   "@updateCheckError": {
     "type": "text"
