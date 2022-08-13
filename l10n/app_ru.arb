@@ -91,10 +91,6 @@
   "@noResultsError": {
     "type": "text"
   },
-  "es": "испанский",
-  "@es": {
-    "type": "text"
-  },
   "updateCheckError": "Не удалось проверить наличие обновлений",
   "@updateCheckError": {
     "type": "text"
