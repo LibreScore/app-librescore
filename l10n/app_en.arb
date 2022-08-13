@@ -114,10 +114,6 @@
     "description": "No results search page error",
     "type": "text"
   },
-  "en": "English",
-  "@en": {
-    "type": "text"
-  },
   "es": "Spanish",
   "@es": {
     "type": "text"
