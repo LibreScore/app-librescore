@@ -111,10 +111,6 @@
   "@zh_Hans": {
     "type": "text"
   },
-  "it": "الإيطالية",
-  "@it": {
-    "type": "text"
-  },
   "updateCheckError": "فشل في التحقق من وجود تحديثات",
   "@updateCheckError": {
     "type": "text"
