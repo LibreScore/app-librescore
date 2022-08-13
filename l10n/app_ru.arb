@@ -95,10 +95,6 @@
   "@es": {
     "type": "text"
   },
-  "fr": "французский",
-  "@fr": {
-    "type": "text"
-  },
   "updateCheckError": "Не удалось проверить наличие обновлений",
   "@updateCheckError": {
     "type": "text"
