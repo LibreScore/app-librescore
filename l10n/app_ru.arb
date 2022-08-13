@@ -107,10 +107,6 @@
   "@ru": {
     "type": "text"
   },
-  "zh_Hans": "китайский, упрощенное письмо",
-  "@zh_Hans": {
-    "type": "text"
-  },
   "updateCheckError": "Не удалось проверить наличие обновлений",
   "@updateCheckError": {
     "type": "text"
