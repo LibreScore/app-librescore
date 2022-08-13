@@ -134,10 +134,6 @@
   "@zh_Hans": {
     "type": "text"
   },
-  "it": "Italiaans",
-  "@it": {
-    "type": "text"
-  },
   "updateAvailableText": "Update beschikbaar",
   "@updateAvailableText": {
     "description": "Update available text",
