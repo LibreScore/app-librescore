@@ -19,10 +19,6 @@
   "@zh_Hans": {
     "type": "text"
   },
-  "it": "italiano",
-  "@it": {
-    "type": "text"
-  },
   "librescore": "LibreScore",
   "@librescore": {
     "type": "text"
