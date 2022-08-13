@@ -119,10 +119,6 @@
   "@ko": {
     "type": "text"
   },
-  "ja": "japonais",
-  "@ja": {
-    "type": "text"
-  },
   "updateCheckError": "Échec de la vérification des mises à jour",
   "@updateCheckError": {
     "type": "text"
