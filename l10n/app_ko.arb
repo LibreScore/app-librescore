@@ -174,9 +174,5 @@
   "cancelText": "취소",
   "@cancelText": {
     "type": "text"
-  },
-  "ms": "말레이어",
-  "@ms": {
-    "type": "text"
   }
 }
