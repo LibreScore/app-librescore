@@ -114,10 +114,6 @@
     "description": "No results search page error",
     "type": "text"
   },
-  "en": "Engels",
-  "@en": {
-    "type": "text"
-  },
   "es": "Spaans",
   "@es": {
     "type": "text"
