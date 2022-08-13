@@ -115,10 +115,6 @@
   "@it": {
     "type": "text"
   },
-  "ko": "한국어",
-  "@ko": {
-    "type": "text"
-  },
   "updateCheckError": "업데이트 확인 실패",
   "@updateCheckError": {
     "type": "text"
