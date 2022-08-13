@@ -103,10 +103,6 @@
   "@ar": {
     "type": "text"
   },
-  "ru": "ruso",
-  "@ru": {
-    "type": "text"
-  },
   "updateCheckError": "No se pudo buscar actualizaciones",
   "@updateCheckError": {
     "type": "text"
