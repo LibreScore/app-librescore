@@ -122,10 +122,6 @@
   "@fr": {
     "type": "text"
   },
-  "ar": "Arabisch",
-  "@ar": {
-    "type": "text"
-  },
   "updateAvailableText": "Update beschikbaar",
   "@updateAvailableText": {
     "description": "Update available text",
