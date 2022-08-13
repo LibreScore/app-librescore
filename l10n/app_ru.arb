@@ -103,10 +103,6 @@
   "@ar": {
     "type": "text"
   },
-  "ru": "русский",
-  "@ru": {
-    "type": "text"
-  },
   "updateCheckError": "Не удалось проверить наличие обновлений",
   "@updateCheckError": {
     "type": "text"
