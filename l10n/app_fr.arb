@@ -175,10 +175,6 @@
   "@cancelText": {
     "type": "text"
   },
-  "ms": "malais",
-  "@ms": {
-    "type": "text"
-  },
   "librescoreServer": "Serveur LibreScore",
   "@librescoreServer": {
     "type": "text"
