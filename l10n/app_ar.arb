@@ -115,10 +115,6 @@
   "@it": {
     "type": "text"
   },
-  "ko": "الكورية",
-  "@ko": {
-    "type": "text"
-  },
   "updateCheckError": "فشل في التحقق من وجود تحديثات",
   "@updateCheckError": {
     "type": "text"
