@@ -95,10 +95,6 @@
   "@zh_Hans": {
     "type": "text"
   },
-  "it": "イタリア語",
-  "@it": {
-    "type": "text"
-  },
   "updateCheckError": "アップデート確認失敗",
   "@updateCheckError": {
     "type": "text"
