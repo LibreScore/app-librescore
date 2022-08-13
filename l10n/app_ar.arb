@@ -119,10 +119,6 @@
   "@ko": {
     "type": "text"
   },
-  "ja": "اليابانية",
-  "@ja": {
-    "type": "text"
-  },
   "updateCheckError": "فشل في التحقق من وجود تحديثات",
   "@updateCheckError": {
     "type": "text"
