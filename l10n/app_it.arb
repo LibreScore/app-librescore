@@ -3,10 +3,6 @@
   "@es": {
     "type": "text"
   },
-  "fr": "francese",
-  "@fr": {
-    "type": "text"
-  },
   "librescore": "LibreScore",
   "@librescore": {
     "type": "text"
