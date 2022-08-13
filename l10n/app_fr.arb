@@ -91,10 +91,6 @@
   "@noResultsError": {
     "type": "text"
   },
-  "en": "anglais",
-  "@en": {
-    "type": "text"
-  },
   "es": "espagnol",
   "@es": {
     "type": "text"
