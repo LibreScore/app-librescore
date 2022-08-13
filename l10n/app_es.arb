@@ -111,10 +111,6 @@
   "@zh_Hans": {
     "type": "text"
   },
-  "it": "italiano",
-  "@it": {
-    "type": "text"
-  },
   "updateCheckError": "No se pudo buscar actualizaciones",
   "@updateCheckError": {
     "type": "text"
