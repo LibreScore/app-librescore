@@ -91,10 +91,6 @@
   "@noResultsError": {
     "type": "text"
   },
-  "es": "espagnol",
-  "@es": {
-    "type": "text"
-  },
   "updateCheckError": "Échec de la vérification des mises à jour",
   "@updateCheckError": {
     "type": "text"
