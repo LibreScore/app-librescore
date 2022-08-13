@@ -118,10 +118,6 @@
   "@es": {
     "type": "text"
   },
-  "fr": "French",
-  "@fr": {
-    "type": "text"
-  },
   "updateCheckError": "Failed to check for updates",
   "@updateCheckError": {
     "description": "Update check error",
