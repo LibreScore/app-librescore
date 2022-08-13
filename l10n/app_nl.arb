@@ -118,10 +118,6 @@
   "@es": {
     "type": "text"
   },
-  "fr": "Frans",
-  "@fr": {
-    "type": "text"
-  },
   "updateAvailableText": "Update beschikbaar",
   "@updateAvailableText": {
     "description": "Update available text",
