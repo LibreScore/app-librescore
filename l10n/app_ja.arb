@@ -103,10 +103,6 @@
   "@ko": {
     "type": "text"
   },
-  "ja": "日本語",
-  "@ja": {
-    "type": "text"
-  },
   "updateCheckError": "アップデート確認失敗",
   "@updateCheckError": {
     "type": "text"
