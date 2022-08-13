@@ -95,10 +95,6 @@
   "@es": {
     "type": "text"
   },
-  "fr": "français",
-  "@fr": {
-    "type": "text"
-  },
   "updateCheckError": "Échec de la vérification des mises à jour",
   "@updateCheckError": {
     "type": "text"
