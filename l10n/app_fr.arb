@@ -111,10 +111,6 @@
   "@zh_Hans": {
     "type": "text"
   },
-  "it": "italien",
-  "@it": {
-    "type": "text"
-  },
   "updateCheckError": "Échec de la vérification des mises à jour",
   "@updateCheckError": {
     "type": "text"
