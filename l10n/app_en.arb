@@ -122,10 +122,6 @@
   "@fr": {
     "type": "text"
   },
-  "ar": "Arabic",
-  "@ar": {
-    "type": "text"
-  },
   "updateCheckError": "Failed to check for updates",
   "@updateCheckError": {
     "description": "Update check error",
