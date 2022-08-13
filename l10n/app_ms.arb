@@ -79,10 +79,6 @@
   "@es": {
     "type": "text"
   },
-  "fr": "Perancis",
-  "@fr": {
-    "type": "text"
-  },
   "updateAvailableText": "Kemaskini ada",
   "@updateAvailableText": {
     "type": "text"
