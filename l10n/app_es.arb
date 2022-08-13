@@ -107,10 +107,6 @@
   "@ru": {
     "type": "text"
   },
-  "zh_Hans": "chino simplificado",
-  "@zh_Hans": {
-    "type": "text"
-  },
   "updateCheckError": "No se pudo buscar actualizaciones",
   "@updateCheckError": {
     "type": "text"
