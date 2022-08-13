@@ -83,10 +83,6 @@
   "@fr": {
     "type": "text"
   },
-  "en": "Inggeris",
-  "@en": {
-    "type": "text"
-  },
   "ar": "Arab",
   "@ar": {
     "type": "text"
