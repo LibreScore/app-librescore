@@ -83,10 +83,6 @@
   "@fr": {
     "type": "text"
   },
-  "ar": "アラビア語",
-  "@ar": {
-    "type": "text"
-  },
   "updateCheckError": "アップデート確認失敗",
   "@updateCheckError": {
     "type": "text"
