@@ -91,10 +91,6 @@
   "@ru": {
     "type": "text"
   },
-  "zh_Hans": "Cina Ringkas",
-  "@zh_Hans": {
-    "type": "text"
-  },
   "updateAvailableText": "Kemaskini ada",
   "@updateAvailableText": {
     "type": "text"
