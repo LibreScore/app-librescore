@@ -91,10 +91,6 @@
   "@noResultsError": {
     "type": "text"
   },
-  "es": "الإسبانية",
-  "@es": {
-    "type": "text"
-  },
   "updateCheckError": "فشل في التحقق من وجود تحديثات",
   "@updateCheckError": {
     "type": "text"
