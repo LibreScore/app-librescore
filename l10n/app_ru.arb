@@ -99,10 +99,6 @@
   "@fr": {
     "type": "text"
   },
-  "ar": "арабский",
-  "@ar": {
-    "type": "text"
-  },
   "updateCheckError": "Не удалось проверить наличие обновлений",
   "@updateCheckError": {
     "type": "text"
