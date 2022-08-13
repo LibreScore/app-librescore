@@ -79,10 +79,6 @@
   "@es": {
     "type": "text"
   },
-  "fr": "フランス語",
-  "@fr": {
-    "type": "text"
-  },
   "updateCheckError": "アップデート確認失敗",
   "@updateCheckError": {
     "type": "text"
