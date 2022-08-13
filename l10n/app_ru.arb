@@ -111,10 +111,6 @@
   "@zh_Hans": {
     "type": "text"
   },
-  "it": "итальянский",
-  "@it": {
-    "type": "text"
-  },
   "updateCheckError": "Не удалось проверить наличие обновлений",
   "@updateCheckError": {
     "type": "text"
