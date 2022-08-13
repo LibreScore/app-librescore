@@ -103,10 +103,6 @@
   "@ar": {
     "type": "text"
   },
-  "ru": "الروسية",
-  "@ru": {
-    "type": "text"
-  },
   "updateCheckError": "فشل في التحقق من وجود تحديثات",
   "@updateCheckError": {
     "type": "text"
