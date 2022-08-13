@@ -95,10 +95,6 @@
   "@zh_Hans": {
     "type": "text"
   },
-  "it": "Itali",
-  "@it": {
-    "type": "text"
-  },
   "updateAvailableText": "Kemaskini ada",
   "@updateAvailableText": {
     "type": "text"
