@@ -91,10 +91,6 @@
   "@noResultsError": {
     "type": "text"
   },
-  "es": "스페인어",
-  "@es": {
-    "type": "text"
-  },
   "updateCheckError": "업데이트 확인 실패",
   "@updateCheckError": {
     "type": "text"
