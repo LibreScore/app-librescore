@@ -91,10 +91,6 @@
   "@noResultsError": {
     "type": "text"
   },
-  "es": "西班牙语",
-  "@es": {
-    "type": "text"
-  },
   "updateCheckError": "检查更新失败",
   "@updateCheckError": {
     "type": "text"
