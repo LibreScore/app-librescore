@@ -142,10 +142,6 @@
   "@ko": {
     "type": "text"
   },
-  "ja": "Japans",
-  "@ja": {
-    "type": "text"
-  },
   "updateAvailableText": "Update beschikbaar",
   "@updateAvailableText": {
     "description": "Update available text",
