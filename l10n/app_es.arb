@@ -99,10 +99,6 @@
   "@fr": {
     "type": "text"
   },
-  "ar": "árabe",
-  "@ar": {
-    "type": "text"
-  },
   "updateCheckError": "No se pudo buscar actualizaciones",
   "@updateCheckError": {
     "type": "text"
