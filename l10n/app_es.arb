@@ -175,10 +175,6 @@
   "@cancelText": {
     "type": "text"
   },
-  "ms": "malayo",
-  "@ms": {
-    "type": "text"
-  },
   "librescoreServer": "Servidor LibreScore",
   "@librescoreServer": {
     "description": "Nombre de Servidor LibreScore",
