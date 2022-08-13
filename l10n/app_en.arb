@@ -126,10 +126,6 @@
   "@ar": {
     "type": "text"
   },
-  "ru": "Russian",
-  "@ru": {
-    "type": "text"
-  },
   "updateCheckError": "Failed to check for updates",
   "@updateCheckError": {
     "description": "Update check error",
