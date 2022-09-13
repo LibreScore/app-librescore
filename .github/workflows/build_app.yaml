@@ -41,7 +41,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
             - name: Install Flutter
               uses: subosito/flutter-action@v2
               with:
-                  flutter-version: '3.3.1'
+                  flutter-version: "3.3.1"
                   channel: "stable"
                   cache: true
                   cache-key: flutter
@@ -203,7 +203,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
         runs-on: ubuntu-latest
         steps:
             - name: Delete pre-release
-              runs: |
+              run: |
                 ID="$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/tags/${{ github.ref_name }} | jq -r .id)"
                 curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/$ID
                 curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/git/refs/tags/${{ github.ref_name }}
