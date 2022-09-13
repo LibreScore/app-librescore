@@ -204,6 +204,6 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
         steps:
             - name: Delete pre-release
               runs: |
-                  ID="$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/tags/${{ github.ref_name }} | jq -r .id)"
-                  curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/$ID
-                  curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/git/refs/tags/${{ github.ref_name }}
+                ID="$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/tags/${{ github.ref_name }} | jq -r .id)"
+                curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/$ID
+                curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/git/refs/tags/${{ github.ref_name }}
