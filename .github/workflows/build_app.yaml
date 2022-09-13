@@ -6,13 +6,12 @@ on:
             - "v*.*.*"
 
 jobs:
-    prerelease:
+    release:
         runs-on: ubuntu-latest
         steps:
             - name: Publish pre-release
               uses: softprops/action-gh-release@v1
               with:
-                  prerelease: true
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
                   repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
                   body: '## Download
@@ -31,7 +30,7 @@ jobs:
 
 Installation instructions are in the [README](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/blob/master/README.md) file.'
     build:
-        needs: prerelease
+        needs: release
         runs-on: ${{ matrix.os }}
         strategy:
             matrix:
@@ -188,16 +187,6 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   files: |
                       ./LibreScore.dmg
                       ./LibreScore.pkg
-    release:
-        needs: build
-        runs-on: ubuntu-latest
-        steps:
-            - name: Publish release
-              uses: softprops/action-gh-release@v1
-              with:
-                  prerelease: false
-                  token: ${{ secrets.LIBRESCORE_TOKEN }}
-                  repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
     delete:
         if: failure()
         runs-on: ubuntu-latest
