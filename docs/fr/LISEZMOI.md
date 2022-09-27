@@ -1,6 +1,6 @@
 <div dir="ltr" align="left">
 
-&#8206;[English](/docs/en/README.md) | &#8206;[español](/docs/es/LÉAME.md) | &#8206;**français** | &#8206;[magyar](/docs/hu/OLVASSAEL.md) | &#8206;[Melayu](/docs/ms/BACASAYA.md) | &#8206;[简体中文](/docs/zh-Hans/自述文件.md) | &#8206;[[+]](https://librescore.ddns.net/projects/librescore/docs)
+‎[English](/docs/en/README.md) | ‎[español](/docs/es/LÉAME.md) | ‎**français** | ‎[magyar](/docs/hu/OLVASSAEL.md) | ‎[Melayu](/docs/ms/BACASAYA.md) | ‎[简体中文](/docs/zh-Hans/自述文件.md) | ‎[[+]](https://librescore.ddns.net/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***NE MODIFIEZ PAS AU-DESSUS DE CETTE LIGNE*** /+/^^+#|#+^+#|#+^^\+\"
 

@@ -1,6 +1,6 @@
 <div dir="ltr" align="left">
 
-&#8206;[English](/docs/en/PRIVACY-POLICY.md) | &#8206;[español](/docs/es/POLÍTICA-DE-PRIVACIDAD.md) | &#8206;**magyar** | &#8206;[Melayu](/docs/ms/DASAR-PRIVASI.md) | &#8206;[[+]](https://librescore.ddns.net/projects/librescore/docs)
+‎[English](/docs/en/PRIVACY-POLICY.md) | ‎[español](/docs/es/POLÍTICA-DE-PRIVACIDAD.md) | ‎**magyar** | ‎[Melayu](/docs/ms/DASAR-PRIVASI.md) | ‎[[+]](https://librescore.ddns.net/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***NE MÓDOSÍTS SEMMIT E SOR FELETT*** /+/^^+#|#+^+#|#+^^\+\"
 
