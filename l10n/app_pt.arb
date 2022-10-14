@@ -4,7 +4,7 @@
     "description": "Settings button text",
     "type": "text"
   },
-  "searchHint": "Procure no MuseScore ou insira a URL",
+  "searchHint": "Procure no MuseScore ou insira um URL",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
@@ -29,7 +29,7 @@
     "description": "Downloads navbar title",
     "type": "text"
   },
-  "privacyPolicyTitle": "Política de privacidade",
+  "privacyPolicyTitle": "Política de Privacidade",
   "@privacyPolicyTitle": {
     "description": "Privacy policy page title",
     "type": "text"
@@ -99,7 +99,7 @@
     "description": "Update available text",
     "type": "text"
   },
-  "updateLatestText": "Sem atualizações",
+  "updateLatestText": "Sem novas atualizações",
   "@updateLatestText": {
     "description": "No new updates text",
     "type": "text"
@@ -119,7 +119,7 @@
     "description": "OK button text",
     "type": "text"
   },
-  "downloadFolderHint": "Selecione o diretório para Downloads",
+  "downloadFolderHint": "Digite a pasta de download",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
@@ -154,12 +154,12 @@
     "description": "Server settings label",
     "type": "text"
   },
-  "onText": "On",
+  "onText": "Ligado",
   "@onText": {
     "description": "On option text",
     "type": "text"
   },
-  "offText": "Off",
+  "offText": "Desligado",
   "@offText": {
     "description": "Off option text",
     "type": "text"
@@ -184,7 +184,7 @@
     "description": "Privacy policy label text",
     "type": "text"
   },
-  "downloadFolderText": "Diretório de Downloads",
+  "downloadFolderText": "Pasta de download",
   "@downloadFolderText": {
     "description": "Download folder settings label",
     "type": "text"
