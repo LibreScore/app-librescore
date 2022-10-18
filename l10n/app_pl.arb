@@ -4,7 +4,7 @@
     "description": "Settings button text",
     "type": "text"
   },
-  "aboutText": "O aplikacji",
+  "aboutText": "O",
   "@aboutText": {
     "description": "About button text",
     "type": "text"
@@ -189,7 +189,7 @@
     "description": "LibreScore name",
     "type": "text"
   },
-  "searchHint": "Szukaj w MuseScore / wprowadź URL",
+  "searchHint": "Szukaj w MuseScore lub wprowadź URL",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
