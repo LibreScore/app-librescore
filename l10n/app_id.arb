@@ -64,7 +64,7 @@
     "description": "Licenses label text",
     "type": "text"
   },
-  "privacyPolicyText": "Kebijakan Privasi",
+  "privacyPolicyText": "Kebijakan privasi",
   "@privacyPolicyText": {
     "description": "Privacy policy label text",
     "type": "text"
@@ -159,7 +159,7 @@
     "description": "File access denied error",
     "type": "text"
   },
-  "networkError": "Galat Jaringan",
+  "networkError": "Galat jaringan",
   "@networkError": {
     "description": "Network error",
     "type": "text"
