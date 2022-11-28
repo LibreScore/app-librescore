@@ -11,11 +11,11 @@
   "@aboutText": {
     "type": "text"
   },
-  "searchError": "输入以查询",
+  "searchError": "请输入查询",
   "@searchError": {
     "type": "text"
   },
-  "searchHint": "搜索 MuseScore 或 输入 URL",
+  "searchHint": "搜索 MuseScore 或输入 URL",
   "@searchHint": {
     "type": "text"
   },
@@ -31,7 +31,7 @@
   "@homeTitle": {
     "type": "text"
   },
-  "downloadsTitle": "我的下载",
+  "downloadsTitle": "下载",
   "@downloadsTitle": {
     "type": "text"
   },
