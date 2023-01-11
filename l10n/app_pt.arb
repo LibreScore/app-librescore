@@ -198,5 +198,10 @@
   "@librescoreServer": {
     "description": "LibreScore Server name",
     "type": "text"
+  },
+  "fileOpenError": "Nenhum programa registrado para abrir este arquivo",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
