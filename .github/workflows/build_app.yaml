@@ -40,7 +40,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
             - name: Install Flutter
               uses: subosito/flutter-action@v2
               with:
-                  flutter-version: "3.3.2"
+                  flutter-version: "3.3.10"
                   channel: "stable"
                   cache: true
                   cache-key: flutter
@@ -52,6 +52,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                 token: ${{ secrets.LIBRESCORE_TOKEN }}
                 submodules: 'recursive'
             - name: Import GPG key
+              if: matrix.os == 'ubuntu-latest'
               uses: crazy-max/ghaction-import-gpg@v5
               with:
                 gpg_private_key: ${{ secrets.LIBRESCORE_GPG }}
@@ -59,6 +60,8 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
             - name: Build AppImage
               if: matrix.os == 'ubuntu-latest'
               run: |
+                  sudo apt install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
+                  flutter config --enable-linux-desktop
                   flutter clean
                   flutter build linux --obfuscate --split-debug-info=./build/app/outputs/symbols
                   ldd ./build/linux/x64/release/bundle/librescore | awk 'NF == 4 { system("cp " $3 " ./build/linux/x64/release/bundle/lib/") }'
