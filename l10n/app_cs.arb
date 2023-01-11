@@ -198,5 +198,10 @@
   "@updateCheckError": {
     "description": "Update check error",
     "type": "text"
+  },
+  "fileOpenError": "K otevření tohoto souboru není zaregistrován žádný program",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
