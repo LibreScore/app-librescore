@@ -158,5 +158,10 @@
   "offText": "Выключен",
   "@offText": {
     "type": "text"
+  },
+  "fileOpenError": "Ни одна программа не зарегистрирована для открытия этого файла",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
