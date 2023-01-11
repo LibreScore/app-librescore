@@ -159,5 +159,10 @@
   "offText": "Apagado",
   "@offText": {
     "type": "text"
+  },
+  "fileOpenError": "No hay ningún programa registrado para abrir este archivo",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
