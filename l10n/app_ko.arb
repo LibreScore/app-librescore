@@ -142,5 +142,30 @@
   "cancelText": "취소",
   "@cancelText": {
     "type": "text"
+  },
+  "offText": "끄기",
+  "@offText": {
+    "description": "Off option text",
+    "type": "text"
+  },
+  "fileOpenError": "이 파일을 열도록 등록된 프로그램이 없습니다",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
+  },
+  "librescoreServer": "리브레스코어 서버",
+  "@librescoreServer": {
+    "description": "LibreScore Server name",
+    "type": "text"
+  },
+  "serverText": "서버",
+  "@serverText": {
+    "description": "Server settings label",
+    "type": "text"
+  },
+  "onText": "켜기",
+  "@onText": {
+    "description": "On option text",
+    "type": "text"
   }
 }
