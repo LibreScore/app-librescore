@@ -158,5 +158,10 @@
   "offText": "关",
   "@offText": {
     "type": "text"
+  },
+  "fileOpenError": "没有注册打开此文件的程序",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
