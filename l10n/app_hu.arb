@@ -198,5 +198,10 @@
   "@searchError": {
     "description": "Searchbar error",
     "type": "text"
+  },
+  "fileOpenError": "Nincs regisztrálva program a fájl megnyitásához",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
