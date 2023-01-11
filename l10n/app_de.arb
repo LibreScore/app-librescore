@@ -198,5 +198,10 @@
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
+  },
+  "fileOpenError": "Kein Programm zum Öffnen dieser Datei registriert",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
