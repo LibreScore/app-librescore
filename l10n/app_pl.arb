@@ -198,5 +198,10 @@
   "@systemText": {
     "description": "System theme option text",
     "type": "text"
+  },
+  "fileOpenError": "Nie zarejestrowano żadnego programu do otwierania tego pliku",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
