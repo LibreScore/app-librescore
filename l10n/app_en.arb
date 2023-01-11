@@ -159,6 +159,11 @@
     "description": "File access denied error",
     "type": "text"
   },
+  "fileOpenError": "No program registered to open this file",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
+  },
   "networkError": "Network error",
   "@networkError": {
     "description": "Network error",

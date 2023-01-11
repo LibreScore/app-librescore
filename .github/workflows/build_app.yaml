@@ -17,13 +17,13 @@ jobs:
                   body: '## Download
 
 
-| <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Windows_logo_and_wordmark_-_2021.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/MacOS_wordmark_%282017%29.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Android_robot_head.svg" width="512"> |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Windows_logo_and_wordmark_-_2021.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/MacOS_wordmark_%282017%29.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg" width="512"> | <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Android_robot_head.svg" width="512"> |
 
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 
-| Windows (7+) (64-bit only) | macOS (10.11+) (Rosetta 2) | Android (6.0+) |
+| Windows (7+) (64-bit only) | macOS (10.11+) (Rosetta 2) | Linux (64-bit only) | Android (6.0+) |
 
-| [Download (EXE)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/download/${{ github.ref_name }}/LibreScore.exe) | [Download (DMG)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/download/${{ github.ref_name }}/LibreScore.dmg) | [Download (APK)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/download/${{ github.ref_name }}/LibreScore.apk) |
+| [Download (EXE)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/download/${{ github.ref_name }}/LibreScore.exe) | [Download (DMG)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/download/${{ github.ref_name }}/LibreScore.dmg) | [Download (AppImage)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/download/${{ github.ref_name }}/LibreScore.AppImage) | [Download (APK)](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/download/${{ github.ref_name }}/LibreScore.apk) |
 
 
 ### Having trouble?
@@ -51,6 +51,25 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                 repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
                 token: ${{ secrets.LIBRESCORE_TOKEN }}
                 submodules: 'recursive'
+            - name: Build AppImage
+              if: matrix.os == 'ubuntu-latest'
+              run: |
+                  flutter clean
+                  flutter build linux --obfuscate --split-debug-info=./build/app/outputs/symbols
+                  ldd ./build/linux/x64/release/bundle/librescore | awk 'NF == 4 { system("cp " $3 " ./build/linux/x64/release/bundle/lib/") }'
+                  patchelf ./build/linux/x64/release/bundle/lib/libflutter_webrtc_plugin.so  --set-rpath "\$ORIGIN/lib"
+                  cp -R ./build/linux/x64/release/bundle/* ./installer/AppImage/
+                  chmod a+x ./appimagetool.AppImage
+                  ARCH=x86_64 ./appimagetool.AppImage ./installer/AppImage --no-appstream
+                  mv ./LibreScore-x86_64.AppImage ./LibreScore.AppImage
+            - name: Upload AppImage
+              if: matrix.os == 'ubuntu-latest'
+              uses: softprops/action-gh-release@v1
+              with:
+                  token: ${{ secrets.LIBRESCORE_TOKEN }}
+                  repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                  files: |
+                      ./LibreScore.AppImage
             - uses: actions/setup-java@v3
               if: matrix.os == 'ubuntu-latest'
               with:
