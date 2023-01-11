@@ -198,5 +198,10 @@
   "@offText": {
     "description": "Off option text",
     "type": "text"
+  },
+  "fileOpenError": "Er is geen programma geregistreerd om dit bestand te openen",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
