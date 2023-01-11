@@ -142,5 +142,30 @@
   "updateAvailableText": "アップデート可能",
   "@updateAvailableText": {
     "type": "text"
+  },
+  "librescoreServer": "リブレスコアサーバー",
+  "@librescoreServer": {
+    "description": "LibreScore Server name",
+    "type": "text"
+  },
+  "onText": "オン",
+  "@onText": {
+    "description": "On option text",
+    "type": "text"
+  },
+  "serverText": "サーバ",
+  "@serverText": {
+    "description": "Server settings label",
+    "type": "text"
+  },
+  "offText": "オフ",
+  "@offText": {
+    "description": "Off option text",
+    "type": "text"
+  },
+  "fileOpenError": "このファイルを開くプログラムは登録されていません",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
