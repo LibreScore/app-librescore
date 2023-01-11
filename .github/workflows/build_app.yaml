@@ -51,16 +51,21 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                 repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
                 token: ${{ secrets.LIBRESCORE_TOKEN }}
                 submodules: 'recursive'
+            - name: Import GPG key
+              uses: crazy-max/ghaction-import-gpg@v5
+              with:
+                gpg_private_key: ${{ secrets.LIBRESCORE_GPG }}
+                passphrase: ${{ secrets.LIBRESCORE_GPG_PASSWORD }}
             - name: Build AppImage
               if: matrix.os == 'ubuntu-latest'
               run: |
                   flutter clean
                   flutter build linux --obfuscate --split-debug-info=./build/app/outputs/symbols
                   ldd ./build/linux/x64/release/bundle/librescore | awk 'NF == 4 { system("cp " $3 " ./build/linux/x64/release/bundle/lib/") }'
-                  patchelf ./build/linux/x64/release/bundle/lib/libflutter_webrtc_plugin.so  --set-rpath "\$ORIGIN/lib"
+                  patchelf ./build/linux/x64/release/bundle/lib/libflutter_webrtc_plugin.so --set-rpath "\$ORIGIN/lib"
                   cp -R ./build/linux/x64/release/bundle/* ./installer/AppImage/
                   chmod a+x ./appimagetool.AppImage
-                  ARCH=x86_64 ./appimagetool.AppImage ./installer/AppImage --no-appstream
+                  ARCH=x86_64 ./appimagetool.AppImage ./installer/AppImage --no-appstream --sign
                   mv ./LibreScore-x86_64.AppImage ./LibreScore.AppImage
             - name: Upload AppImage
               if: matrix.os == 'ubuntu-latest'
