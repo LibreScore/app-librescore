@@ -1,6 +1,6 @@
 <div dir="ltr" align="left">
 
-‎**English** | ‎[[+]](https://librescore.ddns.net/projects/librescore/docs)
+‎[čeština](/docs/cs/PŘEČTĚTEMĚ.md) | ‎**English** | ‎[español](/docs/es/LÉAME.md) | ‎[français](/docs/fr/LISEZMOI.md) | ‎[magyar](/docs/hu/OLVASSAEL.md) | ‎[Melayu](/docs/ms/BACASAYA.md) | ‎[[+]](https://librescore.ddns.net/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***DO NOT EDIT ABOVE THIS LINE*** /+/^^+#|#+^+#|#+^^\+\"
 
@@ -48,7 +48,7 @@ Download the LibreScore app
 
 1. Install `fuse2` for your distribution
 2. Download [LibreScore.AppImage](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.AppImage)
-3. Run `chmod a+x LibreScore.AppImage` to make it executable
+3. Run `chmod a+x ./LibreScore.AppImage` to make it executable
 4. Run `./LibreScore.AppImage --install` to install it
 
 ### Android
