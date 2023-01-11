@@ -142,5 +142,30 @@
   "updateCheckError": "Gagal menyemak kemas kini",
   "@updateCheckError": {
     "type": "text"
+  },
+  "onText": "Hidup",
+  "@onText": {
+    "description": "On option text",
+    "type": "text"
+  },
+  "librescoreServer": "Pelayan LibreScore",
+  "@librescoreServer": {
+    "description": "LibreScore Server name",
+    "type": "text"
+  },
+  "offText": "Mati",
+  "@offText": {
+    "description": "Off option text",
+    "type": "text"
+  },
+  "fileOpenError": "Tiada program didaftarkan untuk membuka fail ini",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
+  },
+  "serverText": "Pelayan",
+  "@serverText": {
+    "description": "Server settings label",
+    "type": "text"
   }
 }
