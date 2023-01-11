@@ -158,5 +158,10 @@
   "offText": "مغلق",
   "@offText": {
     "type": "text"
+  },
+  "fileOpenError": "لا يوجد برنامج مسجل لفتح هذا الملف",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
   }
 }
