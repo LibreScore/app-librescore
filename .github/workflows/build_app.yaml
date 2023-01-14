@@ -64,9 +64,10 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   flutter config --enable-linux-desktop
                   flutter clean
                   flutter build linux --obfuscate --split-debug-info=./build/app/outputs/symbols
+                  patchelf --set-interpreter ./lib/ld-linux-x86-64.so.2 ./build/linux/x64/release/bundle/librescore
                   ldd ./build/linux/x64/release/bundle/librescore | awk 'NF == 4 { system("cp " $3 " ./build/linux/x64/release/bundle/lib/") }'
-                  rm ./build/linux/x64/release/bundle/lib/libc.so.6
-                  patchelf ./build/linux/x64/release/bundle/lib/libflutter_webrtc_plugin.so --set-rpath "\$ORIGIN"
+                  rm ./build/linux/x64/release/bundle/lib/libstdc++.so.6
+                  LD_LIBRARY_PATH=$LD_LIBRARY_PATH./build/linux/x64/release/bundle/lib ldd ./build/linux/x64/release/bundle/librescore | awk 'NF == 4 { system("patchelf "$3" --set-rpath \"\\$ORIGIN\"") }'
                   cp -R ./build/linux/x64/release/bundle/* ./installer/AppImage/
                   chmod a+x ./appimagetool.AppImage
                   ARCH=x86_64 ./appimagetool.AppImage ./installer/AppImage --no-appstream --sign
