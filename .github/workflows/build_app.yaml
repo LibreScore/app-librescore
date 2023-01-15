@@ -60,6 +60,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
             - name: Build AppImage
               if: matrix.os == 'ubuntu-latest'
               run: |
+                  sudo apt update -y
                   sudo apt install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev fuse libfuse2
                   flutter config --enable-linux-desktop
                   flutter clean
