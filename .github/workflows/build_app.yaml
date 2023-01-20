@@ -67,6 +67,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   flutter build linux --obfuscate --split-debug-info=./build/app/outputs/symbols
                   patchelf --set-interpreter ./ld-linux-x86-64.so.2 ./build/linux/x64/release/bundle/librescore
                   ldd ./build/linux/x64/release/bundle/librescore | awk '{ system("cp " $3 " ./build/linux/x64/release/bundle/lib/") }'
+                  cp $(ldconfig -p | grep librt\\. | awk '{ system("echo " $8) }' | head -n 1) ./build/linux/x64/release/bundle/lib/
                   LD_LIBRARY_PATH=$LD_LIBRARY_PATH./build/linux/x64/release/bundle/lib ldd ./build/linux/x64/release/bundle/librescore | awk '{ system("patchelf "$3" --set-rpath \"\\$ORIGIN\"") }'
                   cp -R ./build/linux/x64/release/bundle/* ./installer/AppImage/
                   chmod a+x ./appimagetool.AppImage
