@@ -1,6 +1,6 @@
 <div dir="ltr" align="left">
 
-‎**čeština** | ‎[English](/docs/en/README.md) | ‎[español](/docs/es/LÉAME.md) | ‎[français](/docs/fr/LISEZMOI.md) | ‎[magyar](/docs/hu/OLVASSAEL.md) | ‎[Melayu](/docs/ms/BACASAYA.md) | ‎[polski](/docs/pl/PRZECZYTAJMNIE.md) | ‎[简体中文](/docs/zh-Hans/自述文件.md) | ‎[[+]](https://librescore.ddns.net/projects/librescore/docs)
+‎**čeština** | ‎[English](/docs/en/README.md) | ‎[español](/docs/es/LÉAME.md) | ‎[français](/docs/fr/LISEZMOI.md) | ‎[magyar](/docs/hu/OLVASSAEL.md) | ‎[Melayu](/docs/ms/BACASAYA.md) | ‎[简体中文](/docs/zh-Hans/自述文件.md) | ‎[[+]](https://librescore.ddns.net/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***NEUPRAVUJTE NAD TENTO ŘÁDEK*** /+/^^+#|#+^+#|#+^^\+\"
 
@@ -46,10 +46,10 @@ Stáhnout aplikaci LibreScore
 
 ### Linux
 
-1. Nainstalujte `fuse2` pro vaši distribuci
-2. Stáhněte si [LibreScore.AppImage](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.AppImage)
-3. Spusťte `chmod a+x ./LibreScore.AppImage`, aby byl spustitelný
-4. Spusťte `./LibreScore.AppImage --install` pro instalaci
+1. Download [LibreScore.AppImage](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.AppImage)
+2. Install `fuse2` for your distribution
+3. Run `chmod a+x ./LibreScore.AppImage` to make it executable
+4. Run `./LibreScore.AppImage --install` to install it
 
 ### Android
 
