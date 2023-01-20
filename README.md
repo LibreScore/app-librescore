@@ -46,8 +46,8 @@ Download the LibreScore app
 
 ### Linux
 
-1. Install `fuse2` for your distribution
-2. Download [LibreScore.AppImage](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.AppImage)
+1. Download [LibreScore.AppImage](https://github.com/LibreScore/app-librescore/releases/latest/download/LibreScore.AppImage)
+2. Install `fuse2` for your distribution
 3. Run `chmod a+x ./LibreScore.AppImage` to make it executable
 4. Run `./LibreScore.AppImage --install` to install it
 
