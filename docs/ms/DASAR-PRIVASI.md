@@ -1,6 +1,6 @@
 <div dir="ltr" align="left">
 
-‎[English](/docs/en/PRIVACY-POLICY.md) | ‎[español](/docs/es/POLÍTICA-DE-PRIVACIDAD.md) | ‎[magyar](/docs/hu/ADATVÉDELMI-IRÁNYELVEK.md) | ‎**Melayu** | ‎[[+]](https://librescore.ddns.net/projects/librescore/docs)
+‎[English](/docs/en/PRIVACY-POLICY.md) | ‎[español](/docs/es/POLÍTICA-DE-PRIVACIDAD.md) | ‎[magyar](/docs/hu/ADATVÉDELMI-IRÁNYELVEK.md) | ‎**Melayu** | ‎[[+]](https://weblate.librescore.org/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***JANGAN EDIT DI ATAS BARIS INI*** /+/^^+#|#+^+#|#+^^\+\"
 
