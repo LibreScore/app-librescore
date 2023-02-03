@@ -42,6 +42,6 @@ Ez a szabályzat 2021-11-01-től hatályos
 
 ## Lépj velünk kapcsolatba
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [contact@librescore.org](mailto:contact@librescore.org).
+Ha bármilyen kérdésed vagy javaslatod van az adatvédelmi szabályzatunkkal kapcsolatban, ne habozz kapcsolatba lépni velünk a [contact@librescore.org](mailto:contact@librescore.org) címen.
 
 Ezt az adatvédelmi irányelveket tartalmazó oldalt a [privacypolicytemplate.net](https://privacypolicytemplate.net) webhelyen hozták létre, és az [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com) módosította/hozta létre.

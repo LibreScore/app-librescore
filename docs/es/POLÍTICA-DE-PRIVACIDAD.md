@@ -42,6 +42,6 @@ Esta política es efectiva a partir del 2021-11-01
 
 ## Contacte con nosotros
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [contact@librescore.org](mailto:contact@librescore.org).
+Si tiene alguna pregunta o sugerencia sobre nuestra Política de privacidad, no dude en ponerse en contacto con nosotros en [contact@librescore.org](mailto:contact@librescore.org).
 
 Esta página de política de privacidad fue creada en [privacypolicytemplate.net](https://privacypolicytemplate.net) y modificada/generada por [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com)
