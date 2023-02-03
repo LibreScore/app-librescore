@@ -42,6 +42,6 @@ Dasar ini berkuat kuasa mulai 2021-11-01
 
 ## Hubungi Kami
 
-Jika anda mempunyai sebarang soalan atau cadangan tentang Dasar Privasi kami, sila menghubungi kami di [librescore@gmail.com](mailto:librescore@gmail.com).
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [contact@librescore.org](mailto:contact@librescore.org).
 
 Halaman dasar privasi ini dibuat di [privacypolicytemplate.net](https://privacypolicytemplate.net) dan diubah suai/dijana oleh [Penjana Dasar Privasi Apl](https://app-privacy-policy-generator.nisrulz.com)
