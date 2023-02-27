@@ -66,10 +66,10 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   flutter clean
                   flutter build linux --obfuscate --split-debug-info=./build/app/outputs/symbols
                   patchelf --set-interpreter ./ld-linux-x86-64.so.2 ./build/linux/x64/release/bundle/librescore
-                  ldd ./build/linux/x64/release/bundle/librescore | awk '{ system("cp " $3 " ./build/linux/x64/release/bundle/lib/") }'
-                  cp $(ldconfig -p | grep librt\\. | awk '{ system("echo " $8) }' | head -n 1) ./build/linux/x64/release/bundle/lib/
+                  ldd ./build/linux/x64/release/bundle/librescore | awk -F '=> ' 'NF>1{ sub(/ .*/,"",$NF); system("cp " $NF " ./build/linux/x64/release/bundle/lib/") }'
+                  cp $(ldconfig -p | grep "librt\.." | awk -F '=> ' 'NF>1{ sub(/ .*/,"",$NF); print $NF }' | head -n 1) ./build/linux/x64/release/bundle/lib/
                   patchelf --add-needed librt.so.1 ./build/linux/x64/release/bundle/librescore
-                  LD_LIBRARY_PATH=$LD_LIBRARY_PATH./build/linux/x64/release/bundle/lib ldd ./build/linux/x64/release/bundle/librescore | awk '{ system("patchelf "$3" --set-rpath \"\\$ORIGIN\"") }'
+                  LD_LIBRARY_PATH=$LD_LIBRARY_PATH./build/linux/x64/release/bundle/lib ldd ./build/linux/x64/release/bundle/librescore | awk -F '=> ' 'NF>1{ sub(/ .*/,"",$NF); system("patchelf " $NF " --set-rpath \"\\$ORIGIN\"") }'
                   cp -R ./build/linux/x64/release/bundle/* ./installer/AppImage/
                   chmod a+x ./appimagetool.AppImage
                   ARCH=x86_64 ./appimagetool.AppImage ./installer/AppImage --no-appstream --sign
