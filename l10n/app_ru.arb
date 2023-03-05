@@ -7,7 +7,7 @@
   "@settingsText": {
     "type": "text"
   },
-  "aboutText": "О",
+  "aboutText": "О программе",
   "@aboutText": {
     "type": "text"
   },
@@ -19,7 +19,7 @@
   "@searchHint": {
     "type": "text"
   },
-  "searchClearTip": "Прозрачный",
+  "searchClearTip": "Очистить текст",
   "@searchClearTip": {
     "type": "text"
   },
@@ -39,7 +39,7 @@
   "@privacyPolicyTitle": {
     "type": "text"
   },
-  "aboutTitle": "О",
+  "aboutTitle": "О программе",
   "@aboutTitle": {
     "type": "text"
   },
@@ -55,7 +55,7 @@
   "@privacyPolicyText": {
     "type": "text"
   },
-  "contactText": "Контакт",
+  "contactText": "Связаться с нами",
   "@contactText": {
     "type": "text"
   },
@@ -75,15 +75,15 @@
   "@languageText": {
     "type": "text"
   },
-  "systemText": "Система",
+  "systemText": "Системная",
   "@systemText": {
     "type": "text"
   },
-  "lightText": "Светлый",
+  "lightText": "Светлая",
   "@lightText": {
     "type": "text"
   },
-  "darkText": "Темно",
+  "darkText": "Тёмная",
   "@darkText": {
     "type": "text"
   },
@@ -103,11 +103,11 @@
   "@updateLatestText": {
     "type": "text"
   },
-  "updateText": "Обновлять",
+  "updateText": "Обновить",
   "@updateText": {
     "type": "text"
   },
-  "ignoreText": "Игнорировать",
+  "ignoreText": "Пропустить",
   "@ignoreText": {
     "type": "text"
   },
@@ -127,7 +127,7 @@
   "@fileAccessError": {
     "type": "text"
   },
-  "networkError": "Сетевая ошибка",
+  "networkError": "Ошибка сети",
   "@networkError": {
     "type": "text"
   },
@@ -143,7 +143,7 @@
   "@cancelText": {
     "type": "text"
   },
-  "librescoreServer": "Сервер ЛибрэСкор",
+  "librescoreServer": "Сервер LibreScore",
   "@librescoreServer": {
     "type": "text"
   },
@@ -151,15 +151,15 @@
   "@serverText": {
     "type": "text"
   },
-  "onText": "Включенный",
+  "onText": "Включено",
   "@onText": {
     "type": "text"
   },
-  "offText": "Выключен",
+  "offText": "Выключено",
   "@offText": {
     "type": "text"
   },
-  "fileOpenError": "Ни одна программа не зарегистрирована для открытия этого файла",
+  "fileOpenError": "Программа для открытия этого файла не задана",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
     "type": "text"
