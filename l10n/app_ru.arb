@@ -19,7 +19,7 @@
   "@searchHint": {
     "type": "text"
   },
-  "searchClearTip": "Очистить текст",
+  "searchClearTip": "Очистить",
   "@searchClearTip": {
     "type": "text"
   },
@@ -39,7 +39,7 @@
   "@privacyPolicyTitle": {
     "type": "text"
   },
-  "aboutTitle": "О программе",
+  "aboutTitle": "О нас",
   "@aboutTitle": {
     "type": "text"
   },
@@ -55,7 +55,7 @@
   "@privacyPolicyText": {
     "type": "text"
   },
-  "contactText": "Связаться с нами",
+  "contactText": "Контакты",
   "@contactText": {
     "type": "text"
   },
@@ -75,15 +75,15 @@
   "@languageText": {
     "type": "text"
   },
-  "systemText": "Системная",
+  "systemText": "Системный",
   "@systemText": {
     "type": "text"
   },
-  "lightText": "Светлая",
+  "lightText": "Светлый",
   "@lightText": {
     "type": "text"
   },
-  "darkText": "Тёмная",
+  "darkText": "Темный",
   "@darkText": {
     "type": "text"
   },
@@ -107,7 +107,7 @@
   "@updateText": {
     "type": "text"
   },
-  "ignoreText": "Пропустить",
+  "ignoreText": "Игнорировать",
   "@ignoreText": {
     "type": "text"
   },
@@ -143,7 +143,7 @@
   "@cancelText": {
     "type": "text"
   },
-  "librescoreServer": "Сервер LibreScore",
+  "librescoreServer": "Сервер ЛибрэСкор",
   "@librescoreServer": {
     "type": "text"
   },
@@ -151,15 +151,15 @@
   "@serverText": {
     "type": "text"
   },
-  "onText": "Включено",
+  "onText": "Включенный",
   "@onText": {
     "type": "text"
   },
-  "offText": "Выключено",
+  "offText": "Выключенный",
   "@offText": {
     "type": "text"
   },
-  "fileOpenError": "Программа для открытия этого файла не задана",
+  "fileOpenError": "Ни одна программа не зарегистрирована для открытия этого файла",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
     "type": "text"
