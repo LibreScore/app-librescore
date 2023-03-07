@@ -203,5 +203,15 @@
   "@fileOpenError": {
     "description": "No program registered to open this file error",
     "type": "text"
+  },
+  "serverError": "Szerver hiba",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
+  },
+  "supportBtnText": "Támogatást kapni",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
+    "type": "text"
   }
 }
