@@ -167,5 +167,15 @@
   "@serverText": {
     "description": "Server settings label",
     "type": "text"
+  },
+  "serverError": "Ralat pelayan",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
+  },
+  "supportBtnText": "Dapatkan Sokongan",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
+    "type": "text"
   }
 }
