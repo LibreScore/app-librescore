@@ -167,5 +167,15 @@
   "@onText": {
     "description": "On option text",
     "type": "text"
+  },
+  "serverError": "서버 오류",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
+  },
+  "supportBtnText": "도움을 받다",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
+    "type": "text"
   }
 }
