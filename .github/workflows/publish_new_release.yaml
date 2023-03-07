@@ -27,6 +27,7 @@ jobs:
               if: env.updated == 'true'
               uses: softprops/action-gh-release@v1
               with:
+                  token: ${{ secrets.LIBRESCORE_TOKEN }}
                   body: '## Download
 
 
