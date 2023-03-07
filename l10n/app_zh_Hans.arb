@@ -163,5 +163,15 @@
   "@fileOpenError": {
     "description": "No program registered to open this file error",
     "type": "text"
+  },
+  "supportBtnText": "获得支援",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
+    "type": "text"
+  },
+  "serverError": "服务器错误",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
   }
 }
