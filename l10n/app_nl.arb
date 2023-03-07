@@ -225,5 +225,7 @@
     "type": "text"
   },
   "proxyText": "",
-  "@proxyText": {}
+  "@proxyText": {},
+  "proxyUrlHint": "",
+  "@proxyUrlHint": {}
 }
