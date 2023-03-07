@@ -163,5 +163,15 @@
   "@fileOpenError": {
     "description": "No program registered to open this file error",
     "type": "text"
+  },
+  "serverError": "Erreur du serveur",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
+  },
+  "supportBtnText": "Obtenir de l'aide",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
+    "type": "text"
   }
 }
