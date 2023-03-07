@@ -159,7 +159,7 @@
     "description": "File access denied error",
     "type": "text"
   },
-  "networkError": "Galat jaringan",
+  "networkError": "Kesalahan jaringan",
   "@networkError": {
     "description": "Network error",
     "type": "text"
@@ -179,12 +179,12 @@
     "description": "Cancel button text",
     "type": "text"
   },
-  "librescoreServer": "Pelanden Librescore",
+  "librescoreServer": "Peladen Librescore",
   "@librescoreServer": {
     "description": "LibreScore Server name",
     "type": "text"
   },
-  "serverText": "Pelanden",
+  "serverText": "Peladen",
   "@serverText": {
     "description": "Server settings label",
     "type": "text"
@@ -202,6 +202,16 @@
   "fileOpenError": "Tidak ada program yang terdaftar untuk membuka file ini",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
+    "type": "text"
+  },
+  "serverError": "Kesalahan peladen",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
+  },
+  "supportBtnText": "Mendapatkan Dukungan",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
     "type": "text"
   }
 }
