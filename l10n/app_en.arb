@@ -169,6 +169,16 @@
     "description": "Network error",
     "type": "text"
   },
+  "serverError": "Server error",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
+  },
+  "supportBtnText": "Get Support",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
+    "type": "text"
+  },
   "downloadingTitle": "Downloading",
   "@downloadingTitle": {
     "description": "Downloading title",
