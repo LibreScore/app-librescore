@@ -213,5 +213,7 @@
   "@supportBtnText": {
     "description": "Button text to get Discord support",
     "type": "text"
-  }
+  },
+  "proxyText": "",
+  "@proxyText": {}
 }
