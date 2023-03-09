@@ -173,5 +173,7 @@
   "@serverError": {
     "description": "Server error",
     "type": "text"
-  }
+  },
+  "proxyText": "使用代理服务器",
+  "@proxyText": {}
 }
