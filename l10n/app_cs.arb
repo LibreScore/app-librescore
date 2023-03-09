@@ -215,5 +215,7 @@
     "type": "text"
   },
   "proxyUrlHint": "",
-  "@proxyUrlHint": {}
+  "@proxyUrlHint": {},
+  "proxyText": "",
+  "@proxyText": {}
 }
