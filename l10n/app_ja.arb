@@ -179,5 +179,7 @@
     "type": "text"
   },
   "proxyText": "プロキシサーバーを使用",
-  "@proxyText": {}
+  "@proxyText": {},
+  "proxyUrlHint": "プロキシサーバーのURLを入力",
+  "@proxyUrlHint": {}
 }
