@@ -215,5 +215,7 @@
     "type": "text"
   },
   "proxyText": "Use a proxy server",
-  "@proxyText": {}
+  "@proxyText": {},
+  "proxyUrlHint": "Input proxy url",
+  "@proxyUrlHint": {}
 }
