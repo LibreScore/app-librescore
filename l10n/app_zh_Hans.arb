@@ -175,5 +175,7 @@
     "type": "text"
   },
   "proxyText": "使用代理服务器",
-  "@proxyText": {}
+  "@proxyText": {},
+  "proxyUrlHint": "输入代理服务器地址",
+  "@proxyUrlHint": {}
 }
