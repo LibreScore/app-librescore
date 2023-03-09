@@ -189,5 +189,7 @@
   "@dynamicColorText": {
     "description": "Dynamic color settings label",
     "type": "text"
-  }
+  },
+  "proxyText": "",
+  "@proxyText": {}
 }
