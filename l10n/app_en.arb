@@ -213,5 +213,7 @@
   "@offText": {
     "description": "Off option text",
     "type": "text"
-  }
+  },
+  "proxyText": "Use a proxy server",
+  "@proxyText": {}
 }
