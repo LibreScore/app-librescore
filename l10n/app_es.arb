@@ -176,5 +176,7 @@
     "type": "text"
   },
   "proxyText": "Usar un servidor proxy",
-  "@proxyText": {}
+  "@proxyText": {},
+  "proxyUrlHint": "Ingrese proxy url",
+  "@proxyUrlHint": {}
 }
