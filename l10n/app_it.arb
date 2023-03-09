@@ -223,5 +223,7 @@
   "@okText": {
     "description": "OK button text",
     "type": "text"
-  }
+  },
+  "proxyText": "",
+  "@proxyText": {}
 }
