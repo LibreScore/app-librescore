@@ -1,1 +1,221 @@
-{}
+{
+  "librescore": "LibreScore",
+  "@librescore": {
+    "description": "LibreScore name",
+    "type": "text"
+  },
+  "settingsText": "設定",
+  "@settingsText": {
+    "description": "Settings button text",
+    "type": "text"
+  },
+  "aboutText": "關於",
+  "@aboutText": {
+    "description": "About button text",
+    "type": "text"
+  },
+  "searchError": "請輸入搜索關鍵字",
+  "@searchError": {
+    "description": "Searchbar error",
+    "type": "text"
+  },
+  "searchHint": "搜索 MuseScore 或輸入網址",
+  "@searchHint": {
+    "description": "Searchbar hint message",
+    "type": "text"
+  },
+  "searchClearTip": "清除",
+  "@searchClearTip": {
+    "description": "Searchbar clear button tooltip",
+    "type": "text"
+  },
+  "searchSearchTip": "搜索",
+  "@searchSearchTip": {
+    "description": "Searchbar search button tooltip",
+    "type": "text"
+  },
+  "homeTitle": "主頁",
+  "@homeTitle": {
+    "description": "Home navbar title",
+    "type": "text"
+  },
+  "downloadsTitle": "下載",
+  "@downloadsTitle": {
+    "description": "Downloads navbar title",
+    "type": "text"
+  },
+  "privacyPolicyTitle": "隱私政策",
+  "@privacyPolicyTitle": {
+    "description": "Privacy policy page title",
+    "type": "text"
+  },
+  "aboutTitle": "關於",
+  "@aboutTitle": {
+    "description": "About page title",
+    "type": "text"
+  },
+  "versionText": "版本",
+  "@versionText": {
+    "description": "Version label text",
+    "type": "text"
+  },
+  "licensesText": "許可",
+  "@licensesText": {
+    "description": "Licenses label text",
+    "type": "text"
+  },
+  "privacyPolicyText": "隱私政策",
+  "@privacyPolicyText": {
+    "description": "Privacy policy label text",
+    "type": "text"
+  },
+  "contactText": "聯絡我們",
+  "@contactText": {
+    "description": "Contact label text",
+    "type": "text"
+  },
+  "settingsTitle": "設定",
+  "@settingsTitle": {
+    "description": "Settings page title",
+    "type": "text"
+  },
+  "downloadFolderText": "下載文件夾",
+  "@downloadFolderText": {
+    "description": "Download folder settings label",
+    "type": "text"
+  },
+  "themeText": "主題",
+  "@themeText": {
+    "description": "Theme settings label",
+    "type": "text"
+  },
+  "languageText": "語言",
+  "@languageText": {
+    "description": "Language settings label",
+    "type": "text"
+  },
+  "systemText": "跟隨系統設定",
+  "@systemText": {
+    "description": "System theme option text",
+    "type": "text"
+  },
+  "lightText": "明亮",
+  "@lightText": {
+    "description": "Light theme option text",
+    "type": "text"
+  },
+  "darkText": "暗黑",
+  "@darkText": {
+    "description": "Dark theme option text",
+    "type": "text"
+  },
+  "noResultsError": "沒有結果",
+  "@noResultsError": {
+    "description": "No results search page error",
+    "type": "text"
+  },
+  "updateCheckError": "檢查更新失敗",
+  "@updateCheckError": {
+    "description": "Update check error",
+    "type": "text"
+  },
+  "updateAvailableText": "有可用的更新",
+  "@updateAvailableText": {
+    "description": "Update available text",
+    "type": "text"
+  },
+  "updateLatestText": "沒有新的更新",
+  "@updateLatestText": {
+    "description": "No new updates text",
+    "type": "text"
+  },
+  "updateText": "更新",
+  "@updateText": {
+    "description": "Update button text",
+    "type": "text"
+  },
+  "ignoreText": "忽略",
+  "@ignoreText": {
+    "description": "Ignore button text",
+    "type": "text"
+  },
+  "okText": "好",
+  "@okText": {
+    "description": "OK button text",
+    "type": "text"
+  },
+  "downloadFolderHint": "輸入下載文件夾檔案位置",
+  "@downloadFolderHint": {
+    "description": "Download folder hint message",
+    "type": "text"
+  },
+  "noDownloadsError": "沒有下載項目",
+  "@noDownloadsError": {
+    "description": "No downloads downloads page error",
+    "type": "text"
+  },
+  "fileAccessError": "無法訪問文件",
+  "@fileAccessError": {
+    "description": "File access denied error",
+    "type": "text"
+  },
+  "fileOpenError": "沒有可打開此文件的程式",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
+  },
+  "networkError": "網絡問題",
+  "@networkError": {
+    "description": "Network error",
+    "type": "text"
+  },
+  "serverError": "服務器錯誤",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
+  },
+  "supportBtnText": "在 Discord 中得到支援",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
+    "type": "text"
+  },
+  "downloadingTitle": "下載中",
+  "@downloadingTitle": {
+    "description": "Downloading title",
+    "type": "text"
+  },
+  "loadingTitle": "加載中",
+  "@loadingTitle": {
+    "description": "Loading title",
+    "type": "text"
+  },
+  "cancelText": "取消",
+  "@cancelText": {
+    "description": "Cancel button text",
+    "type": "text"
+  },
+  "librescoreServer": "LibreScore 服務器",
+  "@librescoreServer": {
+    "description": "LibreScore Server name",
+    "type": "text"
+  },
+  "serverText": "服務器",
+  "@serverText": {
+    "description": "Server settings label",
+    "type": "text"
+  },
+  "onText": "開啟",
+  "@onText": {
+    "description": "On option text",
+    "type": "text"
+  },
+  "offText": "關閉",
+  "@offText": {
+    "description": "Off option text",
+    "type": "text"
+  },
+  "proxyUrlHint": "輸入代理 (proxy) 網址",
+  "@proxyUrlHint": {},
+  "proxyText": "使用代理 (proxy) 網址服務器",
+  "@proxyText": {}
+}
