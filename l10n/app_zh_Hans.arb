@@ -15,7 +15,7 @@
   "@searchError": {
     "type": "text"
   },
-  "searchHint": "在 MuseScore 中搜索或输入 URL",
+  "searchHint": "在 MuseScore 中搜索或输入网址",
   "@searchHint": {
     "type": "text"
   },
@@ -55,7 +55,7 @@
   "@privacyPolicyText": {
     "type": "text"
   },
-  "contactText": "联系",
+  "contactText": "联系我们",
   "@contactText": {
     "type": "text"
   },
@@ -63,7 +63,7 @@
   "@settingsTitle": {
     "type": "text"
   },
-  "downloadFolderText": "下载文件夹",
+  "downloadFolderText": "下载文件夹位置",
   "@downloadFolderText": {
     "type": "text"
   },
@@ -95,7 +95,7 @@
   "@updateCheckError": {
     "type": "text"
   },
-  "updateAvailableText": "更新可用",
+  "updateAvailableText": "有可用的更新",
   "@updateAvailableText": {
     "type": "text"
   },
@@ -115,7 +115,7 @@
   "@okText": {
     "type": "text"
   },
-  "downloadFolderHint": "输入下载文件夹",
+  "downloadFolderHint": "输入下载文件夹位置",
   "@downloadFolderHint": {
     "type": "text"
   },
