@@ -173,5 +173,9 @@
   "@serverError": {
     "description": "Server error",
     "type": "text"
-  }
+  },
+  "proxyText": "Используйте прокси-сервер",
+  "@proxyText": {},
+  "proxyUrlHint": "Введите URL прокси-сервера",
+  "@proxyUrlHint": {}
 }
