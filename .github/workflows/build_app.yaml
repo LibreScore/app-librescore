@@ -40,7 +40,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
             - name: Install Flutter
               uses: subosito/flutter-action@v2
               with:
-                  flutter-version: "3.7.0"
+                  flutter-version: "3.7.x"
                   channel: "stable"
                   cache: true
                   cache-key: flutter
