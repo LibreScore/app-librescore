@@ -11,11 +11,11 @@
   "@aboutText": {
     "type": "text"
   },
-  "searchError": "문자열을 입력해 주세요",
+  "searchError": "올바른 문자열을 입력해 주세요",
   "@searchError": {
     "type": "text"
   },
-  "searchHint": "MuseScore 검색 혹은 URL 입력",
+  "searchHint": "MuseScore 검색 또는 URL 입력",
   "@searchHint": {
     "type": "text"
   },
@@ -55,7 +55,7 @@
   "@privacyPolicyText": {
     "type": "text"
   },
-  "contactText": "연락",
+  "contactText": "문의",
   "@contactText": {
     "type": "text"
   },
@@ -95,11 +95,11 @@
   "@updateCheckError": {
     "type": "text"
   },
-  "updateAvailableText": "업데이트 있음",
+  "updateAvailableText": "업데이트 가능",
   "@updateAvailableText": {
     "type": "text"
   },
-  "updateLatestText": "업데이트 없음",
+  "updateLatestText": "새 업데이트 없음",
   "@updateLatestText": {
     "type": "text"
   },
@@ -148,7 +148,7 @@
     "description": "Off option text",
     "type": "text"
   },
-  "fileOpenError": "이 파일을 열도록 등록된 프로그램이 없습니다",
+  "fileOpenError": "이 파일을 열 수 있는 프로그램이 없습니다",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
     "type": "text"
@@ -177,5 +177,9 @@
   "@supportBtnText": {
     "description": "Button text to get Discord support",
     "type": "text"
-  }
+  },
+  "proxyText": "다른 프록시 서버 사용",
+  "@proxyText": {},
+  "proxyUrlHint": "프록시 서버 URL 입력",
+  "@proxyUrlHint": {}
 }
