@@ -213,5 +213,9 @@
   "@supportBtnText": {
     "description": "Button text to get Discord support",
     "type": "text"
-  }
+  },
+  "proxyText": "Usar um servidor proxy",
+  "@proxyText": {},
+  "proxyUrlHint": "Ingrese proxy URL",
+  "@proxyUrlHint": {}
 }
