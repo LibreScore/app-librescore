@@ -89,6 +89,11 @@
     "description": "Theme settings label",
     "type": "text"
   },
+  "dynamicColorText": "Dynamic color",
+  "@dynamicColorText": {
+      "description": "Dynamic color settings label",
+      "type": "text"
+  },
   "languageText": "Language",
   "@languageText": {
     "description": "Language settings label",
