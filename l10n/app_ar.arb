@@ -173,5 +173,14 @@
   "@serverError": {
     "description": "Server error",
     "type": "text"
+  },
+  "proxyText": "استخدام خادم وكيل",
+  "@proxyText": {},
+  "proxyUrlHint": "إدخال عنوان URL للوكيل",
+  "@proxyUrlHint": {},
+  "dynamicColorText": "لون متحرك",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
   }
 }
