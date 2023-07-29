@@ -177,5 +177,10 @@
   "proxyText": "Используйте прокси-сервер",
   "@proxyText": {},
   "proxyUrlHint": "Введите URL прокси-сервера",
-  "@proxyUrlHint": {}
+  "@proxyUrlHint": {},
+  "dynamicColorText": "Динамический цвет",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  }
 }
