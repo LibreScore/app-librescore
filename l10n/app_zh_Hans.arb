@@ -177,5 +177,10 @@
   "proxyText": "使用代理服务器",
   "@proxyText": {},
   "proxyUrlHint": "输入代理服务器地址",
-  "@proxyUrlHint": {}
+  "@proxyUrlHint": {},
+  "dynamicColorText": "动态色彩",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  }
 }
