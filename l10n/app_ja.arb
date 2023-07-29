@@ -181,5 +181,10 @@
   "proxyText": "プロキシサーバーを使用",
   "@proxyText": {},
   "proxyUrlHint": "プロキシサーバーのURLを入力",
-  "@proxyUrlHint": {}
+  "@proxyUrlHint": {},
+  "dynamicColorText": "動的な色",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  }
 }
