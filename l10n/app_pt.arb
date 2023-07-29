@@ -217,5 +217,10 @@
   "proxyText": "Usar um servidor proxy",
   "@proxyText": {},
   "proxyUrlHint": "Ingrese proxy URL",
-  "@proxyUrlHint": {}
+  "@proxyUrlHint": {},
+  "dynamicColorText": "Cor dinâmica",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  }
 }
