@@ -181,5 +181,10 @@
   "proxyText": "다른 프록시 서버 사용",
   "@proxyText": {},
   "proxyUrlHint": "프록시 서버 URL 입력",
-  "@proxyUrlHint": {}
+  "@proxyUrlHint": {},
+  "dynamicColorText": "동적 색상",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  }
 }
