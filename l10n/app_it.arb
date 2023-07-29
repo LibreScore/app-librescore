@@ -6,5 +6,20 @@
   "settingsText": "Impostazioni",
   "@settingsText": {
     "type": "text"
+  },
+  "searchSearchTip": "Ricerca",
+  "@searchSearchTip": {
+    "description": "Searchbar search button tooltip",
+    "type": "text"
+  },
+  "homeTitle": "Casa",
+  "@homeTitle": {
+    "description": "Home navbar title",
+    "type": "text"
+  },
+  "privacyPolicyTitle": "politica sulla riservatezza",
+  "@privacyPolicyTitle": {
+    "description": "Privacy policy page title",
+    "type": "text"
   }
 }
