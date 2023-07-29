@@ -175,5 +175,12 @@
     "type": "text"
   },
   "proxyText": "Utiliser un serveur proxy",
-  "@proxyText": {}
+  "@proxyText": {},
+  "dynamicColorText": "Couleur dynamique",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  },
+  "proxyUrlHint": "Saisissez l'URL du proxy",
+  "@proxyUrlHint": {}
 }
