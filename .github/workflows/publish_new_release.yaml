@@ -35,7 +35,7 @@ jobs:
 
 | :---: | :---: | :---: | :---: |
 
-| Windows (7+) (64-bit only) | macOS (10.11+) (Rosetta 2) | Linux (64-bit only) | Android (6.0+) |
+| Windows (7+) (64-bit only) | macOS (10.14+) (Rosetta 2) | Linux (64-bit only) | Android (6.0+) |
 
 | [Download (EXE)](https://github.com/LibreScore/app-librescore/releases/download/${{ env.tag_name }}/LibreScore.exe) | [Download (DMG)](https://github.com/LibreScore/app-librescore/releases/download/${{ env.tag_name }}/LibreScore.dmg) | [Download (AppImage)](https://github.com/LibreScore/app-librescore/releases/download/${{ env.tag_name }}/LibreScore.AppImage) | [Download (APK)](https://github.com/LibreScore/app-librescore/releases/download/${{ env.tag_name }}/LibreScore.apk) |
 
