@@ -7,7 +7,7 @@
   "@settingsText": {
     "type": "text"
   },
-  "searchSearchTip": "Ricerca",
+  "searchSearchTip": "Cerca",
   "@searchSearchTip": {
     "description": "Searchbar search button tooltip",
     "type": "text"
@@ -17,7 +17,7 @@
     "description": "Home navbar title",
     "type": "text"
   },
-  "privacyPolicyTitle": "politica sulla riservatezza",
+  "privacyPolicyTitle": "Informativa sulla privacy",
   "@privacyPolicyTitle": {
     "description": "Privacy policy page title",
     "type": "text"
