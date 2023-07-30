@@ -38,7 +38,7 @@ Wir sammeln bewusst keinen personenbezogenen Daten von Kindern. Wir fördern, da
 
 Wir können nach Zeit unseres Datenschutzes aktualisieren, deshalb, beraten wir Sie, diese Seite regelmäßig für irgendwelche Änderungen zu überprüfen. Wir werden Sie über alle Änderungen informieren, indem wir die neue Datenschutzerklärung auf dieser Seite veröffentlichen.
 
-This policy is effective as of 2021-11-01
+Diese Richtlinie ist gültig seit dem 2021-11-01
 
 ## Kontaktieren sie uns
 
