@@ -160,6 +160,10 @@
   "@offText": {
     "type": "text"
   },
+  "restartTimerText": "Reiniciar el temporizador",
+  "@restartTimerText": {
+    "type": "text"
+  },
   "fileOpenError": "No hay ningún programa registrado para abrir este archivo",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
