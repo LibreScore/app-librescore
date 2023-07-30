@@ -2,7 +2,7 @@
 
 ‎[Deutsch](/docs/de/DATENSCHUTZERKLÄRUNG.md) | ‎[English](/docs/en/PRIVACY-POLICY.md) | ‎[español](/docs/es/POLÍTICA-DE-PRIVACIDAD.md) | ‎**magyar** | ‎[Melayu](/docs/ms/DASAR-PRIVASI.md) | ‎[[+]](https://weblate.librescore.org/projects/librescore/docs)
 
-[//]: # "\+\_==!|!=_=!|!==_/+/ ***DO NOT EDIT ABOVE THIS LINE*** /+/^^+#|#+^+#|#+^^\+\"
+[//]: # "\+\_==!|!=_=!|!==_/+/ ***NE MÓDOSÍTS SEMMIT E SOR FELETT*** /+/^^+#|#+^+#|#+^^\+\"
 
 # Adatvédelmi irányelvek
 
