@@ -213,5 +213,19 @@
   "@supportBtnText": {
     "description": "Button text to get Discord support",
     "type": "text"
+  },
+  "proxyText": "Benutze einen Proxy-Server",
+  "@proxyText": {},
+  "proxyUrlHint": "Gib die Proxy URL ein",
+  "@proxyUrlHint": {},
+  "dynamicColorText": "Dynamische Farbe",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  },
+  "restartTimerText": "Timer neu starten",
+  "@restartTimerText": {
+    "description": "Restart timer settings label",
+    "type": "text"
   }
 }
