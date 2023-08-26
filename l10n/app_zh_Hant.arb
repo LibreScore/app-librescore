@@ -14,12 +14,12 @@
     "description": "About button text",
     "type": "text"
   },
-  "searchError": "請輸入搜索關鍵字",
+  "searchError": "請輸入關鍵字",
   "@searchError": {
     "description": "Searchbar error",
     "type": "text"
   },
-  "searchHint": "搜索 MuseScore 或輸入網址",
+  "searchHint": "搜尋 MuseScore 或輸入網址",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
@@ -29,7 +29,7 @@
     "description": "Searchbar clear button tooltip",
     "type": "text"
   },
-  "searchSearchTip": "搜索",
+  "searchSearchTip": "搜尋",
   "@searchSearchTip": {
     "description": "Searchbar search button tooltip",
     "type": "text"
@@ -79,7 +79,7 @@
     "description": "Settings page title",
     "type": "text"
   },
-  "downloadFolderText": "下載文件夾",
+  "downloadFolderText": "下載資料夾",
   "@downloadFolderText": {
     "description": "Download folder settings label",
     "type": "text"
@@ -99,12 +99,12 @@
     "description": "System theme option text",
     "type": "text"
   },
-  "lightText": "明亮",
+  "lightText": "亮色",
   "@lightText": {
     "description": "Light theme option text",
     "type": "text"
   },
-  "darkText": "暗黑",
+  "darkText": "暗色",
   "@darkText": {
     "description": "Dark theme option text",
     "type": "text"
@@ -144,7 +144,7 @@
     "description": "OK button text",
     "type": "text"
   },
-  "downloadFolderHint": "輸入下載文件夾檔案位置",
+  "downloadFolderHint": "輸入下載資料夾位置",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
@@ -154,27 +154,27 @@
     "description": "No downloads downloads page error",
     "type": "text"
   },
-  "fileAccessError": "無法訪問文件",
+  "fileAccessError": "無法訪問檔案",
   "@fileAccessError": {
     "description": "File access denied error",
     "type": "text"
   },
-  "fileOpenError": "沒有可打開此文件的程式",
+  "fileOpenError": "沒有可打開此檔案的程式",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
     "type": "text"
   },
-  "networkError": "網絡問題",
+  "networkError": "網路問題",
   "@networkError": {
     "description": "Network error",
     "type": "text"
   },
-  "serverError": "服務器錯誤",
+  "serverError": "伺服器錯誤",
   "@serverError": {
     "description": "Server error",
     "type": "text"
   },
-  "supportBtnText": "在 Discord 中得到支援",
+  "supportBtnText": "尋求支援 (Discord)",
   "@supportBtnText": {
     "description": "Button text to get Discord support",
     "type": "text"
@@ -184,7 +184,7 @@
     "description": "Downloading title",
     "type": "text"
   },
-  "loadingTitle": "加載中",
+  "loadingTitle": "載入中",
   "@loadingTitle": {
     "description": "Loading title",
     "type": "text"
@@ -194,12 +194,12 @@
     "description": "Cancel button text",
     "type": "text"
   },
-  "librescoreServer": "LibreScore 服務器",
+  "librescoreServer": "LibreScore 伺服器",
   "@librescoreServer": {
     "description": "LibreScore Server name",
     "type": "text"
   },
-  "serverText": "服務器",
+  "serverText": "伺服器",
   "@serverText": {
     "description": "Server settings label",
     "type": "text"
@@ -216,6 +216,16 @@
   },
   "proxyUrlHint": "輸入代理 (proxy) 網址",
   "@proxyUrlHint": {},
-  "proxyText": "使用代理 (proxy) 網址服務器",
-  "@proxyText": {}
+  "proxyText": "使用代理 (proxy) 網址伺服器",
+  "@proxyText": {},
+  "restartTimerText": "重始計時器",
+  "@restartTimerText": {
+    "description": "Restart timer settings label",
+    "type": "text"
+  },
+  "dynamicColorText": "隨系統設定",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  }
 }
