@@ -15,7 +15,7 @@
   "@searchError": {
     "type": "text"
   },
-  "searchHint": "MuseScore 검색 또는 URL 입력",
+  "searchHint": "MuseScore에서 검색하거나 URL 입력",
   "@searchHint": {
     "type": "text"
   },
@@ -123,7 +123,7 @@
   "@noDownloadsError": {
     "type": "text"
   },
-  "fileAccessError": "파일 액세스 거부됨",
+  "fileAccessError": "파일 액세스가 거부되었습니다",
   "@fileAccessError": {
     "type": "text"
   },
