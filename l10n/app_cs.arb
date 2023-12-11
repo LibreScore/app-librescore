@@ -9,19 +9,24 @@
     "description": "Settings button text",
     "type": "text"
   },
-  "aboutText": "O nás",
+  "aboutText": "O aplikaci",
   "@aboutText": {
     "description": "About button text",
     "type": "text"
   },
-  "searchError": "Zadejte dotaz",
+  "searchError": "Zadejte hledaný výraz",
   "@searchError": {
     "description": "Searchbar error",
     "type": "text"
   },
-  "searchHint": "Hledat v MuseScore nebo vložte adresu odkazu",
+  "searchHint": "Hledejte na MuseScore nebo zadejte URL",
   "@searchHint": {
     "description": "Searchbar hint message",
+    "type": "text"
+  },
+  "searchClearTip": "Vymazat",
+  "@searchClearTip": {
+    "description": "Searchbar clear button tooltip",
     "type": "text"
   },
   "searchSearchTip": "Hledat",
@@ -39,12 +44,12 @@
     "description": "Downloads navbar title",
     "type": "text"
   },
-  "privacyPolicyTitle": "Nastavení soukromí",
+  "privacyPolicyTitle": "Ochrana údajů",
   "@privacyPolicyTitle": {
     "description": "Privacy policy page title",
     "type": "text"
   },
-  "aboutTitle": "O nás",
+  "aboutTitle": "O aplikaci",
   "@aboutTitle": {
     "description": "About page title",
     "type": "text"
@@ -59,7 +64,7 @@
     "description": "Licenses label text",
     "type": "text"
   },
-  "privacyPolicyText": "Nastavení soukromí",
+  "privacyPolicyText": "Ochrana údajů",
   "@privacyPolicyText": {
     "description": "Privacy policy label text",
     "type": "text"
@@ -72,6 +77,21 @@
   "settingsTitle": "Nastavení",
   "@settingsTitle": {
     "description": "Settings page title",
+    "type": "text"
+  },
+  "downloadFolderText": "Složka pro stahování",
+  "@downloadFolderText": {
+    "description": "Download folder settings label",
+    "type": "text"
+  },
+  "themeText": "Motiv",
+  "@themeText": {
+    "description": "Theme settings label",
+    "type": "text"
+  },
+  "dynamicColorText": "Dynamická barva",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
     "type": "text"
   },
   "languageText": "Jazyk",
@@ -99,7 +119,12 @@
     "description": "No results search page error",
     "type": "text"
   },
-  "updateAvailableText": "Možná aktualizace",
+  "updateCheckError": "Nepodařilo se zkontrolovat aktualizace",
+  "@updateCheckError": {
+    "description": "Update check error",
+    "type": "text"
+  },
+  "updateAvailableText": "Je dostupná aktualizace",
   "@updateAvailableText": {
     "description": "Update available text",
     "type": "text"
@@ -124,24 +149,39 @@
     "description": "OK button text",
     "type": "text"
   },
-  "downloadFolderHint": "Vložte složku souborů",
+  "downloadFolderHint": "Zadejte složku pro stahování",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
   },
-  "noDownloadsError": "Žádné stažené soubory",
+  "noDownloadsError": "Žádná stahování",
   "@noDownloadsError": {
     "description": "No downloads downloads page error",
     "type": "text"
   },
-  "fileAccessError": "Přístup k souboru zamítnut",
+  "fileAccessError": "Přístup k souborům zamítnut",
   "@fileAccessError": {
     "description": "File access denied error",
+    "type": "text"
+  },
+  "fileOpenError": "K otevření tohoto souboru není zaregistrován žádný program",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
     "type": "text"
   },
   "networkError": "Chyba sítě",
   "@networkError": {
     "description": "Network error",
+    "type": "text"
+  },
+  "serverError": "Chyba serveru",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
+  },
+  "supportBtnText": "Podpora",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
     "type": "text"
   },
   "downloadingTitle": "Stahování",
@@ -159,7 +199,7 @@
     "description": "Cancel button text",
     "type": "text"
   },
-  "librescoreServer": "LibreScore Server",
+  "librescoreServer": "Server LibreScore",
   "@librescoreServer": {
     "description": "LibreScore Server name",
     "type": "text"
@@ -179,39 +219,13 @@
     "description": "Off option text",
     "type": "text"
   },
-  "searchClearTip": "Smazat",
-  "@searchClearTip": {
-    "description": "Searchbar clear button tooltip",
+  "restartTimerText": "Časovač restartu",
+  "@restartTimerText": {
+    "description": "Restart timer settings label",
     "type": "text"
   },
-  "downloadFolderText": "Složka stažených souborů",
-  "@downloadFolderText": {
-    "description": "Download folder settings label",
-    "type": "text"
-  },
-  "themeText": "Motiv",
-  "@themeText": {
-    "description": "Theme settings label",
-    "type": "text"
-  },
-  "updateCheckError": "Nepodařilo se najít aktualizace",
-  "@updateCheckError": {
-    "description": "Update check error",
-    "type": "text"
-  },
-  "fileOpenError": "K otevření tohoto souboru není zaregistrován žádný program",
-  "@fileOpenError": {
-    "description": "No program registered to open this file error",
-    "type": "text"
-  },
-  "serverError": "Chyba serveru",
-  "@serverError": {
-    "description": "Server error",
-    "type": "text"
-  },
-  "supportBtnText": "Dostat podporu",
-  "@supportBtnText": {
-    "description": "Button text to get Discord support",
-    "type": "text"
-  }
+  "proxyText": "Použít proxy server",
+  "@proxyText": {},
+  "proxyUrlHint": "Input proxy URL",
+  "@proxyUrlHint": {}
 }
