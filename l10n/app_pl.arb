@@ -69,7 +69,7 @@
     "description": "Settings page title",
     "type": "text"
   },
-  "downloadFolderText": "Folder pobranych",
+  "downloadFolderText": "Folder pobierania",
   "@downloadFolderText": {
     "description": "Download folder settings label",
     "type": "text"
@@ -129,7 +129,7 @@
     "description": "OK button text",
     "type": "text"
   },
-  "downloadFolderHint": "Wprowadź ścieżkę folderu pobranych",
+  "downloadFolderHint": "Wprowadź ścieżkę folderu pobierania",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
@@ -139,7 +139,7 @@
     "description": "No downloads downloads page error",
     "type": "text"
   },
-  "fileAccessError": "Odmowa dostępu do plików",
+  "fileAccessError": "Nie udzielono dostępu do plików",
   "@fileAccessError": {
     "description": "File access denied error",
     "type": "text"
@@ -199,7 +199,7 @@
     "description": "System theme option text",
     "type": "text"
   },
-  "fileOpenError": "Nie zarejestrowano żadnego programu do otwierania tego pliku",
+  "fileOpenError": "Nie wybrano żadnego programu do otwierania tego pliku",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
     "type": "text"
@@ -212,6 +212,20 @@
   "supportBtnText": "Uzyskać wsparcie",
   "@supportBtnText": {
     "description": "Button text to get Discord support",
+    "type": "text"
+  },
+  "proxyText": "Użyj serwera proxy",
+  "@proxyText": {},
+  "proxyUrlHint": "Wprowadź adres URL proxy",
+  "@proxyUrlHint": {},
+  "dynamicColorText": "Dynamiczny kolor",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  },
+  "restartTimerText": "Ponownie uruchom minutnik",
+  "@restartTimerText": {
+    "description": "Restart timer settings label",
     "type": "text"
   }
 }
