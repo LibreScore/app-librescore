@@ -1,1 +1,231 @@
-{}
+{
+  "librescore": "LibreScore",
+  "@librescore": {
+    "description": "LibreScore name",
+    "type": "text"
+  },
+  "settingsText": "Ayarlar",
+  "@settingsText": {
+    "description": "Settings button text",
+    "type": "text"
+  },
+  "aboutText": "Hakkında",
+  "@aboutText": {
+    "description": "About button text",
+    "type": "text"
+  },
+  "searchError": "Lütfen bir sorgu girin",
+  "@searchError": {
+    "description": "Searchbar error",
+    "type": "text"
+  },
+  "searchHint": "MuseScore'da arama yapın veya bir URL girin",
+  "@searchHint": {
+    "description": "Searchbar hint message",
+    "type": "text"
+  },
+  "searchClearTip": "Temizle",
+  "@searchClearTip": {
+    "description": "Searchbar clear button tooltip",
+    "type": "text"
+  },
+  "searchSearchTip": "Ara",
+  "@searchSearchTip": {
+    "description": "Searchbar search button tooltip",
+    "type": "text"
+  },
+  "homeTitle": "Anasayfa",
+  "@homeTitle": {
+    "description": "Home navbar title",
+    "type": "text"
+  },
+  "downloadsTitle": "İndirilenler",
+  "@downloadsTitle": {
+    "description": "Downloads navbar title",
+    "type": "text"
+  },
+  "privacyPolicyTitle": "Gizlilik Politikası",
+  "@privacyPolicyTitle": {
+    "description": "Privacy policy page title",
+    "type": "text"
+  },
+  "aboutTitle": "Hakkında",
+  "@aboutTitle": {
+    "description": "About page title",
+    "type": "text"
+  },
+  "versionText": "Versiyon",
+  "@versionText": {
+    "description": "Version label text",
+    "type": "text"
+  },
+  "licensesText": "Lisanslar",
+  "@licensesText": {
+    "description": "Licenses label text",
+    "type": "text"
+  },
+  "privacyPolicyText": "Gizlilik Politikası",
+  "@privacyPolicyText": {
+    "description": "Privacy policy label text",
+    "type": "text"
+  },
+  "contactText": "İletişim",
+  "@contactText": {
+    "description": "Contact label text",
+    "type": "text"
+  },
+  "settingsTitle": "Ayarlar",
+  "@settingsTitle": {
+    "description": "Settings page title",
+    "type": "text"
+  },
+  "downloadFolderText": "İndirme klasörü",
+  "@downloadFolderText": {
+    "description": "Download folder settings label",
+    "type": "text"
+  },
+  "themeText": "Tema",
+  "@themeText": {
+    "description": "Theme settings label",
+    "type": "text"
+  },
+  "dynamicColorText": "Dinamik renk",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  },
+  "languageText": "Dil",
+  "@languageText": {
+    "description": "Language settings label",
+    "type": "text"
+  },
+  "systemText": "Sistem",
+  "@systemText": {
+    "description": "System theme option text",
+    "type": "text"
+  },
+  "lightText": "Aydınlık",
+  "@lightText": {
+    "description": "Light theme option text",
+    "type": "text"
+  },
+  "darkText": "Karanlık",
+  "@darkText": {
+    "description": "Dark theme option text",
+    "type": "text"
+  },
+  "noResultsError": "Sonuç bulunamadı",
+  "@noResultsError": {
+    "description": "No results search page error",
+    "type": "text"
+  },
+  "updateCheckError": "Güncellemeler kontrol edilemedi",
+  "@updateCheckError": {
+    "description": "Update check error",
+    "type": "text"
+  },
+  "updateAvailableText": "Güncelleme mevcut",
+  "@updateAvailableText": {
+    "description": "Update available text",
+    "type": "text"
+  },
+  "updateLatestText": "Yeni güncelleme yok",
+  "@updateLatestText": {
+    "description": "No new updates text",
+    "type": "text"
+  },
+  "updateText": "Güncelle",
+  "@updateText": {
+    "description": "Update button text",
+    "type": "text"
+  },
+  "ignoreText": "Yoksay",
+  "@ignoreText": {
+    "description": "Ignore button text",
+    "type": "text"
+  },
+  "noDownloadsError": "İndirilen yok",
+  "@noDownloadsError": {
+    "description": "No downloads downloads page error",
+    "type": "text"
+  },
+  "fileAccessError": "Dosya erişimi engellendi",
+  "@fileAccessError": {
+    "description": "File access denied error",
+    "type": "text"
+  },
+  "fileOpenError": "Bu dosyayı açmak için kayıtlı program yok",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
+  },
+  "networkError": "Ağ hatası",
+  "@networkError": {
+    "description": "Network error",
+    "type": "text"
+  },
+  "supportBtnText": "Destek al",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
+    "type": "text"
+  },
+  "downloadingTitle": "İndiriliyor",
+  "@downloadingTitle": {
+    "description": "Downloading title",
+    "type": "text"
+  },
+  "loadingTitle": "Yükleniyor",
+  "@loadingTitle": {
+    "description": "Loading title",
+    "type": "text"
+  },
+  "cancelText": "İptal",
+  "@cancelText": {
+    "description": "Cancel button text",
+    "type": "text"
+  },
+  "serverText": "Sunucu",
+  "@serverText": {
+    "description": "Server settings label",
+    "type": "text"
+  },
+  "serverError": "Sunucu hatası",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
+  },
+  "onText": "Açık",
+  "@onText": {
+    "description": "On option text",
+    "type": "text"
+  },
+  "offText": "Kapalı",
+  "@offText": {
+    "description": "Off option text",
+    "type": "text"
+  },
+  "restartTimerText": "Zamanlayıcıyı yeniden başlat",
+  "@restartTimerText": {
+    "description": "Restart timer settings label",
+    "type": "text"
+  },
+  "proxyText": "Proxy sunucusu kullan",
+  "@proxyText": {},
+  "proxyUrlHint": "Proxy URL'sini girin",
+  "@proxyUrlHint": {},
+  "okText": "Tamam",
+  "@okText": {
+    "description": "OK button text",
+    "type": "text"
+  },
+  "downloadFolderHint": "İndirme klasörünü seçin",
+  "@downloadFolderHint": {
+    "description": "Download folder hint message",
+    "type": "text"
+  },
+  "librescoreServer": "LibreScore Sunucusu",
+  "@librescoreServer": {
+    "description": "LibreScore Server name",
+    "type": "text"
+  }
+}
