@@ -1,6 +1,6 @@
 <div dir="ltr" align="left">
 
-‎[čeština](/docs/cs/PŘEČTĚTEMĚ.md) | ‎[Deutsch](/docs/de/LIESMICH.md) | ‎[English](/docs/en/README.md) | ‎[español](/docs/es/LÉAME.md) | ‎[français](/docs/fr/LISEZMOI.md) | ‎**magyar** | ‎[한국어](/docs/ko/README.md) | ‎[Melayu](/docs/ms/BACASAYA.md) | ‎[polski](/docs/pl/PRZECZYTAJMNIE.md) | ‎[简体中文](/docs/zh-Hans/自述文件.md) | ‎[[+]](https://weblate.librescore.org/projects/librescore/docs)
+‎[čeština](/docs/cs/PŘEČTĚTEMĚ.md) | ‎[Deutsch](/docs/de/LIESMICH.md) | ‎[English](/docs/en/README.md) | ‎[español](/docs/es/LÉAME.md) | ‎[français](/docs/fr/LISEZMOI.md) | ‎**magyar** | ‎[한국어](/docs/ko/README.md) | ‎[Melayu](/docs/ms/BACASAYA.md) | ‎[polski](/docs/pl/PRZECZYTAJMNIE.md) | ‎[русский](/docs/ru/ПРОЧТИМЕНЯ.md) | ‎[简体中文](/docs/zh-Hans/自述文件.md) | ‎[[+]](https://weblate.librescore.org/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***NE MÓDOSÍTS SEMMIT E SOR FELETT*** /+/^^+#|#+^+#|#+^^\+\"
 
