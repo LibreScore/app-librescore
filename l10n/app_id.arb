@@ -217,5 +217,15 @@
   "proxyText": "",
   "@proxyText": {},
   "proxyUrlHint": "",
-  "@proxyUrlHint": {}
+  "@proxyUrlHint": {},
+  "restartTimerText": "",
+  "@restartTimerText": {
+    "description": "Restart timer settings label",
+    "type": "text"
+  },
+  "dynamicColorText": "",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  }
 }
