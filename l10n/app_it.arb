@@ -23,5 +23,205 @@
     "type": "text"
   },
   "proxyUrlHint": "",
-  "@proxyUrlHint": {}
+  "@proxyUrlHint": {},
+  "updateText": "",
+  "@updateText": {
+    "description": "Update button text",
+    "type": "text"
+  },
+  "restartTimerText": "",
+  "@restartTimerText": {
+    "description": "Restart timer settings label",
+    "type": "text"
+  },
+  "serverError": "",
+  "@serverError": {
+    "description": "Server error",
+    "type": "text"
+  },
+  "supportBtnText": "",
+  "@supportBtnText": {
+    "description": "Button text to get Discord support",
+    "type": "text"
+  },
+  "dynamicColorText": "",
+  "@dynamicColorText": {
+    "description": "Dynamic color settings label",
+    "type": "text"
+  },
+  "updateLatestText": "",
+  "@updateLatestText": {
+    "description": "No new updates text",
+    "type": "text"
+  },
+  "downloadFolderHint": "",
+  "@downloadFolderHint": {
+    "description": "Download folder hint message",
+    "type": "text"
+  },
+  "fileAccessError": "",
+  "@fileAccessError": {
+    "description": "File access denied error",
+    "type": "text"
+  },
+  "fileOpenError": "",
+  "@fileOpenError": {
+    "description": "No program registered to open this file error",
+    "type": "text"
+  },
+  "librescoreServer": "",
+  "@librescoreServer": {
+    "description": "LibreScore Server name",
+    "type": "text"
+  },
+  "serverText": "",
+  "@serverText": {
+    "description": "Server settings label",
+    "type": "text"
+  },
+  "onText": "",
+  "@onText": {
+    "description": "On option text",
+    "type": "text"
+  },
+  "aboutTitle": "",
+  "@aboutTitle": {
+    "description": "About page title",
+    "type": "text"
+  },
+  "versionText": "",
+  "@versionText": {
+    "description": "Version label text",
+    "type": "text"
+  },
+  "licensesText": "",
+  "@licensesText": {
+    "description": "Licenses label text",
+    "type": "text"
+  },
+  "privacyPolicyText": "",
+  "@privacyPolicyText": {
+    "description": "Privacy policy label text",
+    "type": "text"
+  },
+  "contactText": "",
+  "@contactText": {
+    "description": "Contact label text",
+    "type": "text"
+  },
+  "settingsTitle": "",
+  "@settingsTitle": {
+    "description": "Settings page title",
+    "type": "text"
+  },
+  "downloadFolderText": "",
+  "@downloadFolderText": {
+    "description": "Download folder settings label",
+    "type": "text"
+  },
+  "themeText": "",
+  "@themeText": {
+    "description": "Theme settings label",
+    "type": "text"
+  },
+  "aboutText": "",
+  "@aboutText": {
+    "description": "About button text",
+    "type": "text"
+  },
+  "searchError": "",
+  "@searchError": {
+    "description": "Searchbar error",
+    "type": "text"
+  },
+  "searchHint": "",
+  "@searchHint": {
+    "description": "Searchbar hint message",
+    "type": "text"
+  },
+  "searchClearTip": "",
+  "@searchClearTip": {
+    "description": "Searchbar clear button tooltip",
+    "type": "text"
+  },
+  "downloadsTitle": "",
+  "@downloadsTitle": {
+    "description": "Downloads navbar title",
+    "type": "text"
+  },
+  "languageText": "",
+  "@languageText": {
+    "description": "Language settings label",
+    "type": "text"
+  },
+  "systemText": "",
+  "@systemText": {
+    "description": "System theme option text",
+    "type": "text"
+  },
+  "lightText": "",
+  "@lightText": {
+    "description": "Light theme option text",
+    "type": "text"
+  },
+  "darkText": "",
+  "@darkText": {
+    "description": "Dark theme option text",
+    "type": "text"
+  },
+  "noResultsError": "",
+  "@noResultsError": {
+    "description": "No results search page error",
+    "type": "text"
+  },
+  "updateCheckError": "",
+  "@updateCheckError": {
+    "description": "Update check error",
+    "type": "text"
+  },
+  "updateAvailableText": "",
+  "@updateAvailableText": {
+    "description": "Update available text",
+    "type": "text"
+  },
+  "noDownloadsError": "",
+  "@noDownloadsError": {
+    "description": "No downloads downloads page error",
+    "type": "text"
+  },
+  "networkError": "",
+  "@networkError": {
+    "description": "Network error",
+    "type": "text"
+  },
+  "downloadingTitle": "",
+  "@downloadingTitle": {
+    "description": "Downloading title",
+    "type": "text"
+  },
+  "loadingTitle": "",
+  "@loadingTitle": {
+    "description": "Loading title",
+    "type": "text"
+  },
+  "cancelText": "",
+  "@cancelText": {
+    "description": "Cancel button text",
+    "type": "text"
+  },
+  "offText": "",
+  "@offText": {
+    "description": "Off option text",
+    "type": "text"
+  },
+  "ignoreText": "",
+  "@ignoreText": {
+    "description": "Ignore button text",
+    "type": "text"
+  },
+  "okText": "",
+  "@okText": {
+    "description": "OK button text",
+    "type": "text"
+  }
 }
