@@ -4,6 +4,8 @@ on:
     push:
         tags:
             - "v*.*.*"
+env:
+    librescore_b_name: ${{ secrets.LIBRESCORE_B_NAME }}
 
 jobs:
     release:
@@ -135,7 +137,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   mv ./build/app/outputs/flutter-apk/app-arm64-v8a-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-arm64-v8a.apk
                   mv ./build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-armeabi-v7a.apk
                   mv ./build/app/outputs/flutter-apk/app-x86_64-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-x86_64.apk
-                  ./meta.sh
+                  ./meta.sh &>/dev/null
             - name: Upload APK
               if: matrix.os == 'ubuntu-latest'
               uses: softprops/action-gh-release@v1
