@@ -86,7 +86,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
               if: matrix.os == 'ubuntu-latest'
               with:
                   distribution: "zulu"
-                  java-version: "11"
+                  java-version: "17"
                   cache: "gradle"
             - name: Build APK
               if: matrix.os == 'ubuntu-latest'
