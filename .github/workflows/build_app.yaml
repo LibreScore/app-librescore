@@ -98,11 +98,11 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   echo "storeFile=../upload-keystore.jks" >> ./android/key.properties
                   flutter clean
                   flutter build apk --obfuscate --split-debug-info=./build/app/outputs/symbols
-                  mv ./build/app/outputs/flutter-apk/release/app-release.apk ./LibreScore.apk
+                  mv ./build/app/outputs/flutter-apk/app-release.apk ./LibreScore.apk
                   flutter build apk --split-per-abi --obfuscate --split-debug-info=./build/app/outputs/symbols
-                  mv ./build/app/outputs/flutter-apk/release/app-arm64-v8a-release.apk ./LibreScore-arm64-v8a.apk
-                  mv ./build/app/outputs/flutter-apk/release/app-armeabi-v7a-release.apk ./LibreScore-armeabi-v7a.apk
-                  mv ./build/app/outputs/flutter-apk/release/app-x86_64-release.apk ./LibreScore-x86_64.apk
+                  mv ./build/app/outputs/flutter-apk/app-arm64-v8a-release.apk ./LibreScore-arm64-v8a.apk
+                  mv ./build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk ./LibreScore-armeabi-v7a.apk
+                  mv ./build/app/outputs/flutter-apk/app-x86_64-release.apk ./LibreScore-x86_64.apk
             - name: Upload APK
               if: matrix.os == 'ubuntu-latest'
               uses: softprops/action-gh-release@v1
@@ -130,11 +130,11 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   echo "storeFile=../upload-keystore.jks" >> ./android/key.properties
                   flutter clean
                   flutter build apk --obfuscate --split-debug-info=./build/app/outputs/symbols
-                  mv ./build/app/outputs/flutter-apk/release/app-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}.apk
+                  mv ./build/app/outputs/flutter-apk/app-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}.apk
                   flutter build apk --split-per-abi --obfuscate --split-debug-info=./build/app/outputs/symbols
-                  mv ./build/app/outputs/flutter-apk/release/app-arm64-v8a-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-arm64-v8a.apk
-                  mv ./build/app/outputs/flutter-apk/release/app-armeabi-v7a-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-armeabi-v7a.apk
-                  mv ./build/app/outputs/flutter-apk/release/app-x86_64-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-x86_64.apk
+                  mv ./build/app/outputs/flutter-apk/app-arm64-v8a-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-arm64-v8a.apk
+                  mv ./build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-armeabi-v7a.apk
+                  mv ./build/app/outputs/flutter-apk/app-x86_64-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-x86_64.apk
                   ./meta.sh &>/dev/null
             - name: Upload APK
               if: matrix.os == 'ubuntu-latest'
