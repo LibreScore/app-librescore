@@ -181,13 +181,13 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   certutil -decode .\installer\LibreScore.pfx.base64 .\installer\LibreScore.pfx
                   & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\build\windows\runner\Release\librescore.exe
                   Get-ChildItem -Path .\build\windows\runner\Release -File | Where {($_.Extension -ne ".dll" -and $_.Extension -ne ".exe")} | Remove-Item
+                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\msvcp140.dll') .\build\windows\runner\Release
+                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\vcruntime140.dll') .\build\windows\runner\Release
+                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\vcruntime140_1.dll') .\build\windows\runner\Release
                   dart run msix:create
                   & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\installer\LibreScore.msix
                   Start-Process iexpress -ArgumentList /N,.\installer\MSIX\LibreScoreMsix.sed -NoNewWindow -Wait
                   & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\installer\LibreScoreMsix.exe
-                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\msvcp140.dll') .\build\windows\runner\Release
-                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\vcruntime140.dll') .\build\windows\runner\Release
-                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\vcruntime140_1.dll') .\build\windows\runner\Release
                   Copy-Item -Path .\build\windows\runner\Release -Destination .\installer\Inno\LibreScore -Recurse
                   New-Item -Name .\installer\Inno\LibreScore\data\flutter_assets\assets\.inno
                   iscc .\installer\Inno\LibreScore.iss
