@@ -231,7 +231,6 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                       ./LibreScore.pkg
     delete:
         if: ${{ failure() }}
-        needs: build
         runs-on: ubuntu-latest
         steps:
             - name: Delete pre-release
