@@ -230,7 +230,8 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                       ./LibreScore.dmg
                       ./LibreScore.pkg
     delete:
-        if: ${{ failure() }}
+        needs: [release, build]
+        if: ${{ always() && contains(needs.*.result, "failure") }}
         runs-on: ubuntu-latest
         steps:
             - name: Delete pre-release
