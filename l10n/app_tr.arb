@@ -204,11 +204,6 @@
     "description": "Off option text",
     "type": "text"
   },
-  "restartTimerText": "Zamanlayıcıyı yeniden başlat",
-  "@restartTimerText": {
-    "description": "Restart timer settings label",
-    "type": "text"
-  },
   "proxyText": "Proxy sunucusu kullan",
   "@proxyText": {},
   "proxyUrlHint": "Proxy URL'sini girin",
