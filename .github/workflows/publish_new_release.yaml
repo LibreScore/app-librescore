@@ -29,22 +29,22 @@ jobs:
             - name: Update token
               if: env.updated == 'true'
               run: |
-                  #jwt_header=$(echo -n '{"alg":"HS256","typ":"JWT"}' | base64 | sed s/\+/-/g | sed 's/\//_/g' | sed -E s/=+$//)
-                  #payload=$(echo -n '{"role":"client","version":"'"${{ steps.get-latest-release.outputs.LATEST_VERSION }}"'"}' | base64 | sed s/\+/-/g |sed 's/\//_/g' | sed -E s/=+$//)
-                  #secret="${{ secrets.PG_SECRET }}"
-                  #hexsecret=$(echo -n "$secret" | xxd -p | paste -sd "")
-                  #hmac_signature=$(echo -n "${jwt_header}.${payload}" | openssl dgst -sha256 -mac HMAC -macopt hexkey:$hexsecret -binary | base64 | sed s/\+/-/g | sed 's/\//_/g' | sed -E s/=+$//)
-                  #jwt="${jwt_header}.${payload}.${hmac_signature}"
+                  jwt_header=$(echo -n '{"alg":"HS256","typ":"JWT"}' | base64 | sed s/\+/-/g | sed 's/\//_/g' | sed -E s/=+$//)
+                  payload=$(echo -n '{"role":"client","version":"'"${{ steps.get-latest-release.outputs.LATEST_VERSION }}"'"}' | base64 | sed s/\+/-/g |sed 's/\//_/g' | sed -E s/=+$//)
+                  secret="${{ secrets.PG_SECRET }}"
+                  hexsecret=$(echo -n "$secret" | xxd -p | paste -sd "")
+                  hmac_signature=$(echo -n "${jwt_header}.${payload}" | openssl dgst -sha256 -mac HMAC -macopt hexkey:$hexsecret -binary | base64 | sed s/\+/-/g | sed 's/\//_/g' | sed -E s/=+$//)
+                  jwt="${jwt_header}.${payload}.${hmac_signature}"
 
-                  #git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
-                  #cd $HOME/${{ secrets.LIBRESCORE_REPO_A }}
-                  #sed -ri 's/"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.+"/echo \\ \\ \\ \\ \\ \\ \\"'"$jwt"'\\"\\;/e' lib/utils/db_api.dart
+                  git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                  cd $HOME/${{ secrets.LIBRESCORE_REPO_A }}
+                  sed -ri 's/"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.+"/echo \\ \\ \\ \\ \\ \\ \\"'"$jwt"'\\"\\;/e' lib/utils/db_api.dart
 
-                  #git config user.name github-actions
-                  #git config user.email github-actions@github.com
-                  #git add -A
-                  #git commit -m "chore: update token"
-                  #git push --atomic origin master
+                  git config user.name github-actions
+                  git config user.email github-actions@github.com
+                  git add -A
+                  git commit -m "chore: update token"
+                  git push --atomic origin master
 
                   echo "${{ secrets.SSH_KEY }}" | base64 --decode > $HOME/id_rsa
                   chmod 600 $HOME/id_rsa
