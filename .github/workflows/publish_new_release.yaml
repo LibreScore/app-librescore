@@ -14,15 +14,40 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Get latest release
+              id: get-latest-release
               run: |
                   echo "updated=false" >> $GITHUB_ENV
-                  if [[ "$(curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/app-librescore/releases/latest | jq --raw-output ".tag_name")" != "$(curl -s -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")" ]]; then
+                  echo "CURRENT_VERSION=$(curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/app-librescore/releases/latest | jq --raw-output ".tag_name")" >> "$GITHUB_OUTPUT"
+                  echo "LATEST_VERSION=$(curl -s -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")" >> "$GITHUB_OUTPUT"
+                  if [[ ${{ steps.get-latest-release.outputs.CURRENT_VERSION }} != ${{ steps.get-latest-release.outputs.LATEST_VERSION }} ]]; then
                     echo "updated=true" >> $GITHUB_ENV
                   fi
                   for i in {0..10}; do
                     curl -s -LJO -H "Accept: application/octet-stream" -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} "https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/assets/"$(curl -s -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".assets[$i].id")""
                   done
                   echo "tag_name=$(curl -s -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")" >> $GITHUB_ENV
+            - name: Update token
+              if: env.updated == 'true'
+              run: |
+                  jwt_header=$(echo -n '{"alg":"HS256","typ":"JWT"}' | base64 | sed s/\+/-/g | sed 's/\//_/g' | sed -E s/=+$//)
+                  payload=$(echo -n '{"role":"client","version":"'"${{ steps.get-latest-release.outputs.LATEST_VERSION }}"'"}' | base64 | sed s/\+/-/g |sed 's/\//_/g' | sed -E s/=+$//)
+                  secret="${{ secrets.PG_SECRET }}"
+                  hexsecret=$(echo -n "$secret" | xxd -p | paste -sd "")
+                  hmac_signature=$(echo -n "${jwt_header}.${payload}" | openssl dgst -sha256 -mac HMAC -macopt hexkey:$hexsecret -binary | base64 | sed s/\+/-/g | sed 's/\//_/g' | sed -E s/=+$//)
+                  jwt="${jwt_header}.${payload}.${hmac_signature}"
+
+                  git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                  cd $HOME/${{ secrets.LIBRESCORE_REPO_A }}
+                  sed -ri 's/"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.+"/echo \\ \\ \\ \\ \\ \\ \\"'"$jwt"'\\"\\;/e' lib/utils/db_api.dart
+
+                  git config user.name github-actions
+                  git config user.email github-actions@github.com
+                  git add -A
+                  git commit -m "chore: update token"
+                  git push --atomic origin master
+
+                  echo "${{ secrets.SSH_KEY }}" | base64 --decode > $HOME/id_rsa
+                  ssh -i $HOME/id_rsa ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DOMAIN }} 'sudo -u postgres psql librescore -c "create or replace function auth.check_token() returns void language plpgsql as \$\$ begin if current_setting('"'request.jwt.claims', true)::json->>'version' not in ('server', '${{ steps.get-latest-release.outputs.CURRENT_VERSION }}', '${{ steps.get-latest-release.outputs.LATEST_VERSION }}') then raise insufficient_privilege using hint = 'Outdated version'"'; end if; end \$\$;"'                  
             - name: Upload assets
               if: env.updated == 'true'
               uses: softprops/action-gh-release@v1
