@@ -39,8 +39,6 @@ jobs:
                   git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
                   cd $HOME/${{ secrets.LIBRESCORE_REPO_A }}
                   sed -ri 's/"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.+"/echo \\ \\ \\ \\ \\ \\ \\"'"$jwt"'\\"\\;/e' lib/utils/db_api.dart
-                  cat lib/utils/db_api.dart
-                  git status
 
                   git config user.name github-actions
                   git config user.email github-actions@github.com
@@ -49,7 +47,8 @@ jobs:
                   git push --atomic origin master
 
                   echo "${{ secrets.SSH_KEY }}" | base64 --decode > $HOME/id_rsa
-                  ssh -i $HOME/id_rsa ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DOMAIN }} 'sudo -u postgres psql librescore -c "create or replace function auth.check_token() returns void language plpgsql as \$\$ begin if current_setting('"'request.jwt.claims', true)::json->>'version' not in ('server', '${{ steps.get-latest-release.outputs.CURRENT_VERSION }}', '${{ steps.get-latest-release.outputs.LATEST_VERSION }}') then raise insufficient_privilege using hint = 'Outdated version'"'; end if; end \$\$;"'                  
+                  chmod 600 $HOME/id_rsa
+                  ssh -i $HOME/id_rsa -o StrictHostKeyChecking=accept-new ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DOMAIN }} -p ${{ secrets.SSH_PORT }} 'sudo -u postgres psql librescore -c "create or replace function auth.check_token() returns void language plpgsql as \$\$ begin if current_setting('"'request.jwt.claims', true)::json->>'version' not in ('server', '${{ steps.get-latest-release.outputs.CURRENT_VERSION }}', '${{ steps.get-latest-release.outputs.LATEST_VERSION }}') then raise insufficient_privilege using hint = 'Outdated version'"'; end if; end \$\$;"'                  
             - name: Upload assets
               if: env.updated == 'true'
               uses: softprops/action-gh-release@v1
