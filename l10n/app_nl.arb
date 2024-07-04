@@ -214,11 +214,6 @@
     "description": "Button text to get Discord support",
     "type": "text"
   },
-  "restartTimerText": "",
-  "@restartTimerText": {
-    "description": "Restart timer settings label",
-    "type": "text"
-  },
   "dynamicColorText": "",
   "@dynamicColorText": {
     "description": "Dynamic color settings label",
