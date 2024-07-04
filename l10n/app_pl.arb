@@ -222,10 +222,5 @@
   "@dynamicColorText": {
     "description": "Dynamic color settings label",
     "type": "text"
-  },
-  "restartTimerText": "Ponownie uruchom minutnik",
-  "@restartTimerText": {
-    "description": "Restart timer settings label",
-    "type": "text"
   }
 }
