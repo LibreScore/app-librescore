@@ -222,10 +222,5 @@
   "@dynamicColorText": {
     "description": "Dynamic color settings label",
     "type": "text"
-  },
-  "restartTimerText": "Timer neu starten",
-  "@restartTimerText": {
-    "description": "Restart timer settings label",
-    "type": "text"
   }
 }
