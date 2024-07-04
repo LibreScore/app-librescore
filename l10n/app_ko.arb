@@ -148,10 +148,6 @@
     "description": "Off option text",
     "type": "text"
   },
-  "restartTimerText": "타이머 다시 시작",
-  "@restartTimerText": {
-    "type": "text"
-  },
   "fileOpenError": "이 파일을 열 수 있는 프로그램이 없습니다",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
