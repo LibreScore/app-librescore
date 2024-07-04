@@ -163,10 +163,6 @@
     "description": "Off option text",
     "type": "text"
   },
-  "restartTimerText": "タイマーを再起動します",
-  "@restartTimerText": {
-    "type": "text"
-  },
   "fileOpenError": "このファイルを開くプログラムは登録されていません",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
