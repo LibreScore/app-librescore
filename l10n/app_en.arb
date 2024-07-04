@@ -219,11 +219,6 @@
     "description": "Off option text",
     "type": "text"
   },
-  "restartTimerText": "Restart timer",
-  "@restartTimerText": {
-    "description": "Restart timer settings label",
-    "type": "text"
-  },
   "proxyText": "Use a proxy server",
   "@proxyText": {},
   "proxyUrlHint": "Input proxy URL",
