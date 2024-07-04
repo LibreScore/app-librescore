@@ -218,11 +218,6 @@
   "@proxyUrlHint": {},
   "proxyText": "使用代理 (proxy) 網址伺服器",
   "@proxyText": {},
-  "restartTimerText": "重始計時器",
-  "@restartTimerText": {
-    "description": "Restart timer settings label",
-    "type": "text"
-  },
   "dynamicColorText": "隨系統設定",
   "@dynamicColorText": {
     "description": "Dynamic color settings label",
