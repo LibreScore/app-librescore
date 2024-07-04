@@ -159,10 +159,6 @@
   "@offText": {
     "type": "text"
   },
-  "restartTimerText": "Redémarrer la minuterie",
-  "@restartTimerText": {
-    "type": "text"
-  },
   "fileOpenError": "Aucun programme enregistré pour ouvrir ce fichier",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
