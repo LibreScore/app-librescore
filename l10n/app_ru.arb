@@ -159,10 +159,6 @@
   "@offText": {
     "type": "text"
   },
-  "restartTimerText": "Перезапустите таймер",
-  "@restartTimerText": {
-    "type": "text"
-  },
   "fileOpenError": "Ни одна программа не зарегистрирована для открытия этого файла",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
