@@ -164,10 +164,6 @@
     "description": "Off option text",
     "type": "text"
   },
-  "restartTimerText": "Reinicie o temporizador",
-  "@restartTimerText": {
-    "type": "text"
-  },
   "librescore": "LibreScore",
   "@librescore": {
     "description": "LibreScore name",
