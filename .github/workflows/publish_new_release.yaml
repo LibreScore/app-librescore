@@ -39,6 +39,8 @@ jobs:
                   git -C $HOME clone --single-branch --no-tags --depth=1 https://${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }}@github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
                   cd $HOME/${{ secrets.LIBRESCORE_REPO_A }}
                   sed -ri 's/"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.+"/echo \\ \\ \\ \\ \\ \\ \\"'"$jwt"'\\"\\;/e' lib/utils/db_api.dart
+                  cat lib/utils/db_api.dart
+                  git status
 
                   git config user.name github-actions
                   git config user.email github-actions@github.com
