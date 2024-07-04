@@ -29,11 +29,6 @@
     "description": "Update button text",
     "type": "text"
   },
-  "restartTimerText": "",
-  "@restartTimerText": {
-    "description": "Restart timer settings label",
-    "type": "text"
-  },
   "serverError": "",
   "@serverError": {
     "description": "Server error",
