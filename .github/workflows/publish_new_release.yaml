@@ -17,8 +17,10 @@ jobs:
               id: get-latest-release
               run: |
                   echo "updated=false" >> $GITHUB_ENV
-                  echo "CURRENT_VERSION=$(curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/app-librescore/releases/latest | jq --raw-output ".tag_name")" >> "$GITHUB_OUTPUT"
-                  echo "LATEST_VERSION=$(curl -s -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")" >> "$GITHUB_OUTPUT"
+                  CURRENT_VERSION="$(curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/app-librescore/releases/latest | jq --raw-output ".tag_name")"
+                  LATEST_VERSION="$(curl -s -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")"
+                  echo "CURRENT_VERSION=$CURRENT_VERSION" >> "$GITHUB_OUTPUT"
+                  echo "LATEST_VERSION=$LATEST_VERSION" >> "$GITHUB_OUTPUT"
                   if [[ ${{ steps.get-latest-release.outputs.CURRENT_VERSION }} != ${{ steps.get-latest-release.outputs.LATEST_VERSION }} ]]; then
                     echo "updated=true" >> $GITHUB_ENV
                   fi
