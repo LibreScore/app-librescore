@@ -10,19 +10,17 @@ env:
 jobs:
     release:
         runs-on: ubuntu-latest
-        outputs:
-           output: ${{ steps.get_latest_release.outputs.updated }}
         steps:
             - name: Get latest release
               id: get_latest_release
               run: |
-                  echo "updated=true" >> "$GITHUB_OUTPUT"
+                  echo "updated=true" >> "$GITHUB_ENV"
                   if [[ "${{ github.ref_name }}" == "$(curl -s -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")" ]]; then
-                    echo "updated=false" >> "$GITHUB_OUTPUT"
+                    echo "updated=false" >> "$GITHUB_ENV"
                     exit 1
                   fi
             - name: Publish pre-release
-              if: ${{ steps.get_latest_release.outputs.updated }} == 'true'
+              if: env.updated == 'true'
               uses: softprops/action-gh-release@v1
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
@@ -238,7 +236,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
         runs-on: ubuntu-latest
         steps:
             - name: Delete pre-release
-              if: ${{needs.release.outputs.updated}} == 'true'
+              if: env.updated == 'true'
               run: |
                 ID_A="$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/tags/${{ github.ref_name }} | jq -r .id)"
                 curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/$ID_A
@@ -247,6 +245,6 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                 curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/releases/$ID_B
                 curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/git/refs/tags/${{ github.ref_name }}
             - name: Delete workflow run
-              if: ${{needs.release.outputs.updated}} == 'false'
+              if: env.updated == 'false'
               run: |
                 curl -s -i -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -d '{"event_type":"delete_action","client_payload":{"run_id":"'"${{ github.run_id }}"'","repo":"LibreScore/app-librescore"}}' -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/actions/dispatches
