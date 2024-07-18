@@ -10,6 +10,8 @@ env:
 jobs:
     release:
         runs-on: ubuntu-latest
+        outputs:
+           output: ${{ steps.get_latest_release.outputs.updated }}
         steps:
             - name: Get latest release
               id: get_latest_release
@@ -20,7 +22,7 @@ jobs:
                     exit 1
                   fi
             - name: Publish pre-release
-              if: env.updated == 'true'
+              if: ${{ steps.get_latest_release.outputs.updated }} == 'true'
               uses: softprops/action-gh-release@v1
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
@@ -180,22 +182,22 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   flutter build windows --obfuscate --split-debug-info=.\build\app\outputs\symbols
                   "${{ secrets.LIBRESCORE_PFX }}" > .\installer\LibreScore.pfx.base64
                   certutil -decode .\installer\LibreScore.pfx.base64 .\installer\LibreScore.pfx
-                  & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\build\windows\runner\Release\librescore.exe
-                  Get-ChildItem -Path .\build\windows\runner\Release -File | Where {($_.Extension -ne ".dll" -and $_.Extension -ne ".exe")} | Remove-Item
-                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\msvcp140.dll') .\build\windows\runner\Release
-                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\vcruntime140.dll') .\build\windows\runner\Release
-                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\vcruntime140_1.dll') .\build\windows\runner\Release
+                  & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\build\windows\x64\runner\Release\librescore.exe
+                  Get-ChildItem -Path .\build\windows\x64\runner\Release -File | Where {($_.Extension -ne ".dll" -and $_.Extension -ne ".exe")} | Remove-Item
+                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\msvcp140.dll') .\build\windows\x64\runner\Release
+                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\vcruntime140.dll') .\build\windows\x64\runner\Release
+                  Copy-Item (& "${env:ProgramFiles(x86)}\Microsoft Visual Studio\Installer\vswhere.exe" -latest -find 'VC\Redist\MSVC\*\x64\*\vcruntime140_1.dll') .\build\windows\x64\runner\Release
                   dart run msix:create
                   & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\installer\LibreScore.msix
                   Start-Process iexpress -ArgumentList /N,.\installer\MSIX\LibreScoreMsix.sed -NoNewWindow -Wait
                   & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\installer\LibreScoreMsix.exe
-                  Copy-Item -Path .\build\windows\runner\Release -Destination .\installer\Inno\LibreScore -Recurse
+                  Copy-Item -Path .\build\windows\x64\runner\Release -Destination .\installer\Inno\LibreScore -Recurse
                   New-Item -Name .\installer\Inno\LibreScore\data\flutter_assets\assets\.inno
                   iscc .\installer\Inno\LibreScore.iss
                   & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\installer\LibreScoreInno.exe
                   Start-Process iexpress -ArgumentList /N,.\installer\LibreScore.sed -NoNewWindow -Wait
                   & "${env:ProgramFiles(x86)}\Windows Kits\10\bin\10.0.22000.0\x64\signtool.exe" sign /f .\installer\LibreScore.pfx /p ${{ secrets.LIBRESCORE_PFX_PASSWORD }} /tr http://timestamp.sectigo.com/ /fd SHA256 /td SHA256 .\installer\LibreScore.exe
-                  Compress-Archive -Path .\build\windows\runner\Release\* -DestinationPath .\installer\LibreScore.zip
+                  Compress-Archive -Path .\build\windows\x64\runner\Release\* -DestinationPath .\installer\LibreScore.zip
             - name: Upload EXE
               if: matrix.os == 'windows-latest'
               uses: softprops/action-gh-release@v1
@@ -236,7 +238,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
         runs-on: ubuntu-latest
         steps:
             - name: Delete pre-release
-              if: env.updated == 'true'
+              if: ${{needs.release.outputs.updated}} == 'true'
               run: |
                 ID_A="$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/tags/${{ github.ref_name }} | jq -r .id)"
                 curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/$ID_A
@@ -245,6 +247,6 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                 curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/releases/$ID_B
                 curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/git/refs/tags/${{ github.ref_name }}
             - name: Delete workflow run
-              if: env.updated == 'false'
+              if: ${{needs.release.outputs.updated}} == 'false'
               run: |
                 curl -s -i -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -d '{"event_type":"delete_action","client_payload":{"run_id":"'"${{ github.run_id }}"'","repo":"LibreScore/app-librescore"}}' -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/actions/dispatches
