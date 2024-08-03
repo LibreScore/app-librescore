@@ -240,13 +240,15 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
             - name: Delete pre-release
               if: ${{needs.release.outputs.updated}} == 'true'
               run: |
-                ID_A="$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/tags/${{ github.ref_name }} | jq -r .id)"
-                curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/$ID_A
-                curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/git/refs/tags/${{ github.ref_name }}
-                ID_B="$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/releases/tags/${{ github.ref_name }} | jq -r .id)"
-                curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/releases/$ID_B
-                curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/git/refs/tags/${{ github.ref_name }}
+                echo ${{needs.release.outputs.updated}}
+                #ID_A="$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/tags/${{ github.ref_name }} | jq -r .id)"
+                #curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/$ID_A
+                #curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/git/refs/tags/${{ github.ref_name }}
+                #ID_B="$(curl -s -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/releases/tags/${{ github.ref_name }} | jq -r .id)"
+                #curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/releases/$ID_B
+                #curl -s -X DELETE -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${{ secrets.LIBRESCORE_TOKEN }}" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_B }}/git/refs/tags/${{ github.ref_name }}
             - name: Delete workflow run
               if: ${{needs.release.outputs.updated}} == 'false'
               run: |
-                curl -s -i -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -d '{"event_type":"delete_action","client_payload":{"run_id":"'"${{ github.run_id }}"'","repo":"LibreScore/app-librescore"}}' -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/actions/dispatches
+                echo ${{needs.release.outputs.updated}}
+                #curl -s -i -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -d '{"event_type":"delete_action","client_payload":{"run_id":"'"${{ github.run_id }}"'","repo":"LibreScore/app-librescore"}}' -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/actions/dispatches
