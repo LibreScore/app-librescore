@@ -19,9 +19,9 @@ jobs:
                   echo "updated=false" >> $GITHUB_ENV
                   CURRENT_VERSION="$(curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/app-librescore/releases/latest | jq --raw-output ".tag_name")"
                   LATEST_VERSION="$(curl -s -u ${{ secrets.LIBRESCORE_USERNAME }}:${{ secrets.LIBRESCORE_TOKEN }} -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/releases/latest | jq --raw-output ".tag_name")"
-                  echo "CURRENT_VERSION=$CURRENT_VERSION" >> "$GITHUB_OUTPUT"
-                  echo "LATEST_VERSION=$LATEST_VERSION" >> "$GITHUB_OUTPUT"
-                  if [[ ${{ steps.get-latest-release.outputs.CURRENT_VERSION }} != ${{ steps.get-latest-release.outputs.LATEST_VERSION }} ]]; then
+                  echo "CURRENT_VERSION=$CURRENT_VERSION" >> "$GITHUB_ENV"
+                  echo "LATEST_VERSION=$LATEST_VERSION" >> "$GITHUB_ENV"
+                  if [[ $CURRENT_VERSION != $LATEST_VERSION ]]; then
                     echo "updated=true" >> $GITHUB_ENV
                   fi
                   for i in {0..10}; do
@@ -50,7 +50,7 @@ jobs:
 
                   echo "${{ secrets.SSH_KEY }}" | base64 --decode > $HOME/id_rsa
                   chmod 600 $HOME/id_rsa
-                  ssh -i $HOME/id_rsa -o StrictHostKeyChecking=accept-new ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DOMAIN }} -p ${{ secrets.SSH_PORT }} 'sudo -u postgres psql librescore -c "create or replace function auth.check_token() returns void language plpgsql as \$\$ begin if current_setting('"'request.jwt.claims', true)::json->>'version' not in ('server', '${{ steps.get-latest-release.outputs.CURRENT_VERSION }}', '${{ steps.get-latest-release.outputs.LATEST_VERSION }}') then raise insufficient_privilege using hint = 'Outdated version'"'; end if; end \$\$;"'                  
+                  ssh -i $HOME/id_rsa -o StrictHostKeyChecking=accept-new ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DOMAIN }} -p ${{ secrets.SSH_PORT }} 'sudo -u postgres psql librescore -c "create or replace function auth.check_token() returns void language plpgsql as \$\$ begin if current_setting('"'request.jwt.claims', true)::json->>'version' not in ('server', '${{ env.CURRENT_VERSION }}', '${{ env.LATEST_VERSION }}') then raise insufficient_privilege using hint = 'Outdated version'"'; end if; end \$\$;"'                  
             - name: Upload assets
               if: env.updated == 'true'
               uses: softprops/action-gh-release@v1
