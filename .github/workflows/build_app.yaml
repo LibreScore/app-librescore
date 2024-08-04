@@ -44,10 +44,10 @@ jobs:
 Installation instructions are in the [README](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/blob/master/README.md) file.'
     build:
         needs: release
-        runs-on: ${{ matrix.os }}
+        runs-on: ${{ startsWith(matrix.os, 'ubuntu-latest') ? 'ubuntu-latest' : matrix.os }}
         strategy:
             matrix:
-                os: [ubuntu-latest, windows-latest, macos-latest]
+                os: [ubuntu-latest-1, ubuntu-latest-2, ubuntu-latest-3, windows-latest, macos-latest]
             fail-fast: true
         steps:
             - name: Install Flutter
@@ -60,18 +60,19 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   cache-path: ${{ runner.tool_cache }}/flutter
             - run: git config --global url."https://".insteadOf git://
             - uses: actions/checkout@v3
+              if: matrix.os != 'ubuntu-latest-3'
               with:
                 repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
                 token: ${{ secrets.LIBRESCORE_TOKEN }}
                 submodules: 'recursive'
             - name: Import GPG key
-              if: matrix.os == 'ubuntu-latest'
+              if: matrix.os == 'ubuntu-latest-1'
               uses: crazy-max/ghaction-import-gpg@v5
               with:
                 gpg_private_key: ${{ secrets.LIBRESCORE_GPG }}
                 passphrase: ${{ secrets.LIBRESCORE_GPG_PASSWORD }}
             - name: Build AppImage
-              if: matrix.os == 'ubuntu-latest'
+              if: matrix.os == 'ubuntu-latest-1'
               run: |
                   sudo apt update -y
                   sudo apt install -y clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev fuse libfuse2
@@ -88,7 +89,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   ARCH=x86_64 ./appimagetool.AppImage ./installer/AppImage --no-appstream --sign
                   mv ./LibreScore-x86_64.AppImage ./LibreScore.AppImage
             - name: Upload AppImage
-              if: matrix.os == 'ubuntu-latest'
+              if: matrix.os == 'ubuntu-latest-1'
               uses: softprops/action-gh-release@v1
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
@@ -96,13 +97,13 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   files: |
                       ./LibreScore.AppImage
             - uses: actions/setup-java@v3
-              if: matrix.os == 'ubuntu-latest'
+              if: matrix.os == 'ubuntu-latest-2' || matrix.os == 'ubuntu-latest-3'
               with:
                   distribution: "zulu"
                   java-version: "17"
                   cache: "gradle"
             - name: Build APK
-              if: matrix.os == 'ubuntu-latest'
+              if: matrix.os == 'ubuntu-latest-2'
               run: |
                   echo "${{ secrets.UPLOAD_KEYSTORE_JKS_A }}" | base64 --decode > ./android/upload-keystore.jks
                   echo "storePassword=${{ secrets.KEYSTORE_STORE_PASSWORD_A }}" > ./android/key.properties
@@ -117,7 +118,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   mv ./build/app/outputs/flutter-apk/app-armeabi-v7a-release.apk ./LibreScore-armeabi-v7a.apk
                   mv ./build/app/outputs/flutter-apk/app-x86_64-release.apk ./LibreScore-x86_64.apk
             - name: Upload APK
-              if: matrix.os == 'ubuntu-latest'
+              if: matrix.os == 'ubuntu-latest-2'
               uses: softprops/action-gh-release@v1
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
@@ -128,13 +129,13 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                       ./LibreScore-armeabi-v7a.apk
                       ./LibreScore-x86_64.apk
             - uses: actions/checkout@v3
-              if: matrix.os == 'ubuntu-latest'
+              if: matrix.os == 'ubuntu-latest-3'
               with:
                 repository: LibreScore/${{ secrets.LIBRESCORE_REPO_B }}
                 token: ${{ secrets.LIBRESCORE_TOKEN }}
                 submodules: 'recursive'
             - name: Build APK
-              if: matrix.os == 'ubuntu-latest'
+              if: matrix.os == 'ubuntu-latest-3'
               run: |
                   echo "${{ secrets.UPLOAD_KEYSTORE_JKS_B }}" | base64 --decode > ./android/upload-keystore.jks
                   echo "storePassword=${{ secrets.KEYSTORE_STORE_PASSWORD_B }}" > ./android/key.properties
@@ -150,7 +151,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   mv ./build/app/outputs/flutter-apk/app-x86_64-release.apk ./${{ secrets.LIBRESCORE_B_NAME }}-x86_64.apk
                   ./meta.sh &>/dev/null
             - name: Upload APK
-              if: matrix.os == 'ubuntu-latest'
+              if: matrix.os == 'ubuntu-latest-3'
               uses: softprops/action-gh-release@v1
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
