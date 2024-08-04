@@ -4,8 +4,6 @@ on:
     push:
         tags:
             - "v*.*.*"
-env:
-    librescore_b_name: ${{ secrets.LIBRESCORE_B_NAME }}
 
 jobs:
     release:
