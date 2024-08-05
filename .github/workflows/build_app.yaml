@@ -60,9 +60,8 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   cache-path: ${{ runner.tool_cache }}/flutter
             - run: git config --global url."https://".insteadOf git://
             - uses: actions/checkout@v3
-              if: matrix.os != 'ubuntu-latest-3'
               with:
-                repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                repository: matrix.os != 'ubuntu-latest-3' && LibreScore/${{ secrets.LIBRESCORE_REPO_A }} || LibreScore/${{ secrets.LIBRESCORE_REPO_B }}
                 token: ${{ secrets.LIBRESCORE_TOKEN }}
                 submodules: 'recursive'
             - name: Import GPG key
@@ -128,12 +127,6 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                       ./LibreScore-arm64-v8a.apk
                       ./LibreScore-armeabi-v7a.apk
                       ./LibreScore-x86_64.apk
-            - uses: actions/checkout@v3
-              if: matrix.os == 'ubuntu-latest-3'
-              with:
-                repository: LibreScore/${{ secrets.LIBRESCORE_REPO_B }}
-                token: ${{ secrets.LIBRESCORE_TOKEN }}
-                submodules: 'recursive'
             - name: Build APK
               if: matrix.os == 'ubuntu-latest-3'
               run: |
