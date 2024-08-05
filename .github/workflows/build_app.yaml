@@ -60,8 +60,15 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   cache-path: ${{ runner.tool_cache }}/flutter
             - run: git config --global url."https://".insteadOf git://
             - uses: actions/checkout@v3
+              if: matrix.os != 'ubuntu-latest-3'
               with:
-                repository: matrix.os != 'ubuntu-latest-3' && "LibreScore/${{ secrets.LIBRESCORE_REPO_A }}" || "LibreScore/${{ secrets.LIBRESCORE_REPO_B }}"
+                repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
+                token: ${{ secrets.LIBRESCORE_TOKEN }}
+                submodules: 'recursive'
+            - uses: actions/checkout@v3
+              if: matrix.os == 'ubuntu-latest-3'
+              with:
+                repository: LibreScore/${{ secrets.LIBRESCORE_REPO_B }}
                 token: ${{ secrets.LIBRESCORE_TOKEN }}
                 submodules: 'recursive'
             - name: Import GPG key
