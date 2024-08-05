@@ -44,7 +44,7 @@ jobs:
 Installation instructions are in the [README](https://github.com/LibreScore/${{ secrets.LIBRESCORE_REPO_A }}/blob/master/README.md) file.'
     build:
         needs: release
-        runs-on: ${{ startsWith(matrix.os, 'ubuntu-latest') ? 'ubuntu-latest' : matrix.os }}
+        runs-on: ${{ startsWith(matrix.os, 'ubuntu-latest') && 'ubuntu-latest' || matrix.os }}
         strategy:
             matrix:
                 os: [ubuntu-latest-1, ubuntu-latest-2, ubuntu-latest-3, windows-latest, macos-latest]
