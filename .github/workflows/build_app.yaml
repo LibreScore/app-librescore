@@ -4,8 +4,6 @@ on:
     push:
         tags:
             - "v*.*.*"
-    workflow_dispatch:
-    
 
 env:
     librescore_b_name: ${{ secrets.LIBRESCORE_B_NAME }}
@@ -32,7 +30,6 @@ jobs:
               if: steps.get_latest_release.outputs.updated == 'true'
               uses: softprops/action-gh-release@v1
               with:
-                  tag_name: 'v6.0.10'
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
                   repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
                   body: '## Download
