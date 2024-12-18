@@ -214,11 +214,11 @@
     "description": "Button text to get Discord support",
     "type": "text"
   },
-  "proxyUrlHint": "",
+  "proxyUrlHint": "Zadejte URL proxy serveru",
   "@proxyUrlHint": {},
-  "proxyText": "",
+  "proxyText": "Použít server proxy",
   "@proxyText": {},
-  "dynamicColorText": "",
+  "dynamicColorText": "Dynamická barva",
   "@dynamicColorText": {
     "description": "Dynamic color settings label",
     "type": "text"
