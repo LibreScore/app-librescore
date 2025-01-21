@@ -11,11 +11,11 @@
   "@aboutText": {
     "type": "text"
   },
-  "searchError": "Пожалуйста, введите запрос",
+  "searchError": "Введите запрос",
   "@searchError": {
     "type": "text"
   },
-  "searchHint": "Найдите в MuseScore или введите URL",
+  "searchHint": "Введите запрос или URL из MuseScore",
   "@searchHint": {
     "type": "text"
   },
@@ -27,7 +27,7 @@
   "@searchSearchTip": {
     "type": "text"
   },
-  "homeTitle": "Домой",
+  "homeTitle": "Главная",
   "@homeTitle": {
     "type": "text"
   },
@@ -75,7 +75,7 @@
   "@languageText": {
     "type": "text"
   },
-  "systemText": "Системный",
+  "systemText": "Системная",
   "@systemText": {
     "type": "text"
   },
@@ -115,7 +115,7 @@
   "@okText": {
     "type": "text"
   },
-  "downloadFolderHint": "Введите папку загрузки",
+  "downloadFolderHint": "Укажите папку загрузки",
   "@downloadFolderHint": {
     "type": "text"
   },
@@ -123,7 +123,7 @@
   "@noDownloadsError": {
     "type": "text"
   },
-  "fileAccessError": "Доступ к файлу запрещен",
+  "fileAccessError": "Доступ к хранилищу запрещён",
   "@fileAccessError": {
     "type": "text"
   },
@@ -131,7 +131,7 @@
   "@networkError": {
     "type": "text"
   },
-  "downloadingTitle": "Загрузка",
+  "downloadingTitle": "Загрузка...",
   "@downloadingTitle": {
     "type": "text"
   },
@@ -151,11 +151,11 @@
   "@serverText": {
     "type": "text"
   },
-  "onText": "Включенный",
+  "onText": "Включено",
   "@onText": {
     "type": "text"
   },
-  "offText": "Выключенный",
+  "offText": "Отключено",
   "@offText": {
     "type": "text"
   },
@@ -178,7 +178,7 @@
   "@proxyText": {},
   "proxyUrlHint": "Введите URL прокси-сервера",
   "@proxyUrlHint": {},
-  "dynamicColorText": "Динамический цвет",
+  "dynamicColorText": "Динамическая",
   "@dynamicColorText": {
     "description": "Dynamic color settings label",
     "type": "text"
