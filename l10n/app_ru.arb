@@ -131,7 +131,7 @@
   "@networkError": {
     "type": "text"
   },
-  "downloadingTitle": "Загрузка...",
+  "downloadingTitle": "Загрузка",
   "@downloadingTitle": {
     "type": "text"
   },
