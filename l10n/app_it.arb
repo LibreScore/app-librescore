@@ -22,203 +22,203 @@
     "description": "Privacy policy page title",
     "type": "text"
   },
-  "proxyUrlHint": "",
+  "proxyUrlHint": "Aggiornamento",
   "@proxyUrlHint": {},
   "updateText": "",
   "@updateText": {
     "description": "Update button text",
     "type": "text"
   },
-  "serverError": "",
+  "serverError": "Server error",
   "@serverError": {
     "description": "Server error",
     "type": "text"
   },
-  "supportBtnText": "",
+  "supportBtnText": "Supporto Discord",
   "@supportBtnText": {
     "description": "Button text to get Discord support",
     "type": "text"
   },
-  "dynamicColorText": "",
+  "dynamicColorText": "Colori dinamici",
   "@dynamicColorText": {
     "description": "Dynamic color settings label",
     "type": "text"
   },
-  "updateLatestText": "",
+  "updateLatestText": "Non ci sono nuovi Aggiornamenti",
   "@updateLatestText": {
     "description": "No new updates text",
     "type": "text"
   },
-  "downloadFolderHint": "",
+  "downloadFolderHint": "Downloads",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
   },
-  "fileAccessError": "",
+  "fileAccessError": "Accesso al file negato",
   "@fileAccessError": {
     "description": "File access denied error",
     "type": "text"
   },
-  "fileOpenError": "",
+  "fileOpenError": "Nessun programma registrato per aprire questo file",
   "@fileOpenError": {
     "description": "No program registered to open this file error",
     "type": "text"
   },
-  "librescoreServer": "",
+  "librescoreServer": "Nome del Server LibreScore",
   "@librescoreServer": {
     "description": "LibreScore Server name",
     "type": "text"
   },
-  "serverText": "",
+  "serverText": "Impostazioni server",
   "@serverText": {
     "description": "Server settings label",
     "type": "text"
   },
-  "onText": "",
+  "onText": "On",
   "@onText": {
     "description": "On option text",
     "type": "text"
   },
-  "aboutTitle": "",
+  "aboutTitle": "About",
   "@aboutTitle": {
     "description": "About page title",
     "type": "text"
   },
-  "versionText": "",
+  "versionText": "Versione",
   "@versionText": {
     "description": "Version label text",
     "type": "text"
   },
-  "licensesText": "",
+  "licensesText": "Licenza",
   "@licensesText": {
     "description": "Licenses label text",
     "type": "text"
   },
-  "privacyPolicyText": "",
+  "privacyPolicyText": "Privacy policy",
   "@privacyPolicyText": {
     "description": "Privacy policy label text",
     "type": "text"
   },
-  "contactText": "",
+  "contactText": "Contatti",
   "@contactText": {
     "description": "Contact label text",
     "type": "text"
   },
-  "settingsTitle": "",
+  "settingsTitle": "Impostazioni",
   "@settingsTitle": {
     "description": "Settings page title",
     "type": "text"
   },
-  "downloadFolderText": "",
+  "downloadFolderText": "Impostazioni Cartella Download",
   "@downloadFolderText": {
     "description": "Download folder settings label",
     "type": "text"
   },
-  "themeText": "",
+  "themeText": "Tema",
   "@themeText": {
     "description": "Theme settings label",
     "type": "text"
   },
-  "aboutText": "",
+  "aboutText": "About",
   "@aboutText": {
     "description": "About button text",
     "type": "text"
   },
-  "searchError": "",
+  "searchError": "Inserire almeno una parola",
   "@searchError": {
     "description": "Searchbar error",
     "type": "text"
   },
-  "searchHint": "",
+  "searchHint": "Cerca in MuseScore o inserisci un URL",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
   },
-  "searchClearTip": "",
+  "searchClearTip": "Pulisci ricerca",
   "@searchClearTip": {
     "description": "Searchbar clear button tooltip",
     "type": "text"
   },
-  "downloadsTitle": "",
+  "downloadsTitle": "Downloads",
   "@downloadsTitle": {
     "description": "Downloads navbar title",
     "type": "text"
   },
-  "languageText": "",
+  "languageText": "Lingua",
   "@languageText": {
     "description": "Language settings label",
     "type": "text"
   },
-  "systemText": "",
+  "systemText": "Tema di sistema",
   "@systemText": {
     "description": "System theme option text",
     "type": "text"
   },
-  "lightText": "",
+  "lightText": "Tema chiaro",
   "@lightText": {
     "description": "Light theme option text",
     "type": "text"
   },
-  "darkText": "",
+  "darkText": "Tema Scuro",
   "@darkText": {
     "description": "Dark theme option text",
     "type": "text"
   },
-  "noResultsError": "",
+  "noResultsError": "Nessun risultato trovato",
   "@noResultsError": {
     "description": "No results search page error",
     "type": "text"
   },
-  "updateCheckError": "",
+  "updateCheckError": "Errore ricerca aggiornamenti",
   "@updateCheckError": {
     "description": "Update check error",
     "type": "text"
   },
-  "updateAvailableText": "",
+  "updateAvailableText": "Aggiornamento Disponibile",
   "@updateAvailableText": {
     "description": "Update available text",
     "type": "text"
   },
-  "noDownloadsError": "",
+  "noDownloadsError": "No downloads",
   "@noDownloadsError": {
     "description": "No downloads downloads page error",
     "type": "text"
   },
-  "networkError": "",
+  "networkError": "Network error",
   "@networkError": {
     "description": "Network error",
     "type": "text"
   },
-  "downloadingTitle": "",
+  "downloadingTitle": "Downloading",
   "@downloadingTitle": {
     "description": "Downloading title",
     "type": "text"
   },
-  "loadingTitle": "",
+  "loadingTitle": "Loading",
   "@loadingTitle": {
     "description": "Loading title",
     "type": "text"
   },
-  "cancelText": "",
+  "cancelText": "Cancella",
   "@cancelText": {
     "description": "Cancel button text",
     "type": "text"
   },
-  "offText": "",
+  "offText": "Off",
   "@offText": {
     "description": "Off option text",
     "type": "text"
   },
-  "ignoreText": "",
+  "ignoreText": "Ignora",
   "@ignoreText": {
     "description": "Ignore button text",
     "type": "text"
   },
-  "okText": "",
+  "okText": "OK",
   "@okText": {
     "description": "OK button text",
     "type": "text"
   },
-  "proxyText": "",
+  "proxyText": "Usa un server Proxy",
   "@proxyText": {}
 }
