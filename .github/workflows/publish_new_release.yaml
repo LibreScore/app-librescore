@@ -32,7 +32,7 @@ jobs:
               if: env.updated == 'true'
               run: |
                   jwt_header=$(echo -n '{"alg":"HS256","typ":"JWT"}' | base64 | sed s/\+/-/g | sed 's/\//_/g' | sed -E s/=+$//)
-                  payload=$(echo -n '{"role":"client","version":"'"${{ steps.get-latest-release.outputs.LATEST_VERSION }}"'"}' | base64 | sed s/\+/-/g |sed 's/\//_/g' | sed -E s/=+$//)
+                  payload=$(echo -n '{"role":"client","version":"'"${{ env.LATEST_VERSION }}"'"}' | base64 | sed s/\+/-/g |sed 's/\//_/g' | sed -E s/=+$//)
                   secret="${{ secrets.PG_SECRET }}"
                   hexsecret=$(echo -n "$secret" | xxd -p | paste -sd "")
                   hmac_signature=$(echo -n "${jwt_header}.${payload}" | openssl dgst -sha256 -mac HMAC -macopt hexkey:$hexsecret -binary | base64 | sed s/\+/-/g | sed 's/\//_/g' | sed -E s/=+$//)
