@@ -89,7 +89,7 @@
     "description": "No results search page error",
     "type": "text"
   },
-  "updateCheckError": "Falha ao procurar atualizações",
+  "updateCheckError": "Falha ao procurar por atualizações",
   "@updateCheckError": {
     "description": "Update check error",
     "type": "text"
@@ -119,7 +119,7 @@
     "description": "OK button text",
     "type": "text"
   },
-  "downloadFolderHint": "Digite a pasta de download",
+  "downloadFolderHint": "Insira a pasta de download",
   "@downloadFolderHint": {
     "description": "Download folder hint message",
     "type": "text"
@@ -174,7 +174,7 @@
     "description": "About button text",
     "type": "text"
   },
-  "searchError": "Por favor digite algo para consultar",
+  "searchError": "Por favor digite algo para pesquisar",
   "@searchError": {
     "description": "Searchbar error",
     "type": "text"
@@ -184,7 +184,7 @@
     "description": "Privacy policy label text",
     "type": "text"
   },
-  "downloadFolderText": "Pasta de download",
+  "downloadFolderText": "Pasta de downloads",
   "@downloadFolderText": {
     "description": "Download folder settings label",
     "type": "text"
@@ -216,7 +216,7 @@
   },
   "proxyText": "Usar um servidor proxy",
   "@proxyText": {},
-  "proxyUrlHint": "Ingrese proxy URL",
+  "proxyUrlHint": "Insira URL do proxy",
   "@proxyUrlHint": {},
   "dynamicColorText": "Cor dinâmica",
   "@dynamicColorText": {
