@@ -127,7 +127,7 @@
   "@librescore": {
     "type": "text"
   },
-  "searchHint": "Cari MuseScore atau masukkan URL",
+  "searchHint": "Cari di MuseScore",
   "@searchHint": {
     "type": "text"
   },
