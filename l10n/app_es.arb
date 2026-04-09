@@ -15,7 +15,7 @@
   "@searchError": {
     "type": "text"
   },
-  "searchHint": "Busca MuseScore o ingrese una URL",
+  "searchHint": "Busca MuseScore",
   "@searchHint": {
     "type": "text"
   },
