@@ -19,7 +19,7 @@
     "description": "Searchbar error",
     "type": "text"
   },
-  "searchHint": "搜尋 MuseScore 或輸入網址",
+  "searchHint": "搜尋 MuseScore",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
