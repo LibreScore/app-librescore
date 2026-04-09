@@ -15,7 +15,7 @@
   "@searchError": {
     "type": "text"
   },
-  "searchHint": "在 MuseScore 中搜索或输入网址",
+  "searchHint": "在 MuseScore 中搜索",
   "@searchHint": {
     "type": "text"
   },
