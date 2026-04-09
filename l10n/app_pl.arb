@@ -189,7 +189,7 @@
     "description": "LibreScore name",
     "type": "text"
   },
-  "searchHint": "Szukaj w MuseScore lub wprowadź URL",
+  "searchHint": "Szukaj w MuseScore",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
