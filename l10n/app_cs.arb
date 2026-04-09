@@ -19,7 +19,7 @@
     "description": "Searchbar error",
     "type": "text"
   },
-  "searchHint": "Hledat v MuseScore nebo vložte adresu odkazu",
+  "searchHint": "Hledat v MuseScore",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
