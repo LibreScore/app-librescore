@@ -194,7 +194,7 @@
     "description": "LibreScore name",
     "type": "text"
   },
-  "searchHint": "MuseScore durchsuchen oder eine URL eingeben",
+  "searchHint": "MuseScore durchsuchen",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
