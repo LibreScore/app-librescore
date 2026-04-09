@@ -7,7 +7,7 @@
   "@aboutText": {
     "type": "text"
   },
-  "searchHint": "MuseScoreを検索またはURLを入力",
+  "searchHint": "MuseScoreを検索",
   "@searchHint": {
     "type": "text"
   },
