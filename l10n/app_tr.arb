@@ -19,7 +19,7 @@
     "description": "Searchbar error",
     "type": "text"
   },
-  "searchHint": "MuseScore'da arama yapın veya bir URL girin",
+  "searchHint": "MuseScore'da arama yapın",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
