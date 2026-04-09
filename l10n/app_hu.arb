@@ -14,7 +14,7 @@
     "description": "LibreScore name",
     "type": "text"
   },
-  "searchHint": "Keresés MuseScore-on vagy illesz be egy URL-t",
+  "searchHint": "Keresés a MuseScore-on",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
