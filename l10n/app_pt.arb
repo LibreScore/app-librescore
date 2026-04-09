@@ -4,7 +4,7 @@
     "description": "Settings button text",
     "type": "text"
   },
-  "searchHint": "Procure no MuseScore ou insira um URL",
+  "searchHint": "Procure no MuseScore",
   "@searchHint": {
     "description": "Searchbar hint message",
     "type": "text"
