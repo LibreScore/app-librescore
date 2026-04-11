@@ -1,6 +1,6 @@
 <div dir="ltr" align="left">
 
-‎[Deutsch](/docs/de/DATENSCHUTZERKLÄRUNG.md) | ‎[English](/docs/en/PRIVACY-POLICY.md) | ‎**español** | ‎[magyar](/docs/hu/ADATVÉDELMI-IRÁNYELVEK.md) | ‎[Melayu](/docs/ms/DASAR-PRIVASI.md) | ‎[русский](/docs/ru/ПОЛИТИКА-КОНФИДЕНЦИАЛЬНОСТИ.md) | ‎[[+]](https://weblate.librescore.org/projects/librescore/docs)
+‎[čeština](/docs/cs/ZÁSADY-OCHRANY-OSOBNÍCH-ÚDAJŮ.md) | ‎[Deutsch](/docs/de/DATENSCHUTZERKLÄRUNG.md) | ‎[English](/docs/en/PRIVACY-POLICY.md) | ‎**español** | ‎[magyar](/docs/hu/ADATVÉDELMI-IRÁNYELVEK.md) | ‎[Melayu](/docs/ms/DASAR-PRIVASI.md) | ‎[português](/docs/pt/POLÍTICA-DE-PRIVACIDADE.md) | ‎[русский](/docs/ru/ПОЛИТИКА-КОНФИДЕНЦИАЛЬНОСТИ.md) | ‎[简体中文](/docs/zh-Hans/隐私政策.md) | ‎[[+]](https://weblate.librescore.org/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***NO EDITAR ENCIMA DE ESTA LÍNEA*** /+/^^+#|#+^+#|#+^^\+\"
 

@@ -1,12 +1,12 @@
 <div dir="ltr" align="left">
 
-‎**Deutsch** | ‎[English](/docs/en/PRIVACY-POLICY.md) | ‎[español](/docs/es/POLÍTICA-DE-PRIVACIDAD.md) | ‎[magyar](/docs/hu/ADATVÉDELMI-IRÁNYELVEK.md) | ‎[Melayu](/docs/ms/DASAR-PRIVASI.md) | ‎[русский](/docs/ru/ПОЛИТИКА-КОНФИДЕНЦИАЛЬНОСТИ.md) | ‎[[+]](https://weblate.librescore.org/projects/librescore/docs)
+‎[čeština](/docs/cs/ZÁSADY-OCHRANY-OSOBNÍCH-ÚDAJŮ.md) | ‎**Deutsch** | ‎[English](/docs/en/PRIVACY-POLICY.md) | ‎[español](/docs/es/POLÍTICA-DE-PRIVACIDAD.md) | ‎[magyar](/docs/hu/ADATVÉDELMI-IRÁNYELVEK.md) | ‎[Melayu](/docs/ms/DASAR-PRIVASI.md) | ‎[português](/docs/pt/POLÍTICA-DE-PRIVACIDADE.md) | ‎[русский](/docs/ru/ПОЛИТИКА-КОНФИДЕНЦИАЛЬНОСТИ.md) | ‎[简体中文](/docs/zh-Hans/隐私政策.md) | ‎[[+]](https://weblate.librescore.org/projects/librescore/docs)
 
 [//]: # "\+\_==!|!=_=!|!==_/+/ ***BEARBEITEN SIE NICHT ÜBER DIESER ZEILE*** /+/^^+#|#+^+#|#+^^\+\"
 
 # Datenschutzerklärung
 
-LibreScore hat die LibreScore App als eine kostenlose App gebaut. Dieses DIENST ist kostenlos bereitgestellt von LibreScore und wird es auch so vorgesehen.
+LibreScore hat die LibreScore App als eine kostenlose App gebaut. Dieses DIENST wird von LibreScore kostenlos bereitgestellt und ist auch für diese Nutzung vorgesehen.
 
 Diese Seite wird benutzt, um Besucher über die Richtlinien zu Sammlungen, Verwendung und Offenlegungen von personenbezogener Daten informiert, wenn jemand beschließt unseren Dienst zu benutzen.
 
@@ -28,19 +28,19 @@ Wir schätzen Ihr Vertrauen in die Bereitstellung Ihrer personenbezogenen Daten,
 
 ## Links zu anderen Seiten
 
-Dieser Dienst könnte Links zu anderen Seiten enthalten. Wenn Sie an einen Link von einem Drittanbieter klicken, werden Sie zu diesen Websites weitergeleitet. Beachte, dass die externen Seiten nicht von uns betrieben werden. Deshalb, beraten wir Sie die Datenschutzerklärung von den Seiten überprüfen. Wir haben keine Kontrolle und nehmen keine Verantwortung für den Inhalt, Datenschutzerklärungen oder Tätigkeiten von allen Seiten oder Dienste von Drittanbietern.
+Dieser Dienst kann Links auf andere Seiten enthalten. Wenn Sie einen solchen Link anklicken, werden Sie auf eine externe Website weitergeleitet. Diese externen Websites werden nicht von uns betrieben, weshalb wir empfehlen die jeweiligen Datenschutzerklärungen der Seiten zu prüfen. Wir haben keinerlei Kontrolle und übernehmen keine Verantwortung für den Inhalt, Datenschutz und die Methoden jeglicher externer Seiten und Dienste.
 
 ## Privatsphäre von Kindern
 
-Wir sammeln bewusst keinen personenbezogenen Daten von Kindern. Wir fördern, dass alle Kinder nie personenbezogenen Daten durch eine Applikation oder/und Dienst einreichen. Wir fördern, dass Eltern und Erziehungsberechtigte ihren Kindern die Internutzung zu kontrollieren und diese Richtlinie zu durchsetzen, dass man Kinder anweisen muss, niemals ihre personenbezogenen Daten durch Applikationen und/oder Diensten ohne Ihre Erlaubnis einzureichen. Wenn sie glauben, dass ihr Kind personenbezogenen Daten eingereicht durch unsere Applikation und/oder Dienste hat, kontaktiere Sie bitte uns. Du musst auch mindestens 16 Jahre sein, um Verarbeitung von Ihren personenbezogenen Daten in Ihrem Land zuzustimmen (In einigen Ländern können wir Ihren Eltern oder Erziehungsberechtigten gestatten, dies in Ihrem Namen zu tun).
+Wir sammeln nicht absichtlich personenbezogene Daten von Minderjährigen. Wir empfehlen Minderjährigen, niemals personenbezogene Daten an Anwendungen und/oder Dienste weiterzugeben. Wir empfehlen Eltern und gesetzlichem Vormund, die Internetnutzung ihrer Kinder zu überwachen sie beim Datenschutz zu unterstützen indem sie diesen beibringen, niemals personenbezogenen Daten an Anwendungen und/oder Dienste ohne Erlaubnis weiterzugeben. Wenn Sie Grund zur Annahme haben, dass ein Kind personenbezogene Daten ans uns über die Anwendung und/oder Dienst preisgegeben hat, kontaktieren Sie uns bitte. Sie müssen mindestens 16 Jahre alt sein um der Verarbeitung Ihrer personenbezogenen Daten in Ihrem Land zustimmen zu können (in manchen Ländern können wir eine Erlaubnis Ihrer Eltern oder gesetzlichem Vormund akzeptieren).
 
-## Änderungen zum Datenschutzerklärung
+## Änderungen dieser Datenschutzerklärung
 
-Wir können nach Zeit unseres Datenschutzes aktualisieren, deshalb, beraten wir Sie, diese Seite regelmäßig für irgendwelche Änderungen zu überprüfen. Wir werden Sie über alle Änderungen informieren, indem wir die neue Datenschutzerklärung auf dieser Seite veröffentlichen.
+Wir könnten unsere Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wir empfehlen deshalb, diese Seite regelmäßig auf Änderungen zu prüfen. Wir werden Sie bezüglich Änderungen benachrichtigen indem wir die neue Erklärung auf dieser Seite auflisten.
 
 Diese Richtlinie ist gültig seit dem 2021-11-01
 
-## Kontaktieren sie uns
+## Kontaktieren Sie uns
 
 Wenn sie irgendwelche Fragen oder Empfehlungen über unsere Datenschutzerklärung haben, zögern Sie nicht uns bei [contact@librescore.org](mailto:contact@librescore.org) zu kontaktieren.
 
