@@ -27,7 +27,7 @@ jobs:
                   exit 1
             - name: Publish pre-release
               if: steps.get_latest_release.outputs.updated == 'true'
-              uses: softprops/action-gh-release@v1
+              uses: softprops/action-gh-release@v2
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
                   repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
@@ -63,13 +63,13 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   cache-key: flutter
                   cache-path: ${{ runner.tool_cache }}/flutter
             - run: git config --global url."https://".insteadOf git://
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v6
               if: matrix.os != 'ubuntu-latest-3'
               with:
                 repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
                 token: ${{ secrets.LIBRESCORE_TOKEN }}
                 submodules: 'recursive'
-            - uses: actions/checkout@v3
+            - uses: actions/checkout@v6
               if: matrix.os == 'ubuntu-latest-3'
               with:
                 repository: LibreScore/${{ secrets.LIBRESCORE_REPO_B }}
@@ -77,7 +77,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                 submodules: 'recursive'
             - name: Import GPG key
               if: matrix.os == 'ubuntu-latest-1'
-              uses: crazy-max/ghaction-import-gpg@v5
+              uses: crazy-max/ghaction-import-gpg@v7
               with:
                 gpg_private_key: ${{ secrets.LIBRESCORE_GPG }}
                 passphrase: ${{ secrets.LIBRESCORE_GPG_PASSWORD }}
@@ -100,13 +100,13 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   mv ./LibreScore-x86_64.AppImage ./LibreScore.AppImage
             - name: Upload AppImage
               if: matrix.os == 'ubuntu-latest-1'
-              uses: softprops/action-gh-release@v1
+              uses: softprops/action-gh-release@v2
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
                   repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
                   files: |
                       ./LibreScore.AppImage
-            - uses: actions/setup-java@v3
+            - uses: actions/setup-java@v5
               if: matrix.os == 'ubuntu-latest-2' || matrix.os == 'ubuntu-latest-3'
               with:
                   distribution: "zulu"
@@ -129,7 +129,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   mv ./build/app/outputs/flutter-apk/app-x86_64-release.apk ./LibreScore-x86_64.apk
             - name: Upload APK
               if: matrix.os == 'ubuntu-latest-2'
-              uses: softprops/action-gh-release@v1
+              uses: softprops/action-gh-release@v2
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
                   repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
@@ -156,7 +156,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   ./meta.sh &>/dev/null
             - name: Upload APK
               if: matrix.os == 'ubuntu-latest-3'
-              uses: softprops/action-gh-release@v1
+              uses: softprops/action-gh-release@v2
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
                   repository: LibreScore/${{ secrets.LIBRESCORE_REPO_B }}
@@ -205,7 +205,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   Compress-Archive -Path .\build\windows\x64\runner\Release\* -DestinationPath .\installer\LibreScore.zip
             - name: Upload EXE
               if: matrix.os == 'windows-latest'
-              uses: softprops/action-gh-release@v1
+              uses: softprops/action-gh-release@v2
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
                   repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
@@ -230,7 +230,7 @@ Installation instructions are in the [README](https://github.com/LibreScore/${{ 
                   pkgbuild --install-location /Applications --component ./build/macos/Build/Products/Release/LibreScore.app --scripts ./macos/Scripts ./LibreScore.pkg
             - name: Upload DMG
               if: matrix.os == 'macos-latest'
-              uses: softprops/action-gh-release@v1
+              uses: softprops/action-gh-release@v2
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
                   repository: LibreScore/${{ secrets.LIBRESCORE_REPO_A }}
