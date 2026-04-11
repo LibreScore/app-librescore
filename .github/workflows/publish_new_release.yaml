@@ -53,7 +53,7 @@ jobs:
                   ssh -i $HOME/id_rsa -o StrictHostKeyChecking=accept-new ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_DOMAIN }} -p ${{ secrets.SSH_PORT }} 'sudo -u postgres psql librescore -c "create or replace function auth.check_token() returns void language plpgsql as \$\$ begin if current_setting('"'request.jwt.claims', true)::json->>'version' not in ('server', '${{ env.CURRENT_VERSION }}', '${{ env.LATEST_VERSION }}') then raise insufficient_privilege using hint = 'Outdated version'"'; end if; end \$\$;"'                  
             - name: Upload assets
               if: env.updated == 'true'
-              uses: softprops/action-gh-release@v1
+              uses: softprops/action-gh-release@v2
               with:
                   token: ${{ secrets.LIBRESCORE_TOKEN }}
                   body: '## Download
